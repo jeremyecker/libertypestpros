@@ -20,6 +20,7 @@ export const BRAND = {
   secondaryColor: '#2A5C99',
   accentColor: '#C0392B',
   yearFounded: 1982,
+  region: 'Nassau County, Long Island',
   webhookUrl: '',
 } as const;
 
@@ -55,6 +56,23 @@ export const REVIEWS = [
 // ============================================================
 // REGIONS — Nassau (single region)
 // ============================================================
+const NASSAU_TOWNS = [
+  'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
+  'Carle Place', 'Cedarhurst', 'East Meadow', 'East Rockaway', 'Elmont',
+  'Farmingdale', 'Floral Park', 'Franklin Square', 'Freeport', 'Garden City',
+  'Glen Cove', 'Glen Head', 'Glenwood Landing', 'Great Neck', 'Greenvale',
+  'Hempstead', 'Herricks', 'Hewlett', 'Hicksville', 'Inwood',
+  'Island Park', 'Jericho', 'Lawrence', 'Levittown', 'Lido Beach',
+  'Locust Valley', 'Long Beach', 'Lynbrook', 'Malverne', 'Manhasset',
+  'Massapequa', 'Massapequa Park', 'Merrick', 'Mineola', 'New Hyde Park',
+  'North Bellmore', 'North Merrick', 'North New Hyde Park', 'Oceanside',
+  'Old Bethpage', 'Old Westbury', 'Oyster Bay', 'Plainview', 'Point Lookout',
+  'Port Washington', 'Rockville Centre', 'Roosevelt', 'Roslyn', 'Roslyn Heights',
+  'Sea Cliff', 'Seaford', 'South Farmingdale', 'South Floral Park',
+  'South Hempstead', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
+  'West Hempstead', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere',
+];
+
 export const REGIONS: RegionConfig[] = [
   {
     slug: 'nassau',
@@ -81,22 +99,12 @@ export const REGIONS: RegionConfig[] = [
 // ============================================================
 // TOWN ARRAYS
 // ============================================================
-const NASSAU_TOWNS = [
-  'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
-  'Carle Place', 'Cedarhurst', 'East Meadow', 'East Rockaway', 'Elmont',
-  'Farmingdale', 'Floral Park', 'Franklin Square', 'Freeport', 'Garden City',
-  'Glen Cove', 'Glen Head', 'Glenwood Landing', 'Great Neck', 'Greenvale',
-  'Hempstead', 'Herricks', 'Hewlett', 'Hicksville', 'Inwood',
-  'Island Park', 'Jericho', 'Lawrence', 'Levittown', 'Lido Beach',
-  'Locust Valley', 'Long Beach', 'Lynbrook', 'Malverne', 'Manhasset',
-  'Massapequa', 'Massapequa Park', 'Merrick', 'Mineola', 'New Hyde Park',
-  'North Bellmore', 'North Merrick', 'North New Hyde Park', 'Oceanside',
-  'Old Bethpage', 'Old Westbury', 'Oyster Bay', 'Plainview', 'Point Lookout',
-  'Port Washington', 'Rockville Centre', 'Roosevelt', 'Roslyn', 'Roslyn Heights',
-  'Sea Cliff', 'Seaford', 'South Farmingdale', 'South Floral Park',
-  'South Hempstead', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
-  'West Hempstead', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere',
-];
+
+
+// ============================================================
+// NETWORK SITES — sister sites for cross-linking
+// ============================================================
+export const NETWORK_SITES: NetworkSite[] = [];
 
 // ============================================================
 // TYPES
@@ -135,4 +143,11 @@ export interface RegionConfig {
   metaDescription: string;
   towns: string[];
   townCount: number;
+}
+
+export interface NetworkSite {
+  name: string;
+  url: string;
+  description: string;
+  emoji: string;
 }
