@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Albertson",
+    "slug": "albertson",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Alden Manor",
+    "slug": "alden-manor",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Atlantic Beach",
+    "slug": "atlantic-beach",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Baldwin",
+    "slug": "baldwin",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Bayville",
+    "slug": "bayville",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Bethpage",
+    "slug": "bethpage",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Carle Place",
+    "slug": "carle-place",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Cedarhurst",
+    "slug": "cedarhurst",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "East Meadow",
+    "slug": "east-meadow",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "East Norwich",
+    "slug": "east-norwich",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "East Rockaway",
+    "slug": "east-rockaway",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Floral Park",
+    "slug": "floral-park",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Franklin Square",
+    "slug": "franklin-square",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Freeport",
+    "slug": "freeport",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Garden City",
+    "slug": "garden-city",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Glen Cove",
+    "slug": "glen-cove",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Glen Head",
+    "slug": "glen-head",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Glenwood Landing",
+    "slug": "glenwood-landing",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Great Neck",
+    "slug": "great-neck",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Greenvale",
+    "slug": "greenvale",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Hempstead",
+    "slug": "hempstead",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Hewlett",
+    "slug": "hewlett",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Hicksville",
+    "slug": "hicksville",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Hillside Manor",
+    "slug": "hillside-manor",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Island Park",
+    "slug": "island-park",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Jericho",
+    "slug": "jericho",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Kings Point Cont",
+    "slug": "kings-point-cont",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Lawrence",
+    "slug": "lawrence",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Levittown",
+    "slug": "levittown",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Locust Valley",
+    "slug": "locust-valley",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Long Beach",
+    "slug": "long-beach",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Lynbrook",
+    "slug": "lynbrook",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Malverne",
+    "slug": "malverne",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Massapequa Park",
+    "slug": "massapequa-park",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Mill Neck",
+    "slug": "mill-neck",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Mineola",
+    "slug": "mineola",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "New Hyde Park",
+    "slug": "new-hyde-park",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "North Bellmore",
+    "slug": "north-bellmore",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "North Massapequa",
+    "slug": "north-massapequa",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "North Merrick",
+    "slug": "north-merrick",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "North Woodmere",
+    "slug": "north-woodmere",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Oceanside",
+    "slug": "oceanside",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Old Bethpage",
+    "slug": "old-bethpage",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Old Westbury",
+    "slug": "old-westbury",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Oyster Bay",
+    "slug": "oyster-bay",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Plainview",
+    "slug": "plainview",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Plandome",
+    "slug": "plandome",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Point Lookout",
+    "slug": "point-lookout",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Port Washington",
+    "slug": "port-washington",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Rockville Centre",
+    "slug": "rockville-centre",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Roosevelt",
+    "slug": "roosevelt",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Roslyn",
+    "slug": "roslyn",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Roslyn Heights",
+    "slug": "roslyn-heights",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Sea Cliff",
+    "slug": "sea-cliff",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Seaford",
+    "slug": "seaford",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "South Farmingdal",
+    "slug": "south-farmingdal",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Syosset",
+    "slug": "syosset",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Uniondale",
+    "slug": "uniondale",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Valley Stream",
+    "slug": "valley-stream",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Wantagh",
+    "slug": "wantagh",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "West Hempstead",
+    "slug": "west-hempstead",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Westbury",
+    "slug": "westbury",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Williston Park",
+    "slug": "williston-park",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Woodbury",
+    "slug": "woodbury",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  },
+  {
+    "name": "Woodmere",
+    "slug": "woodmere",
+    "region": "nassau",
+    "regionName": "Nassau County",
+    "county": "Nassau",
+    "countySlug": "nassau"
+  }
+]
