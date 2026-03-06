@@ -14,7 +14,7 @@ export const BRAND = {
   tagline: 'Family-Owned Pest Control Since 1982 — Nassau County, Long Island',
   domain: 'libertypestpros.com',
   phone: '5167664433',
-  phoneFormatted: '(516) 766-4433',
+  phoneFormatted: '(516) 763-4600',
   email: 'info@libertypestpros.com',
   primaryColor: '#1B3D6F',
   secondaryColor: '#2A5C99',

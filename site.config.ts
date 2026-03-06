@@ -20,9 +20,9 @@ export const SITE = {
   id: 'liberty',
 } as const;
 
-export const PHONE = '(516) 766-4433';
-export const PHONE_RAW = '+15167664433';
-export const PHONE_HREF = 'tel:+15167664433';
+export const PHONE = '(516) 763-4600';
+export const PHONE_RAW = '+15167634600';
+export const PHONE_HREF = 'tel:+15167634600';
 
 export const GEO = {
   county: 'Nassau',
