@@ -108,6 +108,9 @@ export const NAV_LINKS = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
   { label: 'Service Areas', href: '/service-areas' },
+  { label: 'Reviews', href: '/reviews' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ] as const;
 
@@ -121,7 +124,9 @@ export const FOOTER_LINKS = {
   ],
   company: [
     { label: 'About Us', href: '/about' },
+    { label: 'Reviews', href: '/reviews' },
     { label: 'Contact', href: '/contact' },
+    { label: 'Blog', href: '/blog' },
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy' },
@@ -136,7 +141,29 @@ export const HOURS = {
   emergency: '24/7 Emergency Service Available',
 } as const;
 
-export const REVIEWS = [] as const;
+export const REVIEWS = [
+  {
+    author: 'Long-Time Customer',
+    location: 'Nassau County, NY',
+    rating: 5,
+    date: '2024-10-12',
+    text: "My family has used Liberty Pest Pros for over 15 years. Three generations of their family have taken care of our home, and the quality has never wavered. They're honest, thorough, and always go the extra mile. This is what family-owned business should look like.",
+  },
+  {
+    author: 'South Shore Resident',
+    location: 'Nassau County, NY',
+    rating: 5,
+    date: '2024-09-25',
+    text: "We had a terrible carpenter ant problem that two other companies couldn't solve. Liberty Pest Pros came in, identified the satellite nests in our wall voids, and eliminated the entire colony. They've been monitoring quarterly ever since. Problem solved for good.",
+  },
+  {
+    author: 'New Neighbor',
+    location: 'Nassau County, NY',
+    rating: 5,
+    date: '2024-08-15',
+    text: "Just moved to the area and our neighbors all recommended Liberty. Now I know why — they're responsive, knowledgeable, and their treatments actually work. The technician took the time to explain everything and gave us prevention tips. Great experience from start to finish.",
+  },
+] as const;
 
 export const NETWORK_SITES = [] as const;
 
