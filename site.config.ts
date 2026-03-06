@@ -143,26 +143,47 @@ export const HOURS = {
 
 export const REVIEWS = [
   {
-    author: 'Long-Time Customer',
-    location: 'Nassau County, NY',
+    name: "Lourdes M.",
     rating: 5,
-    date: '2024-10-12',
-    text: "My family has used Liberty Pest Pros for over 15 years. Three generations of their family have taken care of our home, and the quality has never wavered. They're honest, thorough, and always go the extra mile. This is what family-owned business should look like.",
+    text: "Deya is great, she does her job thoroughly, is very friendly and courteous. She always solicits information when she comes to understand where I am having problems with insects. She then takes thorough action to address it. She takes her time unlike other exterminators that rush in and out and barely do anything.",
+    date: "3 months ago",
+    source: "Google"
   },
   {
-    author: 'South Shore Resident',
-    location: 'Nassau County, NY',
+    name: "Nick W.",
     rating: 5,
-    date: '2024-09-25',
-    text: "We had a terrible carpenter ant problem that two other companies couldn't solve. Liberty Pest Pros came in, identified the satellite nests in our wall voids, and eliminated the entire colony. They've been monitoring quarterly ever since. Problem solved for good.",
+    text: "I contacted Liberty Pest Pros about a rodent problem and from the beginning they were caring and concerned and responsive. They worked to get an inspection set and treatment plan very quickly. Jim who conducted the inspection was very thorough.",
+    date: "1 day ago",
+    source: "Google"
   },
   {
-    author: 'New Neighbor',
-    location: 'Nassau County, NY',
+    name: "Lisa A.",
     rating: 5,
-    date: '2024-08-15',
-    text: "Just moved to the area and our neighbors all recommended Liberty. Now I know why — they're responsive, knowledgeable, and their treatments actually work. The technician took the time to explain everything and gave us prevention tips. Great experience from start to finish.",
+    text: "Very professional and took time to consider our issue and considered the dogs as well. Even helped clean up old sticky traps!",
+    date: "1 day ago",
+    source: "Google"
   },
+  {
+    name: "Evan C.",
+    rating: 5,
+    text: "Had Khaleeb come to our property due to an animal getting into the crawl space between our first and second floor. He was thorough and professional. Would definitely recommend!",
+    date: "1 week ago",
+    source: "Google"
+  },
+  {
+    name: "Alyssa C.",
+    rating: 5,
+    text: "Jim came by today to check our termite traps. He was very kind and friendly! We had a concern about a specific spot outside. He was very knowledgeable and helped put our minds at ease.",
+    date: "3 months ago",
+    source: "Google"
+  },
+  {
+    name: "Tara G.",
+    rating: 5,
+    text: "I called with an ant issue they came the next morning. The techs were very thorough and addressed the problem!",
+    date: "Recently",
+    source: "Google"
+  }
 ] as const;
 
 export const NETWORK_SITES = [] as const;
