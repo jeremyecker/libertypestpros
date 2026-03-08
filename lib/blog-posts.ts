@@ -909,3 +909,11 @@ Pest activity decreases outdoors but continues indoors. **Watch for:** Overwinte
 No matter the season, Liberty Pest Pros provides **pest control near me** throughout the Nassau South Shore. Call (516) 763-4600 for seasonal treatments, emergency service, and maintenance programs. 40+ years protecting families across Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne.`
   }
 ];
+
+export function getAllBlogPosts(): BlogPost[] {
+  return blogPosts;
+}
+
+export function getBlogPostBySlug(slug: string): BlogPost | undefined {
+  return blogPosts.find(post => post.slug === slug);
+}
