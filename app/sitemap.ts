@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { BRAND, REGIONS } from '@/hub.config';
 import { SERVICES } from '@/lib/services';
+import { BLOG_POSTS } from '@/data/blog-posts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = `https://${BRAND.domain}`;
@@ -36,6 +37,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
       });
     }
+  }
+
+  entries.push({
+    url: `${base}/blog/`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  });
+
+  for (const post of BLOG_POSTS) {
+    entries.push({
+      url: `${base}/blog/${post.slug}/`,
+      lastModified: new Date(post.date),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
   }
 
   return entries;

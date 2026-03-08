@@ -21,7 +21,7 @@ export const BRAND = {
   accentColor: '#C0392B',
   yearFounded: 1982,
   region: 'Nassau County, Long Island',
-  webhookUrl: '',
+  webhookUrl: 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-libertypestpros',
 } as const;
 
 // ============================================================
