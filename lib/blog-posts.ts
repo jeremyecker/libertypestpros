@@ -910,10 +910,26 @@ No matter the season, Liberty Pest Pros provides **pest control near me** throug
   }
 ];
 
+import { BLOG_POSTS as DATA_BLOG_POSTS } from '@/data/blog-posts';
+
+const adaptedPosts: BlogPost[] = DATA_BLOG_POSTS.map((p) => ({
+  slug: p.slug,
+  title: p.title,
+  date: p.date,
+  excerpt: p.excerpt,
+  content: p.content,
+  author: 'Liberty Pest Pros Team',
+  category: 'Pest Control',
+  readTime: '7 min read',
+  tags: ['pest control', 'Nassau County', 'Long Island'],
+}));
+
+const allPosts: BlogPost[] = [...blogPosts, ...adaptedPosts];
+
 export function getAllBlogPosts(): BlogPost[] {
-  return blogPosts;
+  return allPosts;
 }
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
-  return blogPosts.find(post => post.slug === slug);
+  return allPosts.find(post => post.slug === slug);
 }
