@@ -5,6 +5,7 @@ import { getRegion } from '@/lib/regions';
 import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
 import { TOWN_OPENERS } from '@/data/liberty-openers';
+import { CITY_LAYER7, NASSAU_FALLBACK } from '@/data/liberty-layer7';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
   const { region: regionSlug, town: townSlug } = await params;
@@ -40,6 +41,11 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
 
   const opener = TOWN_OPENERS[townSlug] || `${BRAND.name} has served ${townName} and all of Nassau County since 1982. Our experienced technicians understand the pest challenges facing Long Island homes and businesses year-round.`;
 
+  const layer7 = CITY_LAYER7[townSlug] || NASSAU_FALLBACK;
+  const neighborhoods = layer7.neighborhoods || [];
+  const nearbyTowns = layer7.nearbyTowns || [];
+  const cityFaqs = layer7.cityFaqs || NASSAU_FALLBACK.cityFaqs || [];
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -64,25 +70,6 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     { name: 'Bed Bugs', icon: '🛏️', desc: 'Heat & chemical treatments' },
     { name: 'Mosquito & Tick', icon: '🦟', desc: 'Yard treatments & seasonal programs' },
     { name: 'Wasp & Stinging', icon: '🐝', desc: 'Nest removal & prevention' },
-  ];
-
-  const faqs = [
-    {
-      q: `How quickly can Liberty Pest Pros respond in ${townName}?`,
-      a: `We offer same-day service in ${townName} for most pest emergencies. Call us before noon and we&apos;ll typically have a technician at your door the same day.`
-    },
-    {
-      q: `What pests are most common in ${townName}, Nassau County?`,
-      a: `${townName} homeowners most commonly deal with ants, termites, rodents, mosquitoes, and bed bugs. Nassau County&apos;s coastal climate and dense housing stock create ideal conditions for these pests year-round.`
-    },
-    {
-      q: `Are your treatments family-friendly for ${townName} homes?`,
-      a: `Yes. We use targeted, family-friendly treatments that are effective against pests while being clear to re-enter quickly. We&apos;ve served Nassau County families since 1982.`
-    },
-    {
-      q: `Do you offer a guarantee for pest control in ${townName}?`,
-      a: `Absolutely. We stand behind every treatment with a satisfaction guarantee. If pests return between scheduled services, we come back at no extra charge.`
-    },
   ];
 
   return (
@@ -152,13 +139,39 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
         {/* FAQ */}
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions — {townName}</h2>
         <div className="space-y-4 mb-10">
-          {faqs.map((faq, i) => (
+          {cityFaqs.map((faq, i) => (
             <div key={i} className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
               <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
             </div>
           ))}
         </div>
+
+        {/* Neighborhoods Section */}
+        {neighborhoods.length > 0 && (
+          <div className="mb-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-3">Neighborhoods We Serve in {townName}</h2>
+            <div className="flex flex-wrap gap-2">
+              {neighborhoods.map(n => (
+                <span key={n} className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">{n}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Nearby Towns Section */}
+        {nearbyTowns.length > 0 && (
+          <div className="mb-8">
+            <h2 className="text-xl font-bold text-gray-900 mb-3">Also Serving Nearby Nassau County Communities</h2>
+            <div className="flex flex-wrap gap-2">
+              {nearbyTowns.map(t => (
+                <Link key={t} href={`/nassau/${t.toLowerCase().replace(/\s+/g, '-')}/`} className="bg-blue-50 text-blue-700 px-3 py-1 rounded-full text-sm hover:bg-blue-100">
+                  {t}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Internal links */}
         <div className="text-sm text-gray-500">
