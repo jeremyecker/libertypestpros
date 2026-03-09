@@ -45,6 +45,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entries.push({ url: `${base}/nassau/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
   }
 
+  // Commercial verticals
+  const COMMERCIAL_SLUGS = ['restaurants','offices','retail','healthcare','schools','warehouses','hotels','property-management','food-processing','daycare'];
+  entries.push({ url: `${base}/nassau/commercial/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 });
+  for (const slug of COMMERCIAL_SLUGS) {
+    entries.push({ url: `${base}/nassau/commercial/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 });
+  }
+
   entries.push({
     url: `${base}/blog/`,
     lastModified: new Date(),
