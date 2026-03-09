@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
 import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
+import { TOWN_OPENERS } from '@/data/liberty-openers';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; town: string }> }): Promise<Metadata> {
   const { region: regionSlug, town: townSlug } = await params;
@@ -36,6 +37,8 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     t => t.toLowerCase().replace(/\s+/g, '-') === townSlug
   );
   if (!isValidTown && region.towns.length > 0) notFound();
+
+  const opener = TOWN_OPENERS[townSlug] || `${BRAND.name} has served ${townName} and all of Nassau County since 1982. Our experienced technicians understand the pest challenges facing Long Island homes and businesses year-round.`;
 
   const schemaData = {
     "@context": "https://schema.org",
@@ -105,11 +108,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
         {/* Local Authority Section */}
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
           <h2 className="text-xl font-bold text-blue-900 mb-2">Serving {townName} Since 1982</h2>
-          <p className="text-blue-800 mb-4">
-            Liberty Pest Pros has been Nassau County&apos;s trusted family-owned exterminator for over 40 years.
-            Our technicians know {townName}&apos;s housing stock, seasonal pest patterns, and the specific challenges
-            that come with Long Island&apos;s coastal climate.
-          </p>
+          <p className="text-blue-800 mb-4" dangerouslySetInnerHTML={{ __html: opener }} />
           <div className="flex flex-wrap gap-4 text-sm text-blue-700">
             <span>✅ Same-day service available</span>
             <span>✅ Nassau County licensed &amp; insured</span>
