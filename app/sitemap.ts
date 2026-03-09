@@ -39,6 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Lead capture pages
+  const LEAD_CAPTURE_SLUGS = ['pest-control-near-me', 'exterminator-near-me', 'emergency-pest-control', 'same-day-pest-control', 'bed-bug-exterminator', 'free-pest-inspection'];
+  for (const slug of LEAD_CAPTURE_SLUGS) {
+    entries.push({ url: `${base}/nassau/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
+  }
+
   entries.push({
     url: `${base}/blog/`,
     lastModified: new Date(),
