@@ -11,8 +11,8 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   const townName = townSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   return {
-    title: `Pest Control in ${townName}, ${region.stateCode}`,
-    description: `Professional pest control in ${townName}, ${region.stateCode}. Call ${BRAND.phoneFormatted} for same-day service.`,
+    title: `Pest Control in ${townName}, NY | ${BRAND.name}`,
+    description: `Liberty Pest Pros provides trusted pest control in ${townName}, Nassau County since 1982. Same-day service available. Call (516) 763-4600 for a free quote.`,
   };
 }
 
@@ -37,9 +37,59 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
   );
   if (!isValidTown && region.towns.length > 0) notFound();
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": BRAND.name,
+    "telephone": `+1${BRAND.phone}`,
+    "url": `https://${BRAND.domain}`,
+    "areaServed": {
+      "@type": "City",
+      "name": townName,
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Nassau County, New York"
+      }
+    },
+    "description": `Professional pest control in ${townName}, Nassau County since 1982.`
+  };
+
+  const services = [
+    { name: 'Termite Control', icon: '🪲', desc: 'Inspection, treatment & prevention' },
+    { name: 'Rodent Control', icon: '🐭', desc: 'Mice & rat removal, exclusion work' },
+    { name: 'Ant & Cockroach', icon: '🐜', desc: 'Interior & exterior treatments' },
+    { name: 'Bed Bugs', icon: '🛏️', desc: 'Heat & chemical treatments' },
+    { name: 'Mosquito & Tick', icon: '🦟', desc: 'Yard treatments & seasonal programs' },
+    { name: 'Wasp & Stinging', icon: '🐝', desc: 'Nest removal & prevention' },
+  ];
+
+  const faqs = [
+    {
+      q: `How quickly can Liberty Pest Pros respond in ${townName}?`,
+      a: `We offer same-day service in ${townName} for most pest emergencies. Call us before noon and we&apos;ll typically have a technician at your door the same day.`
+    },
+    {
+      q: `What pests are most common in ${townName}, Nassau County?`,
+      a: `${townName} homeowners most commonly deal with ants, termites, rodents, mosquitoes, and bed bugs. Nassau County&apos;s coastal climate and dense housing stock create ideal conditions for these pests year-round.`
+    },
+    {
+      q: `Are your treatments family-friendly for ${townName} homes?`,
+      a: `Yes. We use targeted, family-friendly treatments that are effective against pests while being clear to re-enter quickly. We&apos;ve served Nassau County families since 1982.`
+    },
+    {
+      q: `Do you offer a guarantee for pest control in ${townName}?`,
+      a: `Absolutely. We stand behind every treatment with a satisfaction guarantee. If pests return between scheduled services, we come back at no extra charge.`
+    },
+  ];
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <div className="max-w-4xl mx-auto px-4 py-16">
+        {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-8">
           <Link href={`/${regionSlug}/`} className="hover:text-brand-primary">{region.name}</Link>
           {' → '}
@@ -49,36 +99,75 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
         </nav>
 
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Pest Control in {townName}, {region.stateCode}
+          Pest Control in {townName}, NY
         </h1>
-        <p className="text-xl text-gray-600 mb-8">
-          {BRAND.name} provides professional pest control to {townName} homeowners and businesses. {region.pestContext}
-        </p>
 
-        <div className="bg-brand-light rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-brand-dark mb-3">Serving {townName} with:</h2>
-          <ul className="space-y-2 text-brand-dark">
-            {region.primaryPests.map(pest => (
-              <li key={pest}>✅ {pest} treatment and prevention</li>
-            ))}
-            <li>✅ Same-day service available</li>
-            <li>✅ Family and pet-safe treatments</li>
-          </ul>
+        {/* Local Authority Section */}
+        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
+          <h2 className="text-xl font-bold text-blue-900 mb-2">Serving {townName} Since 1982</h2>
+          <p className="text-blue-800 mb-4">
+            Liberty Pest Pros has been Nassau County&apos;s trusted family-owned exterminator for over 40 years.
+            Our technicians know {townName}&apos;s housing stock, seasonal pest patterns, and the specific challenges
+            that come with Long Island&apos;s coastal climate.
+          </p>
+          <div className="flex flex-wrap gap-4 text-sm text-blue-700">
+            <span>✅ Same-day service available</span>
+            <span>✅ Nassau County licensed &amp; insured</span>
+            <span>✅ Family-owned since 1982</span>
+            <span>✅ Satisfaction guaranteed</span>
+          </div>
         </div>
 
-        <div className="text-center">
-          <a
-            href={`tel:+1${BRAND.phone.replace(/\D/g, '')}`}
-            className="inline-block bg-brand-primary hover:bg-brand-secondary text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors mr-4"
-          >
-            Call {BRAND.phoneFormatted}
-          </a>
-          <Link
-            href={`/${regionSlug}/contact/`}
-            className="inline-block bg-brand-accent hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-lg text-xl transition-colors"
-          >
-            Free Quote
-          </Link>
+        {/* Service Cards */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Services in {townName}</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+          {services.map(s => (
+            <div key={s.name} className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm">
+              <div className="text-3xl mb-2">{s.icon}</div>
+              <div className="font-bold text-gray-900 text-sm">{s.name}</div>
+              <div className="text-xs text-gray-500 mt-1">{s.desc}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Dual CTA */}
+        <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
+          <h2 className="text-2xl font-bold text-white mb-2">Ready to Eliminate Pests in {townName}?</h2>
+          <p className="text-blue-100 mb-4">Same-day appointments available. Family-owned. Nassau County&apos;s #1 choice since 1982.</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link
+              href={`/${regionSlug}/contact/`}
+              className="bg-white text-brand-primary font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-100 transition-colors"
+            >
+              Get a Free Quote
+            </Link>
+            <a
+              href={`tel:+1${BRAND.phone}`}
+              className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
+            >
+              📞 {BRAND.phoneFormatted}
+            </a>
+          </div>
+        </div>
+
+        {/* FAQ */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions — {townName}</h2>
+        <div className="space-y-4 mb-10">
+          {faqs.map((faq, i) => (
+            <div key={i} className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
+              <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
+            </div>
+          ))}
+        </div>
+
+        {/* Internal links */}
+        <div className="text-sm text-gray-500">
+          <Link href={`/${regionSlug}/`} className="hover:underline text-brand-primary">← Back to {region.name}</Link>
+          {' | '}
+          <Link href={`/${regionSlug}/services/`} className="hover:underline text-brand-primary">All Services</Link>
+          {' | '}
+          <Link href="/blog/" className="hover:underline text-brand-primary">Pest Control Tips</Link>
         </div>
       </div>
       <CTABanner />
