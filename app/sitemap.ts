@@ -39,6 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Top-level lead capture pages
+  const TOP_LEVEL_LEAD_SLUGS = ['pest-control-near-me', 'exterminator-near-me', 'emergency-pest-control', 'same-day-pest-control', 'bed-bug-exterminator', 'free-pest-inspection'];
+  for (const slug of TOP_LEVEL_LEAD_SLUGS) {
+    entries.push({ url: `${base}/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
+  }
+
   // Lead capture pages
   const LEAD_CAPTURE_SLUGS = ['pest-control-near-me', 'exterminator-near-me', 'emergency-pest-control', 'same-day-pest-control', 'bed-bug-exterminator', 'free-pest-inspection'];
   for (const slug of LEAD_CAPTURE_SLUGS) {
