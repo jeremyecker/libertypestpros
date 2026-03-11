@@ -7,7 +7,7 @@ import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = generatePageMetadata({
   title: `About Us — Family-Owned Since 1982`,
-  description: `${SITE_NAME} has been protecting Nassau County homes for over 43 years. Family-owned and operated since 1982. ${GMB.rating} stars from verified families. Licensed & insured.`,
+  description: `${SITE_NAME} has protected Nassau County homes since 1982. Family-owned, ${GMB.rating}-star rated, licensed & insured. Free estimates.`,
   path: '/about',
 });
 

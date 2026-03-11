@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   return {
     title: `Pest Control Services in ${region.name}`,
-    description: `Full pest control services for ${region.name} homeowners and businesses. ${region.pestContext}.`,
+    description: `Professional pest control services in ${region.name}: ants, rodents, termites, mosquitoes & more. Family-owned since 1982. Free estimates.`,
   };
 }
 

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Commercial Pest Control Nassau County, NY',
-  description: 'Commercial pest control for Nassau County businesses — restaurants, offices, retail, healthcare, schools, hotels, warehouses & more. Regulation-compliant, disruption-free service. Call (516) 763-4600.',
+  title: 'Commercial Pest Control Nassau County, NY | Liberty Pest Pros',
+  description: 'Commercial pest control for Nassau County businesses. Restaurants, offices, retail, healthcare & schools. Regulation-compliant, family-owned since 1982.',
 };
 
 const schemaData = {

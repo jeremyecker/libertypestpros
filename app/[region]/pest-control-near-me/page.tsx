@@ -4,8 +4,8 @@ import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Pest Control Near Me in Nassau County, NY',
-  description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, family-owned, licensed & insured. Call (516) 763-4600.',
+  title: 'Pest Control Near Me in Nassau County, NY | Liberty Pest Pros',
+  description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, licensed & insured.',
 };
 
 const schemaData = {
