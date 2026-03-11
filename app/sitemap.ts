@@ -9,6 +9,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: new Date(), changeFrequency: 'weekly', priority: 1 },
   ];
 
+  // Individual service pages
+  for (const service of SERVICES) {
+    entries.push({
+      url: `${base}/services/${service.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
+  }
+
   for (const region of REGIONS) {
     const regionBase = `${base}/${region.slug}`;
     entries.push(
@@ -50,6 +60,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const slug of LEAD_CAPTURE_SLUGS) {
     entries.push({ url: `${base}/nassau/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
   }
+
+  // Static pages
+  entries.push(
+    { url: `${base}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/reviews`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+  );
 
   // Commercial verticals
   const COMMERCIAL_SLUGS = ['restaurants','offices','retail','healthcare','schools','warehouses','hotels','property-management','food-processing','daycare'];
