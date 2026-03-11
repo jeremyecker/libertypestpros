@@ -3,7 +3,7 @@ import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Exterminator Near Me — Nassau County, NY | Liberty Pest Pros',
+  title: 'Exterminator Near Me — Nassau County, NY',
   description: 'Need a local exterminator near you in Nassau County? Liberty Pest Pros is licensed, insured, and family-owned since 1982. Full-service extermination. Call (516) 763-4600.',
 };
 

@@ -18,6 +18,7 @@ export default function ReviewsPage() {
     <>
       <Schema data={localBusinessSchema()} />
       <Breadcrumbs items={[{ label: 'Reviews' }]} />
+      <h1 className="sr-only">Customer Reviews — Liberty Pest Pros</h1>
       <TrustBar />
       <ReviewsSection limit={6} title={`Real Reviews from ${GEO.region} Homeowners`} />
       <CTABanner />

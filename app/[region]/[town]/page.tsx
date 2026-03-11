@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   const townName = townSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   return {
-    title: `Pest Control in ${townName}, NY | ${BRAND.name}`,
+    title: `Pest Control in ${townName}, NY`,
     description: `Liberty Pest Pros provides trusted pest control in ${townName}, Nassau County since 1982. Same-day service available. Call (516) 763-4600 for a free quote.`,
   };
 }
@@ -52,6 +52,13 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     "name": BRAND.name,
     "telephone": `+1${BRAND.phone}`,
     "url": `https://${BRAND.domain}`,
+    "image": `https://${BRAND.domain}/og-image.png`,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nassau County",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    },
     "areaServed": {
       "@type": "City",
       "name": townName,

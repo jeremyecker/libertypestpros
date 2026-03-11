@@ -20,7 +20,7 @@ const genericDescriptions: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: `Pest Control Services | ${BRAND.name}`,
+  title: 'Pest Control Services',
   description: `Full pest control services for ${serviceArea}. Family-safe treatments, same-day service available.`,
 };
 

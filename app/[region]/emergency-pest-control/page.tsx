@@ -3,7 +3,7 @@ import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Emergency Pest Control Nassau County | Same-Day Service | Liberty Pest Pros',
+  title: 'Emergency Pest Control Nassau County | Same-Day Service',
   description: 'Emergency pest control in Nassau County, NY. Same-day response available for urgent infestations. Liberty Pest Pros — family-owned since 1982. Call now: (516) 763-4600.',
 };
 

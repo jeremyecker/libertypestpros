@@ -3,7 +3,7 @@ import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Free Pest Inspection Nassau County, NY | Liberty Pest Pros',
+  title: 'Free Pest Inspection Nassau County, NY',
   description: 'Schedule a free pest inspection in Nassau County, NY. No obligation, no pressure. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600 to book.',
 };
 

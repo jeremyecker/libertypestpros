@@ -3,7 +3,7 @@ import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
-  title: 'Bed Bug Exterminator Nassau County, NY | Liberty Pest Pros',
+  title: 'Bed Bug Exterminator Nassau County, NY',
   description: 'Bed bug exterminator in Nassau County, NY. Heat & chemical treatments with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
 };
 

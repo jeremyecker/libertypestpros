@@ -57,8 +57,8 @@ export const REVIEWS = [
 // REGIONS — Nassau (single region)
 // ============================================================
 const NASSAU_TOWNS = [
-  'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
-  'Carle Place', 'Cedarhurst', 'East Meadow', 'East Rockaway', 'Elmont',
+  'Alden Manor', 'Albertson', 'Amityville', 'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
+  'Carle Place', 'Cedarhurst', 'East Meadow', 'East Norwich', 'East Rockaway', 'Elmont',
   'Farmingdale', 'Floral Park', 'Franklin Square', 'Freeport', 'Garden City',
   'Glen Cove', 'Glen Head', 'Glenwood Landing', 'Great Neck', 'Greenvale',
   'Hempstead', 'Herricks', 'Hewlett', 'Hicksville', 'Inwood',
@@ -69,7 +69,7 @@ const NASSAU_TOWNS = [
   'Old Bethpage', 'Old Westbury', 'Oyster Bay', 'Plainview', 'Point Lookout',
   'Port Washington', 'Rockville Centre', 'Roosevelt', 'Roslyn', 'Roslyn Heights',
   'Sea Cliff', 'Seaford', 'South Farmingdale', 'South Floral Park',
-  'South Hempstead', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
+  'South Hempstead', 'South Merrick', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
   'West Hempstead', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere',
 ];
 
