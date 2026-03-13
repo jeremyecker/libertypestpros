@@ -1,10 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
+import { REGIONS } from '@/hub.config';
 
 export const metadata: Metadata = {
   title: 'Raccoon Removal Nassau County, NY',
   description: 'Professional raccoon removal in Nassau County, NY. Humane trapping, attic exclusion, and entry point sealing. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+  openGraph: {
+    url: 'https://libertypestpros.com/nassau/raccoon-removal',
+  },
 };
 
 const schemaData = {
@@ -71,28 +75,11 @@ const schemaData = {
   ]
 };
 
-const nassauTowns = [
-  { name: 'Hempstead', slug: 'hempstead' },
-  { name: 'Garden City', slug: 'garden-city' },
-  { name: 'Mineola', slug: 'mineola' },
-  { name: 'Great Neck', slug: 'great-neck' },
-  { name: 'Hicksville', slug: 'hicksville' },
-  { name: 'Massapequa', slug: 'massapequa' },
-  { name: 'Valley Stream', slug: 'valley-stream' },
-  { name: 'Long Beach', slug: 'long-beach' },
-  { name: 'Rockville Centre', slug: 'rockville-centre' },
-  { name: 'Lynbrook', slug: 'lynbrook' },
-  { name: 'Freeport', slug: 'freeport' },
-  { name: 'Baldwin', slug: 'baldwin' },
-  { name: 'Oceanside', slug: 'oceanside' },
-  { name: 'Merrick', slug: 'merrick' },
-  { name: 'Syosset', slug: 'syosset' },
-  { name: 'Plainview', slug: 'plainview' },
-  { name: 'Westbury', slug: 'westbury' },
-  { name: 'Farmingdale', slug: 'farmingdale' },
-  { name: 'Manhasset', slug: 'manhasset' },
-  { name: 'Oyster Bay', slug: 'oyster-bay' },
-];
+const nassauRegion = REGIONS.find((r: { slug: string }) => r.slug === 'nassau')!;
+const nassauTowns = nassauRegion.towns.map((t: string) => ({
+  name: t,
+  slug: t.toLowerCase().replace(/\s+/g, '-'),
+}));
 
 const services = [
   { name: 'Raccoon Inspection', icon: '🔍', desc: 'Identify entry points and activity areas' },
