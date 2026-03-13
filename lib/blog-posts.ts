@@ -8,6 +8,10 @@ export interface BlogPost {
   category: string;
   readTime: string;
   tags: string[];
+  image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  imageAlt: ' pest control',
+  image?: string;
+  imageAlt?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -20,6 +24,8 @@ export const blogPosts: BlogPost[] = [
     category: "Termites",
     readTime: "6 min read",
     tags: ["termites", "pest control near me", "Nassau South Shore", "Long Beach"],
+    image: 'https://images.pexels.com/photos/7668105/pexels-photo-7668105.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'termites nassau south shore pest control',
     content: `# Signs of Termite Infestation on the Nassau South Shore
 
 Termites cause over $5 billion in property damage nationwide every year, and Nassau South Shore homeowners face elevated risk due to the region's coastal moisture levels. From Long Beach barrier island homes to the older Colonials of Merrick and Baldwin, subterranean termites thrive where soil stays consistently damp — and our proximity to the Great South Bay, tidal creeks, and Atlantic marshes keeps ground moisture elevated year-round.
@@ -65,6 +71,8 @@ Call (516) 763-4600 for a free termite inspection. We serve Long Beach, Atlantic
     category: "Seasonal",
     readTime: "6 min read",
     tags: ["spring pest control", "pest control near me", "Nassau South Shore", "Freeport"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'spring pest prevention nassau south shore pest control',
     content: `# Spring Pest Prevention for Nassau South Shore Homeowners
 
 Spring on the Nassau South Shore means warmer breezes off the Great South Bay, boats returning to the Freeport marinas, and the welcome end of winter. It also means the start of pest season — and the homeowners who get ahead of it in March and April consistently have fewer problems all the way through October.
@@ -120,6 +128,8 @@ Call (516) 763-4600 to schedule. Same-day appointments available when possible. 
     category: "Rodents",
     readTime: "6 min read",
     tags: ["rodent control", "mice", "rats", "exterminator near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4597738/pexels-photo-4597738.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'rodent control nassau south shore pest control',
     content: `# Rodent Control on the Nassau South Shore: Mice, Rats, and How to Stop Them
 
 Rodents are among the most common and frustrating pest problems across the Nassau South Shore. Mice can enter through gaps as small as a dime. Rats burrow under foundations, contaminate food, chew through wiring, and spread disease. If you've been hearing scratching in your walls at night in Rockville Centre, Oceanside, or Valley Stream, you're not alone — and the problem won't resolve itself.
@@ -166,6 +176,8 @@ Call (516) 763-4600 if you hear scratching in walls, find droppings in cabinets,
     category: "Bed Bugs",
     readTime: "6 min read",
     tags: ["bed bugs", "bed bug treatment", "exterminator near me", "Nassau South Shore", "Long Beach"],
+    image: 'https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'bed bug treatment nassau south shore pest control',
     content: `# Bed Bug Treatment on the Nassau South Shore: What to Do When You Find Them
 
 Finding bed bugs is alarming — but it doesn't mean you live in an unclean home. Bed bugs are expert hitchhikers that travel on luggage, used furniture, and clothing. They've been found in five-star hotels, college dormitories, and family homes across Long Beach, Valley Stream, and the entire Nassau South Shore. If you're searching for an **exterminator near me** after a bed bug discovery, acting quickly is critical.
@@ -222,6 +234,8 @@ Call (516) 763-4600 for same-day inspection and emergency bed bug treatment. We 
     category: "Ants",
     readTime: "6 min read",
     tags: ["ant control", "ants", "pest control near me", "Nassau South Shore", "Freeport"],
+    image: 'https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'ant control nassau south shore pest control',
     content: `# Ant Control on the Nassau South Shore: Stopping Ants for Good
 
 Ants are the number one pest complaint across the Nassau South Shore every spring and summer. Kitchen trails in Rockville Centre, carpenter ants in Freeport deck framing, odorous house ants in Merrick — ant problems are a fact of life along the South Shore. But not all ants are the same, and neither are the solutions.
@@ -255,6 +269,8 @@ Call (516) 763-4600 to eliminate your ant problem. We serve Long Beach, Atlantic
     category: "Cockroaches",
     readTime: "6 min read",
     tags: ["cockroach control", "roaches", "exterminator near me", "Nassau South Shore", "Long Beach"],
+    image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'cockroach control nassau south shore pest control',
     content: `# Cockroach Control on the Nassau South Shore: Getting Rid of Roaches for Good
 
 Cockroaches are among the most medically significant pests in any home. Their shed skins, feces, and saliva are potent allergens that trigger asthma attacks — particularly in children. They contaminate food, spread pathogenic bacteria, and can infest a home rapidly. On the Nassau South Shore, coastal moisture levels and dense housing stock create significant cockroach pressure.
@@ -290,6 +306,8 @@ For cockroach problems anywhere on the South Shore, call (516) 763-4600. We serv
     category: "Mosquitoes",
     readTime: "6 min read",
     tags: ["mosquito control", "mosquitoes", "pest control near me", "Nassau South Shore", "Freeport"],
+    image: 'https://images.pexels.com/photos/1592945/pexels-photo-1592945.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'mosquito control nassau south shore pest control',
     content: `# Mosquito Control on the Nassau South Shore: Reclaim Your Backyard
 
 If you live near the Great South Bay, Freeport's canal system, the Jones Beach marshes, or the tidal wetlands from Valley Stream to Massapequa, you already know: the Nassau South Shore has some of the most intense mosquito pressure on Long Island. When neighbors across Oceanside, Baldwin, Merrick, and Freeport search for **pest control near me** in May and June, mosquito control is the number one reason.
@@ -330,6 +348,8 @@ Call (516) 763-4600 to schedule. We serve Long Beach, Atlantic Beach, Lido Beach
     category: "Stinging Insects",
     readTime: "6 min read",
     tags: ["wasp removal", "hornet nest", "stinging insects", "exterminator near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/635002/pexels-photo-635002.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'wasp hornet removal nassau south shore pest control',
     content: `# Wasp and Hornet Removal on the Nassau South Shore
 
 Late summer on the Nassau South Shore means stinging insect colonies at peak population. A yellow jacket nest that started with a single queen in April can contain thousands of aggressive workers by August. If you've discovered a nest near your Rockville Centre front door, Merrick deck, or Long Beach backyard, don't attempt removal yourself.
@@ -368,6 +388,8 @@ Call (516) 763-4600 for same-day stinging insect service. We serve Long Beach, A
     category: "Wildlife",
     readTime: "6 min read",
     tags: ["wildlife removal", "raccoon removal", "squirrel removal", "exterminator near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'wildlife removal nassau south shore pest control',
     content: `# Wildlife Removal on the Nassau South Shore: Raccoons, Squirrels, and More
 
 The Nassau South Shore's mix of residential neighborhoods, parks, and proximity to the Great South Bay creates ideal urban wildlife habitat. Raccoons raise young in attics in Merrick and Baldwin. Squirrels chew into roof lines in Rockville Centre and Lynbrook. Opossums den under decks in Freeport and Valley Stream. When wildlife enters your home, you need a professional — and Liberty Pest Pros has been handling South Shore wildlife conflicts since 1982.
@@ -405,6 +427,8 @@ Call (516) 763-4600 for a wildlife removal consultation. We serve Long Beach, At
     category: "Fleas & Ticks",
     readTime: "6 min read",
     tags: ["flea control", "tick control", "fleas", "ticks", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'flea tick control nassau south shore pest control',
     content: `# Flea and Tick Control on the Nassau South Shore: Protecting Your Family and Pets
 
 Fleas and ticks are a genuine public health concern for families and pets across the Nassau South Shore. Deer ticks transmit Lyme disease, anaplasmosis, and babesiosis. Dog ticks carry Rocky Mountain spotted fever. Fleas spread cat scratch disease. For homeowners in Merrick, Bellmore, Wantagh, Massapequa, and Baldwin with wooded backyards or outdoor pets, professional pest control is essential.
@@ -436,6 +460,8 @@ For flea and tick treatments across the South Shore, call (516) 763-4600. We ser
     category: "Seasonal",
     readTime: "6 min read",
     tags: ["fall pest control", "pest prevention", "pest control near me", "Nassau South Shore", "Merrick"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'fall pest prevention nassau south shore pest control',
     content: `# Fall Pest Prevention for Nassau South Shore Homes
 
 September and October bring a decisive shift in pest behavior across the Nassau South Shore. As overnight temperatures drop below 60°F, insects and rodents transition from active feeding and reproduction to overwintering survival — and many have identified your home as the ideal winter destination.
@@ -477,6 +503,8 @@ Call (516) 763-4600 to schedule fall pest prevention. We serve Long Beach, Atlan
     category: "Emergency",
     readTime: "6 min read",
     tags: ["emergency pest control", "same day exterminator", "exterminator near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'emergency pest control nassau south shore pest control',
     content: `# Emergency Pest Control on the Nassau South Shore: Fast Response When It Matters
 
 Some pest situations simply can't wait for a scheduled appointment. A yellow jacket nest blocking your front entrance in Rockville Centre. Rats discovered in your kitchen in Long Beach. Bed bugs found the night before houseguests arrive in Merrick. These aren't situations where you wait days — they require immediate action.
@@ -512,6 +540,8 @@ Emergency coverage throughout: Long Beach, Atlantic Beach, Lido Beach, Oceanside
     category: "Tips & Advice",
     readTime: "6 min read",
     tags: ["DIY pest control", "professional pest control", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'diy vs professional pest control nassau south shore pest control',
     content: `# DIY vs. Professional Pest Control on the Nassau South Shore: What Works
 
 We'll be honest with you: sometimes DIY pest control is fine. Sometimes it wastes time and money while making the underlying problem worse. Here's a straightforward breakdown from Liberty Pest Pros — a Nassau South Shore family business since 1982 — of when to try it yourself and when to search for **pest control near me** and call a professional.
@@ -557,6 +587,8 @@ Call (516) 763-4600 for a straightforward assessment. We'll tell you honestly wh
     category: "Inspections",
     readTime: "6 min read",
     tags: ["pest inspection", "WDO inspection", "termite inspection", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'pest inspection nassau south shore pest control',
     content: `# Pest Inspection on the Nassau South Shore: What to Expect
 
 Whether you're buying a home in Merrick, preparing to sell in Rockville Centre, or simply want to know what's lurking in your Long Beach basement, a professional pest inspection from Liberty Pest Pros is one of the most valuable services available to Nassau South Shore homeowners.
@@ -599,6 +631,8 @@ Call (516) 763-4600 to schedule a pest inspection in Long Beach, Atlantic Beach,
     category: "Ants",
     readTime: "6 min read",
     tags: ["carpenter ants", "ant control", "exterminator near me", "Nassau South Shore", "Freeport"],
+    image: 'https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'carpenter ant control nassau south shore pest control',
     content: `# Carpenter Ant Control on the Nassau South Shore
 
 If you're seeing large black ants — up to half an inch long — inside your Freeport kitchen, emerging from a wall void in Oceanside, or trailing across your Merrick deck, you likely have carpenter ants. They don't eat wood like termites — but the galleries they excavate in moisture-softened structural timber can cause serious damage if left untreated for years.
@@ -633,6 +667,8 @@ Liberty Pest Pros provides comprehensive carpenter ant treatment throughout the 
     category: "Stink Bugs",
     readTime: "6 min read",
     tags: ["stink bugs", "fall pest control", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'stink bug control nassau south shore pest control',
     content: `# Stink Bug Control on the Nassau South Shore: Stopping the Fall Invasion
 
 Every fall across Merrick, Baldwin, Wantagh, Bellmore, and Massapequa, brown marmorated stink bugs aggregate on sun-warmed south and west-facing walls — and then push through every available gap to overwinter in wall voids and attics. When spring arrives, hundreds emerge from your walls. The odor when you disturb them earned this pest its name.
@@ -671,6 +707,8 @@ Call (516) 763-4600 for a fall stink bug treatment. We serve the entire Nassau S
     category: "Spiders",
     readTime: "6 min read",
     tags: ["spider control", "spiders", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/1682498/pexels-photo-1682498.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'spider control nassau south shore pest control',
     content: `# Spider Control on the Nassau South Shore: Common Species and When to Act
 
 Spiders are one of the most common pest calls we receive across the Nassau South Shore — especially in late summer and fall. The good news: the vast majority of spiders in Long Beach, Oceanside, Rockville Centre, and Merrick are completely harmless and actually beneficial, feeding on the insects that are genuine pests. The question is whether any warrant professional **pest control near me**.
@@ -702,6 +740,8 @@ For persistent spider populations or black widow activity, call (516) 763-4600. 
     category: "Pantry Pests",
     readTime: "6 min read",
     tags: ["pantry pests", "flour weevils", "Indian meal moth", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'pantry pest control nassau south shore pest control',
     content: `# Pantry Pest Control on the Nassau South Shore: Weevils, Moths, and How to Stop Them
 
 Opening your pantry to find small moths flying out, flour with moving specks, or beetles in your cereal is deeply unsettling — but it's not a sign of a dirty kitchen. Pantry pests are stored product insects that frequently arrive in grocery store products already infested. Once inside your Rockville Centre, Merrick, or Baldwin home, they spread rapidly through dry goods.
@@ -735,6 +775,8 @@ Call (516) 763-4600 for pantry pest consultation. We serve Long Beach, Atlantic 
     category: "Commercial",
     readTime: "6 min read",
     tags: ["commercial pest control", "restaurant pest control", "exterminator near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'commercial pest control nassau south shore pest control',
     content: `# Commercial Pest Control on the Nassau South Shore: Protecting Your Business
 
 A pest problem in your business is more than a nuisance — it's a threat to your reputation, health department compliance, and bottom line. In the age of Yelp and Google reviews, a customer photo of a cockroach can cause lasting damage to a restaurant or retail store.
@@ -770,6 +812,8 @@ Call (516) 763-4600 to discuss a commercial pest control program for your South 
     category: "Tips & Advice",
     readTime: "6 min read",
     tags: ["exterminator near me", "pest control near me", "Nassau South Shore", "local exterminator"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'exterminator near me nassau south shore pest control',
     content: `# Finding the Right Exterminator Near Me on the Nassau South Shore
 
 When a pest problem hits — a mouse discovered at 10 PM, a wasp nest blocking your front door, bed bugs before guests arrive — the first thing most Nassau South Shore homeowners do is search "exterminator near me." That search returns dozens of results: national chains, aggregator sites, and local companies. How do you choose?
@@ -807,6 +851,8 @@ We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Fr
     category: "Tips & Advice",
     readTime: "6 min read",
     tags: ["pest control cost", "exterminator cost", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'pest control cost guide nassau south shore pest control',
     content: `# Pest Control Cost Guide for Nassau South Shore Homeowners
 
 One of the first questions homeowners ask when searching for **pest control near me** on the Nassau South Shore is: how much is this going to cost? The honest answer varies based on pest type, infestation severity, property size, and treatment method. These ranges reflect what homeowners in Long Beach, Rockville Centre, Merrick, and across the South Shore actually pay for professional service.
@@ -864,6 +910,8 @@ Liberty Pest Pros provides free inspections and written estimates for all servic
     category: "Seasonal",
     readTime: "6 min read",
     tags: ["seasonal pest control", "pest calendar", "pest control near me", "Nassau South Shore"],
+    image: 'https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'seasonal pest calendar nassau south shore pest control',
     content: `# Seasonal Pest Calendar for the Nassau South Shore
 
 Pest activity on the Nassau South Shore follows predictable seasonal patterns. Knowing what to watch for each month helps you act proactively rather than reactively — keeping small problems from becoming large ones. This calendar is based on 40+ years of providing **pest control near me** across Long Beach, Oceanside, Rockville Centre, Freeport, Merrick, Baldwin, Wantagh, and throughout the Nassau South Shore.
@@ -922,6 +970,8 @@ const adaptedPosts: BlogPost[] = DATA_BLOG_POSTS.map((p) => ({
   category: 'Pest Control',
   readTime: '7 min read',
   tags: ['pest control', 'Nassau County', 'Long Island'],
+  image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  imageAlt: ' pest control',
 }));
 
 const allPosts: BlogPost[] = [...blogPosts, ...adaptedPosts];
