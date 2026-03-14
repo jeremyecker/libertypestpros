@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
 
   return generatePageMetadata({
     title: post.title,
-    description: post.description,
+    description: post.excerpt,
     path: `/blog/${slug}`,
   });
 }
@@ -44,7 +44,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <Schema
         data={articleSchema({
           title: post.title,
-          description: post.description,
+          description: post.excerpt,
           slug: post.slug,
           date: post.date,
           author: post.author,
@@ -75,7 +75,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <span>{post.author}</span>
                 </div>
                 <h1 className="heading-1 mb-4">{post.title}</h1>
-                <p className="text-lg text-gray-600">{post.description}</p>
+                <p className="text-lg text-gray-600">{post.excerpt}</p>
               </header>
 
               {/* Hero Image */}
@@ -127,36 +127,67 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
             {/* Sidebar */}
             <aside className="space-y-6">
-              <div className="bg-brand-light rounded-xl p-6">
-                <h3 className="font-bold text-lg text-brand-dark mb-4">Need Help?</h3>
-                <p className="text-sm text-gray-600 mb-4">
-                  Dealing with a pest problem? We&apos;re here to help.
-                </p>
+              {/* CTA Card */}
+              <div className="bg-green-800 text-white rounded-xl p-6">
+                <h3 className="text-xl font-bold mb-3">Pest Problem?</h3>
+                <p className="text-green-100 text-sm mb-4">Nassau South Shore\'s trusted family pest control since 1982.</p>
                 <a
-                  href={PHONE_HREF}
-                  className="block w-full text-center bg-brand-accent text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition-colors"
+                  href={`tel:${PHONE.replace(/[^0-9+]/g, '')}`}
+                  className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-4 rounded-lg text-center transition-colors mb-3"
                 >
-                  📞 Call {PHONE}
+                  📞 {PHONE}
                 </a>
+                <Link
+                  href="/contact"
+                  className="block w-full bg-white/10 hover:bg-white/20 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors border border-white/20"
+                >
+                  Free Inspection
+                </Link>
               </div>
 
+              {/* Related Posts */}
               {otherPosts.length > 0 && (
-                <div className="bg-white border border-gray-200 rounded-xl p-6">
-                  <h3 className="font-bold text-lg text-brand-dark mb-4">More Articles</h3>
-                  <ul className="space-y-3">
-                    {otherPosts.map((p) => (
-                      <li key={p.slug}>
-                        <Link
-                          href={`/blog/${p.slug}`}
-                          className="text-sm text-gray-700 hover:text-brand-primary transition-colors leading-snug block"
-                        >
-                          {p.title}
-                        </Link>
-                      </li>
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-4">More from Our Blog</h3>
+                  <div className="space-y-4">
+                    {otherPosts.map((relatedPost) => (
+                      <Link
+                        key={relatedPost.slug}
+                        href={`/blog/${relatedPost.slug}`}
+                        className="block group"
+                      >
+                        <p className="font-medium text-gray-900 group-hover:text-green-700 transition-colors text-sm leading-snug">
+                          {relatedPost.title}
+                        </p>
+                        <p className="text-xs text-gray-500 mt-1">{relatedPost.readTime}</p>
+                      </Link>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               )}
+
+              {/* Service Links */}
+              <div className="border rounded-xl p-6">
+                <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
+                <div className="space-y-2">
+                  {[
+                    { href: '/services/termite-control', label: 'Termite Control' },
+                    { href: '/services/bed-bug-treatment', label: 'Bed Bug Treatment' },
+                    { href: '/services/rodent-control', label: 'Rodent Control' },
+                    { href: '/services/mosquito-control', label: 'Mosquito Control' },
+                    { href: '/services/ant-control', label: 'Ant Control' },
+                    { href: '/services/wildlife-removal', label: 'Wildlife Removal' },
+                  ].map(({ href, label }) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      className="flex items-center justify-between text-sm text-gray-700 hover:text-green-700 py-1 border-b border-gray-100 last:border-0 transition-colors"
+                    >
+                      {label} <span className="text-gray-400">→</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </aside>
           </div>
         </div>
