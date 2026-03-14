@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Individual service pages
   for (const service of SERVICES) {
     entries.push({
-      url: `${base}/services/${service.slug}/`,
+      url: `${base}/services/${service.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -23,15 +23,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const regionBase = `${base}/${region.slug}`;
     entries.push(
       { url: `${regionBase}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-      { url: `${regionBase}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-      { url: `${regionBase}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-      { url: `${regionBase}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-      { url: `${regionBase}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+      { url: `${regionBase}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+      { url: `${regionBase}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+      { url: `${regionBase}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     );
 
     for (const service of SERVICES) {
       entries.push({
-        url: `${regionBase}/services/${service.slug}/`,
+        url: `${regionBase}/services/${service.slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.7,
@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const town of region.towns) {
       const townSlug = town.toLowerCase().replace(/\s+/g, '-');
       entries.push({
-        url: `${regionBase}/${townSlug}/`,
+        url: `${regionBase}/${townSlug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
@@ -52,35 +52,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Top-level lead capture pages
   const TOP_LEVEL_LEAD_SLUGS = ['pest-control-near-me', 'exterminator-near-me', 'emergency-pest-control', 'same-day-pest-control', 'bed-bug-exterminator', 'free-pest-inspection'];
   for (const slug of TOP_LEVEL_LEAD_SLUGS) {
-    entries.push({ url: `${base}/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
+    entries.push({ url: `${base}/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
   }
 
   // Lead capture pages
   const LEAD_CAPTURE_SLUGS = ['pest-control-near-me', 'exterminator-near-me', 'emergency-pest-control', 'same-day-pest-control', 'bed-bug-exterminator', 'free-pest-inspection'];
   for (const slug of LEAD_CAPTURE_SLUGS) {
-    entries.push({ url: `${base}/nassau/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
+    entries.push({ url: `${base}/nassau/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.9 });
   }
 
   // Static pages
   entries.push(
-    { url: `${base}/services/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/about/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/contact/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/terms/`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${base}/privacy/`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${base}/reviews/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${base}/service-areas/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/contact`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/reviews`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   );
 
   // Commercial verticals
   const COMMERCIAL_SLUGS = ['restaurants','offices','retail','healthcare','schools','warehouses','hotels','property-management','food-processing','daycare'];
-  entries.push({ url: `${base}/nassau/commercial/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 });
+  entries.push({ url: `${base}/nassau/commercial`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 });
   for (const slug of COMMERCIAL_SLUGS) {
-    entries.push({ url: `${base}/nassau/commercial/${slug}/`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 });
+    entries.push({ url: `${base}/nassau/commercial/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 });
   }
 
   entries.push({
-    url: `${base}/blog/`,
+    url: `${base}/blog`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.7,
@@ -88,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const post of BLOG_POSTS) {
     entries.push({
-      url: `${base}/blog/${post.slug}/`,
+      url: `${base}/blog/${post.slug}`,
       lastModified: new Date(post.date),
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -101,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
       SERVICE_SLUGS.flatMap(service =>
         region.towns.map((town: string) => ({
-          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}/`,
+          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}`,
           lastModified: new Date(),
           changeFrequency: 'monthly' as const,
           priority: 0.8,
