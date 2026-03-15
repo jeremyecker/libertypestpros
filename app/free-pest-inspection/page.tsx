@@ -1,10 +1,21 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Free Pest Inspection Nassau County',
   description: 'Get a free comprehensive pest inspection for your Nassau County home or business. No obligation, no charge. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+
+  openGraph: {
+    title: 'Free Pest Inspection Nassau County',
+    description: 'Get a free comprehensive pest inspection for your Nassau County home or business. No obligation, no charge. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+    url: `${SITE_URL}/free-pest-inspection`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

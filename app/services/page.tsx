@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { SERVICES } from '@/lib/services';
 import { BRAND, REGIONS } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 const serviceArea = REGIONS.map(r => r.name).join(', ').replace(/, ([^,]*)$/, ' & $1');
 
@@ -22,6 +23,16 @@ const genericDescriptions: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Pest Control Services',
   description: `Full pest control services for ${serviceArea}. Family-safe treatments, same-day service available.`,
+
+  openGraph: {
+    title: 'Pest Control Services',
+    description: `Full pest control services for ${serviceArea}. Family-safe treatments, same-day service available.`,
+    url: `${SITE_URL}/services`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 export default function ServicesPage() {

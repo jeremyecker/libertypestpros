@@ -1,10 +1,20 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS } from '@/site.config';
+import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS, SITE_URL } from '@/site.config';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
   description: `Get a free pest control estimate from ${SITE_NAME}. Call or fill out our form.`,
+
+  openGraph: {
+    title: 'Contact Us',
+    description: `Get a free pest control estimate from ${SITE_NAME}. Call or fill out our form.`,
+    url: `${SITE_URL}/contact`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 export default function ContactPage() {

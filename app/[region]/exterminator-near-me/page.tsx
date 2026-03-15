@@ -1,10 +1,21 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Exterminator Near Me — Nassau County, NY',
   description: 'Need a local exterminator near you in Nassau County? Liberty Pest Pros is licensed, insured, and family-owned since 1982. Full-service extermination. Call (516) 763-4600.',
+
+  openGraph: {
+    title: 'Exterminator Near Me — Nassau County, NY',
+    description: 'Need a local exterminator near you in Nassau County? Liberty Pest Pros is licensed, insured, and family-owned since 1982. Full-service extermination. Call (516) 763-4600.',
+    url: `${SITE_URL}/nassau/exterminator-near-me`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

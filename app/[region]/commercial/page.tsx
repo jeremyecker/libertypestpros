@@ -1,10 +1,21 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import CTABanner from '@/components/sections/CTABanner';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Commercial Pest Control Nassau County, NY',
   description: 'Commercial pest control for Nassau County businesses. Restaurants, offices, retail, healthcare & schools. Regulation-compliant, family-owned since 1982.',
+
+  openGraph: {
+    title: 'Commercial Pest Control Nassau County, NY',
+    description: 'Commercial pest control for Nassau County businesses. Restaurants, offices, retail, healthcare & schools. Regulation-compliant, family-owned since 1982.',
+    url: `${SITE_URL}/nassau/commercial`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

@@ -1,10 +1,21 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Emergency Pest Control Nassau County',
   description: 'Urgent pest infestation in Nassau County? Liberty Pest Pros offers same-day emergency pest control across Nassau County. Family-owned since 1982. Call now: (516) 763-4600.',
+
+  openGraph: {
+    title: 'Emergency Pest Control Nassau County',
+    description: 'Urgent pest infestation in Nassau County? Liberty Pest Pros offers same-day emergency pest control across Nassau County. Family-owned since 1982. Call now: (516) 763-4600.',
+    url: `${SITE_URL}/emergency-pest-control`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

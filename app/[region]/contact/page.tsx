@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getRegion, getRegionGMB } from '@/lib/regions';
-import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS } from '@/site.config';
+import { SITE_NAME, PHONE, PHONE_HREF, REGIONS, HOURS, SITE_URL } from '@/site.config';
 import LeadForm from '@/components/forms/LeadForm';
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string }> }): Promise<Metadata> {
@@ -11,7 +11,17 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   return {
     title: `Contact Us — ${region.name} Pest Control`,
     description: `Get a free pest control estimate in ${region.name}. Call or fill out our form — fast response, no pressure.`,
-  };
+  
+    openGraph: {
+      title: `Contact Us — ${region.name} Pest Control`,
+      description: `Get a free pest control estimate in ${region.name}. Call or fill out our form — fast response, no pressure.`,
+      url: `${SITE_URL}/${regionSlug}/contact`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/images/og-default.jpg'],
+    },
+};
 }
 
 export async function generateStaticParams() {

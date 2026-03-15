@@ -11,7 +11,17 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   return {
     title: `About Us — ${region.name}`,
     description: `Learn about ${BRAND.name} and our commitment to pest-free ${region.name} homes.`,
-  };
+  
+    openGraph: {
+      title: `About Us — ${region.name}`,
+      description: `Learn about ${BRAND.name} and our commitment to pest-free ${region.name} homes.`,
+      url: `https://${BRAND.domain}/${regionSlug}/about`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/images/og-default.jpg'],
+    },
+};
 }
 
 export async function generateStaticParams() {
