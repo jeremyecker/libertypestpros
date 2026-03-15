@@ -15,10 +15,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: SEO.defaultTitle,
+    default: 'Liberty Pest Pros | Pest Control Services',
     template: `%s | ${SITE_NAME}`,
   },
-  description: SITE_DESCRIPTION,
+  // SEO: Optimized for 'liberty pest control' — 49 impressions at pos 8.8 (GSC 2026-03-15)
+  description: 'Liberty Pest Pros delivers trusted pest control you can count on. From ants to rodents, we handle it all — licensed, local, and ready to respond. Free quote!',
   icons: {
     icon: '/favicon.ico',
     apple: '/icon-192.png',
