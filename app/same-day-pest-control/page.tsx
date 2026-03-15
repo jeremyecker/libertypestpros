@@ -5,11 +5,11 @@ import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Same-Day Pest Control Nassau County',
-  description: 'Can\'t wait? Liberty Pest Pros offers same-day pest control service across Nassau County. Fast response team, family-owned since 1982. Call now: (516) 763-4600.',
+  description: "Can't wait? Liberty Pest Pros offers same-day pest control service across Nassau County. Fast response team, family-owned since 1982. Call now: (516) 763-4600.",
 
   openGraph: {
     title: 'Same-Day Pest Control Nassau County',
-    description: 'Can\',
+    description: "Can't wait? Liberty Pest Pros offers same-day pest control service across Nassau County. Fast response team, family-owned since 1982. Call now: (516) 763-4600.",
     url: `${SITE_URL}/same-day-pest-control`,
     type: 'website',
     locale: 'en_US',
