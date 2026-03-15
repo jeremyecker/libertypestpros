@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const region of REGIONS) {
     const regionBase = `${base}/${region.slug}`;
     entries.push(
-      { url: `${regionBase}/`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
+      { url: regionBase, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
       { url: `${regionBase}/services`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
       { url: `${regionBase}/service-areas`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
       { url: `${regionBase}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
