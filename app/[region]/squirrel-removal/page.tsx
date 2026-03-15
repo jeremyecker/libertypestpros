@@ -7,8 +7,15 @@ export const metadata: Metadata = {
   title: 'Squirrel Removal Nassau County, NY',
   description: 'Professional squirrel removal in Nassau County, NY. Live trapping, attic exclusion, and one-way door removal. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
+    title: 'Squirrel Removal Nassau County, NY | Liberty Pest Pros',
+    description: 'Professional squirrel removal in Nassau County, NY. Live trapping, attic exclusion, and one-way door removal. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/squirrel-removal',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/og-image.png'],
   },
+},
 };
 
 const schemaData = {

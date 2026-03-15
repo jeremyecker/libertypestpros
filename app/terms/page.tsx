@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: `Terms of Service | ${SITE_NAME}`,
+  title: 'Terms of Service',
   description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
 };
 

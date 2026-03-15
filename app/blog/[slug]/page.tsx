@@ -171,8 +171,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Our Services</h3>
                 <div className="space-y-2">
                   {[
-                    { href: '/services/termite-control', label: 'Termite Control' },
-                    { href: '/services/bed-bug-treatment', label: 'Bed Bug Treatment' },
+                    { href: '/services/termite-treatment', label: 'Termite Treatment' },
+                    { href: '/services/bed-bug-removal', label: 'Bed Bug Removal' },
                     { href: '/services/rodent-control', label: 'Rodent Control' },
                     { href: '/services/mosquito-control', label: 'Mosquito Control' },
                     { href: '/services/ant-control', label: 'Ant Control' },

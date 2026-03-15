@@ -31,6 +31,7 @@ export function generatePageMetadata({
       url: canonical,
       siteName: SITE_NAME,
       type: 'website',
+      locale: 'en_US',
       images: [{ url: resolvedOgImage }],
     },
     robots: noindex

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { BRAND } from '@/hub.config';
 
 export const metadata: Metadata = {
-  title: 'Bed Bug Exterminator Nassau County | Liberty Pest Pros',
+  title: 'Bed Bug Exterminator Nassau County',
   description: 'Nassau County bed bug specialists — heat treatment and chemical options with guaranteed results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
 };
 
