@@ -413,12 +413,21 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string; vertical: string }> }): Promise<Metadata> {
-  const { vertical } = await params;
+  const { region: regionSlug, vertical } = await params;
   const data = VERTICALS[vertical];
   if (!data) return {};
   return {
     title: `${data.title} Nassau County, NY | Liberty Pest Pros`,
     description: data.metaDesc,
+    openGraph: {
+      title: `${data.title} Nassau County, NY | Liberty Pest Pros`,
+      description: data.metaDesc,
+      url: `https://libertypestpros.com/${regionSlug}/commercial/${vertical}`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/images/og-default.jpg'],
+    },
   };
 }
 

@@ -1,12 +1,22 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { REGIONS } from '@/hub.config';
-import { SITE_NAME, GEO } from '@/site.config';
+import { SITE_NAME, GEO, SITE_URL } from '@/site.config';
 import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
   title: 'All Service Areas',
   description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities. Find your town.`,
+
+  openGraph: {
+    title: 'All Service Areas',
+    description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities. Find your town.`,
+    url: `${SITE_URL}/service-areas`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 export default function ServiceAreasPage() {

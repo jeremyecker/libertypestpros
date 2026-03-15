@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS } from '@/site.config';
+import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+
+  openGraph: {
+    title: 'Terms of Service',
+    description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+    url: `${SITE_URL}/terms`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 export default function TermsPage() {

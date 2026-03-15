@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
-import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL } from '@/site.config';
+import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: `Privacy Policy | ${SITE_NAME}`,
   description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+
+  openGraph: {
+    title: `Privacy Policy | ${SITE_NAME}`,
+    description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+    url: `${SITE_URL}/privacy`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 export default function PrivacyPage() {

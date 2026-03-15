@@ -2,10 +2,21 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Pest Control Near Me in Nassau County, NY',
   description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, licensed & insured.',
+
+  openGraph: {
+    title: 'Pest Control Near Me in Nassau County, NY',
+    description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, licensed & insured.',
+    url: `${SITE_URL}/nassau/pest-control-near-me`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

@@ -12,7 +12,17 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   return {
     title: `Pest Control Services in ${region.name}`,
     description: `Professional pest control services in ${region.name}: ants, rodents, termites, mosquitoes & more. Family-owned since 1982. Free estimates.`,
-  };
+  
+    openGraph: {
+      title: `Pest Control Services in ${region.name}`,
+      description: `Professional pest control services in ${region.name}: ants, rodents, termites, mosquitoes & more. Family-owned since 1982. Free estimates.`,
+      url: `https://${BRAND.domain}/${regionSlug}/services`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/images/og-default.jpg'],
+    },
+};
 }
 
 export async function generateStaticParams() {

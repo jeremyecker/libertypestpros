@@ -1,10 +1,21 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Pest Control Near Me | Nassau County',
   description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island families since 1982. Same-day service, licensed & insured. Call (516) 763-4600.',
+
+  openGraph: {
+    title: 'Pest Control Near Me | Nassau County',
+    description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island families since 1982. Same-day service, licensed & insured. Call (516) 763-4600.',
+    url: `${SITE_URL}/pest-control-near-me`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {

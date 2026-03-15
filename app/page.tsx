@@ -1,4 +1,5 @@
-import { SITE_NAME, GEO, SERVICES, PHONE, PHONE_HREF, GMB } from '@/site.config';
+import { SITE_NAME, GEO, SERVICES, PHONE, PHONE_HREF, GMB, SITE_URL, SITE_DESCRIPTION } from '@/site.config';
+import type { Metadata } from 'next';
 import { REGIONS } from '@/hub.config';
 import { localBusinessSchema } from '@/lib/seo';
 import { getTownCount, getTownsByRegion } from '@/lib/db';
@@ -43,6 +44,20 @@ const homepageFAQs = [
 
 // Show 5 towns from each region for a balanced homepage display
 const mixedTowns = REGIONS.flatMap(r => getTownsByRegion(r.slug).slice(0, 5));
+
+
+export const metadata: Metadata = {
+  openGraph: {
+    title: 'Liberty Pest Pros | Nassau County Exterminators',
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    type: 'website',
+    locale: 'en_US',
+    siteName: SITE_NAME,
+    images: ['/images/og-default.jpg'],
+  },
+};
+
 
 export default function HomePage() {
   return (

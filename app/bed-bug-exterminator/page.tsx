@@ -1,10 +1,21 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Nassau County',
   description: 'Nassau County bed bug specialists — heat treatment and chemical options with guaranteed results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
+
+  openGraph: {
+    title: 'Bed Bug Exterminator Nassau County',
+    description: 'Nassau County bed bug specialists — heat treatment and chemical options with guaranteed results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
+    url: `${SITE_URL}/bed-bug-exterminator`,
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/images/og-default.jpg'],
+  },
 };
 
 const schemaData = {
