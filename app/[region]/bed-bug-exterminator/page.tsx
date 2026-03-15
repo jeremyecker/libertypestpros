@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     siteName: 'Liberty Pest Pros',
     images: ['/og-image.png'],
   },
-},
 };
 
 const schemaData = {
