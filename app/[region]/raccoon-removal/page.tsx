@@ -7,8 +7,15 @@ export const metadata: Metadata = {
   title: 'Raccoon Removal Nassau County, NY',
   description: 'Professional raccoon removal in Nassau County, NY. Humane trapping, attic exclusion, and entry point sealing. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
+    title: 'Raccoon Removal Nassau County, NY | Liberty Pest Pros',
+    description: 'Professional raccoon removal in Nassau County, NY. Humane trapping, attic exclusion, and entry point sealing. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/raccoon-removal',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/og-image.png'],
   },
+},
 };
 
 const schemaData = {

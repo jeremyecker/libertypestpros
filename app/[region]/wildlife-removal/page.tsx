@@ -7,8 +7,15 @@ export const metadata: Metadata = {
   title: 'Wildlife Removal Nassau County, NY',
   description: 'Professional wildlife removal in Nassau County, NY. Raccoons, opossums, skunks, groundhogs, and more. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
+    title: 'Wildlife Removal Nassau County, NY | Liberty Pest Pros',
+    description: 'Professional wildlife removal in Nassau County, NY. Raccoons, opossums, skunks, groundhogs, and more. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/wildlife-removal',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/og-image.png'],
   },
+},
 };
 
 const schemaData = {

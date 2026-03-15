@@ -21,6 +21,15 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   return {
     title: region.metaTitle,
     description: region.metaDescription,
+    openGraph: {
+      title: `${region.metaTitle} | Liberty Pest Pros`,
+      description: region.metaDescription,
+      url: `https://libertypestpros.com/${regionSlug}`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/og-image.png'],
+    },
   };
 }
 

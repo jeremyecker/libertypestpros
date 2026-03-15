@@ -7,8 +7,15 @@ export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Nassau County, NY',
   description: 'Bed bug exterminator in Nassau County, NY. Heat & chemical treatments with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
+    title: 'Bed Bug Exterminator Nassau County, NY | Liberty Pest Pros',
+    description: 'Bed bug exterminator in Nassau County, NY. Heat & chemical treatments with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/bed-bug-exterminator',
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Liberty Pest Pros',
+    images: ['/og-image.png'],
   },
+},
 };
 
 const schemaData = {

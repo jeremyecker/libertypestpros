@@ -45,7 +45,13 @@ export async function generateMetadata({
     description: description.length <= 155 ? description : description.slice(0, 152) + '...',
     alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}` },
     openGraph: {
+      title: `${title} | Liberty Pest Pros`,
+      description: description.length <= 155 ? description : description.slice(0, 152) + '...',
       url: `https://${BRAND.domain}/${regionSlug}/${SERVICE_SLUG}/${townSlug}`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/og-image.png'],
     },
   };
 }

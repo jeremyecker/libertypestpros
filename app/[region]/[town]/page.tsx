@@ -15,6 +15,15 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   return {
     title: `Pest Control in ${townName}, NY`,
     description: `Liberty Pest Pros provides trusted pest control in ${townName}, Nassau County since 1982. Same-day service available. Call (516) 763-4600 for a free quote.`,
+    openGraph: {
+      title: `Pest Control in ${townName}, NY | Liberty Pest Pros`,
+      description: `Liberty Pest Pros provides trusted pest control in ${townName}, Nassau County since 1982. Same-day service available. Call (516) 763-4600 for a free quote.`,
+      url: `https://libertypestpros.com/${regionSlug}/${townSlug}`,
+      type: 'website',
+      locale: 'en_US',
+      siteName: 'Liberty Pest Pros',
+      images: ['/og-image.png'],
+    },
   };
 }
 
