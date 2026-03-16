@@ -982,4 +982,221 @@ Probe any wood in contact with or near the foundation — deck posts, exterior d
 A completed spring checklist gives you a clear picture of your home&apos;s pest vulnerabilities before the season intensifies. For any findings that require professional attention, Liberty Pest Pros serves all of Nassau County. Call (516) 763-4600 to schedule a spring inspection or treatment.`,
   },
 
+  {
+    slug: 'spotted-lanternfly-nassau-county',
+    title: 'Spotted Lanternfly on Long Island: What Nassau County Homeowners Need to Know',
+    date: '2026-03-05',
+    excerpt: 'The spotted lanternfly has arrived on Long Island and Nassau County homeowners are seeing them for the first time. Learn to identify this invasive pest, understand the real threat to your trees and garden, and know what you can do.',
+    image: 'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'Tree branches in a suburban backyard',
+    content: `The spotted lanternfly is unlike most pests Nassau County homeowners have dealt with before. It doesn&apos;t bite, sting, or infest your home&apos;s structure — but it can make your backyard miserable, damage your trees, and destroy ornamental plantings you&apos;ve spent years cultivating. And it&apos;s here. If you live anywhere in Nassau County — from Hempstead to Hicksville to Massapequa — spotted lanternflies are in your neighborhood.
+
+**What Is the Spotted Lanternfly?**
+
+The spotted lanternfly (*Lycorma delicatula*) is an invasive planthopper native to East Asia — specifically China, Vietnam, and India — first detected in the United States in Berks County, Pennsylvania in 2014. From that initial introduction it has spread aggressively through New Jersey, New York State, and Long Island, following the highway corridors and commuter routes that connect the region.
+
+The spotted lanternfly is not a true fly. It&apos;s a planthopper — an insect in the order Hemiptera — and its primary threat is to plants and trees, not to people or structures. It feeds by inserting its mouthparts into the phloem (the inner bark layer that conducts nutrients) of host plants, drawing out sap and excreting a sticky liquid called honeydew. That honeydew coats everything beneath infested trees — leaves, lawn furniture, cars, patios, and children&apos;s play equipment — with a sticky residue that oxidizes into unsightly black sooty mold.
+
+**Is the Spotted Lanternfly Established in Nassau County?**
+
+Yes. Nassau County is within the confirmed established range of the spotted lanternfly in New York State. The insect is no longer a new arrival — it&apos;s breeding here, season after season. Homeowners across Nassau County, including Garden City, Mineola, Valley Stream, Levittown, Hicksville, Oceanside, Freeport, Massapequa, Rockville Centre, and Westbury, have reported sightings in recent seasons, particularly in yards near wooded edges, roadsides, and any property with the Tree of Heaven.
+
+The pest is closely tied to its preferred host tree, the Tree of Heaven (*Ailanthus altissima*), which is itself an invasive species found throughout Nassau County. You&apos;ll find Tree of Heaven growing along fence lines, in vacant lots, at roadsides, and in the scrub edges bordering residential properties throughout the county. Wherever Tree of Heaven grows, spotted lanternfly populations concentrate.
+
+**Identifying Spotted Lanternfly at Every Life Stage**
+
+The spotted lanternfly looks dramatically different at each stage of its life cycle. Knowing what to look for across seasons helps Nassau County homeowners detect activity early.
+
+*Egg masses (November through June):* Egg masses are the most important stage for homeowners to recognize. A female deposits 30–50 eggs in a row, then covers them with a grayish, mud-like secretion that hardens into a streak resembling dried mud or putty. Egg masses are laid on flat surfaces — tree bark, fence posts, stone walls, outdoor furniture, landscape rocks, even car bumpers. They&apos;re easy to miss because they look like weathered material, not eggs. Scraping egg masses before they hatch is one of the highest-impact actions a Nassau County homeowner can take.
+
+*Early nymphs (April through June):* Newly hatched nymphs are small (roughly a quarter-inch), black with white spots, and move quickly. They look almost nothing like the adult insect at this stage.
+
+*Late-instar nymphs (June through July):* Fourth-instar nymphs develop red coloring — becoming black with white spots and red patches — making them more distinctive and easier to identify in the landscape.
+
+*Adults (July through December):* Adults are approximately one inch long. At rest, the forewing is gray with a distinctive black spot pattern. In flight, the dramatic red and black hindwing becomes visible. This combination of spotted gray forewing and bright red underwing is unmistakable once you&apos;ve seen it.
+
+**What Damage Does Spotted Lanternfly Cause in Nassau County Yards?**
+
+The spotted lanternfly&apos;s direct damage to plants varies by host species and infestation intensity. Heavy feeding weakens trees by depleting phloem nutrients, reducing the plant&apos;s ability to photosynthesize and defend itself. Young or stressed trees can be killed by sustained severe infestation.
+
+Preferred host trees in Nassau County include Tree of Heaven (the primary host by far), black walnut, river birch, and a wide range of fruit and ornamental trees — apple, peach, plum, cherry, and apricot. Nassau County homeowners with established fruit trees or ornamental stone fruit plantings are at elevated risk of direct tree damage.
+
+The honeydew problem affects a far larger number of Nassau County homeowners. Any property with infested trees — or adjacent to properties with infested trees — can experience the sticky, sooty residue buildup that spotted lanternfly produces. In heavily infested areas during peak season (August through October), outdoor furniture, cars in driveways, patio surfaces, and children&apos;s equipment all accumulate honeydew. The resulting sooty mold makes outdoor living spaces genuinely unpleasant.
+
+**What Nassau County Homeowners Can Do Right Now**
+
+*Scrape and destroy egg masses:* From November through June, inspect flat outdoor surfaces systematically — tree trunks, fence posts, decorative stone, furniture, and the exteriors of sheds and structures. Use a stiff card or putty knife to scrape egg masses into a sealed bag with hand sanitizer or rubbing alcohol, then dispose of the sealed bag in the trash. This is one of the most effective population-reduction actions individual homeowners can take.
+
+*Kill adults and nymphs on contact:* Spotted lanternflies can be caught by hand (using a bag or gloves) and killed by dropping them into soapy water. They are relatively slow fliers and manageable to remove directly from small infestations.
+
+*Consider removing Tree of Heaven from your property:* Tree of Heaven is an invasive species with no ornamental value, and it is the primary reproductive host sustaining spotted lanternfly populations in Nassau County. Removing it eliminates the most important habitat on your property. Note that Tree of Heaven resprouts aggressively when cut and requires stump treatment to prevent regrowth.
+
+*Do not transport outdoor materials out of infested areas:* Spotted lanternfly egg masses on firewood, lawn furniture, potted plants, and outdoor materials are a primary spread mechanism. Inspect everything before moving it off your property.
+
+**Professional Treatment for Spotted Lanternfly**
+
+Systemic insecticide applications to host trees — particularly Tree of Heaven — can significantly reduce spotted lanternfly populations on a property. When the primary host tree is treated, the adult population feeding on it collapses quickly. Liberty Pest Pros technicians can also apply targeted perimeter treatments to reduce adult and nymph populations around outdoor living areas.
+
+Consumer sprays have limited effectiveness against spotted lanternfly because they address only insects in immediate contact at the moment of application. They don&apos;t address the source tree population or next season&apos;s egg masses. Professional treatment integrated with host tree management delivers more complete and lasting results.
+
+All spotted lanternfly insecticide treatments must comply with New York State Department of Environmental Conservation (DEC) guidelines. Liberty Pest Pros technicians are fully licensed by New York State DEC and familiar with Nassau County&apos;s specific treatment requirements.
+
+**Reporting Spotted Lanternfly in Nassau County**
+
+New York State Department of Agriculture and Markets tracks spotted lanternfly spread across the state and requests that homeowners report new sightings — particularly in areas where the pest has not previously been documented. Early reporting helps direct response resources effectively.
+
+If spotted lanternfly is affecting your Nassau County property, call Liberty Pest Pros at (516) 763-4600 for an assessment and a treatment plan tailored to your situation.`,
+  },
+  {
+    slug: 'pantry-moths-stored-food-pests-long-island',
+    title: 'Pantry Moths and Stored Food Pests in Long Island Homes: What Gets In and How to Get Rid of Them',
+    date: '2026-03-12',
+    excerpt: 'Indian meal moths, flour beetles, and weevils are common pantry invaders in Nassau County homes. Learn how stored food pests get in, which products they target, and how to eliminate them for good.',
+    image: 'https://images.pexels.com/photos/3735645/pexels-photo-3735645.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'Kitchen pantry shelves with organized food storage',
+    content: `Pantry moths and stored food beetles are among the most frustrating home pest problems Nassau County homeowners encounter — not because they&apos;re dangerous, but because they&apos;re so difficult to eliminate once established. By the time you spot Indian meal moths flying around your kitchen at night or find webbing clumped in a bag of flour, the infestation has likely been building for weeks. Understanding how pantry pests work and what it takes to fully eliminate them saves Nassau County homeowners months of frustration.
+
+**What Are Pantry Pests?**
+
+"Pantry pests" is the term for a group of insects that infest and breed in dry stored foods — grains, cereals, flour, spices, dried fruit, nuts, pet food, birdseed, and even some commercially packaged products. Unlike ants or cockroaches that enter from outside, pantry pests are most commonly introduced into Nassau County homes inside already-infested products purchased at the grocery store.
+
+The most common pantry pests in Nassau County homes are Indian meal moths (by far the most frequently encountered), saw-toothed grain beetles, flour beetles, and grain weevils. None of these pests bite, sting, or cause structural damage — but they contaminate food and are notoriously persistent once they&apos;ve established a presence in your pantry.
+
+**Indian Meal Moths: Nassau County&apos;s Most Common Pantry Pest**
+
+The Indian meal moth (*Plodia interpunctella*) is the single most commonly reported pantry pest in Nassau County homes and across Long Island. The adult moth has a wingspan of about 5/8 inch with a distinctive two-toned wing pattern — pale cream near the base, reddish-copper near the tip. This two-tone pattern makes the adult easy to identify.
+
+The larvae are the destructive stage. Indian meal moth larvae are small, creamy white caterpillars with a brownish head that spin silken webbing over infested food as they feed. Webbing in the corner of a grain bag, clumped material in a container, or silken threads visible when you pour from a bag are reliable larval indicators.
+
+Adults are most visible at night when they fly toward light sources. If you&apos;re noticing small moths flying in your kitchen after dark — near the pantry, a cabinet, or the light above the stove — Indian meal moths are the most likely culprit. Their larvae feed on a wide range of stored products: grains, cereals, flour, birdseed, pet food, nuts, dried fruit, chocolate, spices, and pasta. Even commercially sealed bags aren&apos;t fully protective — the small holes from manufacturing processes are large enough for freshly hatched larvae to penetrate.
+
+**Flour Beetles and Grain Weevils**
+
+*Flour beetles* (the confused flour beetle and red flour beetle are the two common species) are small, reddish-brown beetles about 1/8 inch long. They infest flour, cornmeal, cake mix, pancake mix, and other powdered grain products. Discovery typically comes when you open a bag of flour and notice movement or fine debris. Their presence causes flour to develop a grayish discoloration and an off odor over time.
+
+*Grain weevils* take a different approach — they bore into individual grain kernels to lay their eggs inside. The larvae develop entirely within the grain and emerge as adults. A bag of rice, whole wheat berries, or dried corn that appears intact may be heavily infested internally. When you pour the grain and notice dust, tiny holes in kernels, or clumping, weevil infestation is likely.
+
+**How Pantry Pests Get Into Nassau County Homes**
+
+The primary entry route for most Nassau County pantry pest infestations is direct: the product was already infested when you bought it. Dry goods can become infested at any point in the supply chain — at the farm, the processing facility, the warehouse, or the retail store. Nassau County&apos;s density of major grocery stores and warehouse clubs means a high volume of product cycling through distribution, and infestation risk at the source is real.
+
+Large bags of grain products, nuts, or birdseed purchased at warehouse clubs and then stored for months represent elevated risk if the product was already infested when purchased. Once in your pantry, the insects begin breeding in the ambient conditions of a Nassau County kitchen — and the population builds.
+
+Indian meal moth adults can also fly in from outside through open windows and doors in warm months when adults are active near dusk. If you store birdseed, pet food, or grain products in a garage or shed, these spaces are common infestation sources that spread populations inside.
+
+**Finding the Infested Source: The Step Most Homeowners Miss**
+
+Most Nassau County homeowners who struggle to eliminate pantry moths fail at this stage. Spraying or treating the pantry space without removing the infested source product produces no lasting result — the larvae continue feeding and breeding in the food you left behind.
+
+The process requires removing every dry good from the pantry and inspecting each one individually. Indian meal moth larval webbing is the tell: look for silk webbing, clumping of food material, or larvae visible when you examine bags and containers carefully. If you find webbing, that product is infested and must go.
+
+Check items homeowners frequently overlook: old spice jars (Indian meal moths are particularly drawn to paprika, cayenne, bay leaves, and other dried spices), forgotten bags of nuts at the back of a shelf, birdseed stored in adjacent garage space, long-stored pasta or lentils, and decorative dried flower arrangements. Any organic plant material stored for extended periods is a potential infestation source.
+
+**How to Eliminate Pantry Pests Completely**
+
+*Step 1:* Discard all infested products in sealed bags, placing them in the outdoor trash immediately. Don&apos;t leave infested items in the kitchen trash can — the larvae will continue developing there.
+
+*Step 2:* Remove everything from the pantry shelves. Wipe every shelf surface with a damp cloth, paying close attention to corners, the crevice along shelf edges, and the gap at the back of each shelf where webbing accumulates. Larvae and pupae hide in these areas even after the source product is removed.
+
+*Step 3:* Vacuum thoroughly inside the pantry cabinet — along shelf edges, in corners, and along the baseboard at the cabinet base where larvae pupate.
+
+*Step 4:* Place pheromone-based Indian meal moth sticky traps in the pantry. These traps attract and capture adult males, disrupting breeding and allowing you to monitor whether any population remains active after cleanup.
+
+*Step 5:* Store all returning dry goods in hard-sided airtight containers — glass jars or rigid plastic containers with secure lids. This protects new food purchases and allows you to spot new activity visually before it spreads. Cardboard and soft-sided bags offer no protection against reinfestation.
+
+*Step 6:* Rotate stock. The longer dry goods sit undisturbed in your pantry, the higher the risk of undetected infestation developing. First-in, first-out stock rotation is the simplest long-term prevention measure.
+
+**When to Call a Professional**
+
+Most Indian meal moth infestations resolve with thorough self-treatment if the source is found and removed. Call a professional if the infestation is severe and widespread across multiple pantry and cabinet areas, if you&apos;ve eliminated all visible sources but moths keep appearing (which can indicate infestation in a wall void or structural cavity), or if moths are appearing throughout rooms well beyond the kitchen.
+
+A professional inspection covers areas homeowners typically miss: cabinet wall void access points, the gap beneath cabinetry, and adjacent storage spaces like laundry rooms or attached garages. Liberty Pest Pros serves all of Nassau County, from Hempstead to East Meadow to Massapequa. Call (516) 763-4600 if pantry pests in your Nassau County home aren&apos;t responding to self-treatment.`,
+  },
+  {
+    slug: 'carpet-beetles-nassau-county-homes',
+    title: 'Carpet Beetles in Nassau County Homes: Identification, Damage, and How to Get Rid of Them',
+    date: '2026-03-19',
+    excerpt: 'Carpet beetles are one of the most overlooked fabric pests in Nassau County homes — often mistaken for bed bugs or confused with other small beetles. Learn to identify carpet beetles, understand the damage the larvae cause, and know how to eliminate them.',
+    image: 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    imageAlt: 'Oriental rug in a home interior',
+    content: `Carpet beetles are one of the most underdiagnosed fabric pests in Nassau County homes — and one of the most misidentified. Homeowners who find irregular holes in wool sweaters or rugs often blame moths. Homeowners who find small beetles in their bedroom sometimes fear bed bugs. Understanding what carpet beetles actually are, what they damage, and how to confirm their presence saves time, money, and unnecessary alarm.
+
+**What Are Carpet Beetles?**
+
+Carpet beetles are small beetles in the family Dermestidae. Three species account for most infestations in Nassau County homes: the varied carpet beetle (*Anthrenus verbasci*), the black carpet beetle (*Attagenus unicolor*), and the furniture carpet beetle (*Anthrenus flavipes*). Adult beetles range from 2–5mm in length and are patterned with black, white, orange, and yellow scales depending on species — relatively colorful for such small insects.
+
+Here&apos;s the critical point most Nassau County homeowners don&apos;t know: the adult carpet beetle is harmless and lives outdoors, feeding on pollen and nectar from flowers. Adults are commonly found on window sills in spring, trying to exit to the outdoors after having completed their indoor larval development. The larvae are the destructive stage. Carpet beetle larvae are bristle-covered, elongated, carrot-shaped, and brown to tan in color — distinctly different from the adult. It&apos;s the larvae that consume natural fiber fabrics, rugs, upholstery, and other organic materials in your home.
+
+**How to Tell Carpet Beetles from Bed Bugs and Clothes Moths**
+
+Misidentification is common with carpet beetles, and the wrong diagnosis leads to wasted effort.
+
+*Carpet beetles vs. bed bugs:* Adult carpet beetles are round, patterned with scales, and 2–5mm long. Bed bugs are flat, oval, uniformly reddish-brown, and approximately 5mm. Carpet beetle larvae are bristled and elongated — nothing like the smooth, flat bed bug. The most reliable distinguishing factor: if you&apos;re finding damage to fabric items (holes in clothing, rugs, or upholstery) rather than bites on skin, and if you&apos;re finding small patterned beetles on window sills near light sources, it&apos;s carpet beetles. Bed bugs leave evidence on skin. Carpet beetles leave evidence on fabric.
+
+*Carpet beetles vs. clothes moths:* Both damage natural fiber fabrics, but with detectable differences. Clothes moth larvae leave smooth-edged holes that tend to follow yarn lines. Carpet beetle larval damage is random and irregular — the holes appear anywhere across the fabric without following any pattern. Clothes moth larvae also spin silken webbing over fabric as they feed, which carpet beetle larvae do not do. If you see webbing with the holes, suspect moths. If the holes are irregular with no webbing and you find shed bristled larval skins, it&apos;s carpet beetles.
+
+**What Carpet Beetles Damage in Nassau County Homes**
+
+Carpet beetle larvae target natural protein fibers almost exclusively. Their digestive system processes keratin — the structural protein found in wool, cashmere, silk, mohair, fur, feathers, and hair. In Nassau County homes, the primary damage targets are:
+
+*Wool rugs and carpets:* Oriental rugs, Berber wool carpets, and natural fiber area rugs are the highest-value items at risk. Nassau County&apos;s older homes — colonials, ranches, and split-levels throughout Garden City, Valley Stream, Rockville Centre, and Syosset — frequently have wood floors with wool area rugs, a combination that creates both good aesthetics and carpet beetle habitat.
+
+*Stored woolens:* Winter sweaters, wool suits, cashmere, blankets, and stored clothing in attics or closets. Items stored for long periods without disturbance are particularly vulnerable — carpet beetle larvae prefer dark, undisturbed environments where they can feed without interruption.
+
+*Upholstered furniture:* Furniture stuffed or covered with natural fiber fill — cotton, wool, or down — can be damaged internally where larvae feed hidden from view.
+
+*Down comforters, pillows, feather items, and taxidermy:* All natural protein-based materials are potential targets. Museum-quality taxidermy and valuable natural history collections are particularly vulnerable to carpet beetle damage if unprotected.
+
+Synthetic fabrics (polyester, nylon, acrylic) are generally not targeted unless the synthetic is blended with natural fiber or the item is heavily soiled with organic material such as food residue or body oils that provide the larvae with additional nutrition.
+
+**How Carpet Beetles Enter Nassau County Homes**
+
+Unlike most household pests, carpet beetle adults actively fly and are drawn to light — open windows are a direct invitation in spring and summer.
+
+*Adult beetles flying in through open windows and doors:* This is the primary entry point. Adults emerge from outdoor overwintering sites in spring, seek out flowering plants to feed on, and enter homes through any available opening. Spring is the peak entry season in Nassau County.
+
+*Infested cut flowers or potted plants brought inside:* Adults feeding on flowers outdoors can be transported into your home with cut flowers from the garden or purchased bouquets.
+
+*Already-infested secondhand furniture, rugs, or clothing:* Thrift store purchases, estate sale items, and secondhand furniture are significant risk factors. A wool rug or upholstered chair that sat in storage for years can harbor larvae or eggs that then spread through your home once brought inside.
+
+*Bird nests, rodent nests, or insect nests in the attic, chimney, or wall void:* This is the most commonly overlooked source in Nassau County homes. Carpet beetles evolved to feed on the keratin-rich debris found in bird and mammal nests — feathers, shed fur, and dead insects. An active or abandoned bird nest in your attic, chimney, or a wall void can sustain a substantial carpet beetle population that slowly expands into the living areas of the home. If you&apos;re seeing carpet beetle activity throughout multiple rooms without an obvious fabric source, the source may be above you.
+
+**Finding Carpet Beetle Activity in Your Home**
+
+*Irregular holes in natural fiber woolens,* particularly in items stored for months between uses, is the primary damage indicator. The holes are random and don&apos;t follow yarn lines or any regular pattern.
+
+*Shed larval skins:* Carpet beetle larvae shed their bristled, brownish skins as they grow through multiple instars. Finding these shed skins — in drawer corners, under furniture, in closet corners, inside stored clothing bags, or along carpet edges near baseboards — is strong evidence of active infestation.
+
+*Live larvae:* Most active in dark, undisturbed spaces — inside stored winter clothes, under heavy furniture that hasn&apos;t been moved recently, along the edges of wool rugs near baseboards, and in the gap between the carpet edge and baseboard where larvae travel between food sources.
+
+*Adult beetles on window sills or near light fixtures in spring:* Adults clustering near windows trying to exit indicate that an indoor population completed its larval development in your home — a clear sign of established infestation.
+
+**How to Get Rid of Carpet Beetles**
+
+*Step 1: Identify and address the source.* Check all stored woolens, natural fiber rugs, upholstered furniture, and the attic or crawl space for bird or rodent nests. Items with visible larval damage should be dry cleaned (professional dry cleaning kills larvae and eggs), machine washed at 120°F or higher and hot-dried, frozen for 48 hours at 0°F in a sealed bag (which kills all life stages), or discarded if severely damaged.
+
+*Step 2: Vacuum thoroughly.* Vacuum under all furniture, along all baseboards, inside closets and wardrobes, and in any area where larvae, skins, or damage were found. The vacuum bag or canister contents should be sealed immediately and removed from the home — live larvae can escape from an unsealed vacuum.
+
+*Step 3: Launder or dry clean affected fabrics.* Items that can be safely laundered should go through the hottest appropriate wash and dry cycle. Items that can&apos;t be washed should be dry cleaned or frozen as described above.
+
+*Step 4: Inspect the attic and remove any bird or rodent nests.* If a nest source is found, remove it wearing gloves and a dust mask. Seal any openings that allowed birds or rodents access to the attic space. This step is critical — without removing the nest source, the carpet beetle population will continue to be sustained from above regardless of how thoroughly you treat the living areas.
+
+*Step 5: Seal entry points.* Install or repair window screens. Ensure attic vents and roof vents have intact fine mesh screening to prevent adult beetle entry in future seasons.
+
+**Professional Treatment for Carpet Beetles in Nassau County**
+
+A pest control professional applies targeted residual treatments along baseboards, inside closets, under furniture, and in the transition zones where larvae travel. Professional treatment is most valuable when the infestation is widespread across multiple rooms, when a nest source in an inaccessible location is suspected but cannot be directly removed, or when self-treatment efforts haven&apos;t fully resolved activity after multiple cycles.
+
+**Preventing Future Carpet Beetle Problems**
+
+Store natural fiber woolens and textiles in sealed plastic bins or cedar-lined chests between seasons. Cedar repels carpet beetle larvae to some extent but does not kill them — cedar alone is not adequate protection for valuable items stored for extended periods.
+
+Inspect secondhand furniture, rugs, and clothing carefully before bringing them into your home. Even a brief inspection of seams, folds, and backing material can reveal larvae or damage.
+
+Vacuum under rugs and along carpet edges regularly during spring and summer when adults are active and larvae are developing. Regular disturbance of these areas interrupts the dark, undisturbed conditions larvae need.
+
+Check window sills in spring for adult carpet beetles — early detection of a small indoor population is far more manageable than addressing a widespread infestation discovered months later when damage is already done.
+
+For carpet beetle problems across Nassau County — from stored woolens in Syosset to wool area rugs in Garden City — call Liberty Pest Pros at (516) 763-4600.`,
+  },
 ];
