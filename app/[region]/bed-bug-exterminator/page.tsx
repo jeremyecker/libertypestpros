@@ -224,7 +224,7 @@ export default function BedBugExterminatorPage() {
           {nassauTowns.map(town => (
             <Link
               key={town.slug}
-              href={`/nassau/${town.slug}/`}
+              href={`/nassau/bed-bug-exterminator/${town.slug}/`}
               className="text-brand-primary hover:underline text-sm py-1"
             >
               {town.name}
