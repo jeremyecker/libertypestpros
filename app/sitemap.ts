@@ -117,6 +117,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'wildlife-removal',
     'termite-control',
     'cockroach-exterminator',
+    'ant-exterminator',
+    'cricket-exterminator',
+    'bee-removal',
   ];
   entries.push(
     ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
