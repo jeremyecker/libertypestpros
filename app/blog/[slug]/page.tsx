@@ -18,14 +18,33 @@ export async function generateStaticParams() {
   }));
 }
 
+// Keep meta title ≤ 60 chars including " | Liberty Pest Pros" (19 chars).
+// Split at natural break points (colon, dash, comma) before falling back to
+// word-boundary truncation so every post gets a clean, keyword-first title.
+function shortTitle(raw: string): string {
+  const MAX = 41; // 60 - 19
+  if (raw.length <= MAX) return raw;
+  const firstClause = raw.split(/[:|—–,]/)[0].trim();
+  if (firstClause.length <= MAX && firstClause.length >= 15) return firstClause;
+  return raw.substring(0, MAX).replace(/\s\S*$/, '');
+}
+
+// Keep meta description ≤ 155 chars, trim at sentence/word boundary.
+function shortDesc(raw: string): string {
+  if (raw.length <= 155) return raw;
+  const trimmed = raw.substring(0, 152);
+  const lastSpace = trimmed.lastIndexOf(' ');
+  return (lastSpace > 100 ? trimmed.substring(0, lastSpace) : trimmed) + '…';
+}
+
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
   if (!post) return {};
 
   return generatePageMetadata({
-    title: post.title,
-    description: post.excerpt,
+    title: shortTitle(post.title),
+    description: shortDesc(post.excerpt),
     path: `/blog/${slug}`,
   });
 }

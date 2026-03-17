@@ -5,10 +5,10 @@ import { REGIONS } from '@/hub.config';
 
 export const metadata: Metadata = {
   title: 'Rodent Control Nassau County, NY',
-  description: 'Professional rodent control in Nassau County, NY. Mice and rat elimination with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+  description: 'Rodent control Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
     title: 'Rodent Control Nassau County, NY | Liberty Pest Pros',
-    description: 'Professional rodent control in Nassau County, NY. Mice and rat elimination with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+    description: 'Rodent control Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/rodent-control',
     type: 'website',
     locale: 'en_US',
@@ -31,7 +31,20 @@ const schemaData = {
       },
       "description": "Professional rodent control in Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982.",
       "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ]
     },
     {
       "@type": "FAQPage",

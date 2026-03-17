@@ -28,7 +28,20 @@ const schemaData = {
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
       "priceRange": "$",
-      "openingHours": "Mo-Sa 07:00-19:00",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "name": "Free Pest Inspection",

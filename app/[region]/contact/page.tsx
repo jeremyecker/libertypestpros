@@ -10,11 +10,11 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   return {
     title: `Contact Us — ${region.name} Pest Control`,
-    description: `Get a free pest control estimate in ${region.name}. Call or fill out our form — fast response, no pressure.`,
+    description: `Get a free pest control estimate in ${region.name}. Call ${PHONE} or fill out our form — fast response, no pressure, same-day service available.`,
   
     openGraph: {
       title: `Contact Us — ${region.name} Pest Control`,
-      description: `Get a free pest control estimate in ${region.name}. Call or fill out our form — fast response, no pressure.`,
+      description: `Get a free pest control estimate in ${region.name}. Call ${PHONE} or fill out our form — fast response, no pressure, same-day service available.`,
       url: `${SITE_URL}/${regionSlug}/contact`,
       type: 'website',
       locale: 'en_US',

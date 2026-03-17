@@ -4,11 +4,11 @@ import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: `Get a free pest control estimate from ${SITE_NAME}. Call or fill out our form.`,
+  description: `Get a free pest control estimate from ${SITE_NAME}. Call ${PHONE} or fill out our form for fast same-day service in Nassau County.`,
 
   openGraph: {
     title: 'Contact Us',
-    description: `Get a free pest control estimate from ${SITE_NAME}. Call or fill out our form.`,
+    description: `Get a free pest control estimate from ${SITE_NAME}. Call ${PHONE} or fill out our form for fast same-day service in Nassau County.`,
     url: `${SITE_URL}/contact`,
     type: 'website',
     locale: 'en_US',

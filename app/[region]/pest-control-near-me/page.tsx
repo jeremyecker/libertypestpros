@@ -1,17 +1,16 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { BRAND } from '@/hub.config';
-import CTABanner from '@/components/sections/CTABanner';
 import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: 'Pest Control Near Me in Nassau County, NY',
-  description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, licensed & insured.',
+  title: { absolute: 'Pest Control Near Me Nassau County | Liberty Pest Pros' },
+  description: 'Nassau County pest control near me — same-day service, licensed & insured. Liberty Pest Pros, family-owned since 1982. Call (516) 763-4600.',
 
   openGraph: {
-    title: 'Pest Control Near Me in Nassau County, NY',
-    description: 'Looking for pest control near me in Nassau County? Liberty Pest Pros has served Long Island since 1982. Same-day service, licensed & insured.',
-    url: `${SITE_URL}/nassau/pest-control-near-me`,
+    title: 'Pest Control Near Me Nassau County | Liberty Pest Pros',
+    description: 'Nassau County pest control near me — same-day service, licensed & insured. Liberty Pest Pros, family-owned since 1982. Call (516) 763-4600.',
+    url: `${SITE_URL}/pest-control-near-me`,
     type: 'website',
     locale: 'en_US',
     siteName: 'Liberty Pest Pros',
@@ -27,55 +26,62 @@ const schemaData = {
       "name": "Liberty Pest Pros",
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Nassau County, New York"
-      },
-      "description": "Professional pest control in Nassau County, Long Island since 1982. Family-owned, licensed & insured, same-day service available.",
+      "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
       "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "125",
+        "highPrice": "350"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I find a good exterminator near me in Nassau County?",
+          "name": "How fast can you arrive at my Nassau County home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for a licensed, insured company with a local track record. Liberty Pest Pros has served Nassau County since 1982 — over 40 years of experience with Long Island homes, year-round pest pressure, and the coastal conditions that attract pests. We&apos;re local, family-owned, and always answer the phone."
+            "text": "We offer same-day service throughout Nassau County. Call before noon on most days and we can typically have a technician at your door that afternoon. We dispatch from right here on Long Island."
           }
         },
         {
           "@type": "Question",
-          "name": "How fast can you get to my Nassau County home?",
+          "name": "Do you serve my town in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer same-day service throughout Nassau County. Call us before noon on most days and we can typically have a technician at your door the same day. We serve all Nassau towns from Hempstead to Oyster Bay."
+            "text": "Yes — we serve all 70+ communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you."
           }
         },
         {
           "@type": "Question",
-          "name": "What pests do you treat in Nassau County?",
+          "name": "Are your pest control treatments family-friendly?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We treat all common Nassau County pests: ants, termites, cockroaches, bed bugs, rodents (mice and rats), mosquitoes, ticks, wasps, spiders, and more. Nassau&apos;s coastal climate and dense housing stock create year-round pest pressure — we know how to handle it."
+            "text": "Absolutely. We use targeted, family-friendly products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place."
           }
         },
         {
           "@type": "Question",
-          "name": "Are your treatments family-friendly?",
+          "name": "How much does pest control cost in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We use targeted, family-friendly products that are effective against pests and clear to re-enter quickly. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer a service guarantee?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. We stand behind every treatment with a satisfaction guarantee. If pests return between scheduled services, we come back at no extra charge — no hassle, no excuses."
+            "text": "Most standard pest control services start at $125 and range up to $350 depending on the pest, property size, and treatment type. We provide a free, no-obligation quote before any work begins."
           }
         }
       ]
@@ -83,179 +89,110 @@ const schemaData = {
   ]
 };
 
-const nassauTowns = [
-  { name: 'Hempstead', slug: 'hempstead' },
-  { name: 'Garden City', slug: 'garden-city' },
-  { name: 'Mineola', slug: 'mineola' },
-  { name: 'Great Neck', slug: 'great-neck' },
-  { name: 'Hicksville', slug: 'hicksville' },
-  { name: 'Massapequa', slug: 'massapequa' },
-  { name: 'Valley Stream', slug: 'valley-stream' },
-  { name: 'Long Beach', slug: 'long-beach' },
-  { name: 'Rockville Centre', slug: 'rockville-centre' },
-  { name: 'Lynbrook', slug: 'lynbrook' },
-  { name: 'Freeport', slug: 'freeport' },
-  { name: 'Baldwin', slug: 'baldwin' },
-  { name: 'Oceanside', slug: 'oceanside' },
-  { name: 'Merrick', slug: 'merrick' },
-  { name: 'Syosset', slug: 'syosset' },
-  { name: 'Plainview', slug: 'plainview' },
-  { name: 'Westbury', slug: 'westbury' },
-  { name: 'Farmingdale', slug: 'farmingdale' },
-  { name: 'Manhasset', slug: 'manhasset' },
-  { name: 'Oyster Bay', slug: 'oyster-bay' },
-];
-
-const services = [
-  { name: 'Termite Control', icon: '🪲', desc: 'Inspection, treatment & prevention for Nassau County homes' },
-  { name: 'Rodent Control', icon: '🐭', desc: 'Mice & rat removal, exclusion work to seal entry points' },
-  { name: 'Ant & Cockroach', icon: '🐜', desc: 'Interior & exterior treatments that actually work' },
-  { name: 'Bed Bug Treatment', icon: '🛏️', desc: 'Heat & chemical treatments with guaranteed results' },
-  { name: 'Mosquito & Tick', icon: '🦟', desc: 'Yard programs protecting your Nassau County property' },
-  { name: 'Wasp & Stinging Insects', icon: '🐝', desc: 'Nest removal & prevention — same-day available' },
-];
-
-const faqs = [
-  {
-    q: "How do I find a good exterminator near me in Nassau County?",
-    a: "Look for a licensed, insured company with a local track record. Liberty Pest Pros has served Nassau County since 1982 — over 40 years of experience with Long Island homes, year-round pest pressure, and the coastal conditions that attract pests. We&apos;re local, family-owned, and always answer the phone."
-  },
-  {
-    q: "How fast can you get to my Nassau County home?",
-    a: "We offer same-day service throughout Nassau County. Call us before noon on most days and we can typically have a technician at your door the same day. We serve all Nassau towns from Hempstead to Oyster Bay."
-  },
-  {
-    q: "What pests do you treat in Nassau County?",
-    a: "We treat all common Nassau County pests: ants, termites, cockroaches, bed bugs, rodents (mice and rats), mosquitoes, ticks, wasps, spiders, and more. Nassau&apos;s coastal climate and dense housing stock create year-round pest pressure — we know how to handle it."
-  },
-  {
-    q: "Are your treatments family-friendly?",
-    a: "Yes. We use targeted, family-friendly products that are effective against pests and clear to re-enter quickly. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place."
-  },
-  {
-    q: "Do you offer a service guarantee?",
-    a: "Absolutely. We stand behind every treatment with a satisfaction guarantee. If pests return between scheduled services, we come back at no extra charge — no hassle, no excuses."
-  }
-];
-
-export default function PestControlNearMePage() {
+export default function PestControlNearMeTopLevel() {
   return (
-    <>
+    <main className="min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-8">
-          <Link href="/nassau/" className="hover:text-brand-primary">Nassau County</Link>
-          {' → '}
-          <span className="text-gray-900">Pest Control Near Me</span>
-        </nav>
 
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Pest Control Near Me — Nassau County, Long Island
-        </h1>
+      {/* Hero */}
+      <section className="bg-[#1B3D6F] text-white py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">Pest Control Near Me — Nassau County, Long Island</h1>
+          <p className="text-xl mb-8">Family-owned since 1982 — serving all 70+ Nassau County communities with same-day pest control</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
+        </div>
+      </section>
 
-        {/* Nassau-specific intro */}
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-blue-900 mb-2">Your Local Pest Control Experts Since 1982</h2>
-          <p className="text-blue-800 mb-4">
-            When Nassau County homeowners search &ldquo;pest control near me,&rdquo; they want someone local, fast, and proven. Liberty Pest Pros has been that company for over 40 years. We&apos;re not a national franchise — we&apos;re a family-owned business rooted right here on Long Island, with technicians who live in the same communities we serve. From the beachfront homes of Long Beach and Lido Beach to the Cape Cods of Levittown and the colonials of Garden City, Nassau County&apos;s diverse housing stock presents unique pest challenges. Salt air accelerates wood damage that termites exploit. Dense neighborhoods create rodent corridors. Older homes in Hempstead and Freeport have legacy pest pressure that only an experienced local company truly understands. When you call us, you&apos;re calling neighbors who know Nassau County inside and out.
+      {/* Trust Bar */}
+      <section className="bg-gray-100 py-6 px-4">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-8 text-center">
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Family-owned since 1982</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Licensed &amp; Insured</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Nassau County Experts</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Same-Day Available</div>
+        </div>
+      </section>
+
+      {/* Body Content */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto prose prose-lg">
+          <h2>Nassau County&apos;s Unique Pest Profile</h2>
+          <p>
+            Nassau County presents a pest environment unlike anywhere else on the East Coast. The South Shore coastline — from Long Beach and Lido Beach to Oceanside and Point Lookout — creates humidity conditions that accelerate wood decay, giving subterranean termites the ideal environment to thrive. Salt air, aging infrastructure, and crawl spaces in older homes from the 1940s and 50s build-out of Levittown, Freeport, and Hempstead all contribute to persistent termite pressure that Nassau homeowners deal with year-round.
           </p>
-          <div className="flex flex-wrap gap-4 text-sm text-blue-700">
-            <span>✅ Same-day service available</span>
-            <span>✅ Nassau County licensed &amp; insured</span>
-            <span>✅ Family-owned since 1982</span>
-            <span>✅ Satisfaction guaranteed</span>
+          <p>
+            Rodent problems in Nassau County are equally complex. As older homes age, gaps in foundations, deteriorating soffits, and utility penetrations create entry points that mice exploit — especially as temperatures drop each fall. Nassau&apos;s dense suburban neighborhoods mean mice and rats travel easily between properties, making individual treatment ineffective without a broader exclusion strategy.
+          </p>
+          <p>
+            In the suburban yards of Great Neck, Garden City, and Syosset, carpenter ants and pavement ants are among the most common complaints. Nassau&apos;s mature tree canopy provides nesting habitat for carpenter ants, while the well-irrigated lawns and garden beds that Nassau homeowners prize attract multiple ant species throughout the spring and summer.
+          </p>
+          <p>
+            When you search &ldquo;pest control near me&rdquo; in Nassau County, you need a company that understands these local dynamics — not a national franchise reading from a script. Liberty Pest Pros has been Nassau County&apos;s family-owned pest control expert since 1982. Our technicians live and work in Nassau County. They know the pest patterns in your specific neighborhood, the construction styles that create vulnerabilities in your home, and the seasonal timing of Nassau County pest activity.
+          </p>
+          <p>
+            We offer a full range of pest control services with same-day availability, licensed and insured technicians, and a satisfaction guarantee. If pests come back between treatments, so do we — at no extra charge.
+          </p>
+        </div>
+      </section>
+
+      {/* Service Areas Card */}
+      <section className="bg-gray-50 py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-6 text-center">Serving All of Nassau County</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <Link href="/nassau/pest-control-near-me" className="bg-white p-4 rounded shadow text-center hover:shadow-md">
+              <div className="font-semibold">Nassau County</div>
+              <div className="text-sm text-gray-600">Pest Control Near Me</div>
+            </Link>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Garden City</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Hempstead</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Oceanside</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Long Beach</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Great Neck</div>
           </div>
         </div>
+      </section>
 
-        {/* Services */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Pest Control Services We Provide Near You</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
-          {services.map(s => (
-            <div key={s.name} className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm">
-              <div className="text-3xl mb-2">{s.icon}</div>
-              <div className="font-bold text-gray-900 text-sm">{s.name}</div>
-              <div className="text-xs text-gray-500 mt-1">{s.desc}</div>
+      {/* FAQ */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-8">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How fast can you arrive at my Nassau County home?</h3>
+              <p className="text-gray-600">We offer same-day service throughout Nassau County. Call before noon on most days and we can typically have a technician at your door that afternoon. We dispatch from right here on Long Island.</p>
             </div>
-          ))}
-        </div>
-
-        {/* Why Liberty */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Nassau County Homeowners Choose Liberty Pest Pros</h2>
-        <div className="prose prose-gray max-w-none mb-10">
-          <p>
-            With more than 40 years serving Nassau County, Liberty Pest Pros has built a reputation that national chains simply can&apos;t match. We&apos;re family-owned, which means every job matters to us personally. Our technicians are Long Island locals — they know the specific pest pressures in your neighborhood, the seasonal patterns that drive pest activity on the South Shore and the North Shore, and the building styles that make certain homes more vulnerable.
-          </p>
-          <p>
-            We offer same-day service because we know pest problems don&apos;t wait for convenient scheduling. Found mice in your kitchen on a Tuesday morning? Call before noon and we can have a technician there by afternoon. Discovered bed bugs the night before guests arrive? We handle those emergencies too.
-          </p>
-          <p>
-            Our treatments are family-friendly and effective. We use EPA-approved products applied with precision, so you get maximum pest elimination with minimum disruption to your household. Most treatments allow you to re-enter your home within a few hours — no week-long displacement, no chemical odors that linger for days.
-          </p>
-          <p>
-            We stand behind every job with a satisfaction guarantee. If pests return between scheduled treatments, we come back at no extra charge. That&apos;s the Liberty difference — over four decades of showing up, solving problems, and doing right by Nassau County families.
-          </p>
-        </div>
-
-        {/* Dual CTA */}
-        <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Ready for Pest-Free Living in Nassau County?</h2>
-          <p className="text-blue-100 mb-4">Same-day appointments available. Family-owned. Nassau County&apos;s trusted choice since 1982.</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              href="/nassau/contact/"
-              className="bg-white text-brand-primary font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-100 transition-colors"
-            >
-              Get a Free Quote
-            </Link>
-            <a
-              href="tel:+15167634600"
-              className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
-            >
-              📞 (516) 763-4600
-            </a>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">Do you serve my town in Nassau County?</h3>
+              <p className="text-gray-600">Yes — we serve all 70+ communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">Are your pest control treatments family-friendly?</h3>
+              <p className="text-gray-600">Absolutely. We use targeted, family-friendly products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How much does pest control cost in Nassau County?</h3>
+              <p className="text-gray-600">Most standard pest control services start at $125 and range up to $350 depending on the pest, property size, and treatment type. We provide a free, no-obligation quote before any work begins.</p>
+            </div>
           </div>
         </div>
+      </section>
 
-        {/* Areas Served */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Nassau County Towns We Serve</h2>
-        <p className="text-gray-600 mb-4">We provide pest control throughout all of Nassau County. Find your town below:</p>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-10">
-          {nassauTowns.map(town => (
-            <Link
-              key={town.slug}
-              href={`/nassau/${town.slug}/`}
-              className="text-brand-primary hover:underline text-sm py-1"
-            >
-              {town.name}
-            </Link>
-          ))}
+      {/* Final CTA */}
+      <section className="bg-[#1B3D6F] text-white py-12 px-4 text-center">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-xl mb-6">Nassau County&apos;s trusted pest control experts since 1982.</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
         </div>
-
-        {/* FAQ */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions — Pest Control Near Me</h2>
-        <div className="space-y-4 mb-10">
-          {faqs.map((faq, i) => (
-            <div key={i} className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
-              <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
-            </div>
-          ))}
-        </div>
-
-        {/* Internal links */}
-        <div className="text-sm text-gray-500 flex flex-wrap gap-3">
-          <Link href="/nassau/" className="hover:underline text-brand-primary">← Nassau County Home</Link>
-          <Link href="/nassau/services/" className="hover:underline text-brand-primary">All Services</Link>
-          <Link href="/nassau/exterminator-near-me/" className="hover:underline text-brand-primary">Exterminator Near Me</Link>
-          <Link href="/nassau/emergency-pest-control/" className="hover:underline text-brand-primary">Emergency Pest Control</Link>
-          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Pest Inspection</Link>
-        </div>
-      </div>
-      <CTABanner />
-    </>
+      </section>
+    </main>
   );
 }

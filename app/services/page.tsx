@@ -22,11 +22,11 @@ const genericDescriptions: Record<string, string> = {
 
 export const metadata: Metadata = {
   title: 'Pest Control Services',
-  description: `Full pest control services for ${serviceArea}. Family-safe treatments, same-day service available.`,
+  description: `Full pest control services for ${serviceArea} homes and businesses. Family-safe treatments, free estimates, and same-day service available. Call us.`,
 
   openGraph: {
     title: 'Pest Control Services',
-    description: `Full pest control services for ${serviceArea}. Family-safe treatments, same-day service available.`,
+    description: `Full pest control services for ${serviceArea} homes and businesses. Family-safe treatments, free estimates, and same-day service available. Call us.`,
     url: `${SITE_URL}/services`,
     type: 'website',
     locale: 'en_US',

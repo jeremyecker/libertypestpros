@@ -1,19 +1,20 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
-import CTABanner from '@/components/sections/CTABanner';
-import { REGIONS } from '@/hub.config';
+import { BRAND } from '@/hub.config';
+import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: 'Bed Bug Exterminator Nassau County, NY',
-  description: 'Bed bug exterminator in Nassau County, NY. Heat & chemical treatments with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+  title: 'Bed Bug Exterminator Nassau County',
+  description: 'Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+
   openGraph: {
-    title: 'Bed Bug Exterminator Nassau County, NY | Liberty Pest Pros',
-    description: 'Bed bug exterminator in Nassau County, NY. Heat & chemical treatments with guaranteed results. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
-    url: 'https://libertypestpros.com/nassau/bed-bug-exterminator',
+    title: 'Bed Bug Exterminator Nassau County',
+    description: 'Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+    url: `${SITE_URL}/bed-bug-exterminator`,
     type: 'website',
     locale: 'en_US',
     siteName: 'Liberty Pest Pros',
-    images: ['/og-image.png'],
+    images: ['/images/og-default.jpg'],
   },
 };
 
@@ -25,55 +26,62 @@ const schemaData = {
       "name": "Liberty Pest Pros",
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Nassau County, New York"
+      "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
       },
-      "description": "Professional bed bug extermination in Nassau County, NY. Heat and chemical treatments. Family-owned since 1982.",
-      "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00"
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "300",
+        "highPrice": "800"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I know if I have bed bugs?",
+          "name": "How do I know if I have bed bugs in my Nassau County home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most common signs of bed bugs include small reddish-brown stains on your mattress or sheets (fecal spots), tiny blood smears from crushed bugs, shed skins near seams and crevices, a musty sweet odor in heavily infested rooms, and itchy welts on your skin that appear in lines or clusters. You may also see the bugs themselves — they&apos;re roughly the size of an apple seed, flat, and reddish-brown. If you suspect bed bugs, call us for a professional inspection before the infestation spreads further."
+            "text": "Common signs include small reddish-brown bugs in mattress seams and box springs, tiny dark spots (excrement) on sheets or mattress edges, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters on your skin. If you suspect bed bugs, call us for a free inspection before the problem spreads."
           }
         },
         {
           "@type": "Question",
-          "name": "What&apos;s the best bed bug treatment?",
+          "name": "How many treatments does bed bug elimination take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The most effective approach depends on the severity of the infestation. Heat treatment raises the temperature of infested rooms to levels lethal to bed bugs at all life stages — eggs, nymphs, and adults. Chemical treatment uses targeted insecticides in crevices, seams, and harborage areas. For many infestations, a combination protocol achieves the best results. We assess each situation individually and recommend the approach most likely to eliminate the infestation completely."
+            "text": "Chemical treatments typically require 2-3 visits spaced 2 weeks apart to break the egg cycle. Heat treatment can eliminate bed bugs in a single treatment by raising room temperatures to levels that kill all life stages. We recommend the right approach based on your situation during the inspection."
           }
         },
         {
           "@type": "Question",
-          "name": "How long does bed bug treatment take?",
+          "name": "Do you do heat treatment for bed bugs in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Chemical treatment typically takes 2-4 hours for the application, with a re-entry period of a few hours after treatment. Heat treatment takes most of a day — the heating process itself runs 6-8 hours to ensure the entire space reaches lethal temperatures. Follow-up inspections are scheduled 2-4 weeks later to confirm complete elimination."
+            "text": "Yes. We offer both heat treatment and chemical treatment for bed bugs. Heat treatment is highly effective and eliminates bed bugs in a single visit without chemicals — ideal for families concerned about products in sleeping areas. We will walk you through both options and help you choose the best fit."
           }
         },
         {
           "@type": "Question",
-          "name": "How did I get bed bugs in my Nassau County home?",
+          "name": "How long before I can return home after bed bug treatment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bed bugs are hitchhikers — they don&apos;t come in from the yard. Common sources include hotel stays, travel (especially via JFK and LaGuardia airports, heavily used by Nassau County residents), used furniture purchases, guests who unknowingly carry them, and for apartment dwellers, migration from neighboring units. Getting bed bugs doesn&apos;t reflect on your housekeeping — anyone can bring them home."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need to throw away my mattress or furniture?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In most cases, no. Professional treatment eliminates bed bugs from mattresses, furniture, and other items. Mattress encasements can be used after treatment to prevent re-infestation. Discarding furniture is rarely necessary and can actually spread bed bugs to new locations if items aren&apos;t properly wrapped. Our technicians will advise you on what, if anything, needs to be discarded."
+            "text": "For chemical treatments, you can typically return 4-6 hours after treatment once the home is ventilated. For heat treatment, re-entry is usually the same day once temperatures return to normal — typically within a few hours of treatment completion."
           }
         }
       ]
@@ -81,178 +89,119 @@ const schemaData = {
   ]
 };
 
-const nassauRegion = REGIONS.find((r: { slug: string }) => r.slug === 'nassau')!;
-const nassauTowns = nassauRegion.towns.map((t: string) => ({
-  name: t,
-  slug: t.toLowerCase().replace(/\s+/g, '-'),
-}));
-
-const services = [
-  { name: 'Bed Bug Inspection', icon: '🔍', desc: 'Thorough detection of all life stages' },
-  { name: 'Heat Treatment', icon: '🌡️', desc: '100% effective at all life stages' },
-  { name: 'Chemical Treatment', icon: '💊', desc: 'Targeted insecticide application' },
-  { name: 'Combination Protocol', icon: '🛏️', desc: 'Heat + chemical for severe infestations' },
-  { name: 'Follow-Up Inspection', icon: '✅', desc: 'Confirmation of complete elimination' },
-  { name: 'Prevention Consultation', icon: '🛡️', desc: 'Prevent future infestations' },
-];
-
-const faqs = [
-  {
-    q: "How do I know if I have bed bugs?",
-    a: "The most common signs of bed bugs include small reddish-brown stains on your mattress or sheets (fecal spots), tiny blood smears from crushed bugs, shed skins near seams and crevices, a musty sweet odor in heavily infested rooms, and itchy welts on your skin that appear in lines or clusters. You may also see the bugs themselves — they&apos;re roughly the size of an apple seed, flat, and reddish-brown. If you suspect bed bugs, call us for a professional inspection before the infestation spreads further."
-  },
-  {
-    q: "What&apos;s the best bed bug treatment?",
-    a: "The most effective approach depends on the severity of the infestation. Heat treatment raises the temperature of infested rooms to levels lethal to bed bugs at all life stages — eggs, nymphs, and adults. Chemical treatment uses targeted insecticides in crevices, seams, and harborage areas. For many infestations, a combination protocol achieves the best results. We assess each situation individually and recommend the approach most likely to eliminate the infestation completely."
-  },
-  {
-    q: "How long does bed bug treatment take?",
-    a: "Chemical treatment typically takes 2-4 hours for the application, with a re-entry period of a few hours after treatment. Heat treatment takes most of a day — the heating process itself runs 6-8 hours to ensure the entire space reaches lethal temperatures. Follow-up inspections are scheduled 2-4 weeks later to confirm complete elimination."
-  },
-  {
-    q: "How did I get bed bugs in my Nassau County home?",
-    a: "Bed bugs are hitchhikers — they don&apos;t come in from the yard. Common sources include hotel stays, travel (especially via JFK and LaGuardia airports, heavily used by Nassau County residents), used furniture purchases, guests who unknowingly carry them, and for apartment dwellers, migration from neighboring units. Getting bed bugs doesn&apos;t reflect on your housekeeping — anyone can bring them home."
-  },
-  {
-    q: "Do I need to throw away my mattress or furniture?",
-    a: "In most cases, no. Professional treatment eliminates bed bugs from mattresses, furniture, and other items. Mattress encasements can be used after treatment to prevent re-infestation. Discarding furniture is rarely necessary and can actually spread bed bugs to new locations if items aren&apos;t properly wrapped. Our technicians will advise you on what, if anything, needs to be discarded."
-  }
-];
-
-export default function BedBugExterminatorPage() {
+export default function BedBugExterminatorTopLevel() {
   return (
-    <>
+    <main className="min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-8">
-          <Link href="/nassau/" className="hover:text-brand-primary">Nassau County</Link>
-          {' → '}
-          <span className="text-gray-900">Bed Bug Exterminator</span>
-        </nav>
 
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Bed Bug Exterminator in Nassau County, NY
-        </h1>
+      {/* Hero */}
+      <section className="bg-[#1B3D6F] text-white py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Proven Elimination</h1>
+          <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results since 1982</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
+        </div>
+      </section>
 
-        {/* Nassau-specific intro */}
-        <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-blue-900 mb-2">Nassau County&apos;s Bed Bug Specialists Since 1982</h2>
-          <p className="text-blue-800 mb-4">
-            Bed bugs are one of the most stressful pest problems Nassau County homeowners face — and one of the most common. Nassau County&apos;s proximity to JFK and LaGuardia airports, its high density of travel, and its large apartment stock in communities like Hempstead, Long Beach, and Valley Stream create consistent bed bug pressure year-round. Liberty Pest Pros has been eliminating bed bug infestations from Nassau County homes, apartments, and hotels since before most of our competitors were in business. We know exactly what works: thorough inspection to map the infestation, targeted heat and/or chemical treatment to eliminate every life stage, and follow-up verification to confirm complete eradication. We don&apos;t guess. We don&apos;t use one-size-fits-all protocols. Every bed bug job is assessed individually to deliver the fastest, most complete elimination possible.
+      {/* Trust Bar */}
+      <section className="bg-gray-100 py-6 px-4">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-8 text-center">
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Family-owned since 1982</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Licensed &amp; Insured</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Nassau County Experts</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Same-Day Available</div>
+        </div>
+      </section>
+
+      {/* Body Content */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto prose prose-lg">
+          <h2>Nassau County&apos;s Bed Bug Problem</h2>
+          <p>
+            Nassau County has seen a significant increase in bed bug reports over the past decade — and it&apos;s not surprising given the county&apos;s geography and demographics. The dense communities of Hempstead, Freeport, and Long Beach, the apartment complexes along major corridors, and the constant travel through JFK and LaGuardia airports create ideal conditions for bed bug spread. Bed bugs travel in luggage, on clothing, and in used furniture — and once they get into a home, they spread quickly between units in multifamily buildings.
           </p>
-          <div className="flex flex-wrap gap-4 text-sm text-blue-700">
-            <span>✅ Heat &amp; chemical treatment available</span>
-            <span>✅ All life stages eliminated</span>
-            <span>✅ Nassau County specialists</span>
-            <span>✅ Satisfaction guaranteed</span>
+          <p>
+            Even Nassau County&apos;s upscale communities are not immune. Bed bugs have been found in luxury hotels, exclusive neighborhoods, and well-kept single-family homes throughout the county. They are equal-opportunity pests that care nothing about cleanliness — they follow the warmth of human bodies.
+          </p>
+          <h2>Liberty&apos;s Bed Bug Treatment Approach</h2>
+          <p>
+            Liberty Pest Pros offers two primary treatment approaches for Nassau County bed bug infestations:
+          </p>
+          <p>
+            <strong>Heat Treatment:</strong> We use professional-grade heating equipment to raise the temperature in infested areas to levels that kill all bed bug life stages — including eggs, which chemical treatments can struggle to penetrate. Heat treatment typically eliminates the infestation in a single visit and allows you to return home the same day once temperatures normalize.
+          </p>
+          <p>
+            <strong>Chemical Treatment:</strong> Our licensed technicians apply targeted chemical treatments to all harborage areas — mattress seams, box spring frames, bed frames, baseboards, and furniture joints. Multiple treatments are scheduled 2 weeks apart to break the egg cycle and ensure complete elimination.
+          </p>
+          <h2>Signs of Bed Bugs — Know What to Look For</h2>
+          <p>
+            Before calling an exterminator, check for these indicators: small reddish-brown insects (about the size of an apple seed) in mattress seams and tufts; tiny dark spots on sheets, mattresses, or walls (bed bug excrement); shed exoskeletons near sleeping areas; and small red bites in lines or clusters on skin, often noticed in the morning. If you see any of these signs, call Liberty Pest Pros immediately. Early treatment dramatically reduces the cost and complexity of elimination.
+          </p>
+          <h2>The Inspection Process</h2>
+          <p>
+            Every bed bug engagement begins with a thorough inspection. Our technician will examine all sleeping areas, furniture, baseboards, and nearby clutter to map the extent of the infestation. We&apos;ll provide you with an honest assessment of treatment options, expected timelines, and what to expect during and after treatment — all before you commit to anything.
+          </p>
+        </div>
+      </section>
+
+      {/* Service Areas Card */}
+      <section className="bg-gray-50 py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-6 text-center">Serving All of Nassau County</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <Link href="/nassau/pest-control-near-me" className="bg-white p-4 rounded shadow text-center hover:shadow-md">
+              <div className="font-semibold">Nassau County</div>
+              <div className="text-sm text-gray-600">Pest Control Near Me</div>
+            </Link>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Garden City</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Hempstead</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Oceanside</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Long Beach</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Great Neck</div>
           </div>
         </div>
+      </section>
 
-        {/* Signs you have bed bugs */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Signs You Have Bed Bugs in Your Nassau County Home</h2>
-        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-5 mb-8">
-          <ul className="space-y-2 text-gray-800">
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Itchy welts on skin in lines or clusters, especially on arms, legs, and torso</span></li>
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Small dark stains on mattress seams, sheets, or pillow cases (fecal spots)</span></li>
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Tiny blood smears on bedding from crushed bugs</span></li>
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Shed exoskeletons (pale, hollow bug-shaped shells) near bed frame or headboard</span></li>
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Sweet, musty odor in the bedroom — common in severe infestations</span></li>
-            <li className="flex items-start gap-2"><span className="text-yellow-600 font-bold mt-0.5">⚠</span><span>Visible bugs: reddish-brown, flat, about the size of an apple seed</span></li>
-          </ul>
-        </div>
-
-        {/* Services */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Bed Bug Treatment Services</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
-          {services.map(s => (
-            <div key={s.name} className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm">
-              <div className="text-3xl mb-2">{s.icon}</div>
-              <div className="font-bold text-gray-900 text-sm">{s.name}</div>
-              <div className="text-xs text-gray-500 mt-1">{s.desc}</div>
+      {/* FAQ */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-8">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How do I know if I have bed bugs in my Nassau County home?</h3>
+              <p className="text-gray-600">Common signs include small reddish-brown bugs in mattress seams, tiny dark spots on sheets, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters. If you suspect bed bugs, call us for a free inspection.</p>
             </div>
-          ))}
-        </div>
-
-        {/* Why Liberty */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Trust Liberty Pest Pros for Bed Bug Extermination</h2>
-        <div className="prose prose-gray max-w-none mb-10">
-          <p>
-            Bed bug infestations require expert identification and the right treatment protocol. Not every company has the equipment, training, and experience to eliminate bed bugs completely. Liberty Pest Pros does.
-          </p>
-          <p>
-            <strong>Proven treatments.</strong> We offer heat treatment — the gold standard for bed bug elimination — which raises the temperature in infested spaces to 120°F+, killing bugs and eggs at every life stage. We also perform precision chemical treatment using residual insecticides applied directly to harborage areas. For severe infestations, our combination protocol delivers the most thorough results.
-          </p>
-          <p>
-            <strong>Complete inspection first.</strong> Before recommending treatment, we inspect your home thoroughly — including box springs, mattress seams, bed frames, headboards, baseboards, furniture, electrical outlets, and wall voids. Understanding the full scope of the infestation determines the right protocol.
-          </p>
-          <p>
-            <strong>Family-friendly approach.</strong> Our treatments are conducted with your family&apos;s safety in mind. We&apos;ll give you clear re-entry instructions and explain exactly what was treated and why.
-          </p>
-          <p>
-            <strong>Guaranteed results.</strong> We back our bed bug treatments with a warranty. If bed bugs are still present after our treatment protocol is complete, we return to address them at no additional charge.
-          </p>
-        </div>
-
-        {/* Dual CTA */}
-        <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Eliminate Bed Bugs From Your Nassau County Home</h2>
-          <p className="text-blue-100 mb-4">Heat &amp; chemical treatments with guaranteed results. Same-day consultations available.</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              href="/nassau/contact/"
-              className="bg-white text-brand-primary font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-100 transition-colors"
-            >
-              Get a Free Quote
-            </Link>
-            <a
-              href="tel:+15167634600"
-              className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
-            >
-              📞 (516) 763-4600
-            </a>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How many treatments does bed bug elimination take?</h3>
+              <p className="text-gray-600">Chemical treatments typically require 2-3 visits spaced 2 weeks apart to break the egg cycle. Heat treatment can eliminate bed bugs in a single visit. We recommend the right approach during the inspection.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">Do you do heat treatment for bed bugs in Nassau County?</h3>
+              <p className="text-gray-600">Yes. We offer both heat treatment and chemical treatment. Heat treatment is highly effective and eliminates bed bugs in a single visit without residual chemicals — ideal for families with concerns about products in sleeping areas.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How long before I can return home after bed bug treatment?</h3>
+              <p className="text-gray-600">For chemical treatments, re-entry is typically 4-6 hours after treatment. For heat treatment, re-entry is usually the same day once temperatures return to normal — typically within a few hours of completion.</p>
+            </div>
           </div>
         </div>
+      </section>
 
-        {/* Areas Served */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Bed Bug Exterminator Service Areas — Nassau County</h2>
-        <p className="text-gray-600 mb-4">We provide bed bug extermination throughout all Nassau County communities:</p>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-10">
-          {nassauTowns.map(town => (
-            <Link
-              key={town.slug}
-              href={`/nassau/bed-bug-exterminator/${town.slug}/`}
-              className="text-brand-primary hover:underline text-sm py-1"
-            >
-              {town.name}
-            </Link>
-          ))}
+      {/* Final CTA */}
+      <section className="bg-[#1B3D6F] text-white py-12 px-4 text-center">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-xl mb-6">Nassau County&apos;s trusted pest control experts since 1982.</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
         </div>
-
-        {/* FAQ */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions — Bed Bug Exterminator</h2>
-        <div className="space-y-4 mb-10">
-          {faqs.map((faq, i) => (
-            <div key={i} className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
-              <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
-            </div>
-          ))}
-        </div>
-
-        {/* Internal links */}
-        <div className="text-sm text-gray-500 flex flex-wrap gap-3">
-          <Link href="/nassau/" className="hover:underline text-brand-primary">← Nassau County Home</Link>
-          <Link href="/nassau/services/" className="hover:underline text-brand-primary">All Services</Link>
-          <Link href="/nassau/exterminator-near-me/" className="hover:underline text-brand-primary">Exterminator Near Me</Link>
-          <Link href="/nassau/same-day-pest-control/" className="hover:underline text-brand-primary">Same-Day Pest Control</Link>
-          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Pest Inspection</Link>
-        </div>
-      </div>
-      <CTABanner />
-    </>
+      </section>
+    </main>
   );
 }

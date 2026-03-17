@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: `Privacy Policy | ${SITE_NAME}`,
-  description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+  title: { absolute: 'Privacy Policy | Liberty Pest Pros' },
+  description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information when using our website and services.`,
 
   openGraph: {
-    title: `Privacy Policy | ${SITE_NAME}`,
-    description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information.`,
+    title: 'Privacy Policy | Liberty Pest Pros',
+    description: `Privacy policy for ${SITE_NAME}. Learn how we collect, use, and protect your personal information when using our website and services.`,
     url: `${SITE_URL}/privacy`,
     type: 'website',
     locale: 'en_US',

@@ -1,16 +1,16 @@
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import Link from 'next/link';
-import CTABanner from '@/components/sections/CTABanner';
+import { BRAND } from '@/hub.config';
 import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: 'Free Pest Inspection Nassau County, NY',
-  description: 'Schedule a free pest inspection in Nassau County, NY. No obligation, no pressure. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600 to book.',
+  title: 'Free Pest Inspection Nassau County',
+  description: 'Free pest inspection for Nassau County homes & businesses. No obligation, no charge. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
 
   openGraph: {
-    title: 'Free Pest Inspection Nassau County, NY',
-    description: 'Schedule a free pest inspection in Nassau County, NY. No obligation, no pressure. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600 to book.',
-    url: `${SITE_URL}/nassau/free-pest-inspection`,
+    title: 'Free Pest Inspection Nassau County',
+    description: 'Free pest inspection for Nassau County homes & businesses. No obligation, no charge. Liberty Pest Pros — family-owned since 1982. Call (516) 763-4600.',
+    url: `${SITE_URL}/free-pest-inspection`,
     type: 'website',
     locale: 'en_US',
     siteName: 'Liberty Pest Pros',
@@ -26,39 +26,47 @@ const schemaData = {
       "name": "Liberty Pest Pros",
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "Nassau County, New York"
+      "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
       },
-      "description": "Free pest inspection in Nassau County, NY. No-obligation assessment from family-owned pest control company serving Long Island since 1982.",
-      "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00"
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "name": "Free Pest Inspection",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Comprehensive pest inspection for Nassau County homes and businesses — no charge, no obligation."
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What does a free pest inspection include?",
+          "name": "What does the free pest inspection cover?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our free inspection covers a thorough assessment of your home&apos;s interior and exterior. We check common pest entry points, harborage areas, and signs of active infestation. This includes the basement, crawl space (if accessible), attic, kitchen, bathrooms, and perimeter of the home. We&apos;ll look for evidence of termites, rodents, ants, cockroaches, bed bugs, stinging insects, and other common Nassau County pests. At the end, we provide a written report with our findings and recommendations — with no obligation to purchase anything."
+            "text": "Our free inspection covers all major pest concerns: termites (including subterranean colonies and wood damage), rodent entry points and activity signs, bed bugs in sleeping areas, ant harborage sites, cockroach activity, and any other pest signs relevant to your property. You receive a full written report with our findings."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the inspection really free with no obligation?",
+          "name": "Is there really no charge for the pest inspection?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Our pest inspection is genuinely free and there is zero obligation. We won&apos;t pressure you into a service contract or upsell you during the inspection. Our technician will tell you honestly what they found — including &ldquo;nothing significant&rdquo; if that&apos;s the case. We believe in earning your business through quality service, not sales pressure."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I schedule a pest inspection?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Anytime is a good time, but there are a few situations where an inspection is especially valuable: if you&apos;re buying or selling a home in Nassau County, if you&apos;ve seen any pest activity and want to know the scope, if you haven&apos;t had your home inspected in over a year, if you have a crawl space or older home that&apos;s more vulnerable to termites or rodents, or if you just want peace of mind going into a new season."
+            "text": "Correct — the inspection is completely free with no obligation to purchase any service. We believe Nassau County homeowners deserve honest information about their pest situation before making any decisions. Our report is yours to keep regardless of whether you choose to proceed."
           }
         },
         {
@@ -66,15 +74,15 @@ const schemaData = {
           "name": "How long does a pest inspection take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most residential inspections take 30-60 minutes depending on the size and complexity of your home. Larger properties or homes with extensive crawl spaces or attic areas may take longer. We&apos;ll give you an estimated time when you schedule."
+            "text": "A typical residential inspection takes 45-90 minutes depending on the size of your home and what we find. Commercial inspections may take longer. We are thorough because early detection saves Nassau County homeowners significant costs down the road."
           }
         },
         {
           "@type": "Question",
-          "name": "What if pests are found during my inspection?",
+          "name": "Do I need to be home during the inspection?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "If we find evidence of pest activity, we&apos;ll explain exactly what we found, where it is, and what we recommend to address it. We provide a written estimate for any recommended treatment, but you&apos;re never required to proceed. Many Nassau County homeowners who start with a free inspection appreciate having an honest, professional assessment before deciding on next steps."
+            "text": "Yes, we recommend you or an authorized adult be present during the inspection. This allows our technician to point out findings in real time, answer your questions, and ensure you have access to all areas — including attics, basements, and crawl spaces — that need to be checked."
           }
         }
       ]
@@ -82,185 +90,115 @@ const schemaData = {
   ]
 };
 
-const nassauTowns = [
-  { name: 'Hempstead', slug: 'hempstead' },
-  { name: 'Garden City', slug: 'garden-city' },
-  { name: 'Mineola', slug: 'mineola' },
-  { name: 'Great Neck', slug: 'great-neck' },
-  { name: 'Hicksville', slug: 'hicksville' },
-  { name: 'Massapequa', slug: 'massapequa' },
-  { name: 'Valley Stream', slug: 'valley-stream' },
-  { name: 'Long Beach', slug: 'long-beach' },
-  { name: 'Rockville Centre', slug: 'rockville-centre' },
-  { name: 'Lynbrook', slug: 'lynbrook' },
-  { name: 'Freeport', slug: 'freeport' },
-  { name: 'Baldwin', slug: 'baldwin' },
-  { name: 'Oceanside', slug: 'oceanside' },
-  { name: 'Merrick', slug: 'merrick' },
-  { name: 'Syosset', slug: 'syosset' },
-  { name: 'Plainview', slug: 'plainview' },
-  { name: 'Westbury', slug: 'westbury' },
-  { name: 'Farmingdale', slug: 'farmingdale' },
-  { name: 'Manhasset', slug: 'manhasset' },
-  { name: 'Oyster Bay', slug: 'oyster-bay' },
-];
-
-const inspectionAreas = [
-  { area: 'Basement & Crawl Space', icon: '🏠', desc: 'Termite damage, moisture issues, rodent entry' },
-  { area: 'Kitchen & Bathrooms', icon: '🚿', desc: 'Cockroach harborage, ant trails, moisture pests' },
-  { area: 'Attic', icon: '🔺', desc: 'Rodent nesting, wasp nests, wildlife entry' },
-  { area: 'Exterior Perimeter', icon: '🌿', desc: 'Entry points, nesting sites, wood damage' },
-  { area: 'Bedrooms', icon: '🛏️', desc: 'Bed bug signs, spider harborage areas' },
-  { area: 'Foundation & Utilities', icon: '🔧', desc: 'Pipe penetrations, gaps, moisture sources' },
-];
-
-const faqs = [
-  {
-    q: "What does a free pest inspection include?",
-    a: "Our free inspection covers a thorough assessment of your home&apos;s interior and exterior. We check common pest entry points, harborage areas, and signs of active infestation. This includes the basement, crawl space (if accessible), attic, kitchen, bathrooms, and perimeter of the home. We&apos;ll look for evidence of termites, rodents, ants, cockroaches, bed bugs, stinging insects, and other common Nassau County pests. At the end, we provide a written report with our findings and recommendations — with no obligation to purchase anything."
-  },
-  {
-    q: "Is the inspection really free with no obligation?",
-    a: "Yes. Our pest inspection is genuinely free and there is zero obligation. We won&apos;t pressure you into a service contract or upsell you during the inspection. Our technician will tell you honestly what they found — including &ldquo;nothing significant&rdquo; if that&apos;s the case. We believe in earning your business through quality service, not sales pressure."
-  },
-  {
-    q: "When should I schedule a pest inspection?",
-    a: "Anytime is a good time, but there are a few situations where an inspection is especially valuable: if you&apos;re buying or selling a home in Nassau County, if you&apos;ve seen any pest activity and want to know the scope, if you haven&apos;t had your home inspected in over a year, if you have a crawl space or older home that&apos;s more vulnerable to termites or rodents, or if you just want peace of mind going into a new season."
-  },
-  {
-    q: "How long does a pest inspection take?",
-    a: "Most residential inspections take 30-60 minutes depending on the size and complexity of your home. Larger properties or homes with extensive crawl spaces or attic areas may take longer. We&apos;ll give you an estimated time when you schedule."
-  },
-  {
-    q: "What if pests are found during my inspection?",
-    a: "If we find evidence of pest activity, we&apos;ll explain exactly what we found, where it is, and what we recommend to address it. We provide a written estimate for any recommended treatment, but you&apos;re never required to proceed. Many Nassau County homeowners who start with a free inspection appreciate having an honest, professional assessment before deciding on next steps."
-  }
-];
-
-export default function FreePestInspectionPage() {
+export default function FreePestInspectionTopLevel() {
   return (
-    <>
+    <main className="min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <div className="max-w-4xl mx-auto px-4 py-16">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-8">
-          <Link href="/nassau/" className="hover:text-brand-primary">Nassau County</Link>
-          {' → '}
-          <span className="text-gray-900">Free Pest Inspection</span>
-        </nav>
 
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Free Pest Inspection — Nassau County, Long Island
-        </h1>
+      {/* Hero */}
+      <section className="bg-[#1B3D6F] text-white py-16 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-4xl font-bold mb-4">Free Pest Inspection Nassau County — Book Online Today</h1>
+          <p className="text-xl mb-8">Comprehensive, no-obligation pest inspection for Nassau County homes and businesses — family-owned since 1982</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
+        </div>
+      </section>
 
-        {/* Nassau-specific intro */}
-        <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-green-900 mb-2">No-Obligation Pest Inspection for Nassau County Homes</h2>
-          <p className="text-green-800 mb-4">
-            Not sure if you have a pest problem? Let Liberty Pest Pros find out for you — at no charge. Our free pest inspection is a comprehensive, professional assessment of your Nassau County home by a licensed technician who knows Long Island&apos;s pest landscape inside and out. Nassau County&apos;s housing stock is diverse: there are Cape Cods in Levittown with aging foundations, beachfront properties in Long Beach susceptible to moisture-loving pests, colonials in Garden City with finished basements that attract rodents and cockroaches, and newer developments in Plainview and Syosset where termite pressure is rising. Whatever your home&apos;s age, style, or location, a professional inspection gives you an honest picture of what&apos;s going on — and what, if anything, needs to be done about it. No pressure, no obligation, no upfront cost.
+      {/* Trust Bar */}
+      <section className="bg-gray-100 py-6 px-4">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-8 text-center">
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Family-owned since 1982</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Licensed &amp; Insured</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Nassau County Experts</div>
+          <div><span className="font-bold text-[#1B3D6F]">✓</span> Same-Day Available</div>
+        </div>
+      </section>
+
+      {/* Body Content */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto prose prose-lg">
+          <h2>What Our Free Inspection Covers</h2>
+          <p>
+            A Liberty Pest Pros inspection is a comprehensive walkthrough of your Nassau County property — not a quick glance and a sales pitch. Our licensed technicians examine every area where pests are likely to hide, enter, or cause damage:
           </p>
-          <div className="flex flex-wrap gap-4 text-sm text-green-700">
-            <span>✅ Completely free</span>
-            <span>✅ Zero obligation</span>
-            <span>✅ Licensed technicians</span>
-            <span>✅ Written findings report</span>
+          <ul>
+            <li><strong>Termites:</strong> We probe accessible wood in your basement, crawl space, and perimeter for subterranean termite galleries and damage. Nassau County&apos;s coastal soil conditions make termite pressure a year-round reality, especially in homes built before 1970.</li>
+            <li><strong>Rodents:</strong> We check foundation gaps, utility penetrations, garage seals, and attic vents for rodent entry points and activity signs — droppings, gnaw marks, grease trails, and nesting material.</li>
+            <li><strong>Bed bugs:</strong> We inspect mattress seams, box springs, bed frames, and nearby furniture for bed bug indicators, including live bugs, shed skins, and excrement staining.</li>
+            <li><strong>Ants:</strong> We identify ant species, trailing patterns, and entry points — carpenter ant galleries in wood framing, pavement ant nests under slabs, and odorous house ants in wall voids.</li>
+          </ul>
+          <h2>Why Inspections Matter — Especially Before Buying or Selling</h2>
+          <p>
+            Nassau County&apos;s real estate market moves fast, and pest problems can derail a sale or cost buyers thousands in unexpected remediation. A professional pest inspection before listing — or before closing on a purchase — gives you complete information before you commit. Our written inspection report is a valuable document for both buyers and sellers.
+          </p>
+          <p>
+            For homeowners not buying or selling, regular inspections catch problems early when they&apos;re cheaper and easier to treat. A termite colony caught at 12 months costs far less to treat than one discovered at 36 months with structural damage. Rodent exclusion identified before a full infestation saves significant time and money.
+          </p>
+          <h2>No Obligation — Honest Findings, Your Decision</h2>
+          <p>
+            We believe Nassau County homeowners deserve honest pest information without pressure. Our free inspection report belongs to you regardless of your decision. If we find issues, we&apos;ll explain your options clearly. If everything looks clean, we&apos;ll tell you that too — and let you know what to watch for going forward.
+          </p>
+        </div>
+      </section>
+
+      {/* Service Areas Card */}
+      <section className="bg-gray-50 py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-6 text-center">Serving All of Nassau County</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <Link href="/nassau/pest-control-near-me" className="bg-white p-4 rounded shadow text-center hover:shadow-md">
+              <div className="font-semibold">Nassau County</div>
+              <div className="text-sm text-gray-600">Pest Control Near Me</div>
+            </Link>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Garden City</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Hempstead</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Oceanside</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Long Beach</div>
+            <div className="bg-white p-4 rounded shadow text-center text-gray-700">Great Neck</div>
           </div>
         </div>
+      </section>
 
-        {/* What we inspect */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">What Our Free Inspection Covers</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
-          {inspectionAreas.map(s => (
-            <div key={s.area} className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm">
-              <div className="text-3xl mb-2">{s.icon}</div>
-              <div className="font-bold text-gray-900 text-sm">{s.area}</div>
-              <div className="text-xs text-gray-500 mt-1">{s.desc}</div>
+      {/* FAQ */}
+      <section className="py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-[#1B3D6F] mb-8">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">What does the free pest inspection cover?</h3>
+              <p className="text-gray-600">Our free inspection covers termites, rodent entry points, bed bugs, ant harborage sites, cockroach activity, and all other major pest concerns for your Nassau County property. You receive a full written report of our findings.</p>
             </div>
-          ))}
-        </div>
-
-        {/* Why Liberty */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Liberty Pest Pros for Your Free Inspection</h2>
-        <div className="prose prose-gray max-w-none mb-10">
-          <p>
-            A pest inspection is only as valuable as the expertise behind it. Our technicians have collectively spent decades inspecting Nassau County homes — they&apos;ve seen what Long Island&apos;s climate, soil conditions, and housing stock produce in terms of pest pressure, and they know exactly where to look.
-          </p>
-          <p>
-            <strong>Honest reporting.</strong> We tell you what we find — including if we find nothing. We don&apos;t fabricate pest problems to generate business, and we don&apos;t minimize real problems to avoid delivering uncomfortable news. Nassau County homeowners deserve straight answers.
-          </p>
-          <p>
-            <strong>Comprehensive coverage.</strong> Our inspection isn&apos;t a 10-minute walkthrough. We examine your basement, crawl space, attic, kitchen, bathrooms, bedrooms, exterior perimeter, and any outbuildings. We look for evidence of all common Nassau County pests: termites, carpenter ants, rodents, cockroaches, bed bugs, stinging insects, and more.
-          </p>
-          <p>
-            <strong>Written findings.</strong> After the inspection, we provide a written report documenting what was found, where, and what we recommend. This report is yours to keep — whether you hire us or not.
-          </p>
-          <p>
-            <strong>No pressure follow-up.</strong> If we recommend treatment, we provide a clear quote. You decide if and when to proceed. We don&apos;t follow up with aggressive sales calls. Many Nassau County homeowners who appreciate our no-pressure approach become long-term customers — but that&apos;s their choice.
-          </p>
-          <p>
-            <strong>Valuable for home transactions.</strong> If you&apos;re buying or selling a Nassau County home, a free pest inspection from Liberty Pest Pros can identify issues before they become deal-breakers — saving you time, money, and stress.
-          </p>
-        </div>
-
-        {/* Dual CTA */}
-        <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
-          <h2 className="text-2xl font-bold text-white mb-2">Schedule Your Free Nassau County Pest Inspection</h2>
-          <p className="text-blue-100 mb-4">No obligation. Written report included. Licensed technicians. Family-owned since 1982.</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              href="/nassau/contact/"
-              className="bg-white text-brand-primary font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-100 transition-colors"
-            >
-              Get a Free Quote
-            </Link>
-            <a
-              href="tel:+15167634600"
-              className="bg-brand-accent text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-700 transition-colors flex items-center justify-center gap-2"
-            >
-              📞 (516) 763-4600
-            </a>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">Is there really no charge for the pest inspection?</h3>
+              <p className="text-gray-600">Correct — the inspection is completely free with no obligation to purchase any service. Our report is yours to keep regardless of whether you choose to proceed with treatment.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">How long does a pest inspection take?</h3>
+              <p className="text-gray-600">A typical residential inspection takes 45-90 minutes depending on the size of your home. We are thorough because early detection saves Nassau County homeowners significant costs down the road.</p>
+            </div>
+            <div className="border border-gray-200 rounded-lg p-5">
+              <h3 className="font-bold text-gray-900 mb-2">Do I need to be home during the inspection?</h3>
+              <p className="text-gray-600">Yes, we recommend you or an authorized adult be present. This allows our technician to point out findings in real time and ensure access to all areas — including attics, basements, and crawl spaces.</p>
+            </div>
           </div>
         </div>
+      </section>
 
-        {/* Areas Served */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Free Inspection Service Areas — Nassau County</h2>
-        <p className="text-gray-600 mb-4">We offer free pest inspections throughout all Nassau County communities:</p>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-10">
-          {nassauTowns.map(town => (
-            <Link
-              key={town.slug}
-              href={`/nassau/${town.slug}/`}
-              className="text-brand-primary hover:underline text-sm py-1"
-            >
-              {town.name}
-            </Link>
-          ))}
+      {/* Final CTA */}
+      <section className="bg-[#1B3D6F] text-white py-12 px-4 text-center">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <p className="text-xl mb-6">Nassau County&apos;s trusted pest control experts since 1982.</p>
+          <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
+            Call (516) 763-4600
+          </a>
         </div>
-
-        {/* FAQ */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Frequently Asked Questions — Free Pest Inspection</h2>
-        <div className="space-y-4 mb-10">
-          {faqs.map((faq, i) => (
-            <div key={i} className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
-              <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: faq.a }} />
-            </div>
-          ))}
-        </div>
-
-        {/* Internal links */}
-        <div className="text-sm text-gray-500 flex flex-wrap gap-3">
-          <Link href="/nassau/" className="hover:underline text-brand-primary">← Nassau County Home</Link>
-          <Link href="/nassau/services/" className="hover:underline text-brand-primary">All Services</Link>
-          <Link href="/nassau/pest-control-near-me/" className="hover:underline text-brand-primary">Pest Control Near Me</Link>
-          <Link href="/nassau/exterminator-near-me/" className="hover:underline text-brand-primary">Exterminator Near Me</Link>
-          <Link href="/nassau/bed-bug-exterminator/" className="hover:underline text-brand-primary">Bed Bug Exterminator</Link>
-        </div>
-      </div>
-      <CTABanner />
-    </>
+      </section>
+    </main>
   );
 }
