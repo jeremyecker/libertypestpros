@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getRegion } from '@/lib/regions';
-import { BRAND } from '@/hub.config';
+import { BRAND, SERVICE_TOWN_ROUTES } from '@/hub.config';
 import CTABanner from '@/components/sections/CTABanner';
 import { TOWN_OPENERS } from '@/data/liberty-openers';
 import { CITY_LAYER7, NASSAU_FALLBACK } from '@/data/liberty-layer7';
@@ -79,14 +79,7 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
     "description": `Professional pest control in ${townName}, Nassau County since 1982.`
   };
 
-  const services = [
-    { name: 'Termite Control', icon: '🪲', desc: 'Inspection, treatment & prevention' },
-    { name: 'Rodent Control', icon: '🐭', desc: 'Mice & rat removal, exclusion work' },
-    { name: 'Ant & Cockroach', icon: '🐜', desc: 'Interior & exterior treatments' },
-    { name: 'Bed Bugs', icon: '🛏️', desc: 'Heat & chemical treatments' },
-    { name: 'Mosquito & Tick', icon: '🦟', desc: 'Yard treatments & seasonal programs' },
-    { name: 'Wasp & Stinging', icon: '🐝', desc: 'Nest removal & prevention' },
-  ];
+  // Service cards now use SERVICE_TOWN_ROUTES from hub.config
 
   return (
     <>
@@ -120,15 +113,20 @@ export default async function TownPage({ params }: { params: Promise<{ region: s
           </div>
         </div>
 
-        {/* Service Cards */}
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Services in {townName}</h2>
+        {/* Service×Town Links */}
+        <h2 className="text-2xl font-bold text-gray-900 mb-2">Pest Control Services Available in {townName}</h2>
+        <p className="text-gray-600 mb-4">Click any service below for detailed information specific to {townName}.</p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
-          {services.map(s => (
-            <div key={s.name} className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm">
-              <div className="text-3xl mb-2">{s.icon}</div>
-              <div className="font-bold text-gray-900 text-sm">{s.name}</div>
-              <div className="text-xs text-gray-500 mt-1">{s.desc}</div>
-            </div>
+          {SERVICE_TOWN_ROUTES.map((svc) => (
+            <Link
+              key={svc.slug}
+              href={`/${regionSlug}/${svc.slug}/${townSlug}/`}
+              className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm hover:shadow-md hover:border-blue-300 transition-all group"
+            >
+              <div className="text-3xl mb-2">{svc.icon}</div>
+              <div className="font-bold text-gray-900 text-sm group-hover:text-blue-700 transition-colors">{svc.name}</div>
+              <div className="text-xs text-blue-600 mt-1">Learn more →</div>
+            </Link>
           ))}
         </div>
 

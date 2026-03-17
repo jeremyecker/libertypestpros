@@ -107,6 +107,22 @@ export const REGIONS: RegionConfig[] = [
 export const NETWORK_SITES: NetworkSite[] = [];
 
 // ============================================================
+// SERVICE×TOWN ROUTES — for internal linking
+// ============================================================
+export const SERVICE_TOWN_ROUTES = [
+  { name: 'Bed Bug Exterminator', slug: 'bed-bug-exterminator', icon: '🛏️' },
+  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐭' },
+  { name: 'Raccoon Removal', slug: 'raccoon-removal', icon: '🦝' },
+  { name: 'Squirrel Removal', slug: 'squirrel-removal', icon: '🐿️' },
+  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦌' },
+  { name: 'Termite Control', slug: 'termite-control', icon: '🪲' },
+  { name: 'Cockroach Exterminator', slug: 'cockroach-exterminator', icon: '🪳' },
+  { name: 'Ant Exterminator', slug: 'ant-exterminator', icon: '🐜' },
+  { name: 'Cricket Exterminator', slug: 'cricket-exterminator', icon: '🦗' },
+  { name: 'Bee & Wasp Removal', slug: 'bee-removal', icon: '🐝' },
+] as const;
+
+// ============================================================
 // TYPES
 // ============================================================
 export interface GMBEntry {
