@@ -27,8 +27,22 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
+      "description": "Professional pest control in Nassau County, NY. Family-owned since 1982. Licensed & insured. Call (516) 763-4600.",
       "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",

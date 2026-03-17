@@ -6,11 +6,11 @@ import CTABanner from '@/components/sections/CTABanner';
 
 export const metadata: Metadata = {
   title: 'All Service Areas',
-  description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities. Find your town.`,
+  description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities across Nassau County, including Hempstead, Great Neck, Massapequa, and more. Find your town today.`,
 
   openGraph: {
     title: 'All Service Areas',
-    description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities. Find your town.`,
+    description: `${SITE_NAME} serves ${GEO.totalTowns}+ communities across Nassau County, including Hempstead, Great Neck, Massapequa, and more. Find your town today.`,
     url: `${SITE_URL}/service-areas`,
     type: 'website',
     locale: 'en_US',

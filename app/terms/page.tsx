@@ -3,11 +3,11 @@ import { SITE_NAME, SITE_DOMAIN, PHONE, EMAIL, REGIONS, SITE_URL } from '@/site.
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+  description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and pest control services in Nassau County.`,
 
   openGraph: {
     title: 'Terms of Service',
-    description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and services.`,
+    description: `Terms of Service for ${SITE_NAME}. Read our terms governing use of our website and pest control services in Nassau County.`,
     url: `${SITE_URL}/terms`,
     type: 'website',
     locale: 'en_US',

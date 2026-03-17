@@ -32,7 +32,20 @@ const schemaData = {
       },
       "description": "Same-day pest control service in Nassau County, Long Island. Family-owned since 1982.",
       "priceRange": "$$",
-      "openingHours": "Mo-Sa 07:00-19:00"
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nassau County",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ]
     },
     {
       "@type": "FAQPage",

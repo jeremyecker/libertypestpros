@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const service = SERVICES.find(s => s.slug === slug);
   if (!service) return {};
-  const description = `Professional ${service.name.toLowerCase()} for ${serviceArea}. Licensed, insured. Same-day service available. Call ${BRAND.phoneFormatted}.`;
+  const description = `Professional ${service.name.toLowerCase()} for ${serviceArea} homes and businesses. Licensed, insured. Free estimates and same-day service available. Call ${BRAND.phoneFormatted}.`;
   return generatePageMetadata({
     title: service.name,
     description,

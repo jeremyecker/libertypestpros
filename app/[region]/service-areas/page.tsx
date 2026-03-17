@@ -10,11 +10,11 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   return {
     title: `Service Areas in ${region.name}`,
-    description: `${BRAND.name} serves all towns across ${region.name}. Find your town below.`,
+    description: `${BRAND.name} serves all towns across ${region.name}, from Hempstead to Great Neck. Licensed, local pest control. Find your town below.`,
   
     openGraph: {
       title: `Service Areas in ${region.name}`,
-      description: `${BRAND.name} serves all towns across ${region.name}. Find your town below.`,
+      description: `${BRAND.name} serves all towns across ${region.name}, from Hempstead to Great Neck. Licensed, local pest control. Find your town below.`,
       url: `https://${BRAND.domain}/${regionSlug}/service-areas`,
       type: 'website',
       locale: 'en_US',
@@ -41,7 +41,7 @@ export default async function ServiceAreasPage({ params }: { params: Promise<{ r
           Service Areas — {region.name}
         </h1>
         <p className="text-xl text-gray-600">
-          We serve all {region.townCount > 0 ? region.townCount : ''} towns across {region.name}.
+          We serve all {region.townCount > 0 ? region.townCount : ''}  towns across {region.name}.
         </p>
       </div>
 
