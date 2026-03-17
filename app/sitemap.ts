@@ -108,8 +108,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Service+city pages (5 services x all towns)
-  const SERVICE_SLUGS = ['bed-bug-exterminator', 'raccoon-removal', 'rodent-control', 'squirrel-removal', 'wildlife-removal'];
+  // Service+town pages (7 services × all towns)
+  const SERVICE_SLUGS = [
+    'bed-bug-exterminator',
+    'raccoon-removal',
+    'rodent-control',
+    'squirrel-removal',
+    'wildlife-removal',
+    'termite-control',
+    'cockroach-exterminator',
+  ];
   entries.push(
     ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
       SERVICE_SLUGS.flatMap(service =>
