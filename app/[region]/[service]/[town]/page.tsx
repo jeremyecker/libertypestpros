@@ -135,6 +135,57 @@ const SERVICE_CONFIG: Record<string, {
       { q: 'How long before I see results?', a: 'Most clients see a significant reduction in 5–7 days. Full elimination typically takes 2–3 weeks with our treatment protocol. A follow-up visit at 14 days is included.' },
     ],
   },
+  'ant-exterminator': {
+    name: 'Ant Exterminator',
+    icon: '🐜',
+    intro: 'Ants are the #1 nuisance pest call on Long Island. From odorous house ants in kitchens to carpenter ants tunneling through wood framing, Liberty Pest Pros identifies the species, finds the colony, and eliminates it — not just the ants you can see.',
+    whyUrgent: 'Carpenter ants can cause significant structural damage over time, and ant trails inside your home signal an established colony that won\'t go away on its own.',
+    whatWeOffer: [
+      { title: 'Species Identification', desc: 'Different species require different treatments' },
+      { title: 'Colony Elimination', desc: 'Baits and residuals targeting the source' },
+      { title: 'Exterior Perimeter', desc: 'Barrier treatment prevents re-entry' },
+      { title: 'Carpenter Ant Specialists', desc: 'Wood inspection & targeted treatment' },
+    ],
+    faqs: [
+      { q: 'Why do I keep seeing ants inside even after spraying?', a: 'Consumer sprays kill the ants you see but don\'t reach the colony. Worse, repellent sprays can split a colony into multiple satellite nests, making the problem harder to eliminate. Professional gel baits and non-repellent treatments spread through the colony and eliminate it at the source.' },
+      { q: 'What\'s the difference between carpenter ants and regular ants?', a: 'Carpenter ants are large (¼–½ inch), typically black, and excavate wood to build nests — they don\'t eat wood but their tunneling weakens structural members over time. Regular nuisance ants (pavement ants, odorous house ants) are smaller and are primarily after food. Both require professional treatment but different approaches.' },
+      { q: 'When is ant season on Long Island?', a: 'Ant activity peaks in spring and summer, but carpenter ants can be active indoors year-round if they\'ve established a nest inside the structure. If you\'re seeing large black ants in winter, that\'s a strong sign of an interior nest.' },
+    ],
+  },
+  'cricket-exterminator': {
+    name: 'Cricket Exterminator',
+    icon: '🦗',
+    intro: 'Crickets invading basements, garages, and living spaces are a common late-summer and fall problem on Long Island. Liberty Pest Pros eliminates active infestations and treats entry points to stop them from coming back as temperatures drop.',
+    whyUrgent: 'A few crickets quickly become dozens — they breed indoors and their constant chirping disrupts sleep. They also attract spiders and other predatory insects into your home.',
+    whatWeOffer: [
+      { title: 'Perimeter Treatment', desc: 'Residual barrier around foundation & entry points' },
+      { title: 'Interior Treatment', desc: 'Targeted application in basements & crawl spaces' },
+      { title: 'Exclusion Assessment', desc: 'Identify gaps and entry points' },
+      { title: 'Seasonal Prevention', desc: 'Fall treatment before migration indoors' },
+    ],
+    faqs: [
+      { q: 'Why are crickets coming into my house?', a: 'As temperatures drop in late summer and fall, crickets seek warm shelter and are drawn to light near doors and windows. Gaps under doors, foundation cracks, and utility penetrations are common entry points. They\'re especially common in basements and garages.' },
+      { q: 'Are crickets harmful?', a: 'Crickets don\'t bite or sting humans, but they can damage fabrics, paper, and food products. More importantly, large cricket populations attract spiders, centipedes, and other predatory insects that feed on them — so a cricket problem can quickly become a broader pest problem.' },
+      { q: 'How do I get rid of crickets permanently?', a: 'Perimeter treatment combined with sealing entry points is the most effective approach. A professional application in late summer before peak migration season can prevent the problem entirely. We offer seasonal prevention programs specifically for cricket control.' },
+    ],
+  },
+  'bee-removal': {
+    name: 'Bee & Wasp Removal',
+    icon: '🐝',
+    intro: 'Bees, wasps, hornets, and yellow jackets nesting on your property pose a serious sting risk — especially for those with allergies. Liberty Pest Pros safely removes active nests and treats nest sites to prevent rebuilding, covering everything from ground-level yellow jacket nests to aerial hornet nests in trees and eaves.',
+    whyUrgent: 'Stinging insect nests grow throughout summer — a nest that\'s manageable in June can contain thousands of individuals by August. Early removal is always safer and less expensive.',
+    whatWeOffer: [
+      { title: 'Wasp & Hornet Removal', desc: 'Aerial nests in eaves, trees, and structures' },
+      { title: 'Yellow Jacket Control', desc: 'Ground nests and wall void infestations' },
+      { title: 'Bee Removal & Relocation', desc: 'Honey bee colonies preserved when possible' },
+      { title: 'Nest Treatment', desc: 'Prevent rebuilding at treated locations' },
+    ],
+    faqs: [
+      { q: 'What\'s the difference between bees and wasps?', a: 'Honey bees are typically docile, fuzzy, and make honey — we try to relocate their colonies rather than exterminate them. Wasps (yellow jackets, hornets, paper wasps) are smooth, more aggressive, and can sting multiple times. Both require professional handling near a structure.' },
+      { q: 'Can I remove a wasp nest myself?', a: 'We strongly advise against it. Disturbing a nest without proper protective equipment can provoke a mass defensive response. Yellow jackets in particular are extremely aggressive when their nest is threatened. Professional removal is fast, affordable, and eliminates the risk entirely.' },
+      { q: 'When is stinging insect season on Long Island?', a: 'Yellow jackets and wasps become most aggressive in August and September when colony populations peak and food sources decline. Nests are most visible in fall after leaves drop. Don\'t wait until peak season — treat nests as soon as they\'re discovered.' },
+    ],
+  },
 };
 
 const ALL_SERVICE_SLUGS = Object.keys(SERVICE_CONFIG);
