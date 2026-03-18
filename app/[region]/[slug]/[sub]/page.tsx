@@ -194,9 +194,9 @@ const ALL_SERVICE_SLUGS = Object.keys(SERVICE_CONFIG);
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ region: string; service: string; town: string }>;
+  params: Promise<{ region: string; slug: string; sub: string }>;
 }): Promise<Metadata> {
-  const { region: regionSlug, service: serviceSlug, town: townSlug } = await params;
+  const { region: regionSlug, slug: serviceSlug, sub: townSlug } = await params;
   const region = getRegion(regionSlug);
   const svc = SERVICE_CONFIG[serviceSlug];
   if (!region || !svc) return {};
@@ -236,9 +236,9 @@ export async function generateStaticParams() {
 export default async function ServiceTownPage({
   params,
 }: {
-  params: Promise<{ region: string; service: string; town: string }>;
+  params: Promise<{ region: string; slug: string; sub: string }>;
 }) {
-  const { region: regionSlug, service: serviceSlug, town: townSlug } = await params;
+  const { region: regionSlug, slug: serviceSlug, sub: townSlug } = await params;
 
   const region = getRegion(regionSlug);
   if (!region) notFound();
