@@ -96,7 +96,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Regional service hub pages (e.g. /nassau/raccoon-removal)
-  const REGIONAL_SERVICE_SLUGS = ['raccoon-removal', 'rodent-control', 'squirrel-removal', 'wildlife-removal'];
+  const REGIONAL_SERVICE_SLUGS = [
+    'bed-bug-exterminator',
+    'rodent-control',
+    'raccoon-removal',
+    'squirrel-removal',
+    'wildlife-removal',
+    'termite-control',
+    'cockroach-exterminator',
+    'ant-exterminator',
+    'cricket-exterminator',
+    'bee-removal',
+  ];
   for (const region of REGIONS) {
     for (const slug of REGIONAL_SERVICE_SLUGS) {
       entries.push({
@@ -108,7 +119,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Service+town pages (7 services × all towns)
+  // Service+town pages (10 services × all towns)
   const SERVICE_SLUGS = [
     'bed-bug-exterminator',
     'raccoon-removal',
