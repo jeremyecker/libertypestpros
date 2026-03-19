@@ -119,31 +119,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Service+town pages (10 services × all towns)
-  const SERVICE_SLUGS = [
-    'bed-bug-exterminator',
-    'raccoon-removal',
-    'rodent-control',
-    'squirrel-removal',
-    'wildlife-removal',
-    'termite-control',
-    'cockroach-exterminator',
-    'ant-exterminator',
-    'cricket-exterminator',
-    'bee-removal',
-  ];
-  entries.push(
-    ...REGIONS.flatMap((region: { slug: string; towns: string[] }) =>
-      SERVICE_SLUGS.flatMap(service =>
-        region.towns.map((town: string) => ({
-          url: `${base}/${region.slug}/${service}/${town.toLowerCase().replace(/\s+/g, '-')}/`,
-          lastModified: new Date(),
-          changeFrequency: 'monthly' as const,
-          priority: 0.8,
-        }))
-      )
-    )
-  );
 
   return entries;
 }
