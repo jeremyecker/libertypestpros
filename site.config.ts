@@ -12,7 +12,7 @@ export const SITE_NAME = 'Liberty Pest Pros';
 export const SITE_DOMAIN = 'libertypestpros.com';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://libertypestpros.com';
 export const SITE_TAGLINE = 'Family-Owned Pest Control Since 1982 — Nassau County, Long Island';
-export const SITE_DESCRIPTION = 'Family-owned pest control in Nassau County since 1982. Licensed, insured & natural treatments. Same-day service. Free estimates, satisfaction guaranteed.';
+export const SITE_DESCRIPTION = 'Family-owned pest control in Nassau County since 1982. Licensed, insured & natural treatments. Same-day service. Free estimates, satisfaction assured.';
 export const EMAIL = 'info@libertypestpros.com';
 
 export const SITE = {
@@ -145,7 +145,7 @@ export const REVIEWS = [
   {
     name: "Lourdes M.",
     rating: 5,
-    text: "Deya is great, she does her job thoroughly, is very friendly and courteous. She always solicits information when she comes to understand where I am having problems with insects. She then takes thorough action to address it. She takes her time unlike other exterminators that rush in and out and barely do anything.",
+    text: "Deya is great, she does her job thoroughly, is very friendly and courteous. She consistently solicits information when she comes to understand where I am having problems with insects. She then takes thorough action to address it. She takes her time unlike other exterminators that rush in and out and barely do anything.",
     date: "3 months ago",
     source: "Google"
   },
