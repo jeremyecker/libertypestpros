@@ -5,11 +5,11 @@ import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Exterminator Near Me | Nassau County',
-  description: 'Licensed Nassau County exterminators with same-day service available. Liberty Pest Pros has served Long Island since 1982. Trusted, certified, and guaranteed. Call (516) 763-4600.',
+  description: 'Licensed Nassau County exterminators with same-day service available. Liberty Pest Pros has served Long Island since 1982. Trusted, certified, and reliable. Call (516) 763-4600.',
 
   openGraph: {
     title: 'Exterminator Near Me | Nassau County',
-    description: 'Licensed Nassau County exterminators with same-day service available. Liberty Pest Pros has served Long Island since 1982. Trusted, certified, and guaranteed. Call (516) 763-4600.',
+    description: 'Licensed Nassau County exterminators with same-day service available. Liberty Pest Pros has served Long Island since 1982. Trusted, certified, and reliable. Call (516) 763-4600.',
     url: `${SITE_URL}/exterminator-near-me`,
     type: 'website',
     locale: 'en_US',

@@ -55,7 +55,7 @@ const schemaData = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is same-day pest control service guaranteed in Nassau County?",
+          "name": "Is same-day pest control service available in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "We do our best to accommodate same-day service for all Nassau County locations. Availability depends on daily scheduling, but when you call before noon, we can almost always get a technician to you that day. Call early to secure your spot."
@@ -170,7 +170,7 @@ export default function SameDayPestControlTopLevel() {
           <h2 className="text-2xl font-bold text-[#1B3D6F] mb-8">Frequently Asked Questions</h2>
           <div className="space-y-4">
             <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">Is same-day pest control service guaranteed in Nassau County?</h3>
+              <h3 className="font-bold text-gray-900 mb-2">Is same-day pest control service available in Nassau County?</h3>
               <p className="text-gray-600">We do our best to accommodate same-day service for all Nassau County locations. When you call before noon, we can almost always get a technician to you that day. Call early to secure your spot.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">

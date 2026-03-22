@@ -373,7 +373,7 @@ Additionally, as annual colonies prepare to wind down in fall, new queens begin 
 
 Attempting to remove an active yellow jacket or hornet nest without proper protective equipment and the right product formulation is one of the more common causes of serious stinging insect injuries in Nassau County. Consumer wasp sprays require the homeowner to approach within a few feet of an active nest during daylight hours — the worst possible combination.
 
-Professional stinging insect removal uses dust or foam formulations injected directly into the nest entry point, killing the colony at the source. Ground-nesting yellow jacket colonies are treated by injecting product into the nest entrance at dusk or dawn when maximum worker population is present. Aerial nests are treated from a safe distance using appropriate extension equipment.
+Professional stinging insect removal uses dust or foam formulations injected directly into the nest entry point, killing the colony at the source. Ground-nesting yellow jacket colonies are treated by injecting product into the nest entrance at dusk or dawn when maximum worker population is present. Aerial nests are treated from a careful distance using appropriate extension equipment.
 
 After treatment of stinging insect nests, treated areas are clear to re-enter once the treatment has been applied and activity at the nest has ceased — typically within an hour or less for aerial nests and 24–48 hours for ground nests with heavy activity.
 
@@ -559,7 +559,7 @@ Nassau County spans 453 square miles and 70 incorporated villages and hamlets, f
 
 Whether you&apos;re in a compact split-level in Merrick, a historic colonial in Garden City, a waterfront home in Lido Beach, or a newer construction in Plainview, Liberty Pest Pros has the experience and service coverage to handle your pest control needs.
 
-**Transparent Pricing and Guaranteed Results**
+**Transparent Pricing and Proven Results**
 
 We quote clearly and stand behind our work. If pests return between scheduled service visits, we come back — that&apos;s our service guarantee. Nassau County homeowners who enroll in our maintenance programs consistently report lower per-visit costs, fewer emergency calls, and greater peace of mind than those who only call when a problem is already out of control.
 

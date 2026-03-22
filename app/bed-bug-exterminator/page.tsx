@@ -5,11 +5,11 @@ import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Nassau County',
-  description: 'Nassau County bed bug specialists — heat treatment and chemical options with guaranteed results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
+  description: 'Nassau County bed bug specialists — heat treatment and chemical options with proven results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
 
   openGraph: {
     title: 'Bed Bug Exterminator Nassau County',
-    description: 'Nassau County bed bug specialists — heat treatment and chemical options with guaranteed results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
+    description: 'Nassau County bed bug specialists — heat treatment and chemical options with proven results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
     url: `${SITE_URL}/bed-bug-exterminator`,
     type: 'website',
     locale: 'en_US',
@@ -101,7 +101,7 @@ export default function BedBugExterminatorTopLevel() {
       <section className="bg-[#1B3D6F] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Proven Elimination</h1>
-          <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results since 1982</p>
+          <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options, reliable results since 1982</p>
           <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
             Call (516) 763-4600
           </a>

@@ -54,10 +54,10 @@ export default function AboutPage() {
               home-turf expertise you can&apos;t get from a national chain.
             </li>
             <li>
-              <strong>Family-safe, always:</strong> With 43 years of experience, we know which
+              <strong>Family-friendly, always:</strong> With 43 years of experience, we know which
               treatments work best for homes with kids and pets. Every product we use is selected
               with your family&apos;s safety as the number one priority. We&apos;ll explain
-              everything — what we&apos;re using, why, and when it&apos;s safe for your family
+              everything — what we&apos;re using, why, and when it&apos;s clear for your family
               to return to treated areas.
             </li>
             <li>
@@ -100,7 +100,7 @@ export default function AboutPage() {
 
       <CTABanner
         title="Ready to Protect Your Home?"
-        subtitle="43 years of family-owned pest control on Nassau County's South Shore. Free estimates, honest advice, guaranteed results."
+        subtitle="43 years of family-owned pest control on Nassau County's South Shore. Free estimates, honest advice, proven results."
       />
     </>
   );
