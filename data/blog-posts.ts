@@ -61,7 +61,7 @@ If you&apos;re already seeing ants this spring, don&apos;t wait for the problem 
     title: 'Termite Season in Nassau County: Signs Every Homeowner Should Recognize',
     date: '2024-04-20',
     excerpt: 'Termites cause billions in damage nationwide every year, and Nassau County homes are far from immune. Here&apos;s what to look for and why early detection saves thousands.',
-    image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/4386442/pexels-photo-4386442.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Termites damaging wood',
     content: `If you own a home in Nassau County, termites are not a hypothetical threat — they are an active one. The eastern subterranean termite (*Reticulitermes flavipes*) is the most destructive insect in North America, and Long Island&apos;s soil conditions, humidity levels, and aging housing stock create ideal conditions for termite colonies to thrive year after year.
 
@@ -576,7 +576,7 @@ Contact us at (516) 763-4600 or visit libertypestpros.com to schedule a free ins
     title: 'Termite Inspection Checklist for Nassau County Homeowners',
     date: '2025-01-10',
     excerpt: 'A thorough termite inspection can save Nassau County homeowners thousands in repair costs. Here&apos;s exactly what to look for — and what professionals check that most homeowners miss.',
-    image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/8487330/pexels-photo-8487330.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Termites damaging structural wood',
     content: `Nassau County homeowners have more reason than most to take termite inspections seriously. The county&apos;s combination of older housing stock, coastal humidity, and sandy, moisture-retaining soil creates ideal subterranean termite habitat. An annual inspection — ideally performed in late winter or early spring before swarmer season — is the single most cost-effective step a homeowner can take to protect their investment.
 
