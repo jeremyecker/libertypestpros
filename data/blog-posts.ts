@@ -623,7 +623,7 @@ Annual inspections are the standard recommendation for Nassau County homes. Pre-
     title: 'How Nassau County&apos;s Coastal Climate Drives Mosquito Season',
     date: '2025-01-20',
     excerpt: 'Nassau County&apos;s proximity to the Atlantic Ocean, Great South Bay, and coastal wetlands creates one of the most intense mosquito environments on Long Island. Understanding the climate connection helps you prepare.',
-    image: 'https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/1008154/pexels-photo-1008154.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Mosquito feeding on skin',
     content: `Nassau County&apos;s geography is extraordinary — a densely populated suburban county framed by Atlantic Ocean barrier beaches on the south and Long Island Sound on the north, with the Great South Bay, numerous tidal creeks, freshwater ponds, and thousands of acres of salt marsh in between. That coastal geography is one of Nassau County&apos;s defining assets. It&apos;s also a primary driver of its intense mosquito season.
 
@@ -666,7 +666,7 @@ Liberty Pest Pros provides seasonal mosquito control programs across all of Nass
     title: 'Rodent Control in Levittown and Central Nassau County',
     date: '2025-01-28',
     excerpt: 'Levittown and central Nassau County neighborhoods face specific rodent pressures tied to post-war housing construction, dense suburban density, and shared infrastructure. Here&apos;s what works.',
-    image: 'https://images.pexels.com/photos/4553618/pexels-photo-4553618.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/8251978/pexels-photo-8251978.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Mouse near home entry point',
     content: `Levittown is one of the most recognizable names in American suburban history — and also one of Nassau County&apos;s most consistent sources of rodent control service calls. The original Levitt houses, built rapidly beginning in 1947, were designed for speed and economy. Nearly 80 years later, the accumulated settling, material degradation, and construction-era building practices of those homes create a specific set of rodent entry point patterns that repeat throughout central Nassau County.
 
@@ -709,7 +709,7 @@ Liberty Pest Pros has serviced rodent problems throughout Levittown, Hicksville,
     title: 'Bed Bug Hotspots in Nassau County: Hotels, Schools & Daycares',
     date: '2025-02-05',
     excerpt: 'Bed bugs don&apos;t just hide in homes — Nassau County hotels, schools, daycares, and public spaces are all documented introduction points. Knowing where exposure happens is the first step to protection.',
-    image: 'https://images.pexels.com/photos/5632372/pexels-photo-5632372.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/7186204/pexels-photo-7186204.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Bed bug up close on fabric',
     content: `Most Nassau County residents associate bed bugs with travel and hotels — and that association is correct as far as it goes. But the exposure landscape for bed bugs in a densely populated, highly mobile county like Nassau is far broader than most people realize. Understanding where bed bugs are most commonly acquired helps Nassau County families protect themselves and respond quickly when exposure does occur.
 
@@ -752,7 +752,7 @@ After any potential exposure, launder and dry all clothing on high heat (minimum
     title: 'Ant Season on Long Island: South Shore vs. North Shore Differences',
     date: '2025-02-14',
     excerpt: 'Ant season on Long Island isn&apos;t uniform — South Shore and North Shore Nassau County communities face different species, different timing, and different treatment challenges. Here&apos;s what you need to know.',
-    image: 'https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Ants on a leaf surface',
     content: `Long Island&apos;s North Shore and South Shore are separated by less than 25 miles at their widest point, but the two coastlines produce distinctly different environments — different elevations, different soil types, different vegetation, and different moisture levels. Those environmental differences shape the ant species present, the timing of ant season, and the treatment approaches that work most effectively in each area.
 
