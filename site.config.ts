@@ -138,7 +138,7 @@ export const HOURS = {
   weekday: '7:00 AM – 7:00 PM',
   saturday: '7:00 AM – 5:00 PM',
   sunday: 'Closed',
-  emergency: '24/7 Emergency Service Available',
+  emergency: 'Same-Day Emergency Service Available',
 } as const;
 
 export const REVIEWS = [
