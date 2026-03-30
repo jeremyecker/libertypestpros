@@ -4,11 +4,11 @@ import { BRAND } from '@/hub.config';
 import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
-  title: 'Bed Bug Exterminator Nassau County',
+  title: 'Bed Bug Exterminator Nassau County, Long Island',
   description: 'Nassau County bed bug specialists — heat treatment and chemical options with proven results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
 
   openGraph: {
-    title: 'Bed Bug Exterminator Nassau County',
+    title: 'Bed Bug Exterminator Nassau County, Long Island',
     description: 'Nassau County bed bug specialists — heat treatment and chemical options with proven results. Family-owned since 1982. Call Liberty Pest Pros: (516) 763-4600.',
     url: `${SITE_URL}/bed-bug-exterminator`,
     type: 'website',
@@ -54,34 +54,26 @@ const schemaData = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I know if I have bed bugs in my Nassau County home?",
+          "name": "How do bed bugs spread in Nassau County suburban homes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Common signs include small reddish-brown bugs in mattress seams and box springs, tiny dark spots (excrement) on sheets or mattress edges, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters on your skin. If you suspect bed bugs, call us for a free inspection before the problem spreads."
+            "text": "Bed bugs travel in luggage, on used furniture, and via houseguests who have stayed in infested accommodations. In Nassau County, infestations are most commonly introduced after hotel stays, travel through JFK or LaGuardia airports, or purchasing second-hand furniture. Single-family homes can harbor bed bugs for months before activity becomes obvious — routine checking of mattress seams and box springs is key to early detection."
           }
         },
         {
           "@type": "Question",
-          "name": "How many treatments does bed bug elimination take?",
+          "name": "What is the difference between heat treatment and chemical treatment for bed bugs in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Chemical treatments typically require 2-3 visits spaced 2 weeks apart to break the egg cycle. Heat treatment can eliminate bed bugs in a single treatment by raising room temperatures to levels that kill all life stages. We recommend the right approach based on your situation during the inspection."
+            "text": "Heat treatment raises the temperature in infested areas to 120°F or above, killing all bed bug life stages — including eggs — in a single visit. You can typically return home the same day. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2-3 visits spaced 2 weeks apart to break the egg cycle. We assess each situation and recommend the best approach based on the infestation size, your home's layout, and your household needs."
           }
         },
         {
           "@type": "Question",
-          "name": "Do you do heat treatment for bed bugs in Nassau County?",
+          "name": "Do I need to prepare my Nassau County home before bed bug treatment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We offer both heat treatment and chemical treatment for bed bugs. Heat treatment is highly effective and eliminates bed bugs in a single visit without chemicals — ideal for families concerned about products in sleeping areas. We will walk you through both options and help you choose the best fit."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long before I can return home after bed bug treatment?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For chemical treatments, you can typically return 4-6 hours after treatment once the home is ventilated. For heat treatment, re-entry is usually the same day once temperatures return to normal — typically within a few hours of treatment completion."
+            "text": "Yes — preparation is essential for effective results. Before treatment, you will need to bag and heat-dry all clothing in the affected rooms, reduce clutter around sleeping areas, and stay out of treated rooms for the specified re-entry period. Our technician provides a detailed prep checklist before the appointment so you know exactly what to do. Thorough preparation significantly improves treatment outcomes."
           }
         }
       ]
@@ -123,7 +115,7 @@ export default function BedBugExterminatorTopLevel() {
         <div className="max-w-4xl mx-auto prose prose-lg">
           <h2>Nassau County&apos;s Bed Bug Problem</h2>
           <p>
-            Nassau County has seen a significant increase in bed bug reports over the past decade — and it&apos;s not surprising given the county&apos;s geography and demographics. The dense communities of Hempstead, Freeport, and Long Beach, the apartment complexes along major corridors, and the constant travel through JFK and LaGuardia airports create ideal conditions for bed bug spread. Bed bugs travel in luggage, on clothing, and in used furniture — and once they get into a home, they spread quickly between units in multifamily buildings.
+            Nassau County has seen a significant increase in bed bug reports over the past decade — and it&apos;s not surprising given the county&apos;s geography and demographics. The dense communities of Hempstead, Freeport, and Long Beach, the apartment complexes along major corridors, and the constant travel through JFK and LaGuardia airports create ideal conditions for bed bug spread. Bed bugs travel in luggage, on clothing, and in used furniture — and once they get into a home, they can spread quickly between neighboring units in multifamily buildings.
           </p>
           <p>
             Even Nassau County&apos;s upscale communities are not immune. Bed bugs have been found in luxury hotels, exclusive neighborhoods, and well-kept single-family homes throughout the county. They are equal-opportunity pests that care nothing about cleanliness — they follow the warmth of human bodies.
@@ -142,10 +134,56 @@ export default function BedBugExterminatorTopLevel() {
           <p>
             Before calling an exterminator, check for these indicators: small reddish-brown insects (about the size of an apple seed) in mattress seams and tufts; tiny dark spots on sheets, mattresses, or walls (bed bug excrement); shed exoskeletons near sleeping areas; and small red bites in lines or clusters on skin, often noticed in the morning. If you see any of these signs, call Liberty Pest Pros immediately. Early treatment dramatically reduces the cost and complexity of elimination.
           </p>
-          <h2>The Inspection Process</h2>
+          <h2>The Assessment Process</h2>
           <p>
             Every bed bug engagement begins with a thorough inspection. Our technician will examine all sleeping areas, furniture, baseboards, and nearby clutter to map the extent of the infestation. We&apos;ll provide you with an honest assessment of treatment options, expected timelines, and what to expect during and after treatment — all before you commit to anything.
           </p>
+        </div>
+      </section>
+
+      {/* Content Section */}
+      <section className="mb-10 mt-4 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Bed Bugs in Nassau County, Long Island</h2>
+          <div className="prose prose-lg max-w-none">
+            <p>Nassau County&apos;s suburban landscape — single-family homes, garden apartments, and busy travel corridors connecting to New York City — creates persistent bed bug pressure year-round. Unlike NYC boroughs where bed bugs spread easily through shared walls and pipe chases, Nassau County infestations are most often introduced via luggage from hotel stays, air travel through JFK and LaGuardia, or used furniture purchased online. A single pregnant female bed bug can establish a full infestation within 6–8 weeks — which is why early detection in Nassau County homes is critical.</p>
+            <p>Long Island&apos;s older housing stock — particularly the post-war Cape Cods and ranch homes common in towns like Uniondale, Elmont, and Valley Stream — offers bed bugs ample harborage in furniture, baseboards, and upholstered pieces accumulated over decades. Nassau County renters and homeowners alike face this pressure, and the county&apos;s high density of multi-family housing along major corridors means spread between neighboring units in the same building is common in those properties.</p>
+            <h3>How We Treat Bed Bugs in Nassau County</h3>
+            <ul>
+              <li><strong>Heat treatment (120°F+)</strong> — Single-visit elimination that kills all life stages including eggs; ideal for Nassau County homeowners who want a no-chemical solution and same-day re-entry</li>
+              <li><strong>Chemical treatment with EPA-registered residuals</strong> — 2–3 visits spaced 2 weeks apart to break the egg cycle; targeted application to mattress seams, box springs, bed frames, and baseboards</li>
+              <li><strong>Mattress and box spring encasements</strong> — Installed after treatment to trap any remaining bed bugs and protect sleeping surfaces from re-infestation</li>
+              <li><strong>Follow-up inspection</strong> — Scheduled 2–3 weeks post-treatment to confirm elimination and address any remaining activity before it re-establishes</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="mb-10 px-4">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Bed Bugs in Nassau County — FAQ</h2>
+          <div className="space-y-4">
+            {[
+              {
+                q: "How do bed bugs spread in Nassau County suburban homes?",
+                a: "Bed bugs travel in luggage, on used furniture, and via houseguests who stayed in infested accommodations. In Nassau County, infestations are most commonly introduced after hotel stays, travel through JFK or LaGuardia airports, or purchasing second-hand furniture. Single-family homes can harbor bed bugs for months before activity becomes obvious — routine checking of mattress seams and box springs is key to early detection."
+              },
+              {
+                q: "What is the difference between heat treatment and chemical treatment for bed bugs?",
+                a: "Heat treatment raises room temperatures to 120°F or above, killing all bed bug life stages — including eggs — in a single visit, with same-day re-entry. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2–3 visits spaced 2 weeks apart to break the egg cycle. We assess each Nassau County home individually and recommend the best approach based on your situation."
+              },
+              {
+                q: "Do I need to prepare my Nassau County home before bed bug treatment?",
+                a: "Yes — preparation is essential for effective treatment. You will need to bag and heat-dry all clothing in affected rooms, reduce clutter around sleeping areas, and vacate treated rooms for the specified re-entry period. Our technician provides a detailed prep checklist before the appointment. Thorough preparation significantly improves treatment outcomes."
+              },
+            ].map((faq, i) => (
+              <div key={i} className="border border-gray-200 rounded-lg p-5 bg-white">
+                <h3 className="font-bold text-gray-900 mb-2">{faq.q}</h3>
+                <p className="text-gray-700">{faq.a}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -174,11 +212,11 @@ export default function BedBugExterminatorTopLevel() {
           <div className="space-y-4">
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How do I know if I have bed bugs in my Nassau County home?</h3>
-              <p className="text-gray-600">Common signs include small reddish-brown bugs in mattress seams, tiny dark spots on sheets, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters. If you suspect bed bugs, call us for a free inspection.</p>
+              <p className="text-gray-600">Common signs include small reddish-brown bugs in mattress seams, tiny dark spots on sheets, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters. If you suspect bed bugs, call us for a free estimate.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How many treatments does bed bug elimination take?</h3>
-              <p className="text-gray-600">Chemical treatments typically require 2-3 visits spaced 2 weeks apart to break the egg cycle. Heat treatment can eliminate bed bugs in a single visit. We recommend the right approach during the inspection.</p>
+              <p className="text-gray-600">Chemical treatments typically require 2-3 visits spaced 2 weeks apart to break the egg cycle. Heat treatment can eliminate bed bugs in a single visit. We recommend the right approach during the assessment.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you do heat treatment for bed bugs in Nassau County?</h3>
