@@ -90,7 +90,6 @@ export function localBusinessSchema() {
       '@type': 'AdministrativeArea',
       name: `${GEO.countyFull}, ${GEO.stateCode}`,
     },
-    priceRange: '$$',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Pest Control Services',
