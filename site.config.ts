@@ -63,17 +63,17 @@ export const PEST_OPTIONS = [
 ] as const;
 
 export const SERVICES = [
-  { name: 'Ant Control', slug: 'ant-control', icon: '🐜', description: 'Keep ants out of your kitchen and away from your family. Effective, family-friendly treatments.' },
-  { name: 'Termite Treatment', slug: 'termite-treatment', icon: '🪵', description: 'Protect your biggest investment. Expert termite inspections and treatment.' },
-  { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '🛏️', description: 'Help your family sleep easy again. Thorough bed bug removal using proven treatments.' },
-  { name: 'Rodent Control', slug: 'rodent-control', icon: '🐀', description: "Mice and rats don't belong near your family. We remove them and seal entry points." },
-  { name: 'Cockroach Control', slug: 'cockroach-control', icon: '🪳', description: 'Complete cockroach elimination that protects your family and home.' },
-  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '🦟', description: 'Take back your backyard. Family-friendly mosquito treatments for outdoor enjoyment.' },
-  { name: 'Spider Control', slug: 'spider-control', icon: '🕷️', description: 'No more surprises in the basement or garage. Thorough spider removal for your whole home.' },
-  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '🐝', description: "Protect your family from stinging insects. We'll remove nests from your property." },
-  { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '🦗', description: 'Protect your family and pets. Professional flea and tick control for home and yard.' },
-  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '🦝', description: 'Raccoons in the attic? Humane removal that protects your family.' },
-  { name: 'Commercial Pest Control', slug: 'commercial-pest-control', icon: '🏢', description: 'Customized pest management for businesses. Discreet, reliable, effective.' },
+  { name: 'Ant Control', slug: 'ant-control', icon: '\uD83D\uDC1C', description: 'Keep ants out of your kitchen and away from your family. Effective treatments safe for kids and pets.' },
+  { name: 'Termite Treatment', slug: 'termite-treatment', icon: '\uD83E\uDEB5', description: 'Protect your biggest investment. Expert termite inspections and treatment.' },
+  { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '\uD83D\uDECF\uFE0F', description: 'Help your family sleep easy again. Thorough bed bug removal using proven treatments.' },
+  { name: 'Rodent Control', slug: 'rodent-control', icon: '\uD83D\uDC00', description: "Mice and rats don't belong near your family. We remove them and seal entry points." },
+  { name: 'Cockroach Control', slug: 'cockroach-control', icon: '\uD83E\uDEB3', description: 'Complete cockroach elimination that protects your family and home.' },
+  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '\uD83E\uDD9F', description: 'Take back your backyard. Mosquito treatments safe for kids and pets.' },
+  { name: 'Spider Control', slug: 'spider-control', icon: '\uD83D\uDD77\uFE0F', description: 'No more surprises in the basement or garage. Thorough spider removal for your whole home.' },
+  { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '\uD83D\uDC1D', description: "Protect your family from stinging insects. We'll remove nests from your property." },
+  { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '\uD83E\uDD97', description: 'Protect your family and pets. Professional flea and tick control for home and yard.' },
+  { name: 'Wildlife Removal', slug: 'wildlife-removal', icon: '\uD83E\uDD9D', description: 'Raccoons in the attic? Humane removal that protects your family.' },
+  { name: 'Commercial Pest Control', slug: 'commercial-pest-control', icon: '\uD1F', description: 'Customized pest management for businesses. Discreet, reliable, effective.' },
 ] as const;
 
 export const GMB = {
@@ -84,12 +84,12 @@ export const GMB = {
 } as const;
 
 export const TRUST_STATS = [
-  { icon: '🤝', value: 'Thousands', label: 'Of Happy Customers' },
-  { icon: '⚡', value: 'Same Day', label: 'Next Day Service' },
-  { icon: '🔒', value: 'Discreet', label: 'Services' },
-  { icon: '🔬', value: 'Expert', label: 'Analysis & Delivery' },
-  { icon: '📞', value: 'High-Level', label: 'Communication' },
-  { icon: '✅', value: 'Licensed', label: '& Insured' },
+  { icon: '\uD83E\uDD1D', value: 'Thousands', label: 'Of Happy Customers' },
+  { icon: '\u26A1', value: 'Same Day', label: 'Next Day Service' },
+  { icon: '\uD83D\uDD12', value: 'Discreet', label: 'Services' },
+  { icon: '\uD83D\uDD2C', value: 'Expert', label: 'Analysis & Delivery' },
+  { icon: '\uD83D\uDCDE', value: 'High-Level', label: 'Communication' },
+  { icon: '\u2705', value: 'Licensed', label: '& Insured' },
 ] as const;
 
 export const LEAD_ROUTING = {
@@ -135,8 +135,8 @@ export const FOOTER_LINKS = {
 } as const;
 
 export const HOURS = {
-  weekday: '7:00 AM – 7:00 PM',
-  saturday: '7:00 AM – 5:00 PM',
+  weekday: '7:00 AM \u2013 7:00 PM',
+  saturday: '7:00 AM \u2013 5:00 PM',
   sunday: 'Closed',
   emergency: 'Same-Day Emergency Service Available',
 } as const;
@@ -187,19 +187,19 @@ export const REVIEWS = [
 ] as const;
 
 export const NETWORK_SITES = [
-  { name: 'Suffolk County Pest Control', url: 'https://suffolkcountypestcontrol.com', description: 'Suffolk County, NY pest control experts', emoji: '🐛' },
-  { name: 'Nassau County Pest Control', url: 'https://nassaucountypestcontrol.net', description: 'Nassau County, NY pest control services', emoji: '🛡️' },
-  { name: 'Quest Pest Control', url: 'https://questpest.net', description: 'Suffolk, Nassau & Queens exterminators', emoji: '🎯' },
-  { name: 'Queens Pest Control', url: 'https://queenscountypestcontrol.com', description: 'Queens, NY pest control specialists', emoji: '🏙️' },
-  { name: 'Brooklyn Pest Control', url: 'https://brooklynnycpestcontrol.com', description: 'Brooklyn, NY pest control services', emoji: '🌉' },
-  { name: 'Bronx Pest Control', url: 'https://bronxcountypestcontrol.com', description: 'Bronx, NY pest control experts', emoji: '🦁' },
-  { name: 'Manhattan Pest Control', url: 'https://manhattanpestcontrolnearme.com', description: 'Manhattan, NY pest control services', emoji: '🗽' },
-  { name: 'NYC Pest Control', url: 'https://nycpestcontrolnearme.com', description: 'New York City pest control services', emoji: '🏢' },
-  { name: 'Wildlife NY', url: 'https://wildlifeny.com', description: 'NY wildlife removal specialists', emoji: '🦝' },
-  { name: 'The Bed Bug Inspectors', url: 'https://thebedbuginspectors.com', description: 'Bed bug specialists — inspections & treatment', emoji: '🛏️' },
-  { name: 'Jet Pest Control', url: 'https://jetpestcontrol.com', description: 'Fast, reliable pest control services', emoji: '✈️' },
-  { name: 'BluesWay Pest Control', url: 'https://blueswaypestcontrol.com', description: 'Professional pest control services', emoji: '🎵' },
-  { name: 'The Bugs Stop Here', url: 'https://thebugsstophere.com', description: 'Stop pests in their tracks', emoji: '🛑' },
+  { name: 'Suffolk County Pest Control', url: 'https://suffolkcountypestcontrol.com', description: 'Suffolk County, NY pest control experts', emoji: '\uD83D\uDC1B' },
+  { name: 'Nassau County Pest Control', url: 'https://nassaucountypestcontrol.net', description: 'Nassau County, NY pest control services', emoji: '\uD83D\uDEE1\uFE0F' },
+  { name: 'Quest Pest Control', url: 'https://questpest.net', description: 'Suffolk, Nassau & Queens exterminators', emoji: '\uD83C\uDFAF' },
+  { name: 'Queens Pest Control', url: 'https://queenscountypestcontrol.com', description: 'Queens, NY pest control specialists', emoji: '\uD83C\uDFD9\uFE0F' },
+  { name: 'Brooklyn Pest Control', url: 'https://brooklynnycpestcontrol.com', description: 'Brooklyn, NY pest control services', emoji: '\uD83C\uDF09' },
+  { name: 'Bronx Pest Control', url: 'https://bronxcountypestcontrol.com', description: 'Bronx, NY pest control experts', emoji: '\uD83E\uDD81' },
+  { name: 'Manhattan Pest Control', url: 'https://manhattanpestcontrolnearme.com', description: 'Manhattan, NY pest control services', emoji: '\uD83D\uDDFD' },
+  { name: 'NYC Pest Control', url: 'https://nycpestcontrolnearme.com', description: 'New York City pest control services', emoji: '\uD83C\uDFE2' },
+  { name: 'Wildlife NY', url: 'https://wildlifeny.com', description: 'NY wildlife removal specialists', emoji: '\uD83E\uDD9D' },
+  { name: 'The Bed Bug Inspectors', url: 'https://thebedbuginspectors.com', description: 'Bed bug specialists \u2014 inspections & treatment', emoji: '\uD83D\uDECF\uFE0F' },
+  { name: 'Jet Pest Control', url: 'https://jetpestcontrol.com', description: 'Fast, reliable pest control services', emoji: '\u2708\uFE0F' },
+  { name: 'BluesWay Pest Control', url: 'https://blueswaypestcontrol.com', description: 'Professional pest control services', emoji: '\uD83C\uDFB5' },
+  { name: 'The Bugs Stop Here', url: 'https://thebugsstophere.com', description: 'Stop pests in their tracks', emoji: '\uD83D\uDED1' },
 ] as const;
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA4_ID || '';
