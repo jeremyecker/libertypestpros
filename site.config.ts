@@ -63,12 +63,12 @@ export const PEST_OPTIONS = [
 ] as const;
 
 export const SERVICES = [
-  { name: 'Ant Control', slug: 'ant-control', icon: '\uD83D\uDC1C', description: 'Keep ants out of your kitchen and away from your family. Effective treatments safe for kids and pets.' },
+  { name: 'Ant Control', slug: 'ant-control', icon: '\uD83D\uDC1C', description: 'Keep ants out of your kitchen and away from your family. Effective treatments designed to protect kids and pets.' },
   { name: 'Termite Treatment', slug: 'termite-treatment', icon: '\uD83E\uDEB5', description: 'Protect your biggest investment. Expert termite inspections and treatment.' },
   { name: 'Bed Bug Removal', slug: 'bed-bug-removal', icon: '\uD83D\uDECF\uFE0F', description: 'Help your family sleep easy again. Thorough bed bug removal using proven treatments.' },
   { name: 'Rodent Control', slug: 'rodent-control', icon: '\uD83D\uDC00', description: `Mice and rats don't belong near your family. We remove them and seal entry points.` },
   { name: 'Cockroach Control', slug: 'cockroach-control', icon: '\uD83E\uDEB3', description: 'Complete cockroach elimination that protects your family and home.' },
-  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '\uD83E\uDD9F', description: 'Take back your backyard. Mosquito treatments safe for kids and pets.' },
+  { name: 'Mosquito Control', slug: 'mosquito-control', icon: '\uD83E\uDD9F', description: 'Take back your backyard. Mosquito treatments designed to protect kids and pets.' },
   { name: 'Spider Control', slug: 'spider-control', icon: '\uD83D\uDD77\uFE0F', description: 'No more surprises in the basement or garage. Thorough spider removal for your whole home.' },
   { name: 'Wasp & Hornet Removal', slug: 'wasp-hornet-removal', icon: '\uD83D\uDC1D', description: `Protect your family from stinging insects. We'll remove nests from your property.` },
   { name: 'Flea & Tick Treatment', slug: 'flea-tick-treatment', icon: '\uD83E\uDD97', description: 'Protect your family and pets. Professional flea and tick control for home and yard.' },
