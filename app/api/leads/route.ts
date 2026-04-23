@@ -2,14 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import { BRAND } from '@/hub.config';
 import { createClient } from '@supabase/supabase-js';
 
-// Dedup store (in-memory — resets on cold start, sufficient for basic protection)
-const recentSubmissions = new Map<string, number>();
-setInterval(() => {
-  const tenMinAgo = Date.now() - 10 * 60 * 1000;
-  for (const [key, timestamp] of recentSubmissions.entries()) {
-    if (timestamp < tenMinAgo) recentSubmissions.delete(key);
-  }
-}, 15 * 60 * 1000);
 
 
 const SUPABASE_URL = process.env.SUPABASE_URL!;
