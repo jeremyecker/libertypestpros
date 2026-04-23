@@ -38,6 +38,20 @@ export async function POST(req: NextRequest) {
 
     // Save to Supabase
     if (SUPABASE_URL && SUPABASE_ANON_KEY) {
+  // === BLOCKLIST CHECK ===
+  const BLOCKED_PHONES = ['2168596131'];
+  const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
+  const BLOCKED_DOMAINS = ['parallelaid.com'];
+  const _cleanPhone = (phone || '').replace(/[^0-9]/g, '');
+  const _lowerEmail = (email || '').toLowerCase();
+  if (
+    BLOCKED_PHONES.includes(_cleanPhone) ||
+    BLOCKED_EMAILS.includes(_lowerEmail) ||
+    BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
+  ) {
+    return NextResponse.json({ success: true });
+  }
+  // === END BLOCKLIST ===
       await fetch(`${SUPABASE_URL}/rest/v1/form_submissions`, {
         method: 'POST',
         headers: {
