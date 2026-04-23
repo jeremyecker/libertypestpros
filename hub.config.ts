@@ -57,20 +57,28 @@ export const REVIEWS = [
 // REGIONS — Nassau (single region)
 // ============================================================
 const NASSAU_TOWNS = [
-  'Alden Manor', 'Albertson', 'Amityville', 'Atlantic Beach', 'Baldwin', 'Bayville', 'Bellmore', 'Bethpage',
-  'Carle Place', 'Cedarhurst', 'East Meadow', 'East Norwich', 'East Rockaway', 'Elmont',
-  'Farmingdale', 'Floral Park', 'Franklin Square', 'Freeport', 'Garden City',
-  'Glen Cove', 'Glen Head', 'Glenwood Landing', 'Great Neck', 'Greenvale',
-  'Hempstead', 'Herricks', 'Hewlett', 'Hicksville', 'Inwood',
-  'Island Park', 'Jericho', 'Lawrence', 'Levittown', 'Lido Beach',
-  'Locust Valley', 'Long Beach', 'Lynbrook', 'Malverne', 'Manhasset',
-  'Massapequa', 'Massapequa Park', 'Merrick', 'Mineola', 'New Hyde Park',
-  'North Bellmore', 'North Merrick', 'North New Hyde Park', 'Oceanside',
-  'Old Bethpage', 'Old Westbury', 'Oyster Bay', 'Plainview', 'Point Lookout',
-  'Port Washington', 'Rockville Centre', 'Roosevelt', 'Roslyn', 'Roslyn Heights',
-  'Sea Cliff', 'Seaford', 'South Farmingdale', 'South Floral Park',
-  'South Hempstead', 'South Merrick', 'Syosset', 'Uniondale', 'Valley Stream', 'Wantagh',
-  'West Hempstead', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere',
+  'Albertson', 'Alden Manor', 'Amityville', 'Atlantic Beach', 'Baldwin', 'Baldwin Harbor',
+  'Barnum Island', 'Bay Park', 'Bayville', 'Bellmore', 'Bethpage', 'Brookville',
+  'Carle Place', 'Cedarhurst', 'Centre Island', 'Cold Spring Harbor', 'Cove Neck', 'East Atlantic Beach',
+  'East Garden City', 'East Hills', 'East Massapequa', 'East Meadow', 'East Norwich', 'East Rockaway',
+  'East Williston', 'Elmont', 'Farmingdale', 'Floral Park', 'Flower Hill', 'Franklin Square',
+  'Freeport', 'Garden City', 'Garden City Park', 'Garden City South', 'Glen Cove', 'Glen Head',
+  'Glenwood Landing', 'Great Neck', 'Great Neck Estates', 'Great Neck Gardens', 'Great Neck Plaza', 'Greenvale',
+  'Harbor Hills', 'Harbor Isle', 'Hempstead', 'Herricks', 'Hewlett', 'Hewlett Bay Park',
+  'Hewlett Harbor', 'Hewlett Neck', 'Hicksville', 'Inwood', 'Island Park', 'Jericho',
+  'Kensington', 'Kings Point', 'Lake Success', 'Lawrence', 'Levittown', 'Lido Beach',
+  'Locust Valley', 'Long Beach', 'Lynbrook', 'Malverne', 'Malverne Park Oaks', 'Manhasset',
+  'Manhasset Hills', 'Massapequa', 'Massapequa Park', 'Matinecock', 'Merrick', 'Mill Neck',
+  'Mineola', 'Muttontown', 'New Cassel', 'New Hyde Park', 'North Bellmore', 'North Hills',
+  'North Lynbrook', 'North Massapequa', 'North Merrick', 'North New Hyde Park', 'North Valley Stream', 'North Woodmere',
+  'Northwest Harbor', 'Oceanside', 'Old Bethpage', 'Old Westbury', 'Oyster Bay', 'Oyster Bay Cove',
+  'Plainview', 'Plandome', 'Plandome Heights', 'Plandome Manor', 'Point Lookout', 'Port Washington',
+  'Port Washington North', 'Rockville Centre', 'Roosevelt', 'Roslyn', 'Roslyn Estates', 'Roslyn Harbor',
+  'Roslyn Heights', 'Russell Gardens', 'Saddle Rock', 'Saddle Rock Estates', 'Salisbury', 'Sands Point',
+  'Sea Cliff', 'Seaford', 'Searingtown', 'South Farmingdale', 'South Floral Park', 'South Hempstead',
+  'South Lynbrook', 'South Merrick', 'South Valley Stream', 'Stewart Manor', 'Syosset', 'Thomaston',
+  'Uniondale', 'University Gardens', 'Upper Brookville', 'Valley Stream', 'Wantagh', 'West Hempstead',
+  'West Hills', 'Westbury', 'Williston Park', 'Woodbury', 'Woodmere', 'Woodsburgh'
 ];
 
 export const REGIONS: RegionConfig[] = [
