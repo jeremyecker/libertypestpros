@@ -1,29 +1,23 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { BRAND } from '@/hub.config';
 
+// Dedup store (in-memory — resets on cold start, sufficient for basic protection)
+const recentSubmissions = new Map<string, number>();
+setInterval(() => {
+  const tenMinAgo = Date.now() - 10 * 60 * 1000;
+  for (const [key, timestamp] of recentSubmissions.entries()) {
+    if (timestamp < tenMinAgo) recentSubmissions.delete(key);
+  }
+}, 15 * 60 * 1000);
+
+
+const SUPABASE_URL = process.env.SUPABASE_URL!;
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
 const WEBHOOK_URL = process.env.CRM_WEBHOOK_URL || BRAND.webhookUrl;
-const SITE_NAME = 'libertypestpros';
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-
-    // === PHASE2 SECURITY ===
-    // Origin validation
-    const origin = req.headers.get('origin') || '';
-    const isLocalDev = origin.includes('localhost') || origin.includes('127.0.0.1');
-    const isVercel = origin.includes('.vercel.app');
-    if (origin && !isLocalDev && !isVercel) {
-      return NextResponse.json({ success: true });
-    }
-    // Name validation
-    const nameVal = (body.name as string || '').trim();
-    const hasVowel = /[aeiouAEIOU]/.test(nameVal);
-    const hasUrl = /https?:\/\/|www\./.test(nameVal);
-    if (nameVal.length > 80 || !hasVowel || hasUrl) {
-      return NextResponse.json({ success: true });
-    }
-    // === END PHASE2 ORIGIN/VALIDATION ===
     const {
       name,
       phone,
@@ -52,6 +46,8 @@ export async function POST(req: NextRequest) {
       created_at: new Date().toISOString(),
     };
 
+    // Save to Supabase
+    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
   // === BLOCKLIST CHECK ===
   const BLOCKED_PHONES = ['2168596131'];
   const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
@@ -78,7 +74,27 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true, message: 'Thank you!' });
   }
 
-// Send to CRM webhook
+  // SPAM PROTECTION: Dedup (same phone within 10 minutes)
+  const _dedupPhone = (phone || '').replace(/\D/g, '');
+  const _lastSub = recentSubmissions.get(_dedupPhone);
+  if (_lastSub && Date.now() - _lastSub < 10 * 60 * 1000) {
+    return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
+  }
+  recentSubmissions.set(_dedupPhone, Date.now());
+
+      await fetch(`${SUPABASE_URL}/rest/v1/form_submissions`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify(leadData),
+      });
+    }
+
+    // Send to CRM webhook
     if (WEBHOOK_URL) {
       await fetch(WEBHOOK_URL, {
         method: 'POST',
