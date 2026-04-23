@@ -20,8 +20,8 @@ export default function Hero({
   const currentYear = new Date().getFullYear();
   const yearsInBusiness = BRAND.yearFounded ? currentYear - BRAND.yearFounded : 0;
 
-  const defaultTitle = `Protecting ${GEO.region} Homes & Families from Pests`;
-  const defaultSubtitle = `Your neighbors trust us — families across ${GEO.region} have trusted ${SITE_NAME} for expert pest control. Family-friendly treatments for homes with kids and pets.`;
+  const defaultTitle = `${GEO.countyFull} Exterminator — Licensed Pest Control on Long Island`;
+  const defaultSubtitle = `Nassau County's trusted licensed exterminators since 1982. Same-day service available. Call now for a free estimate.`;
 
   const heroBadge = yearsInBusiness > 0
     ? `${yearsInBusiness}+ Years Serving the ${GEO.region}`
