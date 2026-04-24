@@ -45,6 +45,28 @@ export async function POST(req: NextRequest) {
       site_domain: BRAND.domain,
       created_at: new Date().toISOString(),
     };
+    // Write to marketing_leads (correct column mapping for REPC CRM)
+    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
+      await fetch(`${SUPABASE_URL}/rest/v1/marketing_leads`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify({
+          customer_name: (leadData.name || '').trim(),
+          customer_phone: ((leadData.phone || '') + '').replace(/\D/g, ''),
+          customer_email: leadData.email || null,
+          website: leadData.page_url || null,
+          lead_source: leadData.site_domain || '',
+          api_source: leadData.site_domain || '',
+          description: leadData.pest_type || leadData.description || null,
+          status: 'new',
+        }),
+      }).catch(() => {});
+    }
 
     // Save to Supabase
     if (SUPABASE_URL && SUPABASE_ANON_KEY) {
