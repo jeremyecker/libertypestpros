@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { BRAND } from '@/hub.config';
+
+const WEBHOOK_URL = 'https://omcdxpqhnrhgnkxafgtn.supabase.co/functions/v1/webhook-libertypestpros';
 
 // Dedup store (in-memory — resets on cold start, sufficient for basic protection)
 const recentSubmissions = new Map<string, number>();
@@ -9,11 +10,6 @@ setInterval(() => {
     if (timestamp < tenMinAgo) recentSubmissions.delete(key);
   }
 }, 15 * 60 * 1000);
-
-
-const SUPABASE_URL = process.env.SUPABASE_URL!;
-const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY!;
-const WEBHOOK_URL = process.env.CRM_WEBHOOK_URL || BRAND.webhookUrl;
 
 export async function POST(req: NextRequest) {
   try {
@@ -33,6 +29,40 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 });
     }
 
+    // === BLOCKLIST CHECK ===
+    const BLOCKED_PHONES = ['2168596131'];
+    const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
+    const BLOCKED_DOMAINS = ['parallelaid.com'];
+    const _cleanPhone = (phone || '').replace(/[^0-9]/g, '');
+    const _lowerEmail = (email || '').toLowerCase();
+    if (
+      BLOCKED_PHONES.includes(_cleanPhone) ||
+      BLOCKED_EMAILS.includes(_lowerEmail) ||
+      BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
+    ) {
+      return NextResponse.json({ success: true });
+    }
+    // === END BLOCKLIST ===
+
+    // SPAM PROTECTION: Honeypot
+    if (body.honeypot) {
+      return NextResponse.json({ success: true, message: 'Thank you!' });
+    }
+
+    // SPAM PROTECTION: Timing (< 3 seconds = likely bot)
+    const formStartedAt = body.form_started_at;
+    if (formStartedAt && Date.now() - formStartedAt < 3000) {
+      return NextResponse.json({ success: true, message: 'Thank you!' });
+    }
+
+    // SPAM PROTECTION: Dedup (same phone within 10 minutes)
+    const _dedupPhone = (phone || '').replace(/\D/g, '');
+    const _lastSub = recentSubmissions.get(_dedupPhone);
+    if (_lastSub && Date.now() - _lastSub < 10 * 60 * 1000) {
+      return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
+    }
+    recentSubmissions.set(_dedupPhone, Date.now());
+
     const leadData = {
       name,
       phone,
@@ -42,87 +72,18 @@ export async function POST(req: NextRequest) {
       sms_consent: smsConsent === true,
       source: source || 'website',
       region_slug: regionSlug || null,
-      site_domain: BRAND.domain,
       created_at: new Date().toISOString(),
     };
-    // Write to marketing_leads (correct column mapping for REPC CRM)
-    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
-      await fetch(`${SUPABASE_URL}/rest/v1/marketing_leads`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'apikey': SUPABASE_ANON_KEY,
-          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-          'Prefer': 'return=minimal',
-        },
-        body: JSON.stringify({
-          customer_name: (leadData.name || '').trim(),
-          customer_phone: ((leadData.phone || '') + '').replace(/\D/g, ''),
-          customer_email: leadData.email || null,
-          website: leadData.page_url || null,
-          lead_source: leadData.site_domain || '',
-          api_source: leadData.site_domain || '',
-          description: leadData.pest_type || leadData.description || null,
-          status: 'new',
-        }),
-      }).catch(() => {});
-    }
-
-    // Save to Supabase
-    if (SUPABASE_URL && SUPABASE_ANON_KEY) {
-  // === BLOCKLIST CHECK ===
-  const BLOCKED_PHONES = ['2168596131'];
-  const BLOCKED_EMAILS = ['susansmi@parallelaid.com'];
-  const BLOCKED_DOMAINS = ['parallelaid.com'];
-  const _cleanPhone = (phone || '').replace(/[^0-9]/g, '');
-  const _lowerEmail = (email || '').toLowerCase();
-  if (
-    BLOCKED_PHONES.includes(_cleanPhone) ||
-    BLOCKED_EMAILS.includes(_lowerEmail) ||
-    BLOCKED_DOMAINS.some(d => _lowerEmail.endsWith('@' + d))
-  ) {
-    return NextResponse.json({ success: true });
-  }
-  // === END BLOCKLIST ===
-
-  // SPAM PROTECTION: Honeypot
-  if (body.honeypot) {
-    return NextResponse.json({ success: true, message: 'Thank you!' });
-  }
-
-  // SPAM PROTECTION: Timing (< 3 seconds = likely bot)
-  const formStartedAt = body.form_started_at;
-  if (formStartedAt && Date.now() - formStartedAt < 3000) {
-    return NextResponse.json({ success: true, message: 'Thank you!' });
-  }
-
-  // SPAM PROTECTION: Dedup (same phone within 10 minutes)
-  const _dedupPhone = (phone || '').replace(/\D/g, '');
-  const _lastSub = recentSubmissions.get(_dedupPhone);
-  if (_lastSub && Date.now() - _lastSub < 10 * 60 * 1000) {
-    return NextResponse.json({ success: true, message: "We already received your request. We'll be in touch soon!" });
-  }
-  recentSubmissions.set(_dedupPhone, Date.now());
-
-      await fetch(`${SUPABASE_URL}/rest/v1/form_submissions`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'apikey': SUPABASE_ANON_KEY,
-          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
-          'Prefer': 'return=minimal',
-        },
-        body: JSON.stringify(leadData),
-      });
-    }
 
     // Send to CRM webhook
-    if (WEBHOOK_URL) {
+    try {
       await fetch(WEBHOOK_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(leadData),
       });
+    } catch (e) {
+      console.error('Webhook error:', e);
     }
 
     return NextResponse.json({ success: true });
