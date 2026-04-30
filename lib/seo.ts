@@ -122,6 +122,12 @@ export function serviceSchema(serviceName: string, serviceSlug: string, descript
       '@id': `${SITE_URL}/#business`,
       name: SITE_NAME,
       telephone: PHONE,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: GEO.countyFull,
+        addressRegion: GEO.stateCode,
+        addressCountry: 'US',
+      },
     },
     areaServed: {
       '@type': 'AdministrativeArea',
