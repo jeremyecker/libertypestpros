@@ -5,6 +5,7 @@ import { SITE_NAME, SITE_DESCRIPTION, SITE_URL, SEO } from '@/site.config';
 import TopBar from '@/components/layout/TopBar';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import StickyMobileCTA from '@/components/ui/StickyMobileCTA';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -81,6 +82,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <StickyMobileCTA />
       </body>
     </html>
   );
