@@ -13,7 +13,7 @@ export const BRAND = {
   name: 'Liberty Pest Pros',
   tagline: 'Family-Owned Pest Control Since 1982 — Nassau County, Long Island',
   domain: 'libertypestpros.com',
-  phone: '5167664433',
+  phone: '5167634600',
   phoneFormatted: '(516) 763-4600',
   email: 'info@libertypestpros.com',
   primaryColor: '#1B3D6F',
@@ -34,22 +34,40 @@ export const GMBS = [] as GMBEntry[];
 // ============================================================
 export const REVIEWS = [
   {
-    name: 'Happy Client',
+    name: 'Lourdes M.',
     location: 'Oceanside, NY',
     rating: 5,
-    text: "An excellent pest control service. They are responsive, knowledgeable, professional and understanding. Marty is a great service technician and is always prompt and courteous. A great company!",
+    text: "Deya is great, she does her job thoroughly, is very friendly and courteous. She always solicits information when she comes to understand where I am having problems with insects. She then takes thorough action to address it. She takes her time unlike other exterminators that rush in and out and barely do anything.",
   },
   {
-    name: 'Satisfied Customer',
+    name: 'Nick W.',
     location: 'Nassau County, NY',
     rating: 5,
-    text: "I have literally no complaints! Everyone I've come in contact with has been incredibly helpful and well informed, and Andrew gave me quick and efficient service. Definitely using them for the foreseeable future!",
+    text: "I contacted Liberty Pest Pros about a rodent problem and from the beginning they were caring and concerned and responsive. They worked to get an inspection set and treatment plan very quickly. Jim who conducted the inspection was very thorough.",
   },
   {
-    name: 'Long Island Homeowner',
+    name: 'Lisa A.',
     location: 'Long Beach, NY',
     rating: 5,
-    text: "Andrew was such a pleasure to work with. Made the process painless, explained everything he was doing, and made sure we knew how to get ahold of the company for any follow up, if necessary. I would highly recommend!",
+    text: "Very professional and took time to consider our issue and considered the dogs as well. Even helped clean up old sticky traps!",
+  },
+  {
+    name: 'Evan C.',
+    location: 'Nassau County, NY',
+    rating: 5,
+    text: "Had Khaleeb come to our property due to an animal getting into the crawl space between our first and second floor. He was thorough and professional. Would definitely recommend!",
+  },
+  {
+    name: 'Alyssa C.',
+    location: 'Nassau County, NY',
+    rating: 5,
+    text: "Jim came by today to check our termite traps. He was very kind and friendly! We had a concern about a specific spot outside. He was very knowledgeable and helped put our minds at ease.",
+  },
+  {
+    name: 'Tara G.',
+    location: 'Nassau County, NY',
+    rating: 5,
+    text: "I called with an ant issue they came the next morning. The techs were very thorough and addressed the problem!",
   },
 ];
 
@@ -112,7 +130,21 @@ export const REGIONS: RegionConfig[] = [
 // ============================================================
 // NETWORK SITES — sister sites for cross-linking
 // ============================================================
-export const NETWORK_SITES: NetworkSite[] = [];
+export const NETWORK_SITES: NetworkSite[] = [
+  { name: 'Suffolk County Pest Control', url: 'https://suffolkcountypestcontrol.com', description: 'Suffolk County, NY pest control experts', emoji: '\uD83D\uDC1B' },
+  { name: 'Nassau County Pest Control', url: 'https://nassaucountypestcontrol.net', description: 'Nassau County, NY pest control services', emoji: '\uD83D\uDEE1\uFE0F' },
+  { name: 'Quest Pest Control', url: 'https://questpest.net', description: 'Suffolk, Nassau & Queens exterminators', emoji: '\uD83C\uDFAF' },
+  { name: 'Queens Pest Control', url: 'https://queenscountypestcontrol.com', description: 'Queens, NY pest control specialists', emoji: '\uD83C\uDFD9\uFE0F' },
+  { name: 'Brooklyn Pest Control', url: 'https://brooklynnycpestcontrol.com', description: 'Brooklyn, NY pest control services', emoji: '\uD83C\uDF09' },
+  { name: 'Bronx Pest Control', url: 'https://bronxcountypestcontrol.com', description: 'Bronx, NY pest control experts', emoji: '\uD83E\uDD81' },
+  { name: 'Manhattan Pest Control', url: 'https://manhattanpestcontrolnearme.com', description: 'Manhattan, NY pest control services', emoji: '\uD83D\uDDFD' },
+  { name: 'NYC Pest Control', url: 'https://nycpestcontrolnearme.com', description: 'New York City pest control services', emoji: '\uD83C\uDFE2' },
+  { name: 'Wildlife NY', url: 'https://wildlifeny.com', description: 'NY wildlife removal specialists', emoji: '\uD83E\uDD9D' },
+  { name: 'The Bed Bug Inspectors', url: 'https://thebedbuginspectors.com', description: 'Bed bug specialists \u2014 inspections & treatment', emoji: '\uD83D\uDECF\uFE0F' },
+  { name: 'Jet Pest Control', url: 'https://jetpestcontrol.com', description: 'Fast, reliable pest control services', emoji: '\u2708\uFE0F' },
+  { name: 'BluesWay Pest Control', url: 'https://blueswaypestcontrol.com', description: 'Professional pest control services', emoji: '\uD83C\uDFB5' },
+  { name: 'The Bugs Stop Here', url: 'https://thebugsstophere.com', description: 'Stop pests in their tracks', emoji: '\uD83D\uDED1' },
+];
 
 // ============================================================
 // SERVICE×TOWN ROUTES — for internal linking
