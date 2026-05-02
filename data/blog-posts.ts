@@ -105,9 +105,9 @@ Because termite damage is hidden and cumulative, Nassau County homeowners — es
   },
   {
     slug: 'mosquito-control-long-island-backyards',
-    title: 'Mosquito Control for Long Island Backyards',
+    title: 'Mosquitoes Ruining Your Long Island Backyard? Here\'s What Actually Works',
     date: '2024-05-18',
-    excerpt: 'Long Island&apos;s mosquito season runs from May through September and can make backyards unusable. Discover how Nassau County homeowners are reclaiming their outdoor spaces.',
+    excerpt: 'Long Island&apos;s mosquito season runs May–September and can make your backyard miserable. Here&apos;s the professional approach Nassau County homeowners use to actually reclaim their outdoor space.',
     image: 'https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Mosquito on skin',
     content: `Nassau County has more than 40 species of mosquitoes, and during peak season from May through September, they can turn a beautiful Long Island backyard into an outdoor space nobody wants to use. Whether you&apos;re planning a cookout in Merrick, a birthday party in Plainview, or just want to sit on your deck in Syosset without getting eaten alive, mosquito control is no longer a luxury — it&apos;s a necessity.
@@ -197,9 +197,9 @@ Don&apos;t wait for winter to take action. Liberty Pest Pros serves all of Nassa
   },
   {
     slug: 'bed-bug-prevention-nassau-county',
-    title: 'Bed Bug Prevention for Nassau County Residents',
+    title: 'How to Avoid Bringing Bed Bugs Home to Nassau County — And What to Do If You Do',
     date: '2024-06-25',
-    excerpt: 'Bed bugs have made a strong comeback across Nassau County, and no hotel, home, or apartment is immune. Learn how to avoid bringing them home and what to do if you find them.',
+    excerpt: 'Bed bugs are back — and Nassau County residents face real exposure risk at hotels, daycares, and secondhand stores. Here\'s exactly how to protect yourself and what to do if they get in.',
     image: 'https://images.pexels.com/photos/5632372/pexels-photo-5632372.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Bed bug close up',
     content: `Bed bugs don&apos;t discriminate. They infest five-star hotels in Manhattan just as readily as budget motels, and they&apos;re as common in pristine Nassau County homes as in neglected ones. These hitchhiking insects spread entirely through human movement — tucked into luggage, clothing, furniture, and even library books — and with Nassau County residents commuting to New York City, traveling regularly for work and leisure, and frequently shopping at second-hand stores and estate sales, the exposure risk is continuous.
@@ -346,9 +346,9 @@ For cockroach problems across Nassau County — from multi-family units in Hemps
   },
   {
     slug: 'wasp-hornet-removal-long-island',
-    title: 'Wasp and Hornet Removal on Long Island',
+    title: 'Wasp or Hornet Nest Near Your Nassau County Home? Don\'t Touch It Until You Read This',
     date: '2024-07-22',
-    excerpt: 'Wasps and hornets are at their most aggressive in late summer across Nassau County. Learn which species you&apos;re dealing with and how to get nests removed without getting stung.',
+    excerpt: 'Late summer wasps and hornets in Nassau County are at peak aggression — and the wrong move can trigger hundreds of stings. Here&apos;s how professionals safely remove nests of every type.',
     image: 'https://images.pexels.com/photos/2346573/pexels-photo-2346573.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Wasp nest',
     content: `From late July through September, stinging insects become Nassau County&apos;s most complained-about pest. Yellow jackets guard their underground nests aggressively, bald-faced hornets build papery gray nests the size of basketballs, and mud daubers plaster tubes of dried mud under eaves and in attic corners. For families with children, anyone with stinging insect allergies, or homeowners planning outdoor events, wasp and hornet activity demands professional attention.
@@ -387,9 +387,9 @@ Liberty Pest Pros handles stinging insect removal across Nassau County, includin
   },
   {
     slug: 'stink-bug-season-nassau-county',
-    title: 'Stink Bug Season in Nassau County',
+    title: 'Why Hundreds of Stink Bugs Invade Nassau County Homes Every Fall — And How to Keep Them Out',
     date: '2024-10-05',
-    excerpt: 'Every fall, brown marmorated stink bugs invade Nassau County homes by the hundreds. Learn why they come in, how to keep them out, and what to do once they&apos;re inside.',
+    excerpt: 'Every September, Nassau County homes become a target for hundreds of overwintering stink bugs. Seal them out before they get in — here&apos;s the exact prevention window to hit.',
     image: 'https://images.pexels.com/photos/6102161/pexels-photo-6102161.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Stink bug on a surface',
     content: `The brown marmorated stink bug (*Halyomorpha halys*) has become one of the defining seasonal pest events across Nassau County. Every fall — typically from late September through November — these shield-shaped, mottled-brown insects begin congregating on the warm, sun-facing exterior walls of homes and office buildings, searching for gaps to overwinter inside. What follows can be weeks of finding stink bugs on curtains, lamp shades, window sills, and anywhere else they wander as temperatures fluctuate inside the home.
@@ -435,9 +435,9 @@ Liberty Pest Pros provides fall exclusion services and exterior perimeter treatm
   },
   {
     slug: 'flea-control-nassau-county-pet-owners',
-    title: 'Flea Control for Nassau County Pet Owners',
+    title: 'Nassau County Pet Owners: One Flea Becomes 500. Here\'s How to Break the Cycle for Good',
     date: '2025-05-12',
-    excerpt: 'Fleas are a year-round problem for Nassau County pet owners, and a single pet can introduce an infestation that spreads through your entire home. Here&apos;s how to break the cycle.',
+    excerpt: 'A single flea on your dog or cat can turn into a full-home infestation within weeks. Nassau County pet owners — here&apos;s why DIY treatments fail and what actually eliminates fleas for good.',
     image: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Dog sitting on a couch',
     content: `Fleas are the most common external parasite affecting dogs and cats in Nassau County, and they&apos;re far more than a minor irritation. A flea infestation can cause intense discomfort, skin reactions, anemia in severe cases, and transmission of tapeworms — and because fleas reproduce explosively, what starts as a few fleas on your pet can become a full-home infestation within weeks.
@@ -480,9 +480,9 @@ Liberty Pest Pros provides comprehensive flea control for Nassau County pet-owni
   },
   {
     slug: 'silverfish-moisture-pests-long-island-homes',
-    title: 'Silverfish and Moisture Pests in Long Island Homes',
+    title: 'Silverfish in Your Long Island Home? It\'s a Moisture Problem — Here\'s the Real Fix',
     date: '2025-02-18',
-    excerpt: 'Silverfish, centipedes, and springtails are signs of moisture problems in Nassau County homes. Addressing both the pest and the root cause delivers lasting results.',
+    excerpt: 'Finding silverfish, house centipedes, or springtails in your Nassau County home? These pests signal a moisture problem — treating the bug without fixing the root cause always fails. Here\'s the right approach.',
     image: 'https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Basement with moisture and damp walls',
     content: `Silverfish, house centipedes, springtails, and fungus gnats are household pests with one thing in common: they thrive where moisture problems exist. In Nassau County — where many homes were built in the post-war era, often with basements and crawl spaces that have accumulated decades of settling, waterproofing failures, and drainage challenges — moisture pests are frequently a symptom of underlying structural issues that need addressing alongside any pest treatment.
