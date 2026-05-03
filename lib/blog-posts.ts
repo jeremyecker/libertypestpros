@@ -956,6 +956,94 @@ Pest activity decreases outdoors but continues indoors. **Watch for:** Overwinte
 
 No matter the season, Liberty Pest Pros provides **pest control near me** throughout the Nassau South Shore. Call (516) 763-4600 for seasonal treatments, emergency service, and maintenance programs. 40+ years protecting families across Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne.`
   }
+,
+  {
+    slug: "spotted-lanternfly-nassau-county-long-island",
+    title: "Spotted Lanternfly on Long Island: 2026",
+    date: "2026-05-03",
+    excerpt: "Spotted lanternflies have reached Nassau County and are spreading across Long Island. Liberty Pest Pros explains what to do when you find them on your property.",
+    author: "Liberty Pest Pros Team",
+    category: "Invasive Pests",
+    readTime: "7 min read",
+    tags: ['spotted lanternfly', 'Nassau County', 'Long Island', 'invasive pests', 'pest control'],
+    image: "https://images.pexels.com/photos/3844759/pexels-photo-3844759.jpeg",
+    imageAlt: "Spotted lanternfly on plant - invasive pest control Long Island",
+    content: `## Spotted Lanternfly Has Arrived on Long Island
+
+If you've been following news from New Jersey over the past several years, you know that spotted lanternflies (*Lycorma delicatula*) have established themselves as a major agricultural and nuisance pest across the state. What was once a quarantine problem in a few Pennsylvania counties has spread across the entire Northeast — and Nassau County is squarely in their current expansion zone.
+
+Liberty Pest Pros has been protecting families across the Nassau South Shore since 1982. Here's what Long Island homeowners need to know about spotted lanternflies in 2026.
+
+## What Is the Spotted Lanternfly?
+
+The spotted lanternfly is an invasive planthopper native to China, Vietnam, and Bangladesh. It was first detected in the United States in Berks County, Pennsylvania in 2014. Since then, it has spread to more than a dozen states and continues expanding its range.
+
+Despite the name, it's not a true fly. The adult is roughly an inch long with:
+- **Outer wings** that are grayish with black spots
+- **Inner wings** that are bright red and black — visible when the insect spreads its wings or jumps
+- A distinctive red abdomen
+
+The nymphs look different at each stage. Early instars are black with white spots. Later nymphs develop red patches. All stages are capable of feeding on and damaging host plants.
+
+## Why Nassau County Homeowners Should Pay Attention
+
+Spotted lanternflies don't sting or bite humans. But they cause significant damage through feeding, and they produce a sticky waste called honeydew that promotes sooty mold growth on affected plants and outdoor surfaces.
+
+### Plants at Risk on Long Island
+
+The spotted lanternfly's preferred host is the invasive tree of heaven (*Ailanthus altissima*) — which grows throughout Long Island in empty lots, roadsides, and along railroad corridors. However, they also feed on:
+
+- **Grapevines** — devastating for Long Island's North Fork wine industry
+- **Apple, peach, and cherry trees** — common in Nassau County backyards
+- **Hops** — relevant to home brewers
+- **Maples, oaks, and walnuts** — common ornamental and shade trees
+- **Rose bushes and ornamental plants**
+
+Heavy infestations weaken plants, reduce fruit production, and in severe cases can kill young trees. The honeydew they excrete creates a black sooty mold on leaves, hardscaping, and outdoor furniture — particularly problematic for homeowners in Oceanside, Long Beach, and Freeport who take pride in their outdoor spaces.
+
+## How Spotted Lanternflies Spread
+
+Spotted lanternflies spread both by natural movement and — critically — by hitchhiking on vehicles, outdoor furniture, gardening equipment, and materials moved between locations. Their egg masses are laid in flat, waxy clusters that can look like dried mud and are easily overlooked on:
+
+- Tree bark and trunks
+- The underside of outdoor furniture
+- Patio stones
+- Bikes, cars, trailers, and equipment
+
+If you've recently returned from New Jersey, Pennsylvania, or other established infestation areas, inspect vehicles and equipment before bringing them onto your Nassau South Shore property.
+
+## What to Do If You Find Them
+
+### Report the Sighting
+New York State Department of Agriculture and Markets wants reports of spotted lanternfly sightings. Reports can be made through the NYS iMapInvasives portal. This helps track the invasion's spread across Nassau and Suffolk counties.
+
+### Scrape and Destroy Egg Masses
+From October through May, egg masses are the most common life stage visible. Scrape them from surfaces using a card or putty knife into a bag of hand sanitizer or rubbing alcohol — this kills the eggs. Do not simply scrape them onto the ground.
+
+### Remove Tree of Heaven
+Reducing tree of heaven (*Ailanthus*) from your property removes the spotted lanternfly's preferred host. However, tree of heaven requires careful management — it regrows aggressively from the root system if simply cut down. A licensed arborist or pest management professional can advise on effective removal.
+
+### Contact a Pest Professional
+When spotted lanternflies are present in significant numbers on your property, professional treatment is warranted. Effective management typically involves:
+
+- **Targeted insecticide applications** to high-value ornamentals, fruit trees, and grapevines
+- **Trunk banding treatments** on preferred host trees
+- **Systematic monitoring** to catch re-infestations early
+
+## For Residents of the Nassau South Shore
+
+Spotted lanternfly pressure varies significantly by location. Properties in Long Beach, Atlantic Beach, and Lido Beach are currently seeing lower pressure than inland Nassau communities. But as populations establish and spread, properties throughout the South Shore will face increasing pressure through the summer.
+
+For communities like Oceanside, Rockville Centre, Freeport, and Lynbrook — with older trees, established gardens, and properties adjacent to railroad and utility corridors where tree of heaven grows abundantly — the risk is most immediate.
+
+## Liberty Pest Pros Can Help
+
+Our team has been treating pest problems across the Nassau South Shore for over 40 years. As spotted lanternfly populations establish on Long Island, we're incorporating targeted treatments into our service offerings.
+
+If you're seeing spotted lanternflies in numbers on your property — feeding on your trees, congregating on your siding in late summer, or leaving sticky honeydew residue on your outdoor furniture — call us at (516) 763-4600 for an assessment. We'll advise on the appropriate response for your specific situation.
+
+Early intervention is far more effective than waiting until a population establishes. The sooner Nassau South Shore homeowners take spotted lanternfly seriously, the better the long-term outcome for local trees and gardens.`,
+  }
 ];
 
 import { BLOG_POSTS as DATA_BLOG_POSTS } from '@/data/blog-posts';
