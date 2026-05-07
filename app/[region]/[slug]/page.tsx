@@ -59,9 +59,18 @@ export async function generateMetadata({
       description: `${svc.desc} Licensed ${region.stateCode} exterminators serving all ${region.name} communities. Call ${BRAND.phoneFormatted} for a free quote.`,
       alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${slug}/` },
       openGraph: {
-        title: `${svc.name} in ${region.name}, ${region.stateCode}`,
-        description: `Licensed ${svc.name.toLowerCase()} serving all ${region.name} communities. Family-owned since 1982.`,
+        title: `${svc.name} in ${region.name}, ${region.stateCode} | ${BRAND.name}`,
+        description: `${svc.desc} Licensed ${region.stateCode} exterminators serving all ${region.name} communities. Family-owned since 1982.`,
         url: `https://${BRAND.domain}/${regionSlug}/${slug}/`,
+        type: 'website',
+        locale: 'en_US',
+        siteName: BRAND.name,
+        images: ['/og-image.png'],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: `${svc.name} in ${region.name}, ${region.stateCode} | ${BRAND.name}`,
+        description: `${svc.desc} Licensed ${region.stateCode} exterminators serving all ${region.name} communities. Call ${BRAND.phoneFormatted} for a free quote.`,
       },
     };
   }
