@@ -1044,6 +1044,97 @@ If you're seeing spotted lanternflies in numbers on your property — feeding on
 
 Early intervention is far more effective than waiting until a population establishes. The sooner Nassau South Shore homeowners take spotted lanternfly seriously, the better the long-term outcome for local trees and gardens.`,
   }
+  {
+    slug: "bed-bug-detection-treatment-nassau-county",
+    title: "Bed Bug Detection & Treatment in Nassau County",
+    date: "2026-05-10",
+    excerpt: "Bed bugs are small, but finding them early makes a significant difference in how difficult treatment becomes. Here's what Nassau County homeowners need to know.",
+    author: "Liberty Pest Pros Team",
+    category: "Bed Bugs",
+    readTime: "7 min read",
+    tags: ["bed bugs", "Nassau County", "Long Island", "pest control", "bed bug treatment", "bed bug inspection", "exterminator"],
+    image: "https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    imageAlt: "Bed bug inspection and treatment in Nassau County",
+    content: `<p>Bed bugs are small, but finding them early makes a significant difference in how difficult — and how costly — treatment becomes. Here's what Nassau County homeowners need to know about spotting bed bugs, confirming an infestation, and getting rid of them for good.</p>
+
+<h2>How to Spot Bed Bugs Before the Problem Gets Worse</h2>
+
+<p>Most people don't notice a bed bug problem until the population has grown. Adult bed bugs are reddish-brown, oval-shaped, and roughly the size of an apple seed — flat when unfed, and rounder after a blood meal. But more often, the signs you'll find aren't the bugs themselves.</p>
+
+<p>Look for these indicators on your mattress, sheets, and nearby furniture:</p>
+
+<ul>
+  <li><strong>Dark reddish-brown spots</strong> on fabric or mattress seams — these are fecal droppings left by feeding bed bugs</li>
+  <li><strong>Rust-colored smears</strong> on sheets or pillowcases, caused by bed bugs being crushed during sleep</li>
+  <li><strong>Translucent shed skins</strong> — bed bugs molt five times as they mature, leaving behind papery exoskeletons in crevices</li>
+  <li><strong>Pale, poppy-seed-sized eggs</strong> tucked into protected gaps along furniture joints and seams</li>
+  <li><strong>Bites in a line or cluster</strong> on exposed skin — though bite reactions vary so much between people that bites alone aren't a reliable confirmation</li>
+</ul>
+
+<p>If you're waking up itchy but haven't found the bugs themselves, do a systematic inspection during daylight with a flashlight. Look before you conclude it's something else.</p>
+
+<h2>Where to Look in Your Home</h2>
+
+<p>The name "bed bug" is a bit misleading. These insects prefer to stay within about eight feet of where people sleep or rest — but they don't limit themselves to the mattress. A thorough inspection covers all of the following:</p>
+
+<ul>
+  <li>Mattress seams, tags, and the fabric along the piping</li>
+  <li>Box spring corners and the dust cover on the underside</li>
+  <li>Bed frame joints, hollow sections, and any screw holes</li>
+  <li>Nightstand drawers, hinges, and back panels</li>
+  <li>Baseboards and the wall-floor junction near the bed</li>
+  <li>Electrical outlet covers and switch plates on adjacent walls</li>
+  <li>Upholstered headboards, sofas, or chairs used for regular seating</li>
+</ul>
+
+<p>In older Nassau County homes — the split-levels and Cape Cods that spread through Levittown, Bethpage, and Hicksville starting in the postwar decades — cracking paint, loose wallpaper seams, and aged baseboard gaps give bed bugs excellent harborage. If your home has gone through renovations, pay attention to any gaps left by new framing or updated electrical work.</p>
+
+<h2>Why Nassau County Homes Face Elevated Risk</h2>
+
+<p>Long Island's suburban density creates conditions where bed bug infestations spread more easily than homeowners typically expect. A few factors are worth knowing before you assume an infestation started in your own home.</p>
+
+<p><strong>Shared walls are more common than they look.</strong> Even in neighborhoods built around single-family homes, attached garages, semi-detached houses, and multi-family units are prevalent across Nassau County — particularly in communities like Hempstead and Freeport. Bed bugs can travel through wall voids, shared plumbing chases, and gaps in shared flooring.</p>
+
+<p><strong>Transit exposure is real.</strong> Nassau County residents frequently pass through JFK Airport and ride the Long Island Rail Road, both of which connect the area to high-traffic travel environments. Hotels, Airbnbs, and even train seats have all been documented sources of bed bug introductions. Checking luggage and clothing after any travel is a practical habit, not an overreaction.</p>
+
+<p><strong>Secondhand furniture carries risk.</strong> College move-outs, estate sales, and curbside finds are common across Long Island. Bed bugs can survive for weeks without a host, so furniture that appears clean may harbor eggs or nymphs that aren't visible on a casual inspection.</p>
+
+<h2>What to Do Right After You Find Evidence</h2>
+
+<p>Finding bed bugs — or strong evidence of them — is stressful. These steps help contain the situation while you arrange professional assessment:</p>
+
+<p><strong>Don't move belongings to other rooms.</strong> Relocating infested items is one of the most common ways infestations spread to areas that weren't affected. Leave furniture and clothing in place until a professional can evaluate the scope.</p>
+
+<p><strong>Document what you've found.</strong> Collect a specimen in a sealed plastic bag or take clear photographs showing the bug, its location, and any fecal staining nearby. This helps with identification and gives your pest control provider a head start.</p>
+
+<p><strong>Launder bedding immediately.</strong> Wash sheets, pillowcases, and any clothing stored near the bed in hot water, then dry on high heat for at least 30 minutes. Heat kills bed bugs at all life stages.</p>
+
+<p>Avoid the common mistake of throwing out the mattress right away. Discarding furniture without treatment often fails to resolve the infestation, and dragging infested pieces through your home typically makes things worse. A licensed exterminator should evaluate first.</p>
+
+<h2>How Professionals Treat Bed Bugs in Nassau County</h2>
+
+<p>Bed bugs are genuinely difficult to eliminate without professional intervention. Over-the-counter sprays rarely penetrate the deep crevices where eggs and nymphs hide, and misapplication often causes bugs to scatter into new areas rather than die.</p>
+
+<p>Licensed pest control professionals serving Nassau County use one or more of these approaches:</p>
+
+<h3>Heat Treatment</h3>
+<p>Thermal remediation raises room temperature to levels that kill bed bugs at all life stages, including eggs. It's equipment-intensive but highly effective when applied correctly in a properly sealed and prepared space. Many infestations can be resolved in a single treatment day.</p>
+
+<h3>Chemical Treatment</h3>
+<p>EPA-registered insecticides are applied to harborage sites identified during inspection. Multiple treatments spaced several weeks apart are standard — most conventional chemical treatments cannot kill eggs on contact, so newly hatched nymphs must be exposed during a follow-up application.</p>
+
+<h3>Combination Protocols</h3>
+<p>For severe infestations or homes where structural factors limit what heat treatment can reach, professionals often combine both methods to ensure complete coverage.</p>
+
+<p>Whichever treatment approach is used, preparation matters. Your pest control provider will give you a preparation checklist ahead of the appointment. Following it carefully is one of the most reliable predictors of whether the first treatment succeeds.</p>
+
+<h2>Schedule an Inspection with Liberty Pest Pros</h2>
+
+<p>If you've spotted signs of bed bugs — or want to rule out a concern before it becomes a confirmed problem — calling sooner limits how much time a growing population has to establish. Liberty Pest Pros serves Nassau County and surrounding Long Island communities.</p>
+
+<p>Call <strong>(516) 763-4600</strong> to schedule an inspection and get a clear picture of what you're dealing with.</p>`,
+  },
+
 ];
 
 import { BLOG_POSTS as DATA_BLOG_POSTS } from '@/data/blog-posts';
