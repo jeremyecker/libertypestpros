@@ -30,13 +30,13 @@ export const GEO = {
   state: 'New York',
   stateCode: 'NY',
   region: 'Nassau County, Long Island',
-  totalTowns: 65,
+  totalTowns: 132,
   latitude: 0,
   longitude: 0,
 } as const;
 
 export const REGIONS = [
-  { name: 'Nassau County', slug: 'nassau', townCount: 65 },
+  { name: 'Nassau County', slug: 'nassau', townCount: 132 },
 ] as const;
 
 export const BRAND = {
