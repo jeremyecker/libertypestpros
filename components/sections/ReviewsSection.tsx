@@ -58,9 +58,7 @@ export default function ReviewsSection({
                 </div>
                 <div>
                   <span className="text-sm font-medium text-gray-800">{review.name}</span>
-                  {review.location && (
-                    <span className="block text-xs text-gray-400">{review.location}</span>
-                  )}
+
                 </div>
               </div>
             </Card>
