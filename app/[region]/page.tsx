@@ -44,7 +44,7 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
   if (!region) notFound();
 
   const gmb = getRegionGMB(region);
-  const schema = localBusinessSchema(region, gmb);
+  const schema = localBusinessSchema();
   const regionTowns = getTownsByRegion(regionSlug);
 
   const faqs = [
