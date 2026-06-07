@@ -92,7 +92,7 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
         subtitle={`We serve families in all ${region.townCount} communities across ${region.name}. Find your community below.`}
       />
       <FAQSection faqs={faqs} />
-      <CTABanner region={region} phone={BRAND.phone} phoneFormatted={BRAND.phoneFormatted} />
+      <CTABanner />
     </>
   );
 }
