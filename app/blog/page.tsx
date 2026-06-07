@@ -44,7 +44,7 @@ export default function BlogPage() {
                     </time>
                   </div>
                   <h2 className="text-lg font-bold text-brand-dark mb-2">{post.title}</h2>
-                  <p className="text-gray-600 text-sm flex-1 mb-3">{post.description}</p>
+                  <p className="text-gray-600 text-sm flex-1 mb-3">{post.excerpt}</p>
                   <span className="text-brand-primary text-sm font-semibold">Read More →</span>
                 </div>
               </Card>
