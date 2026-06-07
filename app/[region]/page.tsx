@@ -80,10 +80,6 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
       <Hero
         title={region.heroHeadline}
         subtitle={region.heroSubhead}
-        heroImage={region.heroImage}
-        phone={BRAND.phone}
-        phoneFormatted={BRAND.phoneFormatted}
-        regionSlug={region.slug}
       />
       <TrustBar />
       <ServicesGrid region={region} limit={6} />
