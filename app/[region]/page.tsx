@@ -82,7 +82,7 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
         subtitle={region.heroSubhead}
       />
       <TrustBar />
-      <ServicesGrid region={region} limit={6} />
+      <ServicesGrid limit={6} />
       {gmb && gmb.reviewCount > 0 && <ReviewsSection limit={3} />}
       {gmb && <NAPBlock gmb={gmb} region={region} />}
       <TownGrid
