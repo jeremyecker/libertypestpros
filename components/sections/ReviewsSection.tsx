@@ -24,7 +24,7 @@ export default function ReviewsSection({
   subtitle = `Trusted by families across ${GEO.region}`,
   limit = 6,
 }: ReviewsSectionProps) {
-  if (REVIEWS.length === 0) return null;
+  if (!REVIEWS.length) return null;
 
   const reviews = REVIEWS.slice(0, limit);
 
