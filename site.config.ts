@@ -78,9 +78,10 @@ export const SERVICES = [
 
 export const GMB = {
   placeId: 'ChIJsbkwO0F7wokRsgsm9rPjjko',
-  profileUrl: 'https://maps.google.com/?cid=ChIJsbkwO0F7wokRsgsm9rPjjko',
+  profileUrl: 'https://maps.app.goo.gl/fSHVP5DbP7KSwtf56',
   rating: 4.9,
   reviewsEnabled: true,
+  reviewCount: 277,
 } as const;
 
 export const TRUST_STATS = [

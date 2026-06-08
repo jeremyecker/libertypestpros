@@ -85,6 +85,7 @@ export function localBusinessSchema() {
       ? {
           '@type': 'AggregateRating',
           ratingValue: GMB.rating,
+          reviewCount: GMB.reviewCount,
           bestRating: 5,
         }
       : undefined,
