@@ -2,7 +2,7 @@
 import { NETWORK_SITES } from '@/site.config';
 
 export default function NewYorkNetwork() {
-  if (NETWORK_SITES.length === 0) return null;
+  if (!NETWORK_SITES.length) return null;
 
   return (
     <section className="bg-blue-50 py-16 px-4">

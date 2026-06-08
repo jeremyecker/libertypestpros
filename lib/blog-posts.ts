@@ -8,8 +8,6 @@ export interface BlogPost {
   category: string;
   readTime: string;
   tags: string[];
-  image: 'https://images.pexels.com/photos/4021768/pexels-photo-4021768.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  imageAlt: ' pest control',
   image?: string;
   imageAlt?: string;
 }

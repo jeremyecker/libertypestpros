@@ -44,7 +44,7 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
   if (!region) notFound();
 
   const gmb = getRegionGMB(region);
-  const schema = localBusinessSchema(region, gmb);
+  const schema = localBusinessSchema();
   const regionTowns = getTownsByRegion(regionSlug);
 
   const faqs = [
@@ -80,13 +80,9 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
       <Hero
         title={region.heroHeadline}
         subtitle={region.heroSubhead}
-        heroImage={region.heroImage}
-        phone={BRAND.phone}
-        phoneFormatted={BRAND.phoneFormatted}
-        regionSlug={region.slug}
       />
       <TrustBar />
-      <ServicesGrid region={region} limit={6} />
+      <ServicesGrid limit={6} />
       {gmb && gmb.reviewCount > 0 && <ReviewsSection limit={3} />}
       {gmb && <NAPBlock gmb={gmb} region={region} />}
       <TownGrid
@@ -96,7 +92,7 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
         subtitle={`We serve families in all ${region.townCount} communities across ${region.name}. Find your community below.`}
       />
       <FAQSection faqs={faqs} />
-      <CTABanner region={region} phone={BRAND.phone} phoneFormatted={BRAND.phoneFormatted} />
+      <CTABanner />
     </>
   );
 }
