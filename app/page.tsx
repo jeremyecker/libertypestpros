@@ -11,7 +11,6 @@ import ReviewsSection from '@/components/sections/ReviewsSection';
 import TownGrid from '@/components/sections/TownGrid';
 import CTABanner from '@/components/sections/CTABanner';
 import FAQSection from '@/components/sections/FAQSection';
-import NewYorkNetwork from '@/components/sections/NewYorkNetwork';
 
 const townCount = getTownCount();
 
@@ -69,7 +68,6 @@ export default function HomePage() {
       <ReviewsSection limit={3} />
       <TownGrid towns={mixedTowns} />
       <FAQSection faqs={homepageFAQs} />
-      <NewYorkNetwork />
       <CTABanner />
     </>
   );
