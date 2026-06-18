@@ -126,26 +126,6 @@ export const REGIONS: RegionConfig[] = [
 // TOWN ARRAYS
 // ============================================================
 
-
-// ============================================================
-// NETWORK SITES — sister sites for cross-linking
-// ============================================================
-export const NETWORK_SITES: NetworkSite[] = [
-  { name: 'Suffolk County Pest Control', url: 'https://suffolkcountypestcontrol.com', description: 'Suffolk County, NY pest control experts', emoji: '\uD83D\uDC1B' },
-  { name: 'Nassau County Pest Control', url: 'https://nassaucountypestcontrol.net', description: 'Nassau County, NY pest control services', emoji: '\uD83D\uDEE1\uFE0F' },
-  { name: 'Quest Pest Control', url: 'https://questpest.net', description: 'Suffolk, Nassau & Queens exterminators', emoji: '\uD83C\uDFAF' },
-  { name: 'Queens Pest Control', url: 'https://queenscountypestcontrol.com', description: 'Queens, NY pest control specialists', emoji: '\uD83C\uDFD9\uFE0F' },
-  { name: 'Brooklyn Pest Control', url: 'https://brooklynnycpestcontrol.com', description: 'Brooklyn, NY pest control services', emoji: '\uD83C\uDF09' },
-  { name: 'Bronx Pest Control', url: 'https://bronxcountypestcontrol.com', description: 'Bronx, NY pest control experts', emoji: '\uD83E\uDD81' },
-  { name: 'Manhattan Pest Control', url: 'https://manhattanpestcontrolnearme.com', description: 'Manhattan, NY pest control services', emoji: '\uD83D\uDDFD' },
-  { name: 'NYC Pest Control', url: 'https://nycpestcontrolnearme.com', description: 'New York City pest control services', emoji: '\uD83C\uDFE2' },
-  { name: 'Wildlife NY', url: 'https://wildlifeny.com', description: 'NY wildlife removal specialists', emoji: '\uD83E\uDD9D' },
-  { name: 'The Bed Bug Inspectors', url: 'https://thebedbuginspectors.com', description: 'Bed bug specialists \u2014 inspections & treatment', emoji: '\uD83D\uDECF\uFE0F' },
-  { name: 'Jet Pest Control', url: 'https://jetpestcontrol.com', description: 'Fast, reliable pest control services', emoji: '\u2708\uFE0F' },
-  { name: 'BluesWay Pest Control', url: 'https://blueswaypestcontrol.com', description: 'Professional pest control services', emoji: '\uD83C\uDFB5' },
-  { name: 'The Bugs Stop Here', url: 'https://thebugsstophere.com', description: 'Stop pests in their tracks', emoji: '\uD83D\uDED1' },
-];
-
 // ============================================================
 // SERVICE×TOWN ROUTES — for internal linking
 // ============================================================
@@ -201,9 +181,3 @@ export interface RegionConfig {
   townCount: number;
 }
 
-export interface NetworkSite {
-  name: string;
-  url: string;
-  description: string;
-  emoji: string;
-}
