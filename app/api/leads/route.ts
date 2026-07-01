@@ -67,6 +67,8 @@ export async function POST(req: NextRequest) {
       description: description || null,
       pest_type: body.pest_type || body.pestType || null,
       sms_consent: (body.sms_consent ?? body.smsConsent) === true,
+      property_type: body.property_type || body.propertyType || null,
+      zip: body.zip || null,
       source: source || 'website',
       region_slug: body.region_slug || body.regionSlug || null,
       created_at: new Date().toISOString(),
