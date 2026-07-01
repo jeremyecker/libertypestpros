@@ -73,6 +73,9 @@ export async function POST(req: NextRequest) {
       source: source || 'website',
       region_slug: regionSlug || null,
       created_at: new Date().toISOString(),
+      consentTimestamp: body.consentTimestamp || body.consent_timestamp || null,
+      consentPageUrl: body.consentPageUrl || body.consent_page_url || null,
+      consentTextVersion: body.consentTextVersion || body.consent_text_version || null,
     };
 
     // Send to CRM webhook

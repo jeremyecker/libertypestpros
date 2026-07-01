@@ -124,6 +124,9 @@ export default function LeadForm({
         turnstile_token: turnstileToken,
         page_url: window.location.href,
         form_started_at: formStartedAt.current,
+        consentTimestamp: new Date().toISOString(),
+        consentPageUrl: window.location.href,
+        consentTextVersion: 'libertypestpros.com-consent-v1',
         utm_source: new URLSearchParams(window.location.search).get('utm_source') || '',
         utm_medium: new URLSearchParams(window.location.search).get('utm_medium') || '',
         utm_campaign: new URLSearchParams(window.location.search).get('utm_campaign') || '',
@@ -355,8 +358,8 @@ export default function LeadForm({
                 className="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary shrink-0"
               />
               <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
-                I agree to receive text messages from {SITE_NAME} at the phone number provided.{' '}
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
+                By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
+                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.{' '}
                 <span className="text-red-500">*</span>
               </label>
             </div>
@@ -376,7 +379,7 @@ export default function LeadForm({
             {/* Minimal TCPA */}
             <p className="text-[10px] text-gray-400 leading-relaxed text-center">
               No commitment. We&apos;ll get back to you ASAP. See our{' '}
-              <a href="/privacy" className="underline hover:text-gray-600">Privacy Policy</a>.
+              <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
             </p>
           </>
         ) : (
@@ -550,8 +553,8 @@ export default function LeadForm({
                 className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary"
               />
               <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
-                I agree to receive text messages from {SITE_NAME} at the phone number provided.
-                Message and data rates may apply. Message frequency varies. Reply STOP to opt out.{' '}
+                By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
+                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.{' '}
                 <span className="text-red-500">*</span>
               </label>
             </div>
@@ -571,9 +574,9 @@ export default function LeadForm({
             {/* TCPA */}
             <p className="text-[10px] text-gray-400 leading-relaxed text-center">
               No commitment. We&apos;ll get back to you ASAP. By submitting, you consent to be contacted by {SITE_NAME}. See our{' '}
-              <a href="/privacy" className="underline hover:text-gray-600">Privacy Policy</a>{' '}
+              <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>{' '}
               and{' '}
-              <a href="/terms" className="underline hover:text-gray-600">Terms of Service</a>.
+              <a href="/terms-of-service/" className="underline hover:text-gray-600">Terms of Service</a>.
             </p>
 
             {error && (
