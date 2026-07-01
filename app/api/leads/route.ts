@@ -19,10 +19,7 @@ export async function POST(req: NextRequest) {
       phone,
       email,
       description,
-      pestType,
-      smsConsent,
       source,
-      regionSlug,
     } = body;
 
     if (!name || !phone) {
@@ -68,10 +65,10 @@ export async function POST(req: NextRequest) {
       phone,
       email: email || null,
       description: description || null,
-      pest_type: pestType || null,
-      sms_consent: smsConsent === true,
+      pest_type: body.pest_type || body.pestType || null,
+      sms_consent: (body.sms_consent ?? body.smsConsent) === true,
       source: source || 'website',
-      region_slug: regionSlug || null,
+      region_slug: body.region_slug || body.regionSlug || null,
       created_at: new Date().toISOString(),
       consentTimestamp: body.consentTimestamp || body.consent_timestamp || null,
       consentPageUrl: body.consentPageUrl || body.consent_page_url || null,
