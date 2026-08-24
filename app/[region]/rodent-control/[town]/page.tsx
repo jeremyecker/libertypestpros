@@ -39,7 +39,7 @@ export async function generateMetadata({
   const baseTitle = `${SERVICE_NAME} in ${townName}, ${region.stateCode}`;
   // Layout template adds "| Liberty Pest Pros" automatically
   const title = baseTitle;
-  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service, guaranteed results. Call ${BRAND.phoneFormatted}.`;
+  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service. Call ${BRAND.phoneFormatted}.`;
   return {
     title,
     description: description.length <= 155 ? description : description.slice(0, 152) + '...',

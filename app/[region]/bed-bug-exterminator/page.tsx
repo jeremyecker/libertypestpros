@@ -5,11 +5,11 @@ import { SITE_URL } from '@/site.config';
 
 export const metadata: Metadata = {
   title: 'Bed Bug Exterminator Nassau County',
-  description: 'Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+  description: 'Nassau County bed bug specialists — heat treatment and chemical options. Family-owned since 1982. Call (516) 763-4600.',
 
   openGraph: {
     title: 'Bed Bug Exterminator Nassau County',
-    description: 'Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+    description: 'Nassau County bed bug specialists — heat treatment and chemical options. Family-owned since 1982. Call (516) 763-4600.',
     url: `${SITE_URL}/bed-bug-exterminator`,
     type: 'website',
     locale: 'en_US',
@@ -57,7 +57,7 @@ const schemaData = {
           "name": "How do I know if I have bed bugs in my Nassau County home?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Common signs include small reddish-brown bugs in mattress seams and box springs, tiny dark spots (excrement) on sheets or mattress edges, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters on your skin. If you suspect bed bugs, call us for a free inspection before the problem spreads."
+            "text": "Common signs include small reddish-brown bugs in mattress seams and box springs, tiny dark spots (excrement) on sheets or mattress edges, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters on your skin. If you suspect bed bugs, call us for a free estimate before the problem spreads."
           }
         },
         {
@@ -100,8 +100,8 @@ export default function BedBugExterminatorTopLevel() {
       {/* Hero */}
       <section className="bg-[#1B3D6F] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Proven Elimination</h1>
-          <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options, guaranteed results since 1982</p>
+          <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Heat &amp; Chemical Treatment</h1>
+          <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options since 1982</p>
           <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
             Call (516) 763-4600
           </a>
@@ -136,7 +136,7 @@ export default function BedBugExterminatorTopLevel() {
             <strong>Heat Treatment:</strong> We use professional-grade heating equipment to raise the temperature in infested areas to levels that kill all bed bug life stages — including eggs, which chemical treatments can struggle to penetrate. Heat treatment typically eliminates the infestation in a single visit and allows you to return home the same day once temperatures normalize.
           </p>
           <p>
-            <strong>Chemical Treatment:</strong> Our licensed technicians apply targeted chemical treatments to all harborage areas — mattress seams, box spring frames, bed frames, baseboards, and furniture joints. Multiple treatments are scheduled 2 weeks apart to break the egg cycle and ensure complete elimination.
+            <strong>Chemical Treatment:</strong> Our licensed technicians apply targeted chemical treatments to all harborage areas — mattress seams, box spring frames, bed frames, baseboards, and furniture joints. Multiple treatments are scheduled 2 weeks apart to break the egg cycle and thoroughly treat all life stages.
           </p>
           <h2>Signs of Bed Bugs — Know What to Look For</h2>
           <p>
@@ -174,7 +174,7 @@ export default function BedBugExterminatorTopLevel() {
           <div className="space-y-4">
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How do I know if I have bed bugs in my Nassau County home?</h3>
-              <p className="text-gray-600">Common signs include small reddish-brown bugs in mattress seams, tiny dark spots on sheets, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters. If you suspect bed bugs, call us for a free inspection.</p>
+              <p className="text-gray-600">Common signs include small reddish-brown bugs in mattress seams, tiny dark spots on sheets, shed exoskeletons near sleeping areas, and unexplained bites in lines or clusters. If you suspect bed bugs, call us for a free estimate.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How many treatments does bed bug elimination take?</h3>

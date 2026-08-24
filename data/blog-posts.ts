@@ -247,7 +247,7 @@ Bed bugs cannot be reliably eliminated with over-the-counter products. Consumer 
 - Wash and dry all travel clothing on high heat immediately upon returning home.
 - Inspect second-hand furniture thoroughly before bringing it inside — ideally treat it before placement.
 
-Liberty Pest Pros offers free bed bug inspections and K9 detection services for Nassau County residents. If you suspect bed bugs, call (516) 763-4600 today.`,
+Liberty Pest Pros offers free bed bug estimates and K9 detection services for Nassau County residents. If you suspect bed bugs, call (516) 763-4600 today.`,
   },
   {
     slug: 'tick-control-long-island',
@@ -435,9 +435,9 @@ Liberty Pest Pros provides fall exclusion services and exterior perimeter treatm
   },
   {
     slug: 'flea-control-nassau-county-pet-owners',
-    title: 'Nassau County Pet Owners: One Flea Becomes 500. Here\'s How to Break the Cycle for Good',
+    title: 'Nassau County Pet Owners: One Flea Becomes 500. Here\'s How to Break the Cycle',
     date: '2025-05-12',
-    excerpt: 'A single flea on your dog or cat can turn into a full-home infestation within weeks. Nassau County pet owners — here&apos;s why DIY treatments fail and what actually eliminates fleas for good.',
+    excerpt: 'A single flea on your dog or cat can turn into a full-home infestation within weeks. Nassau County pet owners — here&apos;s why DIY treatments fail and what actually works to eliminate fleas.',
     image: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Dog sitting on a couch',
     content: `Fleas are the most common external parasite affecting dogs and cats in Nassau County, and they&apos;re far more than a minor irritation. A flea infestation can cause intense discomfort, skin reactions, anemia in severe cases, and transmission of tapeworms — and because fleas reproduce explosively, what starts as a few fleas on your pet can become a full-home infestation within weeks.
@@ -561,7 +561,7 @@ Whether you&apos;re in a compact split-level in Merrick, a historic colonial in 
 
 **Transparent Pricing and Proven Results**
 
-We quote clearly and stand behind our work. If pests return between scheduled service visits, we come back — that&apos;s our service guarantee. Nassau County homeowners who enroll in our maintenance programs consistently report lower per-visit costs, fewer emergency calls, and greater peace of mind than those who only call when a problem is already out of control.
+We quote clearly, and every service includes a written service agreement, with terms explained before treatment. Nassau County homeowners who enroll in our maintenance programs consistently report lower per-visit costs, fewer emergency calls, and greater peace of mind than those who only call when a problem is already out of control.
 
 Our service plans are straightforward: no hidden fees, no long-term contracts that lock you in against your will, and pricing quoted upfront before any work begins.
 
@@ -569,7 +569,7 @@ Our service plans are straightforward: no hidden fees, no long-term contracts th
 
 Whether you&apos;re dealing with an active infestation, preparing your home for seasonal pests, or looking for a reliable maintenance partner to keep pests from ever becoming a problem, Liberty Pest Pros is ready to help. We&apos;ve been part of the Nassau County community for over 40 years, and we&apos;re proud to still be the pest control company Nassau County families call first.
 
-Contact us at (516) 763-4600 or visit libertypestpros.com to schedule a free inspection or request a quote. We&apos;re here when you need us.`,
+Contact us at (516) 763-4600 or visit libertypestpros.com to schedule a free estimate or request a quote. We&apos;re here when you need us.`,
   },
   {
     slug: 'termite-inspection-checklist-nassau-county',
@@ -1051,7 +1051,7 @@ If spotted lanternfly is affecting your Nassau County property, call Liberty Pes
     slug: 'pantry-moths-stored-food-pests-long-island',
     title: 'Pantry Moths and Stored Food Pests in Long Island Homes: What Gets In and How to Get Rid of Them',
     date: '2026-03-12',
-    excerpt: 'Indian meal moths, flour beetles, and weevils are common pantry invaders in Nassau County homes. Learn how stored food pests get in, which products they target, and how to eliminate them for good.',
+    excerpt: 'Indian meal moths, flour beetles, and weevils are common pantry invaders in Nassau County homes. Learn how stored food pests get in, which products they target, and how to eliminate them effectively.',
     image: 'https://images.pexels.com/photos/3735645/pexels-photo-3735645.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Kitchen pantry shelves with organized food storage',
     content: `Pantry moths and stored food beetles are among the most frustrating home pest problems Nassau County homeowners encounter — not because they&apos;re dangerous, but because they&apos;re so difficult to eliminate once established. By the time you spot Indian meal moths flying around your kitchen at night or find webbing clumped in a bag of flour, the infestation has likely been building for weeks. Understanding how pantry pests work and what it takes to fully eliminate them saves Nassau County homeowners months of frustration.
@@ -1092,7 +1092,7 @@ The process requires removing every dry good from the pantry and inspecting each
 
 Check items homeowners frequently overlook: old spice jars (Indian meal moths are particularly drawn to paprika, cayenne, bay leaves, and other dried spices), forgotten bags of nuts at the back of a shelf, birdseed stored in adjacent garage space, long-stored pasta or lentils, and decorative dried flower arrangements. Any organic plant material stored for extended periods is a potential infestation source.
 
-**How to Eliminate Pantry Pests Completely**
+**How to Eliminate Pantry Pests Thoroughly**
 
 *Step 1:* Discard all infested products in sealed bags, placing them in the outdoor trash immediately. Don&apos;t leave infested items in the kitchen trash can — the larvae will continue developing there.
 

@@ -58,7 +58,7 @@ const schemaData = {
           "name": "Are you a licensed exterminator in New York?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Liberty Pest Pros holds all required New York State Department of Environmental Conservation (DEC) pesticide applicator licenses. Our technicians are fully licensed, insured, and trained in the latest Integrated Pest Management (IPM) protocols."
+            "text": "Yes. Liberty Pest Pros holds all required New York State Department of Environmental Conservation (DEC) pesticide applicator licenses. Our technicians are licensed or working under the direct supervision of a licensed applicator, insured, and trained in the latest Integrated Pest Management (IPM) protocols."
           }
         },
         {
@@ -66,7 +66,7 @@ const schemaData = {
           "name": "Do you offer a service guarantee?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — we stand behind every treatment. If pests return between scheduled services, we come back at no extra charge. Our satisfaction guarantee is backed by over 40 years of serving Nassau County."
+            "text": "Yes — every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years."
           }
         },
         {
@@ -136,7 +136,7 @@ export default function ExterminatorNearMeTopLevel() {
             <strong>Coverage from Rockville Centre to Great Neck.</strong> We serve Nassau County end-to-end — the South Shore communities like Rockville Centre, Oceanside, Baldwin, and Merrick, through the mid-island towns of Hempstead, East Meadow, Levittown, and Hicksville, all the way to the North Shore Gold Coast communities of Manhasset, Great Neck, Oyster Bay, and Glen Cove. No matter where in Nassau you are, our technicians know your neighborhood.
           </p>
           <p>
-            <strong>Transparent pricing with a guarantee.</strong> We believe in upfront, honest quotes. You&apos;ll know exactly what you&apos;re paying before any work begins. And every treatment is backed by our satisfaction guarantee — if pests come back between services, we return at no extra charge.
+            <strong>Transparent pricing with a service agreement.</strong> We believe in upfront, honest quotes. You&apos;ll know exactly what you&apos;re paying before any work begins. Every treatment includes a written service agreement, with terms explained beforehand.
           </p>
         </div>
       </section>
@@ -166,11 +166,11 @@ export default function ExterminatorNearMeTopLevel() {
           <div className="space-y-4">
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Are you a licensed exterminator in New York?</h3>
-              <p className="text-gray-600">Yes. Liberty Pest Pros holds all required New York State DEC pesticide applicator licenses. Our technicians are fully licensed, insured, and trained in the latest IPM protocols.</p>
+              <p className="text-gray-600">Yes. Liberty Pest Pros holds all required New York State DEC pesticide applicator licenses. Our technicians are licensed or working under the direct supervision of a licensed applicator, insured, and trained in the latest IPM protocols.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you offer a service guarantee?</h3>
-              <p className="text-gray-600">Yes — we stand behind every treatment. If pests return between scheduled services, we come back at no extra charge. Our satisfaction guarantee is backed by over 40 years of serving Nassau County.</p>
+              <p className="text-gray-600">Yes — every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">What pests do Nassau County exterminators handle?</h3>

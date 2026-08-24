@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   href="/contact"
                   className="block w-full bg-white/10 hover:bg-white/20 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors border border-white/20"
                 >
-                  Free Inspection
+                  Free Estimate
                 </Link>
               </div>
 

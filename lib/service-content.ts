@@ -49,7 +49,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Comprehensive Inspection', description: 'We thoroughly inspect your foundation, crawl spaces, attic, and all wood structures to identify termite species, entry points, and damage extent.' },
       { step: 'Custom Treatment Plan', description: 'Based on the inspection, we design a targeted approach using liquid soil barriers, bait stations, or a combination for maximum protection.' },
       { step: 'Professional Treatment', description: 'Licensed technicians apply treatment to eliminate the active colony and create a continuous protective barrier around your entire home.' },
-      { step: 'Monitoring & Protection', description: 'Ongoing monitoring ensures termites stay gone. We stand behind our work with a results-backed service commitment.' },
+      { step: 'Monitoring & Protection', description: 'Ongoing monitoring tracks for renewed termite activity. Our termite treatments include a workmanship warranty, with terms explained before service begins.' },
     ],
     prevention: [
       'Eliminate any wood-to-soil contact around your home\'s foundation',
@@ -75,7 +75,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Thorough Inspection', description: 'We inspect every room, carefully checking mattresses, furniture, baseboards, and all common hiding spots to map the full scope of infestation.' },
       { step: 'Preparation Guidance', description: 'We provide clear, simple instructions to prepare your home for treatment — maximizing effectiveness while minimizing hassle.' },
       { step: 'Multi-Method Treatment', description: 'We use a combination of professional-grade methods targeting bed bugs at every life stage — eggs, nymphs, and adults — in all hiding spots.' },
-      { step: 'Follow-Up Verification', description: 'A follow-up visit ensures complete elimination, including any bed bugs that hatched after the initial treatment.' },
+      { step: 'Follow-Up Verification', description: 'A follow-up visit checks for any remaining activity, including bed bugs that hatched after the initial treatment.' },
     ],
     prevention: [
       'Inspect hotel rooms carefully and keep luggage on hard surfaces when traveling',
@@ -85,7 +85,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       'Vacuum regularly around beds, nightstands, and upholstered furniture',
       'Wash and dry bedding on high heat weekly',
     ],
-    whyPro: `Bed bugs are among the most difficult pests to eliminate without professional help. They're resistant to many consumer pesticides, can survive months without a blood meal, and hide in cracks thinner than a credit card. Professional treatment uses specialized methods that penetrate deep into every hiding spot and target all life stages — eggs, nymphs, and adults — ensuring complete elimination that DIY methods simply can't achieve.`,
+    whyPro: `Bed bugs are among the most difficult pests to eliminate without professional help. They're resistant to many consumer pesticides, can survive months without a blood meal, and hide in cracks thinner than a credit card. Professional treatment uses specialized methods that penetrate deep into every hiding spot and target all life stages — eggs, nymphs, and adults — providing thorough treatment that DIY methods simply can't match.`,
   },
   'rodent-control': {
     overview: `Mice and rats are far more than a nuisance — they pose serious health risks and cause significant property damage. Rodents contaminate food with droppings and urine, spread diseases including hantavirus and salmonella, and their constant gnawing damages electrical wiring (a leading cause of house fires), plumbing, insulation, and structural elements. A single pair of mice can produce up to 60 offspring per year, so by the time you spot one mouse, there are likely many more hiding in your walls.`,

@@ -49,7 +49,6 @@ export default function ReviewsSection({
             <Card key={index} hover={false} className="flex flex-col">
               <div className="flex items-center justify-between mb-3">
                 <StarRating rating={review.rating} />
-                <span className="text-xs text-gray-400">{review.date}</span>
               </div>
               <p className="text-gray-700 text-sm flex-1 mb-3">&ldquo;{review.text}&rdquo;</p>
               <div className="flex items-center gap-2">

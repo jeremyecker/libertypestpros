@@ -18,7 +18,7 @@ interface ServiceContent {
 const SERVICE_CONTENT: Record<string, ServiceContent> = {
   nassau: {
     headline: `Professional Bed Bug Exterminator in Nassau County, NY`,
-    body: `Nassau County's dense suburban communities — from Hempstead to Great Neck to Levittown — face growing bed bug pressure driven by used furniture purchases, travel, and multi-family housing. Older Cape Cods and colonials often have wall-void harborage sites that require specialized treatment protocols. Our Nassau County bed bug exterminators use EPA-approved heat treatment and residual chemical applications to knock out infestations in single-family homes, condos, and multi-unit buildings alike. We inspect every room thoroughly, including closets, upholstered furniture, and electrical outlets. Our service area covers all of Nassau County, and we offer same-day and evening appointments for busy families. Every treatment is backed by our satisfaction guarantee and free follow-up.`,
+    body: `Nassau County's dense suburban communities — from Hempstead to Great Neck to Levittown — face growing bed bug pressure driven by used furniture purchases, travel, and multi-family housing. Older Cape Cods and colonials often have wall-void harborage sites that require specialized treatment protocols. Our Nassau County bed bug exterminators use EPA-registered heat treatment and residual chemical applications to knock out infestations in single-family homes, condos, and multi-unit buildings alike. We inspect every room thoroughly, including closets, upholstered furniture, and electrical outlets. Our service area covers all of Nassau County, and we offer same-day and evening appointments for busy families. Every treatment includes a written service agreement, with terms explained beforehand.`,
     faqs: [
       { q: 'Are bed bugs common in Nassau County suburban homes?', a: 'Yes. Bed bugs are increasingly common in Nassau County, particularly in areas with high rental turnover, secondhand furniture markets, and travel hubs near JFK. They have no preference for cleanliness — any home can be affected.' },
       { q: 'What is heat treatment and is it safe for Nassau County homes?', a: 'Heat treatment raises the ambient temperature throughout infested rooms to 120–135°F, killing bed bugs at all life stages. It\'s safe for most furnishings and leaves no chemical residue — ideal for homes with children and pets.' },
@@ -39,7 +39,7 @@ export async function generateMetadata({
   const baseTitle = `${SERVICE_NAME} in ${townName}, ${region.stateCode}`;
   // Layout template adds "| Liberty Pest Pros" automatically
   const title = baseTitle;
-  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service, guaranteed results. Call ${BRAND.phoneFormatted}.`;
+  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service. Call ${BRAND.phoneFormatted}.`;
   return {
     title,
     description: description.length <= 155 ? description : description.slice(0, 152) + '...',
