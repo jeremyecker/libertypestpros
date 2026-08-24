@@ -10,11 +10,11 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   if (!region) return {};
   return {
     title: `About Us — ${region.name}`,
-    description: `Learn about ${BRAND.name} and our commitment to pest-free ${region.name} homes.`,
+    description: `Learn about ${BRAND.name} and our commitment to protecting ${region.name} homes from pests.`,
   
     openGraph: {
       title: `About Us — ${region.name}`,
-      description: `Learn about ${BRAND.name} and our commitment to pest-free ${region.name} homes.`,
+      description: `Learn about ${BRAND.name} and our commitment to protecting ${region.name} homes from pests.`,
       url: `https://${BRAND.domain}/${regionSlug}/about`,
       type: 'website',
       locale: 'en_US',
@@ -51,9 +51,9 @@ export default async function AboutPage({ params }: { params: Promise<{ region: 
           <ul>
             <li>Local experts who know {region.name}&apos;s pest pressures</li>
             <li>Same-day service availability</li>
-            <li>Family-safe, EPA-approved treatments</li>
+            <li>Family-safe, EPA-registered treatments</li>
             <li>Transparent pricing — no surprise charges</li>
-            <li>We stand behind our work</li>
+            <li>Written service agreement on every job</li>
           </ul>
           <h2>Our Commitment</h2>
           <p>

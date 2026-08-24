@@ -39,7 +39,7 @@ export default function AboutPage() {
           </p>
           <p>
             Three generations later, that hasn&apos;t changed. Our technicians are trained by
-            people who&apos;ve been doing this for decades. We use the latest EPA-approved
+            people who&apos;ve been doing this for decades. We use the latest EPA-registered
             products and Integrated Pest Management techniques — but the personal touch?
             That&apos;s old school, and we wouldn&apos;t have it any other way.
           </p>
@@ -72,8 +72,8 @@ export default function AboutPage() {
               never upsell you on a service you don&apos;t need. What we quote is what you pay.
             </li>
             <li>
-              <strong>We stand behind every job:</strong> If a problem comes back, so do we.
-              Our guarantee is simple: we&apos;re not done until you&apos;re satisfied. Call us
+              <strong>We provide a written service agreement on every job:</strong> your technician
+              will explain the applicable terms before treatment begins. Call us
               directly and a family member will make sure things are right.
             </li>
           </ul>

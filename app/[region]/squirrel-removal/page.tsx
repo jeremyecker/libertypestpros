@@ -262,7 +262,7 @@ export default function SquirrelRemovalPage() {
           <Link href="/nassau/services/" className="hover:underline text-brand-primary">All Services</Link>
           <Link href="/nassau/exterminator-near-me/" className="hover:underline text-brand-primary">Exterminator Near Me</Link>
           <Link href="/nassau/same-day-pest-control/" className="hover:underline text-brand-primary">Same-Day Pest Control</Link>
-          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Pest Inspection</Link>
+          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Estimate</Link>
         </div>
       </div>
       <CTABanner />

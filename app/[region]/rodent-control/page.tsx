@@ -5,10 +5,10 @@ import { REGIONS } from '@/hub.config';
 
 export const metadata: Metadata = {
   title: 'Rodent Control Nassau County, NY',
-  description: 'Rodent control Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+  description: 'Rodent control Nassau County, NY. Mice and rat control services. Family-owned since 1982. Call (516) 763-4600.',
   openGraph: {
     title: 'Rodent Control Nassau County, NY | Liberty Pest Pros',
-    description: 'Rodent control Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982. Call (516) 763-4600.',
+    description: 'Rodent control Nassau County, NY. Mice and rat control services. Family-owned since 1982. Call (516) 763-4600.',
     url: 'https://libertypestpros.com/nassau/rodent-control',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ const schemaData = {
         "@type": "AdministrativeArea",
         "name": "Nassau County, New York"
       },
-      "description": "Professional rodent control in Nassau County, NY. Mice and rat elimination with guaranteed results. Family-owned since 1982.",
+      "description": "Professional rodent control in Nassau County, NY. Mice and rat control services. Family-owned since 1982.",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
@@ -265,7 +265,7 @@ export default function RodentControlPage() {
           <Link href="/nassau/services/" className="hover:underline text-brand-primary">All Services</Link>
           <Link href="/nassau/exterminator-near-me/" className="hover:underline text-brand-primary">Exterminator Near Me</Link>
           <Link href="/nassau/same-day-pest-control/" className="hover:underline text-brand-primary">Same-Day Pest Control</Link>
-          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Pest Inspection</Link>
+          <Link href="/nassau/free-pest-inspection/" className="hover:underline text-brand-primary">Free Estimate</Link>
         </div>
       </div>
       <CTABanner />

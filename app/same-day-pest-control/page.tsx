@@ -74,7 +74,7 @@ const schemaData = {
           "name": "How do I book same-day pest control service?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Simply call us at (516) 763-4600. Our team will confirm availability, give you an arrival window, and answer any questions before the technician arrives. Same-day booking is handled by phone for fastest scheduling."
+            "text": "Simply call us at (516) 763-4600. Our team will confirm availability, give you an arrival window, and answer any questions before your appointment window begins. Same-day booking is handled by phone for fastest scheduling."
           }
         },
         {

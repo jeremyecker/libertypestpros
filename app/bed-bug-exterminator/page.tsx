@@ -92,7 +92,7 @@ export default function BedBugExterminatorTopLevel() {
       {/* Hero */}
       <section className="bg-[#1B3D6F] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Proven Elimination</h1>
+          <h1 className="text-4xl font-bold mb-4">Bed Bug Exterminator Nassau County — Heat &amp; Chemical Treatment</h1>
           <p className="text-xl mb-8">Nassau County bed bug specialists — heat treatment and chemical options, reliable results since 1982</p>
           <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
             Call (516) 763-4600
@@ -128,7 +128,7 @@ export default function BedBugExterminatorTopLevel() {
             <strong>Heat Treatment:</strong> We use professional-grade heating equipment to raise the temperature in infested areas to levels that kill all bed bug life stages — including eggs, which chemical treatments can struggle to penetrate. Heat treatment typically eliminates the infestation in a single visit and allows you to return home the same day once temperatures normalize.
           </p>
           <p>
-            <strong>Chemical Treatment:</strong> Our licensed technicians apply targeted chemical treatments to all harborage areas — mattress seams, box spring frames, bed frames, baseboards, and furniture joints. Multiple treatments are scheduled 2 weeks apart to break the egg cycle and ensure complete elimination.
+            <strong>Chemical Treatment:</strong> Our licensed technicians apply targeted chemical treatments to all harborage areas — mattress seams, box spring frames, bed frames, baseboards, and furniture joints. Multiple treatments are scheduled 2 weeks apart to break the egg cycle and thoroughly treat all life stages.
           </p>
           <h2>Signs of Bed Bugs — Know What to Look For</h2>
           <p>

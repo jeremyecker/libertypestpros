@@ -58,7 +58,7 @@ Many homes in Rockville Centre, Lynbrook, and Oceanside sit on former marshland 
 
 Liberty Pest Pros has protected Nassau South Shore homes from termites since 1982. Our treatment options include liquid barrier treatments, termite bait station systems, and targeted wood treatments for localized infestations.
 
-Call (516) 763-4600 for a free termite inspection. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. When you're searching for **pest control near me** on the Nassau South Shore, Liberty Pest Pros brings 40+ years of local expertise to every inspection.`
+Call (516) 763-4600 for a free termite estimate. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. When you're searching for **pest control near me** on the Nassau South Shore, Liberty Pest Pros brings 40+ years of local expertise to every inspection.`
   },
   {
     slug: "spring-pest-prevention-nassau-south-shore",
@@ -225,7 +225,7 @@ Call (516) 763-4600 for same-day inspection and emergency bed bug treatment. We 
   },
   {
     slug: "ant-control-nassau-south-shore",
-    title: "Ant Control on the Nassau South Shore: Stopping Ants for Good",
+    title: "Ant Control on the Nassau South Shore: What Actually Works",
     date: "2025-03-15",
     excerpt: "Ants are the number one spring pest complaint across Long Beach, Freeport, and the Nassau South Shore. Here's how to identify them and eliminate them effectively.",
     author: "Liberty Pest Pros Team",
@@ -234,7 +234,7 @@ Call (516) 763-4600 for same-day inspection and emergency bed bug treatment. We 
     tags: ["ant control", "ants", "pest control near me", "Nassau South Shore", "Freeport"],
     image: 'https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'ant control nassau south shore pest control',
-    content: `# Ant Control on the Nassau South Shore: Stopping Ants for Good
+    content: `# Ant Control on the Nassau South Shore: What Actually Works
 
 Ants are the number one pest complaint across the Nassau South Shore every spring and summer. Kitchen trails in Rockville Centre, carpenter ants in Freeport deck framing, odorous house ants in Merrick — ant problems are a fact of life along the South Shore. But not all ants are the same, and neither are the solutions.
 
@@ -260,7 +260,7 @@ Call (516) 763-4600 to eliminate your ant problem. We serve Long Beach, Atlantic
   },
   {
     slug: "cockroach-control-nassau-south-shore",
-    title: "Cockroach Control on the Nassau South Shore: Getting Rid of Roaches for Good",
+    title: "Cockroach Control on the Nassau South Shore: What Actually Works Against Roaches",
     date: "2025-04-01",
     excerpt: "Cockroaches are a serious health hazard in Long Beach, Valley Stream, and Nassau South Shore. Here's how to eliminate them effectively with professional help.",
     author: "Liberty Pest Pros Team",
@@ -269,7 +269,7 @@ Call (516) 763-4600 to eliminate your ant problem. We serve Long Beach, Atlantic
     tags: ["cockroach control", "roaches", "exterminator near me", "Nassau South Shore", "Long Beach"],
     image: 'https://images.pexels.com/photos/4439425/pexels-photo-4439425.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'cockroach control nassau south shore pest control',
-    content: `# Cockroach Control on the Nassau South Shore: Getting Rid of Roaches for Good
+    content: `# Cockroach Control on the Nassau South Shore: What Actually Works Against Roaches
 
 Cockroaches are among the most medically significant pests in any home. Their shed skins, feces, and saliva are potent allergens that trigger asthma attacks — particularly in children. They contaminate food, spread pathogenic bacteria, and can infest a home rapidly. On the Nassau South Shore, coastal moisture levels and dense housing stock create significant cockroach pressure.
 
@@ -369,7 +369,7 @@ Late summer on the Nassau South Shore means stinging insect colonies at peak pop
 - Anaphylaxis risk — up to 5% of people have life-threatening venom allergies
 - Consumer aerosol sprays kill guard wasps at entrance only, leaving the colony intact
 - Spraying wall void nests drives thousands of wasps inside your living space
-- All stinging insect nests require professional-grade penetrating treatment for complete elimination
+- All stinging insect nests require professional-grade penetrating treatment for thorough control
 
 ## Professional Treatment
 
@@ -381,7 +381,7 @@ Call (516) 763-4600 for same-day stinging insect service. We serve Long Beach, A
     slug: "wildlife-removal-nassau-south-shore",
     title: "Wildlife Removal on the Nassau South Shore: Raccoons, Squirrels, and More",
     date: "2025-05-15",
-    excerpt: "Raccoons, squirrels, and wildlife are entering Nassau South Shore homes. Here's how Liberty Pest Pros removes them humanely and keeps them out for good.",
+    excerpt: "Raccoons, squirrels, and wildlife are entering Nassau South Shore homes. Here's how Liberty Pest Pros removes them humanely and helps keep them from coming back.",
     author: "Liberty Pest Pros Team",
     category: "Wildlife",
     readTime: "6 min read",
@@ -733,7 +733,7 @@ For persistent spider populations or black widow activity, call (516) 763-4600. 
     slug: "pantry-pest-control-nassau-south-shore",
     title: "Pantry Pest Control on the Nassau South Shore: Weevils, Moths, and How to Stop Them",
     date: "2025-10-01",
-    excerpt: "Finding bugs in your pantry staples is unsettling — and common across Nassau South Shore homes. Here's how to identify and eliminate pantry pests for good.",
+    excerpt: "Finding bugs in your pantry staples is unsettling — and common across Nassau South Shore homes. Here's how to identify and eliminate pantry pests.",
     author: "Liberty Pest Pros Team",
     category: "Pantry Pests",
     readTime: "6 min read",
@@ -838,7 +838,7 @@ When a pest problem hits — a mouse discovered at 10 PM, a wasp nest blocking y
 
 **Licensed and fully insured.** All technicians are DEC-licensed applicators with full general liability and workers' compensation coverage.
 
-We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. Call (516) 763-4600 for a free inspection. When you search **pest control near me** or **exterminator near me** on the Nassau South Shore, Liberty Pest Pros is the answer. Licensed, insured, and trusted by South Shore families since 1982.`
+We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. Call (516) 763-4600 for a free estimate. When you search **pest control near me** or **exterminator near me** on the Nassau South Shore, Liberty Pest Pros is the answer. Licensed, insured, and trusted by South Shore families since 1982.`
   },
   {
     slug: "pest-control-cost-guide-nassau-south-shore",
@@ -897,7 +897,7 @@ One of the first questions homeowners ask when searching for **pest control near
 
 The only way to get an accurate quote is through an inspection. A reputable **exterminator near me** will inspect before quoting, provide a written estimate, explain the treatment in detail, and offer a warranty.
 
-Liberty Pest Pros provides free inspections and written estimates for all services. Call (516) 763-4600. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. No hidden fees, no pressure — just honest service from a family business protecting South Shore homes since 1982.`
+Liberty Pest Pros provides free estimates and written quotes for all services. Call (516) 763-4600. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. No hidden fees, no pressure — just honest service from a family business protecting South Shore homes since 1982.`
   },
   {
     slug: "seasonal-pest-calendar-nassau-south-shore",

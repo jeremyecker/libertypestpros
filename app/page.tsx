@@ -17,7 +17,7 @@ const townCount = getTownCount();
 const homepageFAQs = [
   {
     question: 'Are your treatments gentle on kids and pets?',
-    answer: `Absolutely — we use EPA-approved products and Integrated Pest Management (IPM) techniques specifically chosen to be gentle around children and pets.`,
+    answer: `Absolutely — we use EPA-registered products and Integrated Pest Management (IPM) techniques specifically chosen to be gentle around children and pets.`,
   },
   {
     question: `What areas do you cover?`,
@@ -33,7 +33,7 @@ const homepageFAQs = [
   },
   {
     question: 'What if pests return after treatment?',
-    answer: `We stand behind our work. If pests return between scheduled treatments, we'll come back at no additional cost.`,
+    answer: `Every service includes a written service agreement. Your technician will explain what's covered between scheduled treatments, including any follow-up visits, before service begins.`,
   },
   {
     question: 'Are you a local company?',

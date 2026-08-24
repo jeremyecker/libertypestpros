@@ -79,7 +79,7 @@ const schemaData = {
           "name": "Is same-day pest control effective, or do I need multiple visits?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Many pest problems can be significantly resolved in a single same-day visit. For active infestations, follow-up treatments are sometimes recommended to ensure complete elimination — especially for German cockroaches, termites, and bed bugs. We&apos;ll give you an honest assessment after the initial treatment and recommend only what&apos;s genuinely needed."
+            "text": "Many pest problems can be significantly resolved in a single same-day visit. For active infestations, follow-up treatments are sometimes recommended for thorough treatment — especially for German cockroaches, termites, and bed bugs. We&apos;ll give you an honest assessment after the initial treatment and recommend only what&apos;s genuinely needed."
           }
         },
         {
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     q: "Is same-day pest control effective, or do I need multiple visits?",
-    a: "Many pest problems can be significantly resolved in a single same-day visit. For active infestations, follow-up treatments are sometimes recommended to ensure complete elimination — especially for German cockroaches, termites, and bed bugs. We&apos;ll give you an honest assessment after the initial treatment and recommend only what&apos;s genuinely needed."
+    a: "Many pest problems can be significantly resolved in a single same-day visit. For active infestations, follow-up treatments are sometimes recommended for thorough treatment — especially for German cockroaches, termites, and bed bugs. We&apos;ll give you an honest assessment after the initial treatment and recommend only what&apos;s genuinely needed."
   },
   {
     q: "What areas of Nassau County do you cover for same-day service?",
@@ -179,7 +179,7 @@ export default function SameDayPestControlPage() {
             <span>✅ Call before noon for same-day</span>
             <span>✅ Nassau County local technicians</span>
             <span>✅ Licensed &amp; insured</span>
-            <span>✅ Satisfaction guaranteed</span>
+            <span>✅ Written service agreement</span>
           </div>
         </div>
 
@@ -211,14 +211,14 @@ export default function SameDayPestControlPage() {
             <strong>We treat quickly and effectively.</strong> Same-day service only matters if the treatment actually works. Our technicians arrive with the right equipment and products for the most common Nassau County pest scenarios. No running back to the shop for supplies, no delays because the technician isn&apos;t sure what they&apos;re dealing with.
           </p>
           <p>
-            <strong>We follow up.</strong> After your same-day treatment, we check in to make sure the problem is resolved. If it&apos;s not, we come back. That&apos;s the guarantee backing every job we do.
+            <strong>We follow up.</strong> After your same-day treatment, we check in to make sure the problem is resolved. Every job includes a written service agreement, with terms explained beforehand.
           </p>
         </div>
 
         {/* Dual CTA */}
         <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
           <h2 className="text-2xl font-bold text-white mb-2">Need Pest Control Today in Nassau County?</h2>
-          <p className="text-blue-100 mb-4">Call before noon for same-day service. Local technicians, family-owned, guaranteed results.</p>
+          <p className="text-blue-100 mb-4">Call before noon for same-day service. Local technicians, family-owned since 1982.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href="/nassau/contact/"

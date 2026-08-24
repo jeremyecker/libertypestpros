@@ -249,7 +249,7 @@ function TownContent({ regionSlug, townSlug, region }: { regionSlug: string; tow
             <span>✅ Same-day service available</span>
             <span>✅ Nassau County licensed &amp; insured</span>
             <span>✅ Family-owned since 1982</span>
-            <span>✅ Satisfaction guaranteed</span>
+            <span>✅ Written service agreement</span>
           </div>
         </div>
 

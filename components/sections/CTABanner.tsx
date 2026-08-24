@@ -7,8 +7,8 @@ interface CTABannerProps {
 }
 
 export default function CTABanner({
-  title = `Keep Your ${GEO.region} Home Pest-Free`,
-  subtitle = 'Your family deserves a home without pests. Get a free estimate from your local experts — family-friendly treatments, honest pricing, and we stand behind our work.',
+  title = `Keep Your ${GEO.region} Home Protected`,
+  subtitle = 'Your family deserves a home without pests. Get a free estimate from your local experts — family-friendly treatments, honest pricing, and a written service agreement for every job.',
 }: CTABannerProps) {
   return (
     <section className="bg-gradient-to-r from-brand-primary to-brand-secondary py-12 lg:py-16">

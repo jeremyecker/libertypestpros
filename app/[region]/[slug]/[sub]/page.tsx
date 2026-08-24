@@ -24,11 +24,11 @@ const SERVICE_CONFIG: Record<string, {
     whatWeOffer: [
       { title: 'Heat Treatment', desc: 'Kills all life stages without chemicals' },
       { title: 'Chemical Treatment', desc: 'Targeted residual application' },
-      { title: 'Follow-Up Inspection', desc: '30-day guarantee on all treatments' },
+      { title: 'Follow-Up Inspection', desc: 'Written service agreement on all treatments' },
       { title: 'Same-Day Service', desc: 'Emergency appointments available' },
     ],
     faqs: [
-      { q: 'How do I know if I have bed bugs?', a: 'Look for small rust-colored stains on mattress seams, tiny dark spots (droppings), or itchy welts in a line or cluster on your skin after sleeping. Our free inspection confirms the presence and extent of an infestation.' },
+      { q: 'How do I know if I have bed bugs?', a: 'Look for small rust-colored stains on mattress seams, tiny dark spots (droppings), or itchy welts in a line or cluster on your skin after sleeping. Our free estimate confirms the presence and extent of an infestation.' },
       { q: 'How long does bed bug treatment take?', a: 'Heat treatments typically take 6–8 hours. Chemical treatments take 2–3 hours with a return visit in 14 days. We\'ll recommend the right approach based on your situation.' },
       { q: 'Do I need to leave my home during treatment?', a: 'Yes — for heat treatment, residents and pets must leave for the day. For chemical treatment, you\'ll need to be out for 4 hours after application.' },
     ],
@@ -53,7 +53,7 @@ const SERVICE_CONFIG: Record<string, {
   'raccoon-removal': {
     name: 'Raccoon Removal',
     icon: '🦝',
-    intro: 'Raccoons can cause thousands of dollars in damage once they gain access to an attic or crawl space. Liberty Pest Pros provides humane raccoon removal, full attic assessment, and permanent exclusion to keep them out for good.',
+    intro: 'Raccoons can cause thousands of dollars in damage once they gain access to an attic or crawl space. Liberty Pest Pros provides humane raccoon removal, full attic assessment, and thorough exclusion work designed to keep them from returning.',
     whyUrgent: 'A raccoon in your attic isn\'t just a nuisance — they tear apart insulation, soil surfaces with waste, and can carry rabies and raccoon roundworm. Fast removal protects your family and your home.',
     whatWeOffer: [
       { title: 'Humane Live Trapping', desc: 'Catch-and-relocate per NY regulations' },
@@ -121,7 +121,7 @@ const SERVICE_CONFIG: Record<string, {
   'cockroach-exterminator': {
     name: 'Cockroach Exterminator',
     icon: '🪳',
-    intro: 'Cockroaches are among the hardest pests to eliminate on your own — they breed in hidden areas, develop resistance to store-bought sprays, and can signal a serious sanitation or moisture issue. Liberty Pest Pros uses gel baits, insect growth regulators, and crack-and-crevice treatments to eliminate infestations completely.',
+    intro: 'Cockroaches are among the hardest pests to eliminate on your own — they breed in hidden areas, develop resistance to store-bought sprays, and can signal a serious sanitation or moisture issue. Liberty Pest Pros uses gel baits, insect growth regulators, and crack-and-crevice treatments to treat infestations thoroughly.',
     whyUrgent: 'Cockroaches spread 33 types of bacteria (including Salmonella and E. coli), trigger asthma attacks, and can rapidly spread to adjacent units in multi-family homes.',
     whatWeOffer: [
       { title: 'Gel Bait Treatment', desc: 'Slow-kill bait that eliminates the colony' },
@@ -336,7 +336,7 @@ export default async function ServiceTownPage({
             <span>✅ Same-day service available</span>
             <span>✅ Nassau County licensed &amp; insured</span>
             <span>✅ Family-owned since 1982</span>
-            <span>✅ Satisfaction guaranteed</span>
+            <span>✅ Written service agreement</span>
           </div>
         </div>
 

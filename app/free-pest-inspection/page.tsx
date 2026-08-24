@@ -41,14 +41,7 @@ const schemaData = {
           "opens": "07:00",
           "closes": "19:00"
         }
-      ],
-      "offers": {
-        "@type": "Offer",
-        "name": "Free Pest Control Estimate",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Comprehensive pest assessment for Nassau County homes and businesses — no charge, no obligation."
-      }
+      ]
     },
     {
       "@type": "FAQPage",

@@ -18,7 +18,7 @@ interface ServiceContent {
 const SERVICE_CONTENT: Record<string, ServiceContent> = {
   nassau: {
     headline: `Professional Squirrel Removal in Nassau County, NY`,
-    body: `Nassau County's mature suburban neighborhoods — with their dense canopy of oak, maple, and beech trees — support thriving gray squirrel populations that frequently attempt attic entry. Homes in Great Neck, Manhasset, Oyster Bay, and throughout the county deal with squirrel intrusions that cause structural damage and create fire hazards from chewed wiring. Our Nassau County squirrel removal specialists are experts in residential exclusion, identifying every gap in your roofline and attic perimeter and sealing each one with gnaw-proof materials after one-way doors allow the animals to leave safely. We also offer attic insulation inspection and replacement if nesting debris has contaminated your attic. Guaranteed results throughout Nassau County.`,
+    body: `Nassau County's mature suburban neighborhoods — with their dense canopy of oak, maple, and beech trees — support thriving gray squirrel populations that frequently attempt attic entry. Homes in Great Neck, Manhasset, Oyster Bay, and throughout the county deal with squirrel intrusions that cause structural damage and create fire hazards from chewed wiring. Our Nassau County squirrel removal specialists are experts in residential exclusion, identifying every gap in your roofline and attic perimeter and sealing each one with gnaw-proof materials after one-way doors allow the animals to leave safely. We also offer attic insulation inspection and replacement if nesting debris has contaminated your attic. Exclusion work throughout Nassau County includes a written warranty.`,
     faqs: [
       { q: 'How do I know if I have squirrels in my Nassau County attic?', a: 'Signs include rapid light scurrying sounds in the morning and afternoon, visible damage to soffit or fascia boards, and droppings in attic insulation. You may also see squirrels actively entering or exiting near the roofline.' },
       { q: 'Will squirrels chew through the roof to enter a Nassau County home?', a: 'Squirrels don\'t typically chew through solid roofing material, but they will aggressively enlarge existing gaps in wood fascia, soffit, and ridge venting. Preventive inspections before nesting season are the best defense.' },
@@ -39,7 +39,7 @@ export async function generateMetadata({
   const baseTitle = `${SERVICE_NAME} in ${townName}, ${region.stateCode}`;
   // Layout template adds "| Liberty Pest Pros" automatically
   const title = baseTitle;
-  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service, guaranteed results. Call ${BRAND.phoneFormatted}.`;
+  const description = `Licensed ${SERVICE_NAME.toLowerCase()} serving ${townName}, ${region.stateCode}. ${BRAND.name} — same-day service. Call ${BRAND.phoneFormatted}.`;
   return {
     title,
     description: description.length <= 155 ? description : description.slice(0, 152) + '...',

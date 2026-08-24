@@ -136,7 +136,7 @@ export default function PestControlNearMeTopLevel() {
             When you search &ldquo;pest control near me&rdquo; in Nassau County, you need a company that understands these local dynamics — not a national franchise reading from a script. Liberty Pest Pros has been Nassau County&apos;s family-owned pest control expert since 1982. Our technicians live and work in Nassau County. They know the pest patterns in your specific neighborhood, the construction styles that create vulnerabilities in your home, and the seasonal timing of Nassau County pest activity.
           </p>
           <p>
-            We offer a full range of pest control services with same-day availability, licensed and insured technicians, and a satisfaction guarantee. If pests come back between treatments, so do we — at no extra charge.
+            We offer a full range of pest control services with same-day availability and licensed and insured technicians. Every service includes a written service agreement, with terms explained before treatment.
           </p>
         </div>
       </section>
