@@ -830,7 +830,7 @@ When a pest problem hits — a mouse discovered at 10 PM, a wasp nest blocking y
 
 ## Why Liberty Pest Pros Has Led the South Shore Since 1982
 
-**43 years of local experience.** We've treated termites in Freeport canal homes, solved rodent problems in Rockville Centre apartments, eliminated bed bugs in Long Beach condominiums, and provided commercial pest control to businesses along Merrick Road for over four decades.
+**More than four decades of local experience.** We've treated termites in Freeport canal homes, solved rodent problems in Rockville Centre apartments, eliminated bed bugs in Long Beach condominiums, and provided commercial pest control to businesses along Merrick Road for over four decades.
 
 **Family-owned, locally operated.** You're dealing with a local family that has built its reputation treating homes in your neighborhood — not a franchise.
 

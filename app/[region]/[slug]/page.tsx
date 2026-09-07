@@ -55,7 +55,7 @@ export async function generateMetadata({
   if (isService(slug)) {
     const svc = SERVICE_META[slug];
     return {
-      title: `${svc.name} in ${region.name}, ${region.stateCode} | ${BRAND.name}`,
+      title: `${svc.name} in ${region.name}, ${region.stateCode}`,
       description: `${svc.desc} Licensed ${region.stateCode} exterminators serving all ${region.name} communities. Call ${BRAND.phoneFormatted} for a free quote.`,
       alternates: { canonical: `https://${BRAND.domain}/${regionSlug}/${slug}/` },
       openGraph: {

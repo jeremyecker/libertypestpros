@@ -34,7 +34,7 @@ export default function AboutPage() {
           <p>
             When we started {SITE_NAME} in 1982, the South Shore was a different place — but
             the pests were the same. Ants in the kitchen, mice in the garage, wasps building
-            nests under the eaves. For 43 years, we&apos;ve stayed true to the same principle
+            nests under the eaves. For more than {new Date().getFullYear() - 1982} years, we&apos;ve stayed true to the same principle
             that got us started: treat every home like it belongs to family.
           </p>
           <p>
@@ -47,14 +47,14 @@ export default function AboutPage() {
           <h2>Why South Shore Families Choose Us</h2>
           <ul>
             <li>
-              <strong>43 years of local knowledge:</strong> We&apos;ve been working Nassau
+              <strong>{new Date().getFullYear() - 1982} years of local knowledge:</strong> We&apos;ve been working Nassau
               County&apos;s South Shore since before many of our customers were born. We know
               every pest pattern, every seasonal surge, every trouble spot — from the waterfront
               homes in Long Beach to the tree-lined streets of Rockville Centre. This is
               home-turf expertise you can&apos;t get from a national chain.
             </li>
             <li>
-              <strong>Family-friendly, always:</strong> With 43 years of experience, we know which
+              <strong>Family-friendly, always:</strong> With more than four decades of experience, we know which
               treatments work best for homes with kids and pets. Every product we use is selected
               with your family&apos;s safety as the number one priority. We&apos;ll explain
               everything — what we&apos;re using, why, and when it&apos;s clear for your family
@@ -67,7 +67,7 @@ export default function AboutPage() {
               emergencies don&apos;t keep business hours.
             </li>
             <li>
-              <strong>Honest, fair pricing:</strong> After 43 years, our reputation is everything.
+              <strong>Honest, fair pricing:</strong> After more than four decades, our reputation is everything.
               That&apos;s why we provide free estimates, clear pricing, and no hidden fees. We&apos;ll
               never upsell you on a service you don&apos;t need. What we quote is what you pay.
             </li>
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <h2>Let Us Help</h2>
           <p>
             Whether you&apos;ve noticed something worrying or you just want the peace of mind
-            that comes from 43 years of experience, give us a call at{' '}
+            that comes from more than four decades of experience, give us a call at{' '}
             <a href={PHONE_HREF} className="font-bold">{PHONE}</a>. We&apos;ll listen, give
             you honest advice, and give you a clear price over the phone if you&apos;d like one.
             No pressure, no obligation — just the kind of service a family business is built on.

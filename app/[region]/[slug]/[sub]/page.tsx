@@ -204,7 +204,7 @@ export async function generateMetadata({
   const townName = townSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 
   return {
-    title: `${svc.name} in ${townName}, NY | Liberty Pest Pros`,
+    title: `${svc.name} in ${townName}, NY`,
     description: `Looking for a ${svc.name.toLowerCase()} in ${townName}? Liberty Pest Pros has served Nassau County since 1982. Same-day service available. Call (516) 763-4600 for a free quote.`,
     openGraph: {
       title: `${svc.name} in ${townName}, NY | Liberty Pest Pros`,
