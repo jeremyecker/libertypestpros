@@ -12,7 +12,7 @@ export const SITE_NAME = 'Liberty Pest Pros';
 export const SITE_DOMAIN = 'libertypestpros.com';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://libertypestpros.com';
 export const SITE_TAGLINE = 'Family-Owned Pest Control Since 1982 — Nassau County, Long Island';
-export const SITE_DESCRIPTION = 'Family-owned pest control in Nassau County since 1982. Licensed, insured & natural treatments. Same-day service. Free estimates, proven results.';
+export const SITE_DESCRIPTION = 'Family-owned pest control in Nassau County since 1982. Licensed, insured & targeted, EPA-registered treatments. Same-day service. Free estimates.';
 export const EMAIL = 'info@libertypestpros.com';
 
 export const SITE = {
@@ -81,11 +81,11 @@ export const GMB = {
   profileUrl: 'https://maps.app.goo.gl/fSHVP5DbP7KSwtf56',
   rating: 4.9,
   reviewsEnabled: true,
-  reviewCount: 277,
+  reviewCount: 311,
 } as const;
 
 export const TRUST_STATS = [
-  { icon: '\uD83E\uDD1D', value: 'Thousands', label: 'Of Happy Customers' },
+  { icon: '\uD83E\uDD1D', value: `${GMB.reviewCount}+`, label: 'Google Reviews' },
   { icon: '\u26A1', value: 'Same Day', label: 'Next Day Service' },
   { icon: '\uD83D\uDD12', value: 'Discreet', label: 'Services' },
   { icon: '\uD83D\uDD2C', value: 'Expert', label: 'Analysis & Delivery' },

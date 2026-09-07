@@ -27,7 +27,6 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -73,7 +72,7 @@ const schemaData = {
           "name": "Is emergency pest control more expensive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Same-day and emergency service starts at $175. We always provide a clear quote before beginning work so there are no surprises. We believe every Nassau County family deserves a fast response at a fair price."
+            "text": "Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins. We believe every Nassau County family deserves a fast response at a fair price."
           }
         },
         {
@@ -140,7 +139,7 @@ export default function EmergencyPestControlTopLevel() {
             Our technicians carry the equipment and products needed to handle most emergency situations on the first visit — no waiting for a second appointment, no ordering specialty products. We arrive prepared to solve the problem.
           </p>
           <p>
-            After the emergency treatment, we provide you with a detailed report of what was found, what was treated, and recommendations for follow-up to prevent recurrence. Nassau County&apos;s dense communities mean pest pressure from neighboring properties is always a factor — our technicians understand how to build a prevention strategy that protects your home long-term.
+            After the emergency treatment, the technician walks you through what was found, what was treated, and recommendations for follow-up to prevent recurrence. Nassau County&apos;s dense communities mean pest pressure from neighboring properties is always a factor — our technicians understand how to build a prevention strategy that protects your home long-term.
           </p>
         </div>
       </section>
@@ -178,7 +177,7 @@ export default function EmergencyPestControlTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Is emergency pest control more expensive?</h3>
-              <p className="text-gray-600">Same-day and emergency service starts at $175. We always provide a clear quote before beginning work so there are no surprises.</p>
+              <p className="text-gray-600">Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you offer emergency pest control on weekends?</h3>

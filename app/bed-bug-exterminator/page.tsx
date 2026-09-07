@@ -27,7 +27,6 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
-      "priceRange": "$$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -73,7 +72,7 @@ const schemaData = {
           "name": "Do I need to prepare my Nassau County home before bed bug treatment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — preparation is essential for effective results. Before treatment, you will need to bag and heat-dry all clothing in the affected rooms, reduce clutter around sleeping areas, and stay out of treated rooms for the specified re-entry period. Our technician provides a detailed prep checklist before the appointment so you know exactly what to do. Thorough preparation significantly improves treatment outcomes."
+            "text": "Yes — preparation is essential for effective results. Before treatment, you will need to bag and heat-dry all clothing in the affected rooms, reduce clutter around sleeping areas, and stay out of treated rooms for the specified re-entry period. Our technician walks you through the preparation steps before the appointment so you know exactly what to do. Thorough preparation significantly improves treatment outcomes."
           }
         }
       ]
@@ -175,7 +174,7 @@ export default function BedBugExterminatorTopLevel() {
               },
               {
                 q: "Do I need to prepare my Nassau County home before bed bug treatment?",
-                a: "Yes — preparation is essential for effective treatment. You will need to bag and heat-dry all clothing in affected rooms, reduce clutter around sleeping areas, and vacate treated rooms for the specified re-entry period. Our technician provides a detailed prep checklist before the appointment. Thorough preparation significantly improves treatment outcomes."
+                a: "Yes — preparation is essential for effective treatment. You will need to bag and heat-dry all clothing in affected rooms, reduce clutter around sleeping areas, and vacate treated rooms for the specified re-entry period. Our technician walks you through the preparation steps before the appointment. Thorough preparation significantly improves treatment outcomes."
               },
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-lg p-5 bg-white">

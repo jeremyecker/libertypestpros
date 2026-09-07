@@ -16,8 +16,8 @@ const townCount = getTownCount();
 
 const homepageFAQs = [
   {
-    question: 'Are your treatments gentle on kids and pets?',
-    answer: `Absolutely — we use EPA-registered products and Integrated Pest Management (IPM) techniques specifically chosen to be gentle around children and pets.`,
+    question: 'How do you approach treatments where children and pets live?',
+answer: `We use EPA-registered products and Integrated Pest Management (IPM) techniques — targeted application, exclusion, and clear re-entry guidance — structured for homes with children and pets.`,
   },
   {
     question: `What areas do you cover?`,

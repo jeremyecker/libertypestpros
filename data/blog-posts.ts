@@ -549,7 +549,7 @@ We don&apos;t use language designed to create alarm. We tell you what you&apos;r
 
 **Licensed, Trained, and Accountable**
 
-Every Liberty Pest Pros technician is licensed by the New York State Department of Environmental Conservation (DEC) as a certified pesticide applicator. Licensure requires passing state examinations, completing ongoing continuing education, and maintaining compliance with New York pesticide application law — standards that protect Nassau County homeowners and hold applicators accountable.
+Liberty Pest Pros technicians are licensed by the New York State Department of Environmental Conservation (DEC) as certified pesticide applicators or work under the direct supervision of a licensed applicator. Licensure requires passing state examinations, completing ongoing continuing education, and maintaining compliance with New York pesticide application law — standards that protect Nassau County homeowners and hold applicators accountable.
 
 Our team also undergoes ongoing internal training on new pest management technologies, application techniques, and integrated pest management (IPM) principles. IPM prioritizes non-chemical prevention and physical exclusion alongside targeted treatments, resulting in less overall pesticide use and more durable outcomes.
 

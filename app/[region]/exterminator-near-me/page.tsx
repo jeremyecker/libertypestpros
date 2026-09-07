@@ -27,7 +27,6 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -62,10 +61,10 @@ const schemaData = {
         },
         {
           "@type": "Question",
-          "name": "Do you offer a service guarantee?",
+          "name": "What are the service terms for each treatment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years."
+            "text": "Every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years."
           }
         },
         {
@@ -126,7 +125,7 @@ export default function ExterminatorNearMeTopLevel() {
             Searching for an &ldquo;exterminator near me&rdquo; in Nassau County returns dozens of results — but not all exterminators are equal. Before you hire anyone to treat your home or business, there are several critical factors to consider.
           </p>
           <p>
-            <strong>Licensing and credentials matter.</strong> In New York State, pest control companies and technicians must hold a valid pesticide applicator license issued by the Department of Environmental Conservation (DEC). Liberty Pest Pros maintains all required licensing and carries full liability insurance. Every technician who enters your home is certified and background-checked.
+            <strong>Licensing and credentials matter.</strong> In New York State, pest control companies and technicians must hold a valid pesticide applicator license issued by the Department of Environmental Conservation (DEC). Liberty Pest Pros maintains all required licensing and carries full liability insurance. Our technicians are certified or working under the supervision of a certified applicator, and background-checked.
           </p>
           <p>
             <strong>Local knowledge is irreplaceable.</strong> Nassau County pest pressure is shaped by its coastal geography, aging housing stock, and dense suburban layout. An exterminator who works in Nassau every day understands termite activity near the South Shore wetlands, the rodent entry patterns common in Levittown&apos;s post-war construction, and the ant pressure that builds in the irrigated lawns of Roslyn and Manhasset. Liberty Pest Pros has been operating exclusively in Nassau County since 1982 — that local expertise is built into every service call.
@@ -168,8 +167,8 @@ export default function ExterminatorNearMeTopLevel() {
               <p className="text-gray-600">Yes. Liberty Pest Pros holds all required New York State DEC pesticide applicator licenses. Our technicians are licensed or working under the direct supervision of a licensed applicator, insured, and trained in the latest IPM protocols.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">Do you offer a service guarantee?</h3>
-              <p className="text-gray-600">Yes — every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years.</p>
+              <h3 className="font-bold text-gray-900 mb-2">What are the service terms for each treatment?</h3>
+              <p className="text-gray-600">Every treatment includes a written service agreement. Your technician will explain the applicable terms, including any follow-up visits, before treatment begins. We've served Nassau County for over 40 years.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">What pests do Nassau County exterminators handle?</h3>

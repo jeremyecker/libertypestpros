@@ -28,7 +28,6 @@ const schemaData = {
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
       "description": "Professional pest control in Nassau County, NY. Family-owned since 1982. Licensed & insured. Call (516) 763-4600.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -66,7 +65,7 @@ const schemaData = {
           "name": "What areas in Nassau County qualify for same-day service?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We offer same-day service across all of Nassau County — from Hempstead, Freeport, and Oceanside on the South Shore to Manhasset, Great Neck, and Oyster Bay on the North Shore. All 70+ Nassau communities are covered."
+            "text": "We offer same-day service across all of Nassau County — from Hempstead, Freeport, and Oceanside on the South Shore to Manhasset, Great Neck, and Oyster Bay on the North Shore. All 132 Nassau communities are covered."
           }
         },
         {
@@ -175,7 +174,7 @@ export default function SameDayPestControlTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">What areas in Nassau County qualify for same-day service?</h3>
-              <p className="text-gray-600">We offer same-day service across all of Nassau County — from Hempstead and Oceanside on the South Shore to Manhasset, Great Neck, and Oyster Bay on the North Shore. All 70+ Nassau communities are covered.</p>
+              <p className="text-gray-600">We offer same-day service across all of Nassau County — from Hempstead and Oceanside on the South Shore to Manhasset, Great Neck, and Oyster Bay on the North Shore. All 132 Nassau communities are covered.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How do I book same-day pest control service?</h3>

@@ -28,7 +28,6 @@ const schemaData = {
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
       "description": "Professional pest control in Nassau County, NY. Family-owned since 1982. Licensed & insured. Call (516) 763-4600.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -74,7 +73,7 @@ const schemaData = {
           "name": "Is same-day pest control more expensive in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Same-day service starts at $175. We always provide a clear quote before beginning any work so there are no surprises. We believe every Nassau County family deserves a fast response at a fair price."
+            "text": "Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins. We believe every Nassau County family deserves a fast response at a fair price."
           }
         }
       ]
@@ -133,7 +132,7 @@ export default function SameDayPestControlTopLevel() {
             Our technicians carry the equipment and products needed to handle most situations on the first visit — no waiting for a second appointment, no ordering specialty products. We arrive prepared to solve the problem.
           </p>
           <p>
-            After treatment, we provide a detailed report of what was found, what was treated, and recommendations for follow-up to prevent recurrence. Nassau County&apos;s dense suburban communities mean pest pressure from neighboring properties is always a factor — our technicians understand how to build a prevention strategy that protects your home long-term.
+            After treatment, your technician walks you through what was found, what was treated, and recommendations for follow-up to prevent recurrence. Nassau County&apos;s dense suburban communities mean pest pressure from neighboring properties is always a factor — our technicians understand how to build a prevention strategy that protects your home long-term.
           </p>
         </div>
       </section>
@@ -150,7 +149,7 @@ export default function SameDayPestControlTopLevel() {
               <li><strong>Morning call, afternoon visit</strong> — Call before noon for best same-day availability; we&apos;ll confirm an arrival window and call when the technician is en route</li>
               <li><strong>Prepared for the first visit</strong> — Technicians arrive with equipment and products to address most pest situations on the spot</li>
               <li><strong>Clear quote before work begins</strong> — You will receive a price before any treatment starts — no surprises</li>
-              <li><strong>Written report after treatment</strong> — Findings, treatment performed, and prevention recommendations provided after every visit</li>
+              <li><strong>Technician walkthrough after treatment</strong> — Your technician explains what was found, what was treated, and how to prevent recurrence</li>
             </ul>
           </div>
         </div>
@@ -172,7 +171,7 @@ export default function SameDayPestControlTopLevel() {
               },
               {
                 q: "Is same-day pest control more expensive in Nassau County?",
-                a: "Same-day service starts at $175. We always provide a clear quote before beginning work so there are no surprises. We believe every Nassau County family deserves a fast response at a fair price."
+                a: "Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins. We believe every Nassau County family deserves a fast response at a fair price."
               },
             ].map((faq, i) => (
               <div key={i} className="border border-gray-200 rounded-lg p-5 bg-white">
@@ -217,7 +216,7 @@ export default function SameDayPestControlTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Is same-day pest control more expensive?</h3>
-              <p className="text-gray-600">Same-day service starts at $175. We always provide a clear quote before beginning work so there are no surprises.</p>
+              <p className="text-gray-600">Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you offer same-day pest control on weekends?</h3>

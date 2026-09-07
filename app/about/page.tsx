@@ -23,11 +23,11 @@ export default function AboutPage() {
 
           <p className="text-lg text-gray-600 mb-8">
             {SITE_NAME} is a family-owned pest control company that&apos;s been protecting
-            Nassau County&apos;s South Shore since 1982. For over 43 years, we&apos;ve been
+            Nassau County since 1982. For more than {new Date().getFullYear() - 1982} years, we&apos;ve been
             the neighbors you call when pests show up uninvited. We&apos;re not a franchise
             and we&apos;re not a call center — we&apos;re a local family business that has
-            earned the trust of thousands of families just like yours. That&apos;s why we
-            carry a {GMB.rating}-star rating from the communities we serve.
+            earned the trust of Nassau County families for more than four decades. That&apos;s why we
+            carry a {GMB.rating}-star rating from the communities we serve. Locally owned and operated — a Rest Easy Pest Control brand.
           </p>
 
           <h2>Our Story</h2>
@@ -78,11 +78,11 @@ export default function AboutPage() {
             </li>
           </ul>
 
-          <h2>Serving Nassau County&apos;s South Shore — All 65 Towns</h2>
+          <h2>Serving All of Nassau County — {GEO.totalTowns} Communities</h2>
           <p>
             From the oceanfront homes of Atlantic Beach to the quiet neighborhoods of Wantagh,
             from the village charm of Lynbrook to the family streets of Seaford — we serve all
-            65 towns across Nassau County&apos;s South Shore. We know these communities because
+            {GEO.totalTowns} communities across Nassau County. We know these communities because
             we live here too. Wherever you call home on the South Shore, {SITE_NAME} is just
             a phone call away.
           </p>
@@ -92,7 +92,7 @@ export default function AboutPage() {
             Whether you&apos;ve noticed something worrying or you just want the peace of mind
             that comes from 43 years of experience, give us a call at{' '}
             <a href={PHONE_HREF} className="font-bold">{PHONE}</a>. We&apos;ll listen, give
-            you honest advice, and send someone out for a free estimate if you&apos;d like one.
+            you honest advice, and give you a clear price over the phone if you&apos;d like one.
             No pressure, no obligation — just the kind of service a family business is built on.
           </p>
         </div>
@@ -100,7 +100,7 @@ export default function AboutPage() {
 
       <CTABanner
         title="Ready to Protect Your Home?"
-        subtitle="43 years of family-owned pest control on Nassau County's South Shore. Free estimates, honest advice, proven results."
+        subtitle="More than four decades of family-owned pest control in Nassau County. Free estimates and honest advice."
       />
     </>
   );

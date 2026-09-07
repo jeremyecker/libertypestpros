@@ -29,7 +29,6 @@ const schemaData = {
     "name": "Nassau County, New York"
   },
   "description": "Commercial pest control services for Nassau County businesses. Regulation-compliant, disruption-free integrated pest management.",
-  "priceRange": "$$",
   "openingHours": "Mo-Sa 07:00-19:00"
 };
 
@@ -62,7 +61,7 @@ const verticals = [
     slug: 'schools',
     title: 'Schools & Education',
     icon: '🎓',
-    desc: 'Child-safe, regulation-compliant pest control for Nassau County schools and educational facilities.',
+    desc: 'NYS School IPM-compliant pest control for Nassau County schools and educational facilities.',
   },
   {
     slug: 'warehouses',
@@ -158,7 +157,7 @@ export default function CommercialIndexPage() {
             Reputation is equally critical. In the age of Google reviews and social media, a single pest sighting by a customer or employee can go viral and cause lasting brand damage. Nassau County businesses can&apos;t afford reactive pest control — they need proactive programs that prevent pests from ever becoming visible problems.
           </p>
           <p>
-            Liberty Pest Pros&apos; commercial programs are built on Integrated Pest Management (IPM): thorough inspection to identify entry points and conducive conditions, exclusion and environmental modifications to reduce pest pressure, targeted treatments where needed, and ongoing monitoring to catch issues before they escalate. Every commercial account receives a written pest control program, documentation for regulatory compliance, and a dedicated point of contact.
+            Liberty Pest Pros&apos; commercial programs are built on Integrated Pest Management (IPM): thorough inspection to identify entry points and conducive conditions, exclusion and environmental modifications to reduce pest pressure, targeted treatments where needed, and ongoing monitoring to catch issues before they escalate. Every commercial account receives a written proposal up front, service structured to support regulatory compliance, and a dedicated point of contact.
           </p>
         </div>
 

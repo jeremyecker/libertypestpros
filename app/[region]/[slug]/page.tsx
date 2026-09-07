@@ -271,7 +271,7 @@ function TownContent({ regionSlug, townSlug, region }: { regionSlug: string; tow
 
         <div className="bg-brand-primary rounded-xl p-6 mb-10 text-center">
           <h2 className="text-2xl font-bold text-white mb-2">Ready to Eliminate Pests in {townName}?</h2>
-          <p className="text-blue-100 mb-4">Same-day appointments available. Family-owned. Nassau County&apos;s #1 choice since 1982.</p>
+          <p className="text-blue-100 mb-4">Same-day appointments available. Family-owned. Serving Nassau County since 1982.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
               href={`/${regionSlug}/contact/`}

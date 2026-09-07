@@ -27,7 +27,6 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -65,7 +64,7 @@ const schemaData = {
           "name": "Do you serve my town in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — we serve all 70+ communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you."
+            "text": "Yes — we serve all 132 communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you."
           }
         },
         {
@@ -81,7 +80,7 @@ const schemaData = {
           "name": "How much does pest control cost in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Most standard pest control services start at $125 and range up to $350 depending on the pest, property size, and treatment type. We provide a free, no-obligation quote before any work begins."
+            "text": "Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins."
           }
         }
       ]
@@ -101,7 +100,7 @@ export default function PestControlNearMeTopLevel() {
       <section className="bg-[#1B3D6F] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4">Pest Control Near Me — Nassau County, Long Island</h1>
-          <p className="text-xl mb-8">Family-owned since 1982 — serving all 70+ Nassau County communities with same-day pest control</p>
+          <p className="text-xl mb-8">Family-owned since 1982 — serving all 132 Nassau County communities with same-day pest control</p>
           <a href={`tel:${BRAND.phone}`} className="bg-[#C0392B] text-white px-8 py-4 rounded-lg text-xl font-bold hover:bg-red-700 inline-block">
             Call (516) 763-4600
           </a>
@@ -169,7 +168,7 @@ export default function PestControlNearMeTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you serve my town in Nassau County?</h3>
-              <p className="text-gray-600">Yes — we serve all 70+ communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you.</p>
+              <p className="text-gray-600">Yes — we serve all 132 communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Are your pest control treatments family-friendly?</h3>
@@ -177,7 +176,7 @@ export default function PestControlNearMeTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How much does pest control cost in Nassau County?</h3>
-              <p className="text-gray-600">Most standard pest control services start at $125 and range up to $350 depending on the pest, property size, and treatment type. We provide a free, no-obligation quote before any work begins.</p>
+              <p className="text-gray-600">Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins.</p>
             </div>
           </div>
         </div>

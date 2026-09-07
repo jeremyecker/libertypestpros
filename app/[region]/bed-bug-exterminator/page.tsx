@@ -27,7 +27,6 @@ const schemaData = {
       "telephone": "+15167634600",
       "url": "https://libertypestpros.com",
       "areaServed": { "@type": "AdministrativeArea", "name": "Nassau County, New York" },
-      "priceRange": "$$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",

@@ -30,7 +30,6 @@ const schemaData = {
         "name": "Nassau County, New York"
       },
       "description": "Professional raccoon removal in Nassau County, NY. Humane trapping, attic exclusion, and entry point sealing. Family-owned since 1982.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
@@ -86,7 +85,7 @@ const schemaData = {
           "name": "How much does raccoon removal cost in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The cost of raccoon removal in Nassau County depends on the size of the infestation, the number of entry points to be sealed, and whether attic restoration is needed. A basic removal and exclusion job typically starts in the several hundred dollar range. Extensive damage repair and attic sanitization increase the cost. We provide detailed, upfront quotes after inspection so there are no surprises. Call (516) 763-4600 for a free consultation."
+            "text": "The cost of raccoon removal in Nassau County depends on the size of the infestation, the number of entry points to be sealed, and whether attic restoration is needed. Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins."
           }
         }
       ]
@@ -128,7 +127,7 @@ const faqs = [
   },
   {
     q: "How much does raccoon removal cost in Nassau County?",
-    a: "The cost of raccoon removal in Nassau County depends on the size of the infestation, the number of entry points to be sealed, and whether attic restoration is needed. A basic removal and exclusion job typically starts in the several hundred dollar range. Extensive damage repair and attic sanitization increase the cost. We provide detailed, upfront quotes after inspection so there are no surprises. Call (516) 763-4600 for a free consultation."
+    a: "The cost of raccoon removal in Nassau County depends on the size of the infestation, the number of entry points to be sealed, and whether attic restoration is needed. Pricing depends on your property, the pest, and severity — call (516) 763-4600 for a free phone assessment and a clear price before any work begins."
   }
 ];
 
@@ -206,7 +205,7 @@ export default function RaccoonRemovalPage() {
             <strong>Attic restoration services.</strong> Raccoon latrines in attics can harbor dangerous pathogens. We offer complete attic cleanout — removing contaminated insulation, sanitizing the space with enzyme-based disinfectants, and coordinating insulation replacement — so your home is fully restored after removal.
           </p>
           <p>
-            <strong>Guaranteed work.</strong> We stand behind every exclusion. If raccoons re-enter through a point we sealed, we return and fix it at no additional charge.
+            <strong>Service agreement.</strong> Every exclusion job includes a service agreement — the technician explains what is covered, including any follow-up visits, before work begins.
           </p>
         </div>
 

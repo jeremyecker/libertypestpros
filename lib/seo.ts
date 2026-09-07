@@ -53,7 +53,6 @@ export function localBusinessSchema() {
     url: SITE_URL,
     telephone: PHONE,
     logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
-    priceRange: '$$',
     email: EMAIL,
     image: `${SITE_URL}/images/og-default.jpg`,
     address: {
