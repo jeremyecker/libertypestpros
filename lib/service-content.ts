@@ -49,7 +49,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Comprehensive Inspection', description: 'We thoroughly inspect your foundation, crawl spaces, attic, and all wood structures to identify termite species, entry points, and damage extent.' },
       { step: 'Custom Treatment Plan', description: 'Based on the inspection, we design a targeted approach using liquid soil barriers, bait stations, or a combination for maximum protection.' },
       { step: 'Professional Treatment', description: 'Licensed technicians apply treatment to eliminate the active colony and create a continuous protective barrier around your entire home.' },
-      { step: 'Monitoring & Protection', description: 'Ongoing monitoring tracks for renewed termite activity. Our termite treatments include a workmanship warranty, with terms explained before service begins.' },
+      { step: 'Monitoring & Protection', description: 'Ongoing monitoring tracks for renewed termite activity. Every termite treatment includes a one-year service agreement — terms are explained before service begins.' },
     ],
     prevention: [
       'Eliminate any wood-to-soil contact around your home\'s foundation',
@@ -281,7 +281,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Facility Assessment', description: 'We conduct a thorough assessment of your entire facility — identifying current pest issues, high-risk areas, and structural vulnerabilities.' },
       { step: 'Custom IPM Program', description: 'We design an Integrated Pest Management program specific to your industry, facility layout, and any regulatory or compliance requirements.' },
       { step: 'Scheduled Service', description: 'Regular service visits are scheduled around your business hours to provide consistent protection with zero disruption to your operations.' },
-      { step: 'Documentation & Compliance', description: 'We provide detailed service reports, treatment logs, and compliance documentation to support health inspections and audits.' },
+      { step: 'Compliance Support', description: 'We keep internal service records and communicate findings directly so you can meet health inspection and audit requirements.' },
     ],
     prevention: [
       'Maintain strict cleanliness standards in break rooms, kitchens, and food storage areas',
@@ -291,6 +291,6 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       'Train staff to identify and immediately report any pest sightings',
       'Schedule regular professional inspections to catch emerging issues before they become problems',
     ],
-    whyPro: `Commercial pest control is fundamentally different from residential service — the stakes are higher, the regulations stricter, and the consequences of failure more severe. Our commercial programs use Integrated Pest Management (IPM) principles that emphasize prevention, monitoring, and targeted treatment to protect your business while minimizing chemical exposure. We work discreetly around your schedule and provide complete documentation for every visit.`,
+    whyPro: `Commercial pest control is fundamentally different from residential service — the stakes are higher, the regulations stricter, and the consequences of failure more severe. Our commercial programs use Integrated Pest Management (IPM) principles that emphasize prevention, monitoring, and targeted treatment to protect your business while minimizing chemical exposure. We work discreetly around your schedule, keep internal service records, and communicate findings directly so you can meet your compliance obligations.`,
   },
 };

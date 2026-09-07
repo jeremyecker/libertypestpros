@@ -126,7 +126,7 @@ export default function Footer() {
             © {currentYear} {SITE_NAME}. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
-            Serving {GEO.region}, {GEO.stateCode} • Licensed & Insured
+            Serving {GEO.region}, {GEO.stateCode} • Licensed & Insured • Locally owned and operated — a Rest Easy Pest Control brand
           </p>
         </div>
       </div>

@@ -108,7 +108,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
         <h2 className="text-xl font-bold text-gray-900 mb-3">Why Choose {BRAND.name}?</h2>
         <ul className="space-y-2 text-gray-700">
           <li>✅ Licensed and insured technicians</li>
-          <li>✅ Family and pet-safe treatments</li>
+          <li>✅ Targeted, EPA-registered treatments</li>
           <li>✅ Same-day service available</li>
           <li>✅ Free, no-obligation estimates</li>
           <li>✅ Serving all of {serviceArea}</li>

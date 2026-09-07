@@ -30,7 +30,6 @@ const schemaData = {
         "name": "Nassau County, New York"
       },
       "description": "Professional squirrel removal in Nassau County, NY. Live trapping, attic exclusion, and one-way door removal. Family-owned since 1982.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",

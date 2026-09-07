@@ -49,8 +49,8 @@ export default async function RegionHomePage({ params }: { params: Promise<{ reg
 
   const faqs = [
     {
-      question: 'Are your treatments safe for kids and pets?',
-      answer: `Absolutely. We use EPA-registered products and Integrated Pest Management (IPM) techniques chosen to be gentle around children and pets.`,
+      question: 'How do you approach treatments where children and pets live?',
+answer: `We use EPA-registered products and Integrated Pest Management (IPM) techniques — targeted application and clear re-entry guidance for homes with children and pets.`,
     },
     {
       question: `What areas of ${region.name} do you cover?`,

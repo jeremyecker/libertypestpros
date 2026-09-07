@@ -793,8 +793,8 @@ The South Shore's business landscape includes a high density of food service est
 
 ## What Professional Commercial Service Provides
 
-- **IPM-based service:** Inspection, monitoring, targeted treatment, and documentation
-- **Compliance records:** Written service reports for every visit — required for health department inspections
+- **IPM-based service:** Inspection, monitoring, targeted treatment, and follow-up communication of findings
+- **Compliance records:** Internal service records kept and findings communicated directly — structured to support health department inspections
 - **Flexible scheduling:** Early morning, late evening, or off-hours service available
 - **Discreet vehicles:** We work professionally without drawing attention
 - **Emergency response:** Same-day service for urgent pest discoveries before inspections or during service hours
@@ -836,7 +836,7 @@ When a pest problem hits — a mouse discovered at 10 PM, a wasp nest blocking y
 
 **Full-service.** Termites, rodents, cockroaches, bed bugs, ants, mosquitoes, stinging insects, wildlife, commercial. One company, all services.
 
-**Licensed and fully insured.** All technicians are DEC-licensed applicators with full general liability and workers' compensation coverage.
+**Licensed and fully insured.** Our technicians are DEC-licensed applicators or work under the direct supervision of a licensed applicator, and the company carries full general liability and workers' compensation coverage.
 
 We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. Call (516) 763-4600 for a free estimate. When you search **pest control near me** or **exterminator near me** on the Nassau South Shore, Liberty Pest Pros is the answer. Licensed, insured, and trusted by South Shore families since 1982.`
   },
@@ -897,7 +897,7 @@ One of the first questions homeowners ask when searching for **pest control near
 
 The only way to get an accurate quote is through an inspection. A reputable **exterminator near me** will inspect before quoting, provide a written estimate, explain the treatment in detail, and offer a warranty.
 
-Liberty Pest Pros provides free estimates and written quotes for all services. Call (516) 763-4600. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. No hidden fees, no pressure — just honest service from a family business protecting South Shore homes since 1982.`
+Liberty Pest Pros provides a free phone assessment and a clear price before any work begins. Call (516) 763-4600. We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. No hidden fees, no pressure — just honest service from a family business protecting South Shore homes since 1982.`
   },
   {
     slug: "seasonal-pest-calendar-nassau-south-shore",

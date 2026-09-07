@@ -41,17 +41,17 @@ export default async function AboutPage({ params }: { params: Promise<{ region: 
         <div className="prose prose-lg max-w-none text-gray-700">
           <p>
             {BRAND.name} has been protecting {region.name} homes and businesses from pests since {BRAND.yearFounded}. 
-            We&apos;re a locally operated company with deep roots in the communities we serve.
+            We&apos;re locally owned and operated — a Rest Easy Pest Control brand — with deep roots in the communities we serve.
           </p>
           <p>
             Our technicians are licensed, insured, and trained in the latest Integrated Pest Management (IPM) 
-            techniques — approaches that are effective against pests while being safe for your family and pets.
+            techniques — targeted, EPA-registered approaches applied with clear re-entry guidance for households with children and pets.
           </p>
           <h2>Why {region.name} Homeowners Choose Us</h2>
           <ul>
             <li>Local experts who know {region.name}&apos;s pest pressures</li>
             <li>Same-day service availability</li>
-            <li>Family-safe, EPA-registered treatments</li>
+            <li>Targeted, EPA-registered treatments</li>
             <li>Transparent pricing — no surprise charges</li>
             <li>Written service agreement on every job</li>
           </ul>

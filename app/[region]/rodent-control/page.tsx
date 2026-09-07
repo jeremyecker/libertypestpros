@@ -30,7 +30,6 @@ const schemaData = {
         "name": "Nassau County, New York"
       },
       "description": "Professional rodent control in Nassau County, NY. Mice and rat control services. Family-owned since 1982.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",

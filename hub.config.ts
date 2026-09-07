@@ -116,7 +116,7 @@ export const REGIONS: RegionConfig[] = [
     primaryPests: ['Termites', 'Rodents', 'Ants', 'Mosquitoes'],
     pestContext: "Nassau County's dense suburban communities, coastal climate, and mix of older and newer homes create ideal conditions for termites, rodents, ants, and mosquitoes year-round.",
     metaTitle: 'Nassau County Exterminators',
-    metaDescription: 'Family-owned pest control for Nassau County since 1982. Serving Oceanside, Hempstead, Garden City & 65 communities. Natural treatments, proven results.',
+    metaDescription: 'Family-owned pest control for Nassau County since 1982. Serving Oceanside, Hempstead, Garden City & 132 Nassau communities. Targeted, EPA-registered treatments.',
     towns: NASSAU_TOWNS,
     townCount: NASSAU_TOWNS.length,
   },

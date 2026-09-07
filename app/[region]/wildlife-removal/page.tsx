@@ -30,7 +30,6 @@ const schemaData = {
         "name": "Nassau County, New York"
       },
       "description": "Professional wildlife removal in Nassau County, NY. Raccoons, opossums, skunks, groundhogs, and more. Family-owned since 1982.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",

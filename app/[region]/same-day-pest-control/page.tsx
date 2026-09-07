@@ -31,7 +31,6 @@ const schemaData = {
         "name": "Nassau County, New York"
       },
       "description": "Same-day pest control service in Nassau County, Long Island. Family-owned since 1982.",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",

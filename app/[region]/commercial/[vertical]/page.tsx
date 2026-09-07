@@ -18,7 +18,7 @@ const VERTICALS: Record<string, VerticalData> = {
   restaurants: {
     title: 'Restaurant & Food Service Pest Control',
     metaDesc: 'Restaurant pest control Nassau County, NY. Health dept-compliant IPM for restaurants & food service. Liberty Pest Pros since 1982. Call (516) 763-4600.',
-    intro: `Nassau County&apos;s food service industry is one of the most vibrant on Long Island — from the storied restaurants along the Nautical Mile in Freeport to the diners and bistros lining Sunrise Highway, Jericho Turnpike, and the village main streets from Mineola to Rockville Centre. With that vibrancy comes one of the most demanding environments for pest control: food, warmth, moisture, and constant deliveries create conditions that attract cockroaches, rodents, flies, and stored product pests year-round. A single pest sighting by a customer, a failed Nassau County Department of Health inspection, or a violation on a surprise audit can shut your doors and destroy a reputation built over decades. Liberty Pest Pros has provided regulation-compliant pest control to Nassau County restaurants since 1982. Our restaurant programs are built on Integrated Pest Management — thorough inspection of kitchens, dry storage, receiving areas, and mechanical spaces, targeted treatment where needed, and proactive monitoring designed to catch issues before they become violations. We schedule service around your hours so there&apos;s zero disruption to your operation, and we provide full written documentation to support your health department compliance records.`,
+    intro: `Nassau County&apos;s food service industry is one of the most vibrant on Long Island — from the storied restaurants along the Nautical Mile in Freeport to the diners and bistros lining Sunrise Highway, Jericho Turnpike, and the village main streets from Mineola to Rockville Centre. With that vibrancy comes one of the most demanding environments for pest control: food, warmth, moisture, and constant deliveries create conditions that attract cockroaches, rodents, flies, and stored product pests year-round. A single pest sighting by a customer, a failed Nassau County Department of Health inspection, or a violation on a surprise audit can shut your doors and destroy a reputation built over decades. Liberty Pest Pros has provided regulation-compliant pest control to Nassau County restaurants since 1982. Our restaurant programs are built on Integrated Pest Management — thorough inspection of kitchens, dry storage, receiving areas, and mechanical spaces, targeted treatment where needed, and proactive monitoring designed to catch issues before they become violations. We schedule service around your hours so there&apos;s zero disruption to your operation, and we keep internal service records and communicate findings directly so you can meet your health department compliance obligations.`,
     whyMatters: `Restaurant pest control is a regulatory, reputational, and operational necessity. Nassau County health inspectors cite pest evidence as a critical violation — the kind that triggers immediate corrective action orders or forced closures. Your Nassau County restaurant&apos;s health inspection score is publicly visible and directly affects customer decisions. Beyond inspections, a cockroach spotted by a diner or a mouse crossing a dining room floor ends up on Yelp, Google, and social media within minutes. The reputational damage from a single pest incident can far exceed the cost of an entire year of professional pest control.`,
     nassauContext: `Nassau County restaurant operators face pest pressure shaped by the region&apos;s climate and geography. Coastal communities like Freeport, Long Beach, and Oceanside deal with moisture-driven cockroach and fly pressure. High-traffic corridors like Hempstead Turnpike and Merrick Road concentrate food establishments close together, increasing the risk of pest migration between neighboring businesses. Dense multi-tenant commercial strips in communities like Valley Stream, Hicksville, and Westbury mean pests in one unit can quickly reach yours.`,
     services: [
@@ -27,7 +27,7 @@ const VERTICALS: Record<string, VerticalData> = {
       { name: 'Rodent Exclusion', icon: '🐭', desc: 'Entry point sealing & trapping' },
       { name: 'Fly Control', icon: '🪰', desc: 'ILTs, drain treatments & exclusion' },
       { name: 'Stored Product Pests', icon: '🌾', desc: 'Dry storage inspection & treatment' },
-      { name: 'Compliance Documentation', icon: '📋', desc: 'Written records for health dept' },
+      { name: 'Compliance Support', icon: '📋', desc: 'Supports health dept compliance' },
     ],
     faqs: [
       {
@@ -39,8 +39,8 @@ const VERTICALS: Record<string, VerticalData> = {
         a: 'Yes. We schedule commercial restaurant service during off-hours — early morning before prep begins, late at night after closing, or on scheduled closure days. All our technicians are trained to work around operational requirements without interfering with your staff or customers.'
       },
       {
-        q: 'What documentation do you provide for health department inspections?',
-        a: 'Every service visit generates a written service report documenting what was inspected, what was found, what was treated, and any recommendations for corrective action. We maintain a service log for your account that you can present to Nassau County health inspectors as evidence of an ongoing, active pest control program.'
+        q: 'How does your program support health department inspections?',
+        a: 'Every service visit is logged internally, and findings are communicated directly to you so you can demonstrate an ongoing, active pest control program to Nassau County health inspectors. Our technicians explain what was inspected, what was found, what was done, and any facility-side actions that support compliance.'
       },
       {
         q: 'What pests are most common in Nassau County restaurants?',
@@ -122,7 +122,7 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'Can you provide pest control for a retail chain with multiple Nassau County locations?',
-        a: 'Absolutely. We offer multi-location commercial programs for retail chains throughout Nassau County, with standardized service protocols, centralized reporting, and consistent documentation across all locations.'
+        a: 'Absolutely. We offer multi-location commercial programs for retail chains throughout Nassau County, with standardized service protocols, centralized account management, and consistent direct communication across all locations.'
       },
     ],
     internalLinks: [
@@ -139,25 +139,25 @@ const VERTICALS: Record<string, VerticalData> = {
     whyMatters: `Healthcare pest control carries the highest stakes of any commercial vertical. Pest activity in a patient care area is a patient safety incident, a regulatory finding, and a liability exposure simultaneously. CMS conditions of participation, Joint Commission standards, and New York State DOH regulations all address pest control in healthcare settings. A single substantiated pest complaint can trigger a regulatory survey, a findings report, and mandatory corrective action plans that consume significant administrative resources.`,
     nassauContext: `Nassau County&apos;s major healthcare corridors — the medical campuses in Hempstead, the hospital clusters in Mineola and Manhasset, the nursing home concentration in communities like Woodbury, Great Neck, and Rockville Centre — represent high-density, high-stakes pest control territory. Nassau County&apos;s older healthcare infrastructure includes legacy buildings with aging utility systems that require professional exclusion work. The county&apos;s high concentration of food service areas within healthcare campuses creates additional pest pressure that must be managed within the constraints of patient care environments.`,
     services: [
-      { name: 'Healthcare IPM Program', icon: '🏥', desc: 'Patient-safe monitoring & treatment' },
+      { name: 'Healthcare IPM Program', icon: '🏥', desc: 'Infection-control-coordinated monitoring & treatment' },
       { name: 'Rodent Exclusion', icon: '🐭', desc: 'Entry point sealing & trapping' },
       { name: 'Cockroach Control', icon: '🪳', desc: 'Kitchen & utility area treatment' },
       { name: 'Fly Control', icon: '🪰', desc: 'Food service & entry treatments' },
       { name: 'Bed Bug Response', icon: '🛏️', desc: 'Rapid, discreet inspection & treatment' },
-      { name: 'Compliance Documentation', icon: '📋', desc: 'Joint Commission & DOH records' },
+      { name: 'Compliance Support', icon: '📋', desc: 'Supports Joint Commission & DOH standards' },
     ],
     faqs: [
       {
-        q: 'Are your pest control treatments safe for use in patient care areas?',
+        q: 'How do you approach pest control in patient care areas?',
         a: 'Our healthcare programs use only products and methods appropriate for patient care environments. We coordinate treatment with your infection control team, schedule service to avoid patient exposure, and use non-chemical methods (monitoring stations, exclusion, sanitation recommendations) wherever possible. Chemical treatments in patient areas are never applied while patients are present.'
       },
       {
-        q: 'Can you provide documentation that meets Joint Commission and CMS requirements?',
-        a: 'Yes. Every service visit generates a detailed written report. We maintain a complete service log for your account documenting all inspections, findings, treatments, and recommendations. This documentation package is designed to satisfy the pest control record-keeping requirements of Joint Commission, CMS, and New York State DOH surveys.'
+        q: 'How does your program support Joint Commission and CMS requirements?',
+        a: 'We keep detailed internal service records for every visit — inspections, findings, treatments, and recommendations — and communicate findings directly so you can meet the pest control record-keeping requirements of Joint Commission, CMS, and New York State DOH surveys.'
       },
       {
         q: 'How do you handle a bed bug report in a patient room?',
-        a: 'Healthcare bed bug situations are treated as urgent incidents requiring immediate, discreet response. We respond within 24 hours for confirmed or suspected healthcare bed bug reports, conduct a thorough inspection of the affected room and surrounding areas, and implement a targeted treatment protocol that is safe for the healthcare environment and coordinated with your infection control and facilities teams.'
+        a: 'Healthcare bed bug situations are treated as urgent incidents requiring immediate, discreet response. We respond within 24 hours for confirmed or suspected healthcare bed bug reports, conduct a thorough inspection of the affected room and surrounding areas, and implement a targeted treatment protocol appropriate for the healthcare environment and coordinated with your infection control and facilities teams.'
       },
       {
         q: 'Our facility has a dietary department — how do you manage pest control there within healthcare constraints?',
@@ -178,7 +178,7 @@ const VERTICALS: Record<string, VerticalData> = {
     whyMatters: `School pest control is a compliance, public health, and community trust issue. New York State&apos;s School IPM law requires active pest management programs with documented IPM practices, mandated parent and staff notification before pesticide applications, and formal record-keeping. Districts that fail to comply face regulatory exposure. Beyond compliance, pest activity in schools directly affects student health and learning — cockroach allergens are a documented asthma trigger, rodent activity in food service areas creates real contamination risks, and pest incidents in schools generate intense parent concern and media coverage.`,
     nassauContext: `Nassau County&apos;s school districts span an enormous range of facility types and ages — from brand-new suburban campus schools in Syosset and Jericho to older urban buildings in Hempstead and Freeport. Older school buildings in Nassau County&apos;s urban core often have legacy infrastructure — aging utility penetrations, outdated cafeteria equipment, and foundation issues — that create persistent pest entry points requiring ongoing exclusion work. Nassau County&apos;s agricultural history and proximity to green space also create higher pressure from outdoor pests like stinging insects, ants, and rodents that regularly attempt to enter school buildings.`,
     services: [
-      { name: 'NYS IPM Compliance', icon: '📋', desc: 'State-mandated program documentation' },
+      { name: 'NYS IPM Compliance', icon: '📋', desc: 'Supports state-mandated IPM requirements' },
       { name: 'Cafeteria Pest Control', icon: '🍱', desc: 'Food service area monitoring & treatment' },
       { name: 'Rodent Control', icon: '🐭', desc: 'Exclusion, trapping & monitoring' },
       { name: 'Cockroach Control', icon: '🪳', desc: 'Kitchen & utility treatment' },
@@ -192,15 +192,15 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'How do you manage pest control in a school cafeteria safely?',
-        a: 'School cafeteria pest control uses methods appropriate for food service environments that are also safe for students: gel baiting in inaccessible areas, tamper-resistant monitoring stations positioned away from student contact, and targeted crack-and-crevice treatments applied when students are not present. All cafeteria services are scheduled outside of meal service hours and after students have left the building.'
+        a: 'School cafeteria pest control uses methods appropriate for food service environments and for student-occupied buildings: gel baiting in inaccessible areas, tamper-resistant monitoring stations positioned away from student contact, and targeted crack-and-crevice treatments applied when students are not present. All cafeteria services are scheduled outside of meal service hours and after students have left the building.'
       },
       {
         q: 'We have a wasp nest near our school entrance — how quickly can you respond?',
         a: 'Stinging insect nests near school entrances and student activity areas are treated as urgent situations. We offer same-day response for active wasp and hornet nest removal when the nest creates an immediate risk to students or staff. Nassau County&apos;s late summer and fall season sees peak yellowjacket and bald-faced hornet activity near school buildings.'
       },
       {
-        q: 'Can you provide the parent and staff notification letters required by NYS?',
-        a: 'Yes. We provide template notification letters and can coordinate with your district&apos;s IPM coordinator on notification procedures. We also maintain complete service records for your district that satisfy the recordkeeping requirements of the New York State School IPM program.'
+        q: 'How do you support the parent and staff notification required by NYS?',
+        a: 'Yes. We coordinate with your district&apos;s IPM coordinator on notification procedures. We maintain complete internal service records that support your district in meeting the recordkeeping requirements of the New York State School IPM program.'
       },
     ],
     internalLinks: [
@@ -222,7 +222,7 @@ const VERTICALS: Record<string, VerticalData> = {
       { name: 'Stored Product Pests', icon: '📦', desc: 'Inventory area inspection & treatment' },
       { name: 'Cockroach Control', icon: '🪳', desc: 'Break room & utility treatment' },
       { name: 'Exclusion Work', icon: '🏗️', desc: 'Entry point sealing & structural fixes' },
-      { name: 'Food Safety Documentation', icon: '📋', desc: 'FSMA & customer audit records' },
+      { name: 'Food Safety Support', icon: '📋', desc: 'Supports FSMA & customer audits' },
     ],
     faqs: [
       {
@@ -234,8 +234,8 @@ const VERTICALS: Record<string, VerticalData> = {
         a: 'Loading dock pest control requires a multi-layer approach: physical barriers (dock seals, door sweeps, strip curtains), exterior monitoring stations positioned to intercept rodents before they reach dock entries, interior monitoring along dock walls, and routine inspection of incoming pallets and shipping materials for signs of pest activity. We&apos;ll work with your receiving team on best practices for reducing hitchhiker pest introductions.'
       },
       {
-        q: 'We store food products — what documentation do you provide for food safety audits?',
-        a: 'We provide complete pest control documentation packages designed for food safety audit requirements including FDA FSMA, BRC, SQF, and customer-specific audit standards. Documentation includes service reports, station inspection records, pest activity trending data, corrective action documentation, and technician certification records.'
+        q: 'We store food products — how does your program support food safety audits?',
+        a: 'We maintain complete internal service records structured to support food safety audit requirements including FDA FSMA, BRC, SQF, and customer-specific audit standards. Our records include service details, station inspection data, pest activity trending, corrective actions taken, and technician certification information — findings are communicated directly so you can meet your compliance obligations.'
       },
       {
         q: 'What pests are most common in Nassau County warehouses?',
@@ -270,15 +270,15 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'A guest has complained about bed bugs — what is your response protocol?',
-        a: 'Guest bed bug complaints require an immediate, discreet response. We treat hotel bed bug calls as urgent — typically responding within 24 hours for an inspection. If bed bugs are confirmed, we treat the room and inspect all adjacent rooms. We provide written documentation of the inspection and treatment findings for your records and can assist your team with the guest communication process.'
+        a: 'Guest bed bug complaints require an immediate, discreet response. We treat hotel bed bug calls as urgent — typically responding within 24 hours for an inspection. If bed bugs are confirmed, we treat the room and inspect all adjacent rooms. Findings are communicated directly to your team, and we can assist with the guest communication process.'
       },
       {
         q: 'How do you manage pest control in a hotel restaurant or banquet facility?',
-        a: 'Hotel food and beverage operations are treated as a full commercial kitchen pest control program within the context of the broader hotel account — regular service visits, comprehensive monitoring, documented service reports, and treatments scheduled around meal service periods and event bookings.'
+        a: 'Hotel food and beverage operations are treated as a full commercial kitchen pest control program within the context of the broader hotel account — regular service visits, comprehensive monitoring, internal service records maintained, findings communicated directly, and treatments scheduled around meal service periods and event bookings.'
       },
       {
         q: 'Can you provide pest control for our entire hotel portfolio in Nassau County?',
-        a: 'Yes. We offer multi-property programs for hotel groups and management companies operating multiple Nassau County properties. Standardized service protocols, centralized reporting, and consistent documentation across all properties simplifies compliance management and ensures consistent guest experience protection.'
+        a: 'Yes. We offer multi-property programs for hotel groups and management companies operating multiple Nassau County properties. Standardized service protocols, centralized communication, and consistent internal records across all properties simplify compliance management and ensures consistent guest experience protection.'
       },
     ],
     internalLinks: [
@@ -291,7 +291,7 @@ const VERTICALS: Record<string, VerticalData> = {
   'property-management': {
     title: 'Property Management Pest Control',
     metaDesc: 'Property management pest control Nassau County, NY. Portfolio IPM for residential & commercial property managers. Liberty Pest Pros. Call (516) 763-4600.',
-    intro: `Nassau County&apos;s property management sector oversees an enormous and diverse portfolio — from the apartment complexes and cooperative buildings in communities like Great Neck, Hempstead, and Long Beach to the commercial strip centers along Hempstead Turnpike and the mixed-use developments in Nassau&apos;s village centers. Property managers face pest control challenges that individual owners never encounter: pest activity migrates between units in multi-family buildings, tenant complaints about pests create legal exposure under New York State warranty of habitability law, HOA boards demand documented pest programs, and portfolio scale creates operational complexity that ad-hoc pest service can&apos;t address efficiently. Liberty Pest Pros has provided portfolio-scale pest control to Nassau County property managers since 1982. We design programs that address the full complexity of managed properties — building-wide monitoring that identifies infestation sources, unit-level treatment protocols that prevent cross-contamination, tenant communication that reduces friction, and documentation systems that protect property managers in warranty of habitability disputes.`,
+    intro: `Nassau County&apos;s property management sector oversees an enormous and diverse portfolio — from the apartment complexes and cooperative buildings in communities like Great Neck, Hempstead, and Long Beach to the commercial strip centers along Hempstead Turnpike and the mixed-use developments in Nassau&apos;s village centers. Property managers face pest control challenges that individual owners never encounter: pest activity migrates between units in multi-family buildings, tenant complaints about pests create legal exposure under New York State warranty of habitability law, HOA boards demand documented pest programs, and portfolio scale creates operational complexity that ad-hoc pest service can&apos;t address efficiently. Liberty Pest Pros has provided portfolio-scale pest control to Nassau County property managers since 1982. We design programs that address the full complexity of managed properties — building-wide monitoring that identifies infestation sources, unit-level treatment protocols that prevent cross-contamination, tenant communication that reduces friction, and service structured to support property managers in warranty of habitability disputes.`,
     whyMatters: `Property management pest control is a legal compliance and portfolio management issue. New York State warranty of habitability law requires landlords to maintain habitable conditions — pest infestations are explicitly covered. A documented, ongoing pest control program is a property manager&apos;s strongest defense in warranty of habitability disputes and housing court proceedings. For commercial property managers, pest activity affects tenant retention and lease renewal decisions. Proactive portfolio-wide programs are dramatically more cost-effective than reactive unit-by-unit responses.`,
     nassauContext: `Nassau County&apos;s rental housing stock includes older multi-family buildings in Hempstead, Freeport, Long Beach, and Valley Stream that have persistent structural pest pressure — foundation gaps, aging utility penetrations, and interconnected wall cavities that allow pests to move freely between units. Nassau County&apos;s co-op and condo stock in more affluent communities like Great Neck, Manhasset, and Roslyn presents different challenges: building-wide programs coordinated with co-op boards that require thorough documentation and board-level reporting.`,
     services: [
@@ -300,7 +300,7 @@ const VERTICALS: Record<string, VerticalData> = {
       { name: 'Rodent Exclusion', icon: '🐭', desc: 'Building-wide entry point sealing' },
       { name: 'Bed Bug Program', icon: '🛏️', desc: 'Inspection, treatment & prevention' },
       { name: 'Common Area Control', icon: '🏢', desc: 'Lobbies, laundry & utility areas' },
-      { name: 'Compliance Documentation', icon: '📋', desc: 'Housing court & HOA records' },
+      { name: 'Compliance Support', icon: '📋', desc: 'Supports housing court & HOA requirements' },
     ],
     faqs: [
       {
@@ -309,7 +309,7 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'A tenant is threatening housing court over a rodent problem — can you help?',
-        a: 'Yes. We can conduct an immediate inspection to document the current condition of the unit and building, provide written findings, and implement a treatment and exclusion program. Complete service documentation — inspection reports, treatment records, and corrective action plans — is your strongest protection in warranty of habitability proceedings.'
+        a: 'Yes. We can conduct an immediate inspection to assess the current condition of the unit and building, implement a treatment and exclusion program, and communicate findings directly so you can meet your obligations. We keep internal service records. Direct communication of findings and a clear record of corrective action taken is your strongest protection in warranty of habitability proceedings.'
       },
       {
         q: 'How do you prevent bed bugs from spreading between units in an apartment building?',
@@ -317,7 +317,7 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'We manage both residential and commercial properties — can you handle both under one program?',
-        a: 'Yes. We provide unified property management pest control programs that cover both residential multi-family and commercial assets under a single account. This simplifies billing, centralizes documentation, and ensures consistent service standards across your entire Nassau County portfolio.'
+        a: 'Yes. We provide unified property management pest control programs that cover both residential multi-family and commercial assets under a single account. This simplifies billing, centralizes communication, and ensures consistent service standards across your entire Nassau County portfolio.'
       },
     ],
     internalLinks: [
@@ -330,21 +330,21 @@ const VERTICALS: Record<string, VerticalData> = {
   'food-processing': {
     title: 'Food Processing & Distribution Pest Control',
     metaDesc: 'Food processing pest control Nassau County, NY. FDA/USDA-aligned IPM for food manufacturers & distributors. Liberty Pest Pros. Call (516) 763-4600.',
-    intro: `Nassau County&apos;s food processing and distribution sector — spanning facilities in Bethpage, Farmingdale, Mineola, and along the Nassau-Queens border — operates under some of the strictest regulatory frameworks in any commercial environment. The FDA Food Safety Modernization Act (FSMA), USDA regulations, and third-party food safety certification standards (BRC, SQF, GFSI) all impose specific, documented pest control requirements that go far beyond what standard commercial pest control delivers. A single rodent dropping in a production area, an insect in finished product, or pest evidence found during a third-party audit can trigger a product recall, a regulatory action, or the loss of a major customer contract. Liberty Pest Pros has provided documentation-intensive, compliance-driven pest control to Nassau County food processing and distribution facilities since 1982. Our food processing programs are designed specifically for the regulatory environment: comprehensive HACCP-aligned IPM programs, AIB and third-party audit-ready documentation, rapid response protocols for critical control point pest events, and ongoing monitoring systems that give your quality assurance team real-time pest activity data.`,
+    intro: `Nassau County&apos;s food processing and distribution sector — spanning facilities in Bethpage, Farmingdale, Mineola, and along the Nassau-Queens border — operates under some of the strictest regulatory frameworks in any commercial environment. The FDA Food Safety Modernization Act (FSMA), USDA regulations, and third-party food safety certification standards (BRC, SQF, GFSI) all impose specific, documented pest control requirements that go far beyond what standard commercial pest control delivers. A single rodent dropping in a production area, an insect in finished product, or pest evidence found during a third-party audit can trigger a product recall, a regulatory action, or the loss of a major customer contract. Liberty Pest Pros has provided compliance-driven pest control to Nassau County food processing and distribution facilities since 1982. Our food processing programs are designed specifically for the regulatory environment: comprehensive HACCP-aligned IPM programs, AIB and third-party audit-ready programs, rapid response protocols for critical control point pest events, and ongoing monitoring systems that give your quality assurance team real-time pest activity data.`,
     whyMatters: `Food processing pest control is a regulatory, food safety, and business continuity imperative. FDA FSMA requires food facilities to implement verified pest control as part of their food safety plan. Third-party audits (BRC, SQF, AIB) include detailed pest control assessments that directly affect your certification score and your ability to supply major retailers. A substantiated pest finding during an audit or inspection can cascade into customer notifications, product holds, and recalls with costs that dwarf the entire annual pest control budget.`,
     nassauContext: `Nassau County&apos;s food processing facilities operate in industrial zones in Bethpage, Farmingdale, and along the county&apos;s major transportation corridors. Many of these facilities are in older industrial buildings with legacy infrastructure — aging loading docks, outdated utility penetrations, and structural issues that require ongoing exclusion management as part of the pest control program. Nassau County&apos;s position in the Long Island food distribution chain means high inbound and outbound truck traffic that consistently introduces rodent pressure to loading dock areas.`,
     services: [
-      { name: 'FSMA-Compliant IPM', icon: '🏭', desc: 'Regulatory-standard documentation' },
+      { name: 'FSMA-Compliant IPM', icon: '🏭', desc: 'Regulatory-standard protocols' },
       { name: 'Production Floor Monitoring', icon: '📊', desc: 'CCP pest activity tracking' },
       { name: 'Rodent Program', icon: '🐭', desc: 'Perimeter, dock & interior control' },
       { name: 'Flying Insect Control', icon: '🪰', desc: 'ILTs & exclusion management' },
       { name: 'Stored Product Pests', icon: '🌾', desc: 'Pheromone traps & treatment' },
-      { name: 'Audit Documentation', icon: '📋', desc: 'BRC, SQF & AIB audit packages' },
+      { name: 'Audit Support', icon: '📋', desc: 'Supports BRC, SQF & AIB audits' },
     ],
     faqs: [
       {
-        q: 'What documentation do you provide for BRC and SQF food safety audits?',
-        a: 'Our food processing pest control documentation packages include: service reports for every visit, station inspection logs with pest activity data, pest trend analysis reports, corrective action records, product labels and SDS sheets for all materials used, technician certification documentation, facility pest maps, and a written Pest Control Program document meeting BRC and SQF requirements. We can also attend pre-audit reviews and audits themselves if needed.'
+        q: 'How does your program support BRC and SQF food safety audits?',
+        a: 'We keep internal service records and communicate findings directly so you can meet BRC, SQF, and auditor requirements. Product labels and SDS sheets for all materials used are available. We can also attend pre-audit reviews and audits themselves if needed.'
       },
       {
         q: 'How do you manage pest control in an active food production facility?',
@@ -352,7 +352,7 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'We found a rodent in our production area — what is your response protocol?',
-        a: 'A rodent finding in a production area is treated as a critical event requiring same-day response. We conduct an emergency inspection to assess the scope, implement immediate control measures, document all findings and actions taken, and provide a written corrective action plan. This documentation supports your FSMA deviation procedures and customer notification requirements if applicable.'
+        a: 'A rodent finding in a production area is treated as a critical event requiring same-day response. We conduct an emergency inspection to assess the scope, implement immediate control measures, and agree a corrective action plan with your team directly. Internal service records are kept to support your FSMA deviation procedures and customer notification requirements if applicable.'
       },
       {
         q: 'Do your technicians have food safety training?',
@@ -368,26 +368,26 @@ const VERTICALS: Record<string, VerticalData> = {
 
   daycare: {
     title: 'Daycare & Childcare Center Pest Control',
-    metaDesc: 'Daycare pest control Nassau County, NY. Child-safe IPM for childcare centers & preschools. NYS OCFS compliant. Liberty Pest Pros. Call (516) 763-4600.',
-    intro: `Nassau County is home to hundreds of licensed daycare centers, preschools, and childcare facilities — from large commercial childcare chains to small home-based programs — serving tens of thousands of Nassau County families. Childcare facilities face a unique combination of pest control requirements: New York State Office of Children and Family Services (OCFS) regulations govern pest control practices in licensed facilities, the presence of infants and young children demands the most cautious approach to any treatment, and parents of children enrolled in Nassau County daycare centers have zero tolerance for pest activity. A cockroach spotted in a daycare classroom, rodent activity in a kitchen, or ants in a playground area can trigger OCFS complaints, facility closure reviews, and an immediate loss of enrolled families that directly threatens viability. Liberty Pest Pros has provided child-safe, regulation-compliant pest control to Nassau County daycare and childcare facilities since 1982. Our childcare programs are built around the specific requirements of OCFS licensing, the developmental vulnerability of young children, and the zero-tolerance standard that Nassau County parents rightfully hold for the facilities that care for their children.`,
+    metaDesc: 'Daycare pest control Nassau County, NY. OCFS-compliant IPM for childcare centers & preschools. NYS OCFS compliant. Liberty Pest Pros. Call (516) 763-4600.',
+    intro: `Nassau County is home to hundreds of licensed daycare centers, preschools, and childcare facilities — from large commercial childcare chains to small home-based programs — serving tens of thousands of Nassau County families. Childcare facilities face a unique combination of pest control requirements: New York State Office of Children and Family Services (OCFS) regulations govern pest control practices in licensed facilities, the presence of infants and young children demands the most cautious approach to any treatment, and parents of children enrolled in Nassau County daycare centers have zero tolerance for pest activity. A cockroach spotted in a daycare classroom, rodent activity in a kitchen, or ants in a playground area can trigger OCFS complaints, facility closure reviews, and an immediate loss of enrolled families that directly threatens viability. Liberty Pest Pros has provided OCFS-compliant, regulation-driven pest control to Nassau County daycare and childcare facilities since 1982. Our childcare programs are built around the specific requirements of OCFS licensing, the developmental vulnerability of young children, and the zero-tolerance standard that Nassau County parents rightfully hold for the facilities that care for their children.`,
     whyMatters: `Daycare pest control is a licensing, child safety, and parent trust issue. New York State OCFS licensing regulations require daycare facilities to maintain rigorous pest control standards and to use pest control methods that are safe for children. An OCFS inspector finding pest evidence can result in a deficiency citation, required corrective action, and in serious cases license suspension. For daycare operators, parent trust is everything — a single credible pest complaint shared in a parent Facebook group or NextDoor community can empty a facility faster than any regulatory action.`,
     nassauContext: `Nassau County&apos;s daycare sector is concentrated in areas with high density of young families — communities like Syosset, Plainview, Great Neck, and Massapequa have high concentrations of licensed childcare facilities. Nassau County daycare facilities in older commercial or residential buildings face structural pest pressure — aging foundations, utility penetrations, and outdated kitchen equipment — that requires proactive exclusion work. Nassau County&apos;s seasonal pest pressure (ants and stinging insects in spring and summer, rodents in fall and winter) creates recurring challenges for childcare facilities with outdoor play areas.`,
     services: [
-      { name: 'Child-Safe IPM Program', icon: '👶', desc: 'OCFS-compliant monitoring & treatment' },
+      { name: 'OCFS-Compliant IPM Program', icon: '👶', desc: 'Regulation-driven monitoring & treatment' },
       { name: 'Cockroach Control', icon: '🪳', desc: 'Kitchen & classroom treatment' },
       { name: 'Rodent Exclusion', icon: '🐭', desc: 'Entry point sealing & trapping' },
       { name: 'Ant Control', icon: '🐜', desc: 'Perimeter & interior treatment' },
       { name: 'Stinging Insect Removal', icon: '🐝', desc: 'Playground & perimeter nest removal' },
-      { name: 'OCFS Compliance Records', icon: '📋', desc: 'Licensing inspection documentation' },
+      { name: 'OCFS Compliance Support', icon: '📋', desc: 'Supports licensing inspections' },
     ],
     faqs: [
       {
-        q: 'What pest control methods are safe for use in a daycare with infants and toddlers?',
+        q: 'What pest control methods do you use in a daycare with infants and toddlers?',
         a: 'Our daycare pest control programs prioritize non-chemical methods: tamper-resistant monitoring stations placed in inaccessible locations (inside cabinets, in utility spaces, behind equipment), exclusion to seal entry points, sanitation recommendations, and thorough inspection to identify and eliminate pest harborage conditions. When chemical treatment is needed, we use only products with favorable toxicity profiles, apply them in locations children cannot access, and schedule service when children are not present — typically evenings or weekends.'
       },
       {
         q: 'Does your service meet New York State OCFS daycare licensing requirements?',
-        a: 'Yes. We design our daycare programs specifically around OCFS licensing requirements for pest control. We provide written service documentation for every visit, maintain records that satisfy OCFS inspection requirements, and can brief your facility director on pest control practices that meet licensing standards. If you receive an OCFS deficiency related to pests, we can respond with an expedited inspection and corrective action program.'
+        a: 'Yes. We design our daycare programs specifically around OCFS licensing requirements for pest control. We keep internal service records for every visit that support OCFS inspection requirements, communicate findings directly to your facility director, and brief your team on pest control practices that meet licensing standards. If you receive an OCFS deficiency related to pests, we can respond with an expedited inspection and corrective action program.'
       },
       {
         q: 'We have a wasp nest near our playground — can you respond quickly?',
@@ -395,7 +395,7 @@ const VERTICALS: Record<string, VerticalData> = {
       },
       {
         q: 'How do you notify parents about pest control treatments as required by regulations?',
-        a: 'We provide your facility director with written service reports after every visit documenting what was inspected, what was found, and what was done. For any pesticide applications, we provide the product name, application location, and re-entry information. Your facility can use these reports to communicate with parents as required and to maintain the pest control records that OCFS inspectors review during licensing inspections.'
+        a: 'We keep detailed internal service records of every visit — what was inspected, what was found, and what was done. For any pesticide applications, we communicate the product name, application location, and re-entry information directly to your facility director. Our service is structured so your facility can meet the OCFS communication and record-keeping requirements that inspectors review during licensing inspections.'
       },
     ],
     internalLinks: [
@@ -463,7 +463,6 @@ export default async function CommercialVerticalPage({ params }: { params: Promi
           "name": "Nassau County, New York"
         },
         "description": `${data.title} in Nassau County, NY. Regulation-compliant, disruption-free commercial pest control.`,
-        "priceRange": "$$",
         "address": {
         "@type": "PostalAddress",
         "addressLocality": "Nassau County",
