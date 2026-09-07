@@ -19,7 +19,7 @@ const SERVICE_CONFIG: Record<string, {
   'bed-bug-exterminator': {
     name: 'Bed Bug Exterminator',
     icon: '🛏️',
-    intro: 'Bed bugs spread fast and are nearly impossible to eliminate without professional treatment. Liberty Pest Pros uses a combination of heat treatment and targeted chemical application to eliminate every life stage — eggs, nymphs, and adults — in a single visit.',
+    intro: 'Bed bugs spread fast and are nearly impossible to eliminate without professional treatment. Liberty Pest Pros uses a combination of heat treatment and targeted chemical application to target every life stage — eggs, nymphs, and adults — in a single visit.',
     whyUrgent: 'A small infestation can become a serious problem in 30–60 days. Early treatment is always faster, easier, and more affordable.',
     whatWeOffer: [
       { title: 'Heat Treatment', desc: 'Kills bed bugs at every life stage without chemicals' },

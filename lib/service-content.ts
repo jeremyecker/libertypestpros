@@ -23,7 +23,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { step: 'Inspection', description: 'We identify the ant species, locate nests and entry points, and assess the extent of the infestation throughout your home.' },
       { step: 'Targeted Treatment', description: 'Species-specific baits and professional-grade treatments are applied to eliminate the colony at its source — not just the ants you can see.' },
       { step: 'Entry Point Sealing', description: 'We seal cracks, gaps, and common entry points around your foundation, windows, and utility lines to cut off access.' },
-      { step: 'Follow-Up', description: 'A follow-up visit ensures the colony is fully eliminated and your home stays ant-free long-term.' },
+      { step: 'Follow-Up', description: 'A follow-up visit targets the colony and catches renewed activity before it rebuilds.' },
     ],
     prevention: [
       'Keep kitchen surfaces clean and free of crumbs and spills',
@@ -111,7 +111,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       'Eliminate standing water and fix leaky pipes or faucets',
       'Store firewood at least 20 feet from your home and elevated off the ground',
     ],
-    whyPro: `Rodents are intelligent and cautious — they quickly learn to avoid poorly placed traps and are unaffected by most consumer-grade products. Professional rodent control combines three critical elements: exclusion (permanently sealing every entry point), strategic trapping to eliminate existing populations, and ongoing monitoring to ensure they don't return. We also address the sanitation and structural issues that DIY approaches typically miss.`,
+    whyPro: `Rodents are intelligent and cautious — they quickly learn to avoid poorly placed traps and are unaffected by most consumer-grade products. Professional rodent control combines three critical elements: exclusion (permanently sealing every entry point), strategic trapping to eliminate existing populations, and ongoing monitoring to catch renewed activity early. We also address the sanitation and structural issues that DIY approaches typically miss.`,
   },
   'cockroach-control': {
     overview: `Cockroaches are among the most resilient pests on the planet, having survived for over 300 million years. They breed rapidly — a single German cockroach can produce up to 400 offspring in a year. Beyond being unsettling, cockroaches are a real health threat: they trigger asthma and allergies (especially in children), spread bacteria like E. coli and salmonella, and contaminate food and kitchen surfaces. Their ability to hide in impossibly tiny crevices and rapidly develop resistance to store-bought pesticides makes professional treatment essential.`,

@@ -208,7 +208,7 @@ export default function RodentControlPage() {
             <strong>Entry point sealing.</strong> We seal gaps around pipes, foundations, utility penetrations, and other entry points using steel wool, hardware cloth, and professional sealants that rodents cannot gnaw through. This is what makes the solution permanent.
           </p>
           <p>
-            <strong>Ongoing monitoring.</strong> We schedule follow-up visits until activity is completely eliminated and provide guidance on long-term prevention practices for your home.
+            <strong>Ongoing monitoring.</strong> We schedule follow-up visits to confirm activity has stopped and provide guidance on long-term prevention practices for your home.
           </p>
         </div>
 
