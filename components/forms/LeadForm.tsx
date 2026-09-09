@@ -352,15 +352,13 @@ export default function LeadForm({
                 type="checkbox"
                 id="hero-sms"
                 name="sms_consent"
-                required
                 checked={formData.sms_consent}
                 onChange={handleChange}
                 className="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary shrink-0"
               />
               <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
                 By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
-                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.{' '}
-                <span className="text-red-500">*</span>
+                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
               </label>
             </div>
 
@@ -547,15 +545,13 @@ export default function LeadForm({
                 type="checkbox"
                 id="lead-sms"
                 name="sms_consent"
-                required
                 checked={formData.sms_consent}
                 onChange={handleChange}
                 className="mt-1 h-4 w-4 rounded border-gray-300 text-brand-primary focus:ring-brand-primary"
               />
               <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
                 By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
-                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.{' '}
-                <span className="text-red-500">*</span>
+                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
               </label>
             </div>
 
