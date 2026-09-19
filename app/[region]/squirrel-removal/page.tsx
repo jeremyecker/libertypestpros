@@ -101,7 +101,7 @@ const nassauTowns = nassauRegion.towns.map((t: string) => ({
 
 const services = [
   { name: 'Squirrel Inspection', icon: '🔍', desc: 'Locate all entry points and nesting sites' },
-  { name: 'Live Trapping', icon: '🪤', desc: 'Humane capture and relocation' },
+  { name: 'Live Trapping', icon: '🪤', desc: 'Humane trapping and handling' },
   { name: 'Attic Exclusion', icon: '🏠', desc: 'Permanent seal-out after removal' },
   { name: 'Entry Sealing', icon: '🔒', desc: 'Close all gaps along rooflines and soffits' },
   { name: 'Damage Repair Consultation', icon: '🛠️', desc: 'Assessment of chewed wiring and insulation' },
@@ -199,7 +199,7 @@ export default function SquirrelRemovalPage() {
             <strong>One-way exclusion.</strong> Our preferred method for squirrel removal is the one-way exclusion door — a humane device installed over the main entry point that allows squirrels to exit but blocks re-entry. We seal all other gaps first. Once we confirm all squirrels have left, the door is removed and the final opening is permanently sealed.
           </p>
           <p>
-            <strong>Live trapping when needed.</strong> For situations where one-way doors aren&apos;t suitable, we use live traps that capture squirrels without harm. Captured squirrels are relocated appropriately in compliance with state regulations.
+            <strong>Live trapping when needed.</strong> For situations where one-way doors aren&apos;t suitable, we use live traps that capture squirrels without harm. Captured squirrels are removed in compliance with state regulations.
           </p>
           <p>
             <strong>Damage repair consultation.</strong> We assess any damage to wiring, insulation, and wood framing and advise on necessary repairs. Chewed electrical wiring is a fire hazard that must be addressed — we&apos;ll make sure you know exactly what requires attention.

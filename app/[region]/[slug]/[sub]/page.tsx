@@ -56,14 +56,14 @@ const SERVICE_CONFIG: Record<string, {
     intro: 'Raccoons can cause thousands of dollars in damage once they gain access to an attic or crawl space. Liberty Pest Pros provides humane raccoon removal, full attic assessment, and thorough exclusion work designed to keep them from returning.',
     whyUrgent: 'A raccoon in your attic isn\'t just a nuisance — they tear apart insulation, soil surfaces with waste, and can carry rabies and raccoon roundworm. Fast removal protects your family and your home.',
     whatWeOffer: [
-      { title: 'Humane Live Trapping', desc: 'Catch-and-relocate per NY regulations' },
+      { title: 'Humane Live Trapping', desc: 'Trap and remove per NY regulations' },
       { title: 'Attic Inspection', desc: 'Full assessment of damage and entry points' },
       { title: 'Exclusion Work', desc: 'Permanent sealing of all entry points' },
       { title: 'Cleanup & Sanitization', desc: 'Remove waste and restore insulation' },
     ],
     faqs: [
       { q: 'How do raccoons get into attics?', a: 'Raccoons are strong climbers and can tear through rotted fascia, damaged soffits, or poorly sealed roof vents. Females actively seek attic spaces in spring to give birth.' },
-      { q: 'Is raccoon removal humane?', a: 'Yes — we use live cage traps and relocate captured raccoons in compliance with New York State DEC regulations. We never use inhumane methods.' },
+      { q: 'Is raccoon removal humane?', a: 'Yes — we use live cage traps and remove captured raccoons in compliance with New York State DEC regulations. We never use inhumane methods.' },
       { q: 'What damage can raccoons cause?', a: 'Raccoons tear apart insulation for nesting material, leave large amounts of waste (which harbors dangerous parasites), and can damage electrical wiring, roofing, and HVAC components.' },
     ],
   },
@@ -97,7 +97,7 @@ const SERVICE_CONFIG: Record<string, {
     ],
     faqs: [
       { q: 'What wildlife do you handle?', a: 'We handle raccoons, squirrels, skunks, opossums, groundhogs, bats, and most other nuisance wildlife commonly found on Long Island. Call us and describe what you\'re dealing with.' },
-      { q: 'What if there are babies?', a: 'Baby season (typically March–August) requires extra care. We\'ll locate the nest, remove both mother and young together, and relocate them as a family unit.' },
+      { q: 'What if there are babies?', a: 'Baby season (typically March–August) requires extra care. We\'ll locate the nest and remove both mother and young together.' },
       { q: 'Is wildlife removal covered by homeowner\'s insurance?', a: 'Some policies cover wildlife damage cleanup and repairs — check with your insurer. The removal service itself is typically not covered, but our pricing is transparent and competitive.' },
     ],
   },
@@ -177,11 +177,11 @@ const SERVICE_CONFIG: Record<string, {
     whatWeOffer: [
       { title: 'Wasp & Hornet Removal', desc: 'Aerial nests in eaves, trees, and structures' },
       { title: 'Yellow Jacket Control', desc: 'Ground nests and wall void infestations' },
-      { title: 'Bee Removal & Relocation', desc: 'Honey bee colonies preserved when possible' },
+      { title: 'Honeybee Colonies', desc: 'We do not treat honeybees; if a colony is confirmed as honeybees rather than wasps or hornets, we refer the matter to a licensed beekeeper.' },
       { title: 'Nest Treatment', desc: 'Prevent rebuilding at treated locations' },
     ],
     faqs: [
-      { q: 'What\'s the difference between bees and wasps?', a: 'Honey bees are typically docile, fuzzy, and make honey — we try to relocate their colonies rather than exterminate them. Wasps (yellow jackets, hornets, paper wasps) are smooth, more aggressive, and can sting multiple times. Both require professional handling near a structure.' },
+      { q: 'What\'s the difference between bees and wasps?', a: 'Honey bees are typically docile, fuzzy, and make honey. We do not treat honeybees; if a colony is confirmed as honeybees rather than wasps or hornets, we refer the matter to a licensed beekeeper. Wasps (yellow jackets, hornets, paper wasps) are smooth, more aggressive, and can sting multiple times. Both require professional handling near a structure.' },
       { q: 'Can I remove a wasp nest myself?', a: 'We strongly advise against it. Disturbing a nest without proper protective equipment can provoke a mass defensive response. Yellow jackets in particular are extremely aggressive when their nest is threatened. Professional removal is fast, affordable, and eliminates the risk entirely.' },
       { q: 'When is stinging insect season on Long Island?', a: 'Yellow jackets and wasps become most aggressive in August and September when colony populations peak and food sources decline. Nests are most visible in fall after leaves drop. Don\'t wait until peak season — treat nests as soon as they\'re discovered.' },
     ],

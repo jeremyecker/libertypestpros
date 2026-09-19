@@ -85,7 +85,7 @@ const schemaData = {
           "name": "What humane wildlife removal methods do you use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our approach depends on the species and situation. For attic-dwelling animals like raccoons and squirrels, we use one-way exclusion doors that allow animals to exit but not re-enter, combined with live trapping where needed. For animals under structures — opossums, skunks, groundhogs — we use live cage traps baited appropriately for each species. Once captured, animals are relocated in compliance with New York State regulations. We avoid lethal methods whenever possible, and our exclusion work ensures animals cannot re-enter once removed."
+            "text": "Our approach depends on the species and situation. For attic-dwelling animals like raccoons and squirrels, we use one-way exclusion doors that allow animals to exit but not re-enter, combined with live trapping where needed. For animals under structures — opossums, skunks, groundhogs — we use live cage traps baited appropriately for each species. Once captured, animals are removed in compliance with New York State regulations. Our exclusion work ensures animals cannot re-enter once removed."
           }
         }
       ]
@@ -127,7 +127,7 @@ const faqs = [
   },
   {
     q: "What humane wildlife removal methods do you use?",
-    a: "Our approach depends on the species and situation. For attic-dwelling animals like raccoons and squirrels, we use one-way exclusion doors that allow animals to exit but not re-enter, combined with live trapping where needed. For animals under structures — opossums, skunks, groundhogs — we use live cage traps baited appropriately for each species. Once captured, animals are relocated in compliance with New York State regulations. We avoid lethal methods whenever possible, and our exclusion work ensures animals cannot re-enter once removed."
+    a: "Our approach depends on the species and situation. For attic-dwelling animals like raccoons and squirrels, we use one-way exclusion doors that allow animals to exit but not re-enter, combined with live trapping where needed. For animals under structures — opossums, skunks, groundhogs — we use live cage traps baited appropriately for each species. Once captured, animals are removed in compliance with New York State regulations. Our exclusion work ensures animals cannot re-enter once removed."
   }
 ];
 
@@ -199,7 +199,7 @@ export default function WildlifeRemovalPage() {
             <strong>Comprehensive inspection first.</strong> Every job starts with a thorough property assessment — we identify the species, locate all entry points and harborage areas, and determine the right removal approach before any work begins.
           </p>
           <p>
-            <strong>Humane methods.</strong> We prioritize live trapping and exclusion over lethal control whenever possible. Captured animals are relocated in compliance with New York State DEC regulations.
+            <strong>Humane methods.</strong> We prioritize live trapping and exclusion. Captured animals are removed in compliance with New York State DEC regulations.
           </p>
           <p>
             <strong>Complete exclusion.</strong> Removing the animal that&apos;s present doesn&apos;t solve the problem if the entry point stays open. We seal every gap, opening, and vulnerability with materials appropriate to the species — raccoon-proof steel mesh, underground exclusion barriers for burrowing animals, and chimney caps and vent covers where needed.

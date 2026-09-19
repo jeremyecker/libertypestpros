@@ -82,7 +82,7 @@ export default function AboutPage() {
           <p>
             From the oceanfront homes of Atlantic Beach to the quiet neighborhoods of Wantagh,
             from the village charm of Lynbrook to the family streets of Seaford — we serve all
-            {GEO.totalTowns} communities across Nassau County. We know these communities because
+            {' '}{GEO.totalTowns} communities across Nassau County. We know these communities because
             we live here too. Wherever you call home on the South Shore, {SITE_NAME} is just
             a phone call away.
           </p>
