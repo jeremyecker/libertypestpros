@@ -177,7 +177,6 @@ const SERVICE_CONFIG: Record<string, {
     whatWeOffer: [
       { title: 'Wasp & Hornet Removal', desc: 'Aerial nests in eaves, trees, and structures' },
       { title: 'Yellow Jacket Control', desc: 'Ground nests and wall void infestations' },
-      { title: 'Honeybee Colonies', desc: 'We do not treat honeybees; if a colony is confirmed as honeybees rather than wasps or hornets, we refer the matter to a licensed beekeeper.' },
       { title: 'Nest Treatment', desc: 'Prevent rebuilding at treated locations' },
     ],
     faqs: [
