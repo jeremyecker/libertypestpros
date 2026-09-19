@@ -69,7 +69,7 @@ const schemaData = {
           "name": "Is raccoon removal dangerous? Can I do it myself?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "DIY raccoon removal carries real risks. Raccoons can carry rabies and raccoon roundworm (Baylisascaris procyonis), both of which pose serious health hazards to humans and pets. A cornered or frightened raccoon will bite and scratch. If a mother raccoon has young in your attic, she will aggressively defend them. Professional removal ensures the animals are handled safely and humanely, and that all waste is properly cleaned up to eliminate disease risk. In New York, raccoons are also regulated wildlife — handling and transport require appropriate licensing."
+            "text": "DIY raccoon removal carries real risks. Raccoons can carry rabies and raccoon roundworm (Baylisascaris procyonis), both of which pose serious health hazards to humans and pets. A cornered or frightened raccoon will bite and scratch. If a mother raccoon has young in your attic, she will aggressively defend them. Professional removal ensures the animals are handled safely and humanely, and that all waste is properly cleaned up to eliminate disease risk. In New York, raccoons are also regulated wildlife — trapping and handling require appropriate licensing."
           }
         },
         {
@@ -119,7 +119,7 @@ const faqs = [
   },
   {
     q: "Is raccoon removal dangerous? Can I do it myself?",
-    a: "DIY raccoon removal carries real risks. Raccoons can carry rabies and raccoon roundworm (Baylisascaris procyonis), both of which pose serious health hazards to humans and pets. A cornered or frightened raccoon will bite and scratch. If a mother raccoon has young in your attic, she will aggressively defend them. Professional removal ensures the animals are handled safely and humanely, and that all waste is properly cleaned up to eliminate disease risk. In New York, raccoons are also regulated wildlife — handling and transport require appropriate licensing."
+    a: "DIY raccoon removal carries real risks. Raccoons can carry rabies and raccoon roundworm (Baylisascaris procyonis), both of which pose serious health hazards to humans and pets. A cornered or frightened raccoon will bite and scratch. If a mother raccoon has young in your attic, she will aggressively defend them. Professional removal ensures the animals are handled safely and humanely, and that all waste is properly cleaned up to eliminate disease risk. In New York, raccoons are also regulated wildlife — trapping and handling require appropriate licensing."
   },
   {
     q: "How long does raccoon removal take?",
@@ -196,7 +196,7 @@ export default function RaccoonRemovalPage() {
             Raccoon removal is not a job for amateurs. These are large, strong, intelligent animals that can be aggressive when cornered or protecting young — and they carry rabies and roundworm that pose real health risks to your family. Liberty Pest Pros brings over 40 years of experience and proper licensing to every raccoon removal job in Nassau County.
           </p>
           <p>
-            <strong>Licensed trappers.</strong> Our technicians are trained and licensed wildlife removal operators operating in full compliance with New York State Department of Transportation and DEC regulations. Every raccoon is handled humanely and relocated appropriately.
+            <strong>Licensed trappers.</strong> Our technicians are trained and licensed wildlife removal operators operating in full compliance with New York State Department of Transportation and DEC regulations. Every raccoon is handled humanely and removed.
           </p>
           <p>
             <strong>DOT-compliant exclusion.</strong> After removal, we seal every entry point using commercial-grade, raccoon-proof materials — heavy-gauge hardware cloth, galvanized steel flashing, and professional sealants. We don&apos;t patch holes with foam or caulk that a raccoon can re-open in minutes.

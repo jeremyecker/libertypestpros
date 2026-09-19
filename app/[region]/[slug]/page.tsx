@@ -18,7 +18,7 @@ const SERVICE_META: Record<string, { name: string; icon: string; desc: string }>
   'cockroach-exterminator': { name: 'Cockroach Exterminator', icon: '🪳', desc: 'German cockroach specialists using gel bait and crack-and-crevice treatments.' },
   'ant-exterminator': { name: 'Ant Exterminator', icon: '🐜', desc: 'Complete ant colony elimination with targeted treatments and exclusion sealing.' },
   'cricket-exterminator': { name: 'Cricket Exterminator', icon: '🦗', desc: 'Interior and perimeter cricket treatments to stop chirping and property damage.' },
-  'bee-removal': { name: 'Bee & Wasp Removal', icon: '🐝', desc: 'Humane bee removal and wasp elimination with live relocation when possible.' },
+  'bee-removal': { name: 'Bee & Wasp Removal', icon: '🐝', desc: 'Professional wasp, hornet, and yellow jacket removal. Honeybee colonies referred to licensed beekeepers.' },
 };
 
 const ALL_SERVICE_SLUGS = Object.keys(SERVICE_META);
