@@ -70,10 +70,10 @@ const schemaData = {
         },
         {
           "@type": "Question",
-          "name": "Are your pest control treatments family-friendly?",
+          "name": "What products do you use, and what precautions should I take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. We use targeted, family-friendly products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place."
+            "text": "We use targeted products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place."
           }
         },
         {
@@ -172,8 +172,8 @@ export default function PestControlNearMeTopLevel() {
               <p className="text-gray-600">Yes — we serve all 132 communities in Nassau County, from Hempstead and Freeport on the South Shore to Great Neck and Manhasset on the North Shore. If you live in Nassau County, we cover you.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
-              <h3 className="font-bold text-gray-900 mb-2">Are your pest control treatments family-friendly?</h3>
-              <p className="text-gray-600">Absolutely. We use targeted, family-friendly products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place.</p>
+              <h3 className="font-bold text-gray-900 mb-2">What products do you use, and what precautions should I take?</h3>
+              <p className="text-gray-600">We use targeted products applied with precision. Most treatments allow re-entry within a few hours. Every technician is trained in Integrated Pest Management (IPM) to use the right product in the right place.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How much does pest control cost in Nassau County?</h3>

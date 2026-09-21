@@ -40,9 +40,9 @@ Hardware-store ant sprays can kill the workers you see, but they do nothing to e
 
 Gel baits are more effective than sprays because workers carry the bait back to feed the queen. But placement, bait type, and environmental conditions all affect how well they work — and impatient homeowners often remove bait before the colony has been fully eliminated.
 
-**Effective, Family-Friendly Ant Control for Nassau County Homes**
+**Effective Ant Control for Nassau County Homes**
 
-A professional ant treatment from Liberty Pest Pros targets the colony, not just the workers. Our Nassau County technicians identify the species, locate entry points, and apply targeted treatments that are family-friendly and formulated for the specific conditions of your home. For interior treatments, the areas we treat are clear to re-enter typically within one to two hours after application.
+A professional ant treatment from Liberty Pest Pros targets the colony, not just the workers. Our Nassau County technicians identify the species, locate entry points, and apply targeted treatments formulated for the specific conditions of your home. For interior treatments, the areas we treat are clear to re-enter typically within one to two hours after application.
 
 We also focus on exclusion — sealing the entry points that ants exploit, especially important in the aging housing stock found throughout Nassau County. Combining treatment with exclusion delivers lasting results rather than temporary knockdown.
 
@@ -187,7 +187,7 @@ Before pest professionals deploy any control measures, exclusion — physically 
 
 Liberty Pest Pros performs comprehensive rodent control that combines exclusion, trapping, and monitoring. Our technicians conduct a full exterior inspection to identify entry points, apply tamper-resistant bait stations where appropriate, and set interior traps in the pattern most effective for your home&apos;s layout.
 
-For homes with active infestations, we typically recommend an initial intensive service followed by follow-up visits. All products used in our rodent control programs are family-friendly and formulated for use in residential settings. Interior-treated spaces are clear to re-enter the same day following treatment.
+For homes with active infestations, we typically recommend an initial intensive service followed by follow-up visits. All products used in our rodent control programs are formulated for use in residential settings. Interior-treated spaces are clear to re-enter the same day following treatment.
 
 **Why Fall Action Matters**
 
@@ -336,7 +336,7 @@ Professional cockroach control for Nassau County homes combines two core approac
 
 *Residual insecticide applications* to specific void areas complement gel baiting and address entry points. Crack-and-crevice treatment using non-repellent formulations allows cockroaches to contact treated surfaces without detecting the product, maximizing exposure.
 
-After professional treatment, areas are clear to re-enter once gel baits have dried — typically immediately. Treated spaces remain accessible and there is no need to vacate during or after treatment using our family-friendly protocols.
+After professional treatment, areas are clear to re-enter once gel baits have dried — typically immediately. Treated spaces remain accessible and there is no need to vacate during or after treatment.
 
 **Integrated Pest Management and Sanitation**
 
@@ -518,7 +518,7 @@ Effective moisture pest management for Nassau County homes combines:
 - *Mechanical moisture reduction*: Dehumidifiers in basements and crawl spaces targeting humidity below 50% relative humidity. Exhaust fans in bathrooms vented to the exterior. Correction of plumbing leaks.
 - *Drainage improvements*: Grading soil away from the foundation, extending downspouts to discharge at least six feet from the foundation, and cleaning gutters to prevent overflow.
 - *Crack and gap sealing*: Sealing basement wall cracks with hydraulic cement or appropriate sealant, and caulking gaps around penetrations.
-- *Targeted professional treatment*: Residual crack-and-crevice applications in harborage areas including under baseboards, in expansion joints, and along sill plates. Treated areas are clear to re-enter same day following our family-friendly application protocols.
+- *Targeted professional treatment*: Residual crack-and-crevice applications in harborage areas including under baseboards, in expansion joints, and along sill plates. Treated areas are clear to re-enter same day following our application protocols.
 
 Liberty Pest Pros provides moisture pest assessments and treatment for Nassau County homes. Call (516) 763-4600 to schedule an inspection.`,
   },
@@ -526,7 +526,7 @@ Liberty Pest Pros provides moisture pest assessments and treatment for Nassau Co
     slug: 'why-nassau-county-families-choose-liberty-pest-pros',
     title: 'Why Nassau County Families Choose Liberty Pest Pros',
     date: '2025-01-08',
-    excerpt: 'Since 1982, Nassau County families have trusted Liberty Pest Pros for pest control that&apos;s effective, family-friendly, and backed by over four decades of local knowledge.',
+    excerpt: 'Since 1982, Nassau County families have trusted Liberty Pest Pros for pest control that&apos;s effective and backed by over four decades of local knowledge.',
     image: 'https://images.pexels.com/photos/1756957/pexels-photo-1756957.jpeg?auto=compress&cs=tinysrgb&w=1200',
     imageAlt: 'Nassau County Long Island neighborhood',
     content: `When Nassau County families need pest control, they have no shortage of options. National franchise brands, large regional operators, and a rotating cast of door-to-door sales companies all compete for attention. But since 1982, homeowners across Nassau County — from the North Shore Gold Coast to the South Shore beachfront communities — have consistently chosen Liberty Pest Pros. Here&apos;s why.
@@ -539,9 +539,9 @@ A technician who has been servicing homes in Oceanside, Massapequa, Garden City,
 
 That accumulated, community-specific knowledge is what four decades of serving Nassau County produces — and it&apos;s something no national chain can replicate.
 
-**Family-Friendly Treatments, Effective Results**
+**Targeted Treatments, Effective Results**
 
-At Liberty Pest Pros, &quot;family-friendly&quot; isn&apos;t a marketing term — it&apos;s how we approach every job. Our technicians select products, formulations, and application methods that deliver effective pest elimination while minimizing unnecessary exposure for your family and pets.
+At Liberty Pest Pros, our technicians select products, formulations, and application methods that deliver effective pest elimination, and we follow label directions on every job.
 
 We use targeted application techniques — crack-and-crevice treatments, gel baiting, precision exterior perimeter applications — rather than broad-area spraying wherever the situation allows. We communicate clearly with every homeowner about what we applied, where we applied it, and when the treated areas are clear to re-enter. For most interior treatments, that&apos;s the same day — usually within 1–4 hours depending on the treatment type.
 
