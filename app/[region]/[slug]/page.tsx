@@ -27,6 +27,10 @@ function isService(slug: string): boolean {
   return slug in SERVICE_META;
 }
 
+// Slugs that have their own static page at app/[region]/<slug>/page.tsx (derived from disk). This dynamic route
+// must never prerender or render them: both routes write the same output path and the build picks a winner nondeterministically.
+const STATIC_REGION_PAGES = new Set<string>(['about', 'bed-bug-exterminator', 'commercial', 'contact', 'emergency-pest-control', 'exterminator-near-me', 'free-pest-inspection', 'pest-control-near-me', 'raccoon-removal', 'rodent-control', 'same-day-pest-control', 'service-areas', 'services', 'squirrel-removal', 'wildlife-removal']);
+
 // ─── Static params (services + towns) ───────────────────────────────────────
 export async function generateStaticParams() {
   const { REGIONS } = await import('@/hub.config');
@@ -39,7 +43,7 @@ export async function generateStaticParams() {
       params.push({ region: region.slug, slug: town.toLowerCase().replace(/\s+/g, '-') });
     }
   }
-  return params;
+  return params.filter(p => !STATIC_REGION_PAGES.has(p.slug));
 }
 
 // ─── Metadata ───────────────────────────────────────────────────────────────
@@ -49,6 +53,7 @@ export async function generateMetadata({
   params: Promise<{ region: string; slug: string }>;
 }): Promise<Metadata> {
   const { region: regionSlug, slug } = await params;
+  if (STATIC_REGION_PAGES.has(slug)) notFound();
   const region = getRegion(regionSlug);
   if (!region) return {};
 
@@ -98,6 +103,7 @@ export default async function SlugPage({
   params: Promise<{ region: string; slug: string }>;
 }) {
   const { region: regionSlug, slug } = await params;
+  if (STATIC_REGION_PAGES.has(slug)) notFound();
   const region = getRegion(regionSlug);
   if (!region) notFound();
 
