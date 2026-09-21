@@ -287,7 +287,7 @@ Most over-the-counter products contain pyrethroids, which repel cockroaches rath
 
 ## Professional Treatment
 
-**Gel bait:** Applied in harboring areas — inside cabinet hinges, under appliances, behind wall plates. Worker cockroaches feed on bait and carry toxic material back to the colony through contact and fecal transfer. Highly effective; non-repellent; safe around food preparation areas.
+**Gel bait:** Applied in harboring areas — inside cabinet hinges, under appliances, behind wall plates. Worker cockroaches feed on bait and carry toxic material back to the colony through contact and fecal transfer. Highly effective; non-repellent; applied in crack-and-crevice placements away from food-contact surfaces.
 
 **Insect growth regulator (IGR):** Prevents juvenile cockroaches from becoming reproductive adults, breaking the breeding cycle.
 

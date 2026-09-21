@@ -54,9 +54,9 @@ export default function AboutPage() {
               home-turf expertise you can&apos;t get from a national chain.
             </li>
             <li>
-              <strong>Family-friendly, always:</strong> With more than four decades of experience, we know which
-              treatments work best for homes with kids and pets. Every product we use is selected
-              with your family&apos;s safety as the number one priority. We&apos;ll explain
+              <strong>Clear communication, always:</strong> With more than four decades of experience, we know which
+              treatments work best for different homes and situations. We&apos;ll explain
+
               everything — what we&apos;re using, why, and when it&apos;s clear for your family
               to return to treated areas.
             </li>

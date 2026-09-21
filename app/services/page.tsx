@@ -7,12 +7,12 @@ import { SITE_URL } from '@/site.config';
 const serviceArea = REGIONS.map(r => r.name).join(', ').replace(/, ([^,]*)$/, ' & $1');
 
 const genericDescriptions: Record<string, string> = {
-  'ant-control': 'Keep ants out of your kitchen and away from your family. Effective, family-friendly treatments.',
+  'ant-control': 'Keep ants out of your kitchen and away from your family. Effective ant treatments.',
   'termite-treatment': 'Protect your biggest investment. Expert termite inspections and treatment to keep your home protected.',
   'bed-bug-removal': "Help your family sleep easy again. Thorough bed bug removal that's gentle on your home.",
   'rodent-control': "Mice and rats don't belong near your family. We remove them and seal entry points so they stay out.",
   'cockroach-control': 'A clean home deserves to stay that way. Complete cockroach elimination that protects your family.',
-  'mosquito-control': 'Take back your backyard. Kid and pet-friendly mosquito treatments so your family can enjoy the outdoors.',
+  'mosquito-control': 'Take back your backyard. Seasonal mosquito treatments using EPA-registered products so your family can enjoy the outdoors.',
   'spider-control': 'No more surprises in the basement or garage. Thorough spider removal for your whole home.',
   'wasp-hornet-removal': "Protect your kids and pets from stinging insects. We'll remove nests from your yard, porch, and eaves.",
   'flea-tick-treatment': 'Protect your family and furry friends. Professional flea and tick control for your home and yard.',
@@ -22,11 +22,11 @@ const genericDescriptions: Record<string, string> = {
 
 export const metadata: Metadata = {
   title: 'Pest Control Services',
-  description: `Full pest control services for ${serviceArea} homes and businesses. Family-friendly treatments, free estimates, and same-day service available. Call us.`,
+  description: `Full pest control services for ${serviceArea} homes and businesses. Free estimates and same-day service available. Call us.`,
 
   openGraph: {
     title: 'Pest Control Services',
-    description: `Full pest control services for ${serviceArea} homes and businesses. Family-friendly treatments, free estimates, and same-day service available. Call us.`,
+    description: `Full pest control services for ${serviceArea} homes and businesses. Free estimates and same-day service available. Call us.`,
     url: `${SITE_URL}/services`,
     type: 'website',
     locale: 'en_US',
@@ -43,7 +43,7 @@ export default function ServicesPage() {
           Our Pest Control Services
         </h1>
         <p className="text-xl text-gray-600">
-          Serving {serviceArea} with professional, family-friendly pest control.
+          Serving {serviceArea} with professional pest control.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

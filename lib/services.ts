@@ -20,12 +20,12 @@ export type Service = typeof SERVICES[number];
 export function getServiceDescription(service: Service, region: RegionConfig): string {
   const area = region.shortName || region.name;
   const descriptions: Record<string, string> = {
-    'ant-control': `Keep ants out of your kitchen and away from your family. Effective, family-friendly ant treatments for ${area} homes. Same-day service available.`,
+    'ant-control': `Keep ants out of your kitchen and away from your family. Effective ant treatments for ${area} homes. Same-day service available.`,
     'termite-treatment': `Protect your biggest investment. Expert termite inspections and treatment for ${area} homes. Licensed, insured technicians. Free estimates.`,
     'bed-bug-removal': `Help your family sleep easy again. Thorough bed bug removal that's gentle on your home and protective of your family. Serving all of ${area}.`,
     'rodent-control': `Mice and rats don't belong near your family. We remove them and seal entry points to help keep them from coming back. Licensed ${area} technicians.`,
     'cockroach-control': `A clean home deserves to stay that way. Thorough cockroach treatment that protects your family and helps keep roaches under control. Licensed in ${area}.`,
-    'mosquito-control': `Take back your backyard. Kid and pet-friendly mosquito treatments so your family can enjoy the outdoors all season long. Serving ${area} — call us.`,
+    'mosquito-control': `Take back your backyard. Seasonal mosquito treatments using EPA-registered products so your family can enjoy the outdoors all season long. Serving ${area} — call us.`,
     'spider-control': `No more surprises in the basement or garage. Thorough spider removal for your whole ${area} home. Licensed technicians, same-day service available.`,
     'wasp-hornet-removal': `Protect your kids and pets from stinging insects. We'll remove wasp and hornet nests from your yard, porch, and eaves — fast and professional.`,
     'flea-tick-treatment': `Protect your family and furry friends. Flea and tick control for ${area} homes and yards. Licensed technicians, same-day service available.`,
