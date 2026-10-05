@@ -93,7 +93,7 @@ Additionally, the coastal proximity and seasonal humidity on Long Island help te
 
 Effective termite control in Nassau County relies on one of two approaches: liquid barrier treatments or bait station systems — or a combination of both.
 
-Liquid termiticide treatments (Termidor being the most widely used) are applied to the soil around and beneath your foundation, creating a continuous treated zone that termites cannot detect and carry back to the colony. Results are measurable within weeks.
+Liquid termiticide treatments are applied to the soil around and beneath your foundation, creating a continuous treated zone that termites cannot detect and carry back to the colony. Results are measurable within weeks.
 
 Bait systems use termite-attractive cellulose bait stations placed around your property perimeter. Termites feed on the bait, carry it back to the colony, and the colony is eliminated over time. Bait systems allow for ongoing monitoring without repeated soil applications.
 
