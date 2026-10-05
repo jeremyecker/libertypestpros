@@ -546,7 +546,7 @@ We'll be honest with you: sometimes DIY pest control is fine. Sometimes it waste
 
 ## When DIY Makes Sense
 
-**Occasional ants in early spring:** A few ants exploring your kitchen in March or April aren't necessarily a serious infestation. Ant bait stations (Terro gel) can handle minor odorous house ant activity if placed directly on their trail. Remove food sources and monitor.
+**Occasional ants in early spring:** A few ants exploring your kitchen in March or April aren't necessarily a serious infestation. Ant bait stations can handle minor odorous house ant activity if placed directly on their trail. Remove food sources and monitor.
 
 **Single small wasp nest in May:** A small paper wasp nest under an eave in early spring — before it's established — can be treated with consumer aerosol at night. Wear protective clothing; retreat if activity continues.
 
