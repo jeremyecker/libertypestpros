@@ -209,7 +209,7 @@ Consumer sprays and foggers scatter bugs rather than eliminating them — drivin
 
 ## Our Treatment Options
 
-**Heat Treatment:** Raise room temperature to 120–135°F — lethal to all bed bug life stages including eggs. No chemicals; return home same day. Gold standard for whole-room treatment.
+**Heat Treatment:** Raise room temperature to 120–135°F — lethal to all bed bug life stages including eggs. Return home same day. Gold standard for whole-room treatment.
 
 **Chemical Treatment:** Residual insecticides, contact sprays, and insect growth regulators applied to all harborage areas. Typically 2–3 treatments spaced 2 weeks apart.
 

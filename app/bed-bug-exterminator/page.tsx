@@ -219,7 +219,7 @@ export default function BedBugExterminatorTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you do heat treatment for bed bugs in Nassau County?</h3>
-              <p className="text-gray-600">Yes. We offer both heat treatment and chemical treatment. Heat treatment is highly effective and eliminates bed bugs in a single visit without residual chemicals — ideal for families with concerns about products in sleeping areas.</p>
+              <p className="text-gray-600">Yes. We offer both heat treatment and chemical treatment. Heat treatment is highly effective and eliminates bed bugs in a single visit — ideal for families with concerns about products in sleeping areas.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How long before I can return home after bed bug treatment?</h3>

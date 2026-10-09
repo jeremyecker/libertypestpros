@@ -236,7 +236,7 @@ Identifying a bed bug infestation early makes treatment significantly more manag
 
 Bed bugs cannot be reliably eliminated with over-the-counter products. Consumer sprays often contain pyrethroids that bed bugs in the northeastern US have developed resistance to. Heat treatment and professional-grade insecticide applications by licensed technicians are the only reliably effective approaches for Nassau County infestations.
 
-*Heat treatment* raises the interior temperature of an infested room or whole home to 120–135°F for several hours, killing all life stages including eggs. It requires no chemical application and spaces are clear to re-enter the same day once temperatures normalize.
+*Heat treatment* raises the interior temperature of an infested room or whole home to 120–135°F for several hours, killing all life stages including eggs. Spaces are clear to re-enter the same day once temperatures normalize.
 
 *Chemical treatment* uses a combination of non-repellent residual insecticides, contact killers, and growth regulators applied to all harborage areas. This approach requires multiple follow-up visits spaced 7–14 days apart and requires preparation by the homeowner before treatment.
 
