@@ -22,7 +22,7 @@ const SERVICE_CONFIG: Record<string, {
     intro: 'Bed bugs spread fast and are nearly impossible to eliminate without professional treatment. Liberty Pest Pros uses a combination of heat treatment and targeted chemical application to target every life stage — eggs, nymphs, and adults — in a single visit.',
     whyUrgent: 'A small infestation can become a serious problem in 30–60 days. Early treatment is always faster, easier, and more affordable.',
     whatWeOffer: [
-      { title: 'Heat Treatment', desc: 'Kills bed bugs at every life stage without chemicals' },
+      { title: 'Heat Treatment', desc: 'Kills bed bugs at every life stage' },
       { title: 'Chemical Treatment', desc: 'Targeted residual application' },
       { title: 'Follow-Up Inspection', desc: 'Written service agreement on all treatments' },
       { title: 'Same-Day Service', desc: 'Emergency appointments available' },
