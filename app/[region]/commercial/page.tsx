@@ -91,7 +91,7 @@ const verticals = [
     slug: 'daycare',
     title: 'Daycare & Childcare',
     icon: '👶',
-    desc: 'Safe, effective pest control for daycare centers and childcare facilities across Nassau County.',
+    desc: 'Effective pest control for daycare centers and childcare facilities across Nassau County.',
   },
 ];
 

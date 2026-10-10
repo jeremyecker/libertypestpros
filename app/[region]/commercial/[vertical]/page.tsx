@@ -191,7 +191,7 @@ const VERTICALS: Record<string, VerticalData> = {
         a: 'New York State requires all schools to implement an Integrated Pest Management (IPM) program under the School IPM program administered by Cornell Cooperative Extension. Schools must designate an IPM coordinator, maintain pest sighting logs, use non-chemical methods as a first response, notify parents and staff at least 48 hours before any pesticide application, and keep records of all pest control activities. We design our school programs to fully meet all of these requirements.'
       },
       {
-        q: 'How do you manage pest control in a school cafeteria safely?',
+        q: 'How do you manage pest control in a school cafeteria?',
         a: 'School cafeteria pest control uses methods appropriate for food service environments and for student-occupied buildings: gel baiting in inaccessible areas, tamper-resistant monitoring stations positioned away from student contact, and targeted crack-and-crevice treatments applied when students are not present. All cafeteria services are scheduled outside of meal service hours and after students have left the building.'
       },
       {

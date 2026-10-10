@@ -81,7 +81,6 @@ export default function Hero({
 
             {/* Trust indicators — family-focused */}
             <div className="flex flex-wrap gap-4 text-sm text-white/80">
-              <span className="flex items-center gap-1">🐾 Kid & Pet Friendly</span>
               <span className="flex items-center gap-1">🏡 Locally owned and operated — a Rest Easy Pest Control brand</span>
               <span className="flex items-center gap-1">✅ Licensed & Insured</span>
             </div>
