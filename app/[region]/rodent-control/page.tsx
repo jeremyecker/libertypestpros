@@ -202,7 +202,7 @@ export default function RodentControlPage() {
             <strong>Strategic trap placement.</strong> Interior snap traps are placed along active runways — the routes mice and rats follow repeatedly along walls and behind appliances. Proper placement dramatically increases capture rates compared to random trap setting.
           </p>
           <p>
-            <strong>Tamper-resistant bait stations.</strong> For perimeter management and ongoing prevention, we use commercial-grade tamper-resistant bait stations placed at exterior entry points. These are safe, EPA-compliant, and inaccessible to children and pets.
+            <strong>Tamper-resistant bait stations.</strong> For perimeter management and ongoing prevention, we use commercial-grade tamper-resistant bait stations placed at exterior entry points. These are EPA-compliant and inaccessible to children and pets.
           </p>
           <p>
             <strong>Entry point sealing.</strong> We seal gaps around pipes, foundations, utility penetrations, and other entry points using steel wool, hardware cloth, and professional sealants that rodents cannot gnaw through. This is what makes the solution permanent.
