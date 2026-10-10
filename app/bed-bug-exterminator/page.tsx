@@ -149,7 +149,7 @@ export default function BedBugExterminatorTopLevel() {
             <p>Long Island&apos;s older housing stock — particularly the post-war Cape Cods and ranch homes common in towns like Uniondale, Elmont, and Valley Stream — offers bed bugs ample harborage in furniture, baseboards, and upholstered pieces accumulated over decades. Nassau County renters and homeowners alike face this pressure, and the county&apos;s high density of multi-family housing along major corridors means spread between neighboring units in the same building is common in those properties.</p>
             <h3>How We Treat Bed Bugs in Nassau County</h3>
             <ul>
-              <li><strong>Heat treatment (120°F+)</strong> — Single-visit elimination that kills all life stages including eggs; ideal for Nassau County homeowners who want a no-chemical solution and same-day re-entry</li>
+              <li><strong>Heat treatment (120°F+)</strong> — Single-visit elimination that kills all life stages including eggs; ideal for Nassau County homeowners who want same-day re-entry</li>
               <li><strong>Chemical treatment with EPA-registered residuals</strong> — 2–3 visits spaced 2 weeks apart to break the egg cycle; targeted application to mattress seams, box springs, bed frames, and baseboards</li>
               <li><strong>Mattress and box spring encasements</strong> — Installed after treatment to trap any remaining bed bugs and protect sleeping surfaces from re-infestation</li>
               <li><strong>Follow-up inspection</strong> — Scheduled 2–3 weeks post-treatment to confirm elimination and address any remaining activity before it re-establishes</li>
