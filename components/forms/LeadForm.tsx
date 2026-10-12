@@ -358,7 +358,7 @@ export default function LeadForm({
               />
               <label htmlFor="hero-sms" className="text-[10px] text-gray-500 leading-relaxed">
                 By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
-                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
+                <a href="/privacy/" className="underline hover:text-gray-600">Privacy Policy</a>.
               </label>
             </div>
 
@@ -377,7 +377,7 @@ export default function LeadForm({
             {/* Minimal TCPA */}
             <p className="text-[10px] text-gray-400 leading-relaxed text-center">
               No commitment. We&apos;ll get back to you ASAP. See our{' '}
-              <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
+              <a href="/privacy/" className="underline hover:text-gray-600">Privacy Policy</a>.
             </p>
           </>
         ) : (
@@ -551,7 +551,7 @@ export default function LeadForm({
               />
               <label htmlFor="lead-sms" className="text-xs text-gray-600 leading-relaxed">
                 By checking this box, I consent to receive marketing text messages and calls (including via automated technology) from {SITE_NAME} at the number provided. Consent is not a condition of purchase. Message frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out. See our{' '}
-                <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>.
+                <a href="/privacy/" className="underline hover:text-gray-600">Privacy Policy</a>.
               </label>
             </div>
 
@@ -570,9 +570,9 @@ export default function LeadForm({
             {/* TCPA */}
             <p className="text-[10px] text-gray-400 leading-relaxed text-center">
               No commitment. We&apos;ll get back to you ASAP. By submitting, you consent to be contacted by {SITE_NAME}. See our{' '}
-              <a href="/privacy-policy/" className="underline hover:text-gray-600">Privacy Policy</a>{' '}
+              <a href="/privacy/" className="underline hover:text-gray-600">Privacy Policy</a>{' '}
               and{' '}
-              <a href="/terms-of-service/" className="underline hover:text-gray-600">Terms of Service</a>.
+              <a href="/terms/" className="underline hover:text-gray-600">Terms of Service</a>.
             </p>
 
             {error && (
