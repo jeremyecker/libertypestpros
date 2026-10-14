@@ -185,7 +185,7 @@ Before pest professionals deploy any control measures, exclusion — physically 
 
 **What Professional Rodent Control Includes**
 
-Liberty Pest Pros performs comprehensive rodent control that combines exclusion, trapping, and monitoring. Our technicians conduct a full exterior inspection to identify entry points, apply tamper-resistant bait stations where appropriate, and set interior traps in the pattern most effective for your home&apos;s layout.
+Liberty Pest Pros performs comprehensive rodent control that combines exclusion, trapping, and monitoring. Our technicians conduct a full exterior inspection to identify entry points, apply tamper-resistant bait stations where appropriate, and set interior traps in a pattern suited to your home&apos;s layout.
 
 For homes with active infestations, we typically recommend an initial intensive service followed by follow-up visits. All products used in our rodent control programs are formulated for use in residential settings. Interior-treated spaces are clear to re-enter the same day following treatment.
 

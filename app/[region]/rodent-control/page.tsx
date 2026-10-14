@@ -61,7 +61,7 @@ const schemaData = {
           "name": "How do mice and rats get into Nassau County homes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A mouse can squeeze through a gap as small as a dime (6mm) and a rat through a hole the size of a quarter. They enter through gaps around pipes and utility lines penetrating the foundation, cracks in foundation walls, gaps under doors, openings around air conditioning lines, and through unscreened vents. Nassau County&apos;s older housing stock — particularly in communities like Hempstead, Freeport, and Baldwin — often has accumulated entry points that make rodent exclusion essential. Sealing every entry point is the only permanent solution; trapping and baiting alone will not keep rodents out long-term."
+            "text": "A mouse can squeeze through a gap as small as a dime (6mm) and a rat through a hole the size of a quarter. They enter through gaps around pipes and utility lines penetrating the foundation, cracks in foundation walls, gaps under doors, openings around air conditioning lines, and through unscreened vents. Nassau County&apos;s older housing stock — particularly in communities like Hempstead, Freeport, and Baldwin — often has accumulated entry points that make rodent exclusion essential. Sealing every entry point is a key long-term solution; trapping and baiting alone will not keep rodents out long-term."
           }
         },
         {
@@ -115,7 +115,7 @@ const faqs = [
   },
   {
     q: "How do mice and rats get into Nassau County homes?",
-    a: "A mouse can squeeze through a gap as small as a dime (6mm) and a rat through a hole the size of a quarter. They enter through gaps around pipes and utility lines penetrating the foundation, cracks in foundation walls, gaps under doors, openings around air conditioning lines, and through unscreened vents. Nassau County&apos;s older housing stock — particularly in communities like Hempstead, Freeport, and Baldwin — often has accumulated entry points that make rodent exclusion essential. Sealing every entry point is the only permanent solution; trapping and baiting alone will not keep rodents out long-term."
+    a: "A mouse can squeeze through a gap as small as a dime (6mm) and a rat through a hole the size of a quarter. They enter through gaps around pipes and utility lines penetrating the foundation, cracks in foundation walls, gaps under doors, openings around air conditioning lines, and through unscreened vents. Nassau County&apos;s older housing stock — particularly in communities like Hempstead, Freeport, and Baldwin — often has accumulated entry points that make rodent exclusion essential. Sealing every entry point is a key long-term solution; trapping and baiting alone will not keep rodents out long-term."
   },
   {
     q: "Are rodents dangerous to my family's health?",
@@ -205,7 +205,7 @@ export default function RodentControlPage() {
             <strong>Tamper-resistant bait stations.</strong> For perimeter management and ongoing prevention, we use commercial-grade tamper-resistant bait stations placed at exterior entry points. These are EPA-compliant and inaccessible to children and pets.
           </p>
           <p>
-            <strong>Entry point sealing.</strong> We seal gaps around pipes, foundations, utility penetrations, and other entry points using steel wool, hardware cloth, and professional sealants that rodents cannot gnaw through. This is what makes the solution permanent.
+            <strong>Entry point sealing.</strong> We seal gaps around pipes, foundations, utility penetrations, and other entry points using steel wool, hardware cloth, and professional sealants that rodents cannot gnaw through. This is what makes it a long-term solution.
           </p>
           <p>
             <strong>Ongoing monitoring.</strong> We schedule follow-up visits to confirm activity has stopped and provide guidance on long-term prevention practices for your home.
