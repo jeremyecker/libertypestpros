@@ -64,7 +64,7 @@ const schemaData = {
           "name": "What is the difference between heat treatment and chemical treatment for bed bugs in Nassau County?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Heat treatment raises the temperature in infested areas to 120°F or above, killing all bed bug life stages — including eggs — in a single visit. You can typically return home the same day. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2-3 visits spaced 2 weeks apart to break the egg cycle. We assess each situation and recommend the best approach based on the infestation size, your home's layout, and your household needs."
+            "text": "Heat treatment raises the temperature in infested areas to 120°F or above — lethal to bed bugs at every life stage, including eggs — and is typically completed in a single visit. You can typically return home the same day. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2-3 visits spaced 2 weeks apart to break the egg cycle. We assess each situation and recommend an approach based on the infestation size, your home's layout, and your household needs."
           }
         },
         {
@@ -170,7 +170,7 @@ export default function BedBugExterminatorTopLevel() {
               },
               {
                 q: "What is the difference between heat treatment and chemical treatment for bed bugs?",
-                a: "Heat treatment raises room temperatures to 120°F or above, killing all bed bug life stages — including eggs — in a single visit, with same-day re-entry. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2–3 visits spaced 2 weeks apart to break the egg cycle. We assess each Nassau County home individually and recommend the best approach based on your situation."
+                a: "Heat treatment raises room temperatures to 120°F or above — lethal to bed bugs at every life stage, including eggs — and is typically completed in a single visit, with same-day re-entry. Chemical treatment uses EPA-registered residual products applied to all harborage areas and requires 2–3 visits spaced 2 weeks apart to break the egg cycle. We assess each Nassau County home individually and recommend the best approach based on your situation."
               },
               {
                 q: "Do I need to prepare my Nassau County home before bed bug treatment?",
@@ -219,7 +219,7 @@ export default function BedBugExterminatorTopLevel() {
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">Do you do heat treatment for bed bugs in Nassau County?</h3>
-              <p className="text-gray-600">Yes. We offer both heat treatment and chemical treatment. Heat treatment is highly effective and eliminates bed bugs in a single visit — ideal for families with concerns about products in sleeping areas.</p>
+              <p className="text-gray-600">Yes. We offer both heat treatment and chemical treatment. Heat treatment is highly effective and typically eliminates bed bugs in a single visit.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-5">
               <h3 className="font-bold text-gray-900 mb-2">How long before I can return home after bed bug treatment?</h3>

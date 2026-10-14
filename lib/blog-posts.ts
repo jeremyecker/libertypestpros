@@ -879,7 +879,7 @@ One of the first questions homeowners ask when searching for **pest control near
 
 **Chemical treatment (2–3 visits):** $400–$800 per bedroom; $800–$1,800 for a full home.
 
-**Heat treatment:** $1,500–$3,000 for a full home. More expensive but eliminates all life stages in a single treatment.
+**Heat treatment:** $1,500–$3,000 for a full home. More expensive but typically eliminates all life stages in a single treatment.
 
 ## Mosquito Control
 
