@@ -616,7 +616,7 @@ Liberty Pest Pros provides certified Wood Destroying Organism (WDO) inspection r
 
 ## After the Inspection
 
-We provide a detailed written report with specific findings, photos where applicable, treatment recommendations for active infestations, and prevention recommendations. No pressure to proceed — our job is to give you accurate information.
+No pressure to proceed — our job is to give you accurate information.
 
 Call (516) 763-4600 to schedule a pest inspection in Long Beach, Atlantic Beach, Oceanside, Rockville Centre, Freeport, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, Hewlett, Woodmere, Lawrence, Lynbrook, East Rockaway, or Malverne. When you search for **pest control near me** for a professional inspection on the South Shore, 40+ years of local expertise matters.`
   },
