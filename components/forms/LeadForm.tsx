@@ -238,7 +238,7 @@ export default function LeadForm({
                     if (phoneError) setPhoneError('');
                   }}
                   maxLength={14}
-                  placeholder="(555) 555-1234"
+                  placeholder="(516) 763-4600"
                   className="w-full px-3 py-2.5 border-2 border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors text-sm"
                 />
                 {phoneError && <p className="text-red-500 text-xs mt-1">{phoneError}</p>}
@@ -425,7 +425,7 @@ export default function LeadForm({
                   }
                 }}
                 maxLength={14}
-                placeholder="(555) 555-1234"
+                placeholder="(516) 763-4600"
                 className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
               />
               {phoneError && <p className="text-red-500 text-xs mt-1">{phoneError}</p>}
