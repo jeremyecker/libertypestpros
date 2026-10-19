@@ -859,9 +859,9 @@ One of the first questions homeowners ask when searching for **pest control near
 
 **One-time interior and exterior treatment:** $150–$350 for a standard South Shore home. Includes ants, cockroaches, spiders, and general crawling insects.
 
-**Quarterly or bi-monthly maintenance program:** $100–$175 per visit. The most cost-effective approach for most homeowners — preventive exterior treatment with unlimited callbacks for covered pests.
+**Quarterly or bi-monthly maintenance program:** $100–$175 per visit. The most cost-effective approach for most homeowners — preventive exterior treatment.
 
-**Annual service agreement:** $400–$700/year covering 4–6 scheduled treatments plus unlimited service calls.
+**Annual service agreement:** $400–$700/year covering 4–6 scheduled treatments.
 
 ## Termite Treatment
 
