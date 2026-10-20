@@ -823,7 +823,7 @@ Deer are abundant throughout the Massapequa Preserve corridor and regularly brow
 
 **Professional Wildlife Management**
 
-Effective wildlife management in the Massapequa area requires a two-step approach: humane removal of the animal and permanent exclusion of the entry or den site. Exclusion without removal leaves the animal trapped inside. Removal without exclusion allows new wildlife to occupy the site within weeks.
+Effective wildlife management in the Massapequa area requires a two-step approach: humane removal of the animal and long-term exclusion of the entry or den site. Exclusion without removal leaves the animal trapped inside. Removal without exclusion allows new wildlife to occupy the site within weeks.
 
 Liberty Pest Pros handles wildlife removal and exclusion across all Nassau County communities bordering natural open space. Call (516) 763-4600 for a consultation.`,
   },
