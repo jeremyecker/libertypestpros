@@ -127,12 +127,11 @@ const SERVICE_CONFIG: Record<string, {
       { title: 'Gel Bait Treatment', desc: 'Slow-kill bait that eliminates the colony' },
       { title: 'IGR Application', desc: 'Insect Growth Regulator stops reproduction' },
       { title: 'Crack & Crevice', desc: 'Targeted treatment of harborage areas' },
-      { title: 'Follow-Up Visit', desc: 'Included with all cockroach services' },
     ],
     faqs: [
       { q: 'What type of cockroaches are most common in Nassau County?', a: 'German cockroaches are the most common indoor species, typically found in kitchens and bathrooms. American cockroaches (large, reddish-brown) are often found in basements and sewer systems. Both require professional treatment.' },
       { q: 'Why don\'t over-the-counter sprays work?', a: 'Most consumer sprays are repellent-based, which scatters cockroaches deeper into walls without killing the colony. Professional gel baits use slow-acting actives that cockroaches carry back to the nest, eliminating the entire population.' },
-      { q: 'How long before I see results?', a: 'Most clients see a significant reduction in 5–7 days. Full elimination typically takes 2–3 weeks with our treatment protocol. A follow-up visit at 14 days is included.' },
+      { q: 'How long before I see results?', a: 'Most clients see a significant reduction in 5–7 days. Full elimination typically takes 2–3 weeks with our treatment protocol.' },
     ],
   },
   'ant-exterminator': {

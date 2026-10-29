@@ -836,7 +836,7 @@ When a pest problem hits — a mouse discovered at 10 PM, a wasp nest blocking y
 
 **Full-service.** Termites, rodents, cockroaches, bed bugs, ants, mosquitoes, stinging insects, wildlife, commercial. One company, all services.
 
-**Licensed and fully insured.** Our technicians are DEC-licensed applicators or work under the direct supervision of a licensed applicator, and the company carries full general liability and workers' compensation coverage.
+**Licensed and fully insured.** Our technicians are DEC-licensed applicators or work under the direct supervision of licensed applicators, and the company carries full general liability and workers' compensation coverage.
 
 We serve Long Beach, Atlantic Beach, Lido Beach, Oceanside, Rockville Centre, Freeport, Lynbrook, Hewlett, Woodmere, Lawrence, Valley Stream, Baldwin, Merrick, Bellmore, Wantagh, Massapequa, East Rockaway, and Malverne. Call (516) 763-4600 for a free estimate. When you search **pest control near me** or **exterminator near me** on the Nassau South Shore, Liberty Pest Pros is the answer. Licensed, insured, and trusted by South Shore families since 1982.`
   },

@@ -85,7 +85,7 @@ const schemaData = {
           "name": "How do you place traps and bait stations around children and pets?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "When placed and managed by a licensed professional, tamper-resistant bait stations are designed to be accessible only to rodents and are positioned in locations inaccessible to children and pets (inside walls, under structures, in crawl spaces). We follow all label requirements and EPA guidelines for rodenticide use. If you have concerns about bait-based methods, we can discuss trap-only protocols for your home. We&apos;ll explain every product and placement during our inspection and always answer your questions about what we&apos;re using and why."
+            "text": "When placed and managed by licensed professionals, tamper-resistant bait stations are designed to be accessible only to rodents and are positioned in locations inaccessible to children and pets (inside walls, under structures, in crawl spaces). We follow all label requirements and EPA guidelines for rodenticide use. If you have concerns about bait-based methods, we can discuss trap-only protocols for your home. We&apos;ll explain every product and placement during our inspection and always answer your questions about what we&apos;re using and why."
           }
         }
       ]
@@ -127,7 +127,7 @@ const faqs = [
   },
   {
     q: "How do you place traps and bait stations around children and pets?",
-    a: "When placed and managed by a licensed professional, tamper-resistant bait stations are designed to be accessible only to rodents and are positioned in locations inaccessible to children and pets (inside walls, under structures, in crawl spaces). We follow all label requirements and EPA guidelines for rodenticide use. If you have concerns about bait-based methods, we can discuss trap-only protocols for your home. We&apos;ll explain every product and placement during our inspection and always answer your questions about what we&apos;re using and why."
+    a: "When placed and managed by licensed professionals, tamper-resistant bait stations are designed to be accessible only to rodents and are positioned in locations inaccessible to children and pets (inside walls, under structures, in crawl spaces). We follow all label requirements and EPA guidelines for rodenticide use. If you have concerns about bait-based methods, we can discuss trap-only protocols for your home. We&apos;ll explain every product and placement during our inspection and always answer your questions about what we&apos;re using and why."
   }
 ];
 
