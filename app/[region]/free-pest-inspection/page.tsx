@@ -124,7 +124,7 @@ export default function FreePestInspectionTopLevel() {
         <div className="max-w-4xl mx-auto prose prose-lg">
           <h2>What the Free Phone Assessment Covers</h2>
           <p>
-            The free phone assessment gives you a clear picture and a clear price before any money changes hands. A technician or office staff member talks through the problem with you, asks about your property and the pest activity you have seen, and provides a price on the call. When you decide to book treatment, our technicians—licensed or working under the direct supervision of a licensed applicator—examine the property during the treatment visit.
+            The free phone assessment gives you a clear picture and a clear price before any money changes hands. A technician or office staff member talks through the problem with you, asks about your property and the pest activity you have seen, and provides a price on the call. When you decide to book treatment, our technicians—licensed or working under the direct supervision of licensed applicators—examine the property during the treatment visit.
           </p>
           <ul>
             <li><strong>Termites:</strong> We ask about mud tubes, wood damage, swarmers, and moisture around the foundation; at the treatment visit, technicians probe suspect wood and inspect crawl spaces and basements.</li>
